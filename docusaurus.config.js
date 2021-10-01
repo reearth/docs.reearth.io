@@ -4,7 +4,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: 'My Site',
+  title: 'Re:Earth Docs',
   tagline: 'Dinosaurs are cool',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
@@ -20,7 +20,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve('./sidebarsUserManual.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
         },
@@ -37,23 +37,72 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'userManual',
+        path: 'userManual',
+        routeBasePath: 'userManual',
+        sidebarPath: require.resolve('./sidebarsUserManual.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'developerGuide',
+        path: 'developerGuide',
+        routeBasePath: 'developerGuide',
+        sidebarPath: require.resolve('./sidebarsDeveloperGuide.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'tutorial',
+        path: 'tutorial',
+        routeBasePath: 'tutorial',
+        sidebarPath: require.resolve('./sidebarsTutorial.js'),
+      },
+    ],
+  ],
+
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Re:Earth Docs',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
         items: [
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          //   label: 'User manual',
+          // },
           {
-            type: 'doc',
-            docId: 'intro',
+            to: '/userManual/getting-started/why-reearth',    // ./docs-api/Intro.md
+            label: 'User manual',
             position: 'left',
-            label: 'Tutorial',
+            activeBaseRegex: `/userManual/`,
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            to: '/developerGuide/intro',    // ./docs-api/Intro.md
+            label: 'Developer guide',
+            position: 'left',
+            activeBaseRegex: `/developerGuide/`,
+          },
+          {
+            to: '/tutorial/index',    // ./docs-api/Intro.md
+            label: 'Tutorial',
+            position: 'left',
+            activeBaseRegex: `/tutorial/`,
+          },
+          { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',

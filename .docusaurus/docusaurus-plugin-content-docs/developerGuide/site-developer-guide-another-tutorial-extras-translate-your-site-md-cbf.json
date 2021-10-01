@@ -1,0 +1,26 @@
+{
+  "unversionedId": "another/tutorial-extras/translate-your-site",
+  "id": "another/tutorial-extras/translate-your-site",
+  "isDocsHomePage": false,
+  "title": "Translate your site",
+  "description": "Let's translate docs/intro.md to French.",
+  "source": "@site/developerGuide/another/tutorial-extras/translate-your-site.md",
+  "sourceDirName": "another/tutorial-extras",
+  "slug": "/another/tutorial-extras/translate-your-site",
+  "permalink": "/developerGuide/another/tutorial-extras/translate-your-site",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "userManualSidebar",
+  "previous": {
+    "title": "Manage Docs Versions",
+    "permalink": "/developerGuide/another/tutorial-extras/manage-docs-versions"
+  },
+  "next": {
+    "title": "Tutorial Intro",
+    "permalink": "/developerGuide/another/user-manual/intro"
+  }
+}

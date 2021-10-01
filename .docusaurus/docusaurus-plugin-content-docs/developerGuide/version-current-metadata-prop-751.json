@@ -1,0 +1,18 @@
+{
+  "pluginId": "developerGuide",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "userManualSidebar": [
+      {
+        "type": "link",
+        "label": "Developer guide",
+        "href": "/developerGuide/intro"
+      }
+    ]
+  }
+}

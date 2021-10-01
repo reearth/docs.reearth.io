@@ -1,0 +1,23 @@
+{
+  "unversionedId": "user-manual/intro",
+  "id": "user-manual/intro",
+  "isDocsHomePage": false,
+  "title": "Tutorial Intro",
+  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "source": "@site/docs/user-manual/intro.md",
+  "sourceDirName": "user-manual",
+  "slug": "/user-manual/intro",
+  "permalink": "/docs/user-manual/intro",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/user-manual/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/docs/tutorial-extras/translate-your-site"
+  }
+}

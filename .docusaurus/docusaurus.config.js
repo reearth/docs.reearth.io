@@ -1,5 +1,5 @@
 export default {
-  "title": "My Site",
+  "title": "Re:Earth Docs",
   "tagline": "Dinosaurs are cool",
   "url": "https://your-docusaurus-test-site.com",
   "baseUrl": "/",
@@ -13,7 +13,7 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/Users/xucong/Project/reeartn/document/sidebars.js",
+          "sidebarPath": "/Users/xucong/Project/reeartn/document/sidebarsUserManual.js",
           "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/"
         },
         "blog": {
@@ -26,19 +26,60 @@ export default {
       }
     ]
   ],
+  "plugins": [
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        "id": "userManual",
+        "path": "userManual",
+        "routeBasePath": "userManual",
+        "sidebarPath": "/Users/xucong/Project/reeartn/document/sidebarsUserManual.js"
+      }
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        "id": "developerGuide",
+        "path": "developerGuide",
+        "routeBasePath": "developerGuide",
+        "sidebarPath": "/Users/xucong/Project/reeartn/document/sidebarsDeveloperGuide.js"
+      }
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        "id": "tutorial",
+        "path": "tutorial",
+        "routeBasePath": "tutorial",
+        "sidebarPath": "/Users/xucong/Project/reeartn/document/sidebarsTutorial.js"
+      }
+    ]
+  ],
   "themeConfig": {
     "navbar": {
-      "title": "My Site",
+      "title": "Re:Earth Docs",
       "logo": {
         "alt": "My Site Logo",
         "src": "img/logo.svg"
       },
       "items": [
         {
-          "type": "doc",
-          "docId": "intro",
+          "to": "/userManual/getting-started/why-reearth",
+          "label": "User manual",
           "position": "left",
-          "label": "Tutorial"
+          "activeBaseRegex": "/userManual/"
+        },
+        {
+          "to": "/developerGuide/intro",
+          "label": "Developer guide",
+          "position": "left",
+          "activeBaseRegex": "/developerGuide/"
+        },
+        {
+          "to": "/tutorial/index",
+          "label": "Tutorial",
+          "position": "left",
+          "activeBaseRegex": "/tutorial/"
         },
         {
           "to": "/blog",
@@ -319,7 +360,6 @@ export default {
   },
   "onDuplicateRoutes": "warn",
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "titleDelimiter": "|",
   "noIndex": false

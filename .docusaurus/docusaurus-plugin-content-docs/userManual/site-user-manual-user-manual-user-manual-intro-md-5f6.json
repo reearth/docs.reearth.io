@@ -1,0 +1,22 @@
+{
+  "unversionedId": "userManual/user-manual/intro",
+  "id": "userManual/user-manual/intro",
+  "isDocsHomePage": false,
+  "title": "Tutorial Intro",
+  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "source": "@site/userManual/userManual/user-manual/intro.md",
+  "sourceDirName": "userManual/user-manual",
+  "slug": "/userManual/user-manual/intro",
+  "permalink": "/userManual/userManual/user-manual/intro",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "mySidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/userManual/userManual/tutorial-extras/translate-your-site"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Getting Started/about-this-manual",
+  "id": "Getting Started/about-this-manual",
+  "isDocsHomePage": false,
+  "title": "About this manual",
+  "description": "",
+  "source": "@site/userManual/Getting Started/about-this-manual.md",
+  "sourceDirName": "Getting Started",
+  "slug": "/Getting Started/about-this-manual",
+  "permalink": "/userManual/Getting Started/about-this-manual",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "mySidebar",
+  "previous": {
+    "title": "Why Re:Earth",
+    "permalink": "/userManual/Getting Started/why-reearth"
+  },
+  "next": {
+    "title": "Tutorial Intro",
+    "permalink": "/userManual/intro"
+  }
+}

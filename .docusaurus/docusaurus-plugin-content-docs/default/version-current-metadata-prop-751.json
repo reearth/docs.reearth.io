@@ -7,7 +7,7 @@
   "className": "docs-version-current",
   "isLast": true,
   "docsSidebars": {
-    "tutorialSidebar": [
+    "mySidebar": [
       {
         "type": "link",
         "label": "Tutorial Intro",
@@ -15,37 +15,68 @@
       },
       {
         "type": "category",
-        "label": "Tutorial - Basics",
+        "label": "tutorial",
         "items": [
           {
             "type": "link",
-            "label": "Create a Page",
-            "href": "/docs/tutorial-basics/create-a-page"
+            "label": "Tutorial Intro",
+            "href": "/docs/tutorial/index"
           },
           {
-            "type": "link",
-            "label": "Create a Document",
-            "href": "/docs/tutorial-basics/create-a-document"
+            "type": "category",
+            "label": "Tutorial - Basics",
+            "items": [
+              {
+                "type": "link",
+                "label": "Create a Page",
+                "href": "/docs/tutorial/tutorial-basics/create-a-page"
+              },
+              {
+                "type": "link",
+                "label": "Create a Document",
+                "href": "/docs/tutorial/tutorial-basics/create-a-document"
+              },
+              {
+                "type": "link",
+                "label": "Create a Blog Post",
+                "href": "/docs/tutorial/tutorial-basics/create-a-blog-post"
+              },
+              {
+                "type": "link",
+                "label": "Markdown Features",
+                "href": "/docs/tutorial/tutorial-basics/markdown-features"
+              },
+              {
+                "type": "link",
+                "label": "Deploy your site",
+                "href": "/docs/tutorial/tutorial-basics/deploy-your-site"
+              },
+              {
+                "type": "link",
+                "label": "Congratulations!",
+                "href": "/docs/tutorial/tutorial-basics/congratulations"
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
           },
           {
-            "type": "link",
-            "label": "Create a Blog Post",
-            "href": "/docs/tutorial-basics/create-a-blog-post"
-          },
-          {
-            "type": "link",
-            "label": "Markdown Features",
-            "href": "/docs/tutorial-basics/markdown-features"
-          },
-          {
-            "type": "link",
-            "label": "Deploy your site",
-            "href": "/docs/tutorial-basics/deploy-your-site"
-          },
-          {
-            "type": "link",
-            "label": "Congratulations!",
-            "href": "/docs/tutorial-basics/congratulations"
+            "type": "category",
+            "label": "Tutorial - Extras",
+            "items": [
+              {
+                "type": "link",
+                "label": "Manage Docs Versions",
+                "href": "/docs/tutorial/tutorial-extras/manage-docs-versions"
+              },
+              {
+                "type": "link",
+                "label": "Translate your site",
+                "href": "/docs/tutorial/tutorial-extras/translate-your-site"
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
           }
         ],
         "collapsed": true,
@@ -53,17 +84,81 @@
       },
       {
         "type": "category",
-        "label": "Tutorial - Extras",
+        "label": "userManual",
         "items": [
           {
             "type": "link",
-            "label": "Manage Docs Versions",
-            "href": "/docs/tutorial-extras/manage-docs-versions"
+            "label": "Tutorial Intro",
+            "href": "/docs/userManual/intro"
           },
           {
-            "type": "link",
-            "label": "Translate your site",
-            "href": "/docs/tutorial-extras/translate-your-site"
+            "type": "category",
+            "label": "Tutorial - Basics",
+            "items": [
+              {
+                "type": "link",
+                "label": "Create a Page",
+                "href": "/docs/userManual/tutorial-basics/create-a-page"
+              },
+              {
+                "type": "link",
+                "label": "Create a Document",
+                "href": "/docs/userManual/tutorial-basics/create-a-document"
+              },
+              {
+                "type": "link",
+                "label": "Create a Blog Post",
+                "href": "/docs/userManual/tutorial-basics/create-a-blog-post"
+              },
+              {
+                "type": "link",
+                "label": "Markdown Features",
+                "href": "/docs/userManual/tutorial-basics/markdown-features"
+              },
+              {
+                "type": "link",
+                "label": "Deploy your site",
+                "href": "/docs/userManual/tutorial-basics/deploy-your-site"
+              },
+              {
+                "type": "link",
+                "label": "Congratulations!",
+                "href": "/docs/userManual/tutorial-basics/congratulations"
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          },
+          {
+            "type": "category",
+            "label": "Tutorial - Extras",
+            "items": [
+              {
+                "type": "link",
+                "label": "Manage Docs Versions",
+                "href": "/docs/userManual/tutorial-extras/manage-docs-versions"
+              },
+              {
+                "type": "link",
+                "label": "Translate your site",
+                "href": "/docs/userManual/tutorial-extras/translate-your-site"
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          },
+          {
+            "type": "category",
+            "label": "user-manual",
+            "items": [
+              {
+                "type": "link",
+                "label": "Tutorial Intro",
+                "href": "/docs/userManual/user-manual/intro"
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
           }
         ],
         "collapsed": true,

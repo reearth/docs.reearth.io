@@ -13,46 +13,283 @@
             {
               "id": "intro",
               "path": "/docs/intro",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "tutorial/index",
+              "path": "/docs/tutorial/index",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "tutorial/tutorial-basics/congratulations",
+              "path": "/docs/tutorial/tutorial-basics/congratulations",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "tutorial/tutorial-basics/create-a-blog-post",
+              "path": "/docs/tutorial/tutorial-basics/create-a-blog-post",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "tutorial/tutorial-basics/create-a-document",
+              "path": "/docs/tutorial/tutorial-basics/create-a-document",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "tutorial/tutorial-basics/create-a-page",
+              "path": "/docs/tutorial/tutorial-basics/create-a-page",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "tutorial/tutorial-basics/deploy-your-site",
+              "path": "/docs/tutorial/tutorial-basics/deploy-your-site",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "tutorial/tutorial-basics/markdown-features",
+              "path": "/docs/tutorial/tutorial-basics/markdown-features",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "tutorial/tutorial-extras/manage-docs-versions",
+              "path": "/docs/tutorial/tutorial-extras/manage-docs-versions",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "tutorial/tutorial-extras/translate-your-site",
+              "path": "/docs/tutorial/tutorial-extras/translate-your-site",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "userManual/intro",
+              "path": "/docs/userManual/intro",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "userManual/tutorial-basics/congratulations",
+              "path": "/docs/userManual/tutorial-basics/congratulations",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "userManual/tutorial-basics/create-a-blog-post",
+              "path": "/docs/userManual/tutorial-basics/create-a-blog-post",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "userManual/tutorial-basics/create-a-document",
+              "path": "/docs/userManual/tutorial-basics/create-a-document",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "userManual/tutorial-basics/create-a-page",
+              "path": "/docs/userManual/tutorial-basics/create-a-page",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "userManual/tutorial-basics/deploy-your-site",
+              "path": "/docs/userManual/tutorial-basics/deploy-your-site",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "userManual/tutorial-basics/markdown-features",
+              "path": "/docs/userManual/tutorial-basics/markdown-features",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "userManual/tutorial-extras/manage-docs-versions",
+              "path": "/docs/userManual/tutorial-extras/manage-docs-versions",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "userManual/tutorial-extras/translate-your-site",
+              "path": "/docs/userManual/tutorial-extras/translate-your-site",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "userManual/user-manual/intro",
+              "path": "/docs/userManual/user-manual/intro",
+              "sidebar": "mySidebar"
+            }
+          ]
+        }
+      ]
+    },
+    "developerGuide": {
+      "path": "/developerGuide",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/developerGuide",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/developerGuide/intro",
+              "sidebar": "userManualSidebar"
+            }
+          ]
+        }
+      ]
+    },
+    "userManual": {
+      "path": "/userManual",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/userManual",
+          "mainDocId": "getting-started/why-reearth",
+          "docs": [
+            {
+              "id": "dataset/ideas-of-dataset",
+              "path": "/userManual/dataset/ideas-of-dataset",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "getting-started/about-this-manual",
+              "path": "/userManual/getting-started/about-this-manual",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "getting-started/environment-setting/browser-setup",
+              "path": "/userManual/getting-started/environment-setting/browser-setup",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "getting-started/environment-setting/language-switch",
+              "path": "/userManual/getting-started/environment-setting/language-switch",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "getting-started/environment-setting/language-switch copy",
+              "path": "/userManual/getting-started/environment-setting/language-switch copy",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "getting-started/why-reearth",
+              "path": "/userManual/getting-started/why-reearth",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "infobox/ideas-of-infobox",
+              "path": "/userManual/infobox/ideas-of-infobox",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "plugin/ideas-of-plugin-architecture",
+              "path": "/userManual/plugin/ideas-of-plugin-architecture",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "primitive-tool-and-layers/ideas-of-primitive-tool",
+              "path": "/userManual/primitive-tool-and-layers/ideas-of-primitive-tool",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "project-and-workspace/ideas-of-project",
+              "path": "/userManual/project-and-workspace/ideas-of-project",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "project-and-workspace/ideas-of-workspace",
+              "path": "/userManual/project-and-workspace/ideas-of-workspace",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "project-and-workspace/manage-projects/create-delete-and-archive",
+              "path": "/userManual/project-and-workspace/manage-projects/create-delete-and-archive",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "project-and-workspace/manage-projects/dataset-library",
+              "path": "/userManual/project-and-workspace/manage-projects/dataset-library",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "project-and-workspace/manage-projects/plugin-library",
+              "path": "/userManual/project-and-workspace/manage-projects/plugin-library",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "project-and-workspace/manage-projects/public-state",
+              "path": "/userManual/project-and-workspace/manage-projects/public-state",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "publish/preview-mode",
+              "path": "/userManual/publish/preview-mode",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "scene/ideas-of-scene",
+              "path": "/userManual/scene/ideas-of-scene",
+              "sidebar": "mySidebar"
+            },
+            {
+              "id": "widget-and-align-system/ideas-of-widget",
+              "path": "/userManual/widget-and-align-system/ideas-of-widget",
+              "sidebar": "mySidebar"
+            }
+          ]
+        }
+      ]
+    },
+    "tutorial": {
+      "path": "/tutorial",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/tutorial",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "corbusider-archive/congratulations",
+              "path": "/tutorial/corbusider-archive/congratulations",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/congratulations",
-              "path": "/docs/tutorial-basics/congratulations",
+              "id": "corbusider-archive/create-a-blog-post",
+              "path": "/tutorial/corbusider-archive/create-a-blog-post",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-blog-post",
-              "path": "/docs/tutorial-basics/create-a-blog-post",
+              "id": "corbusider-archive/create-a-document",
+              "path": "/tutorial/corbusider-archive/create-a-document",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-document",
-              "path": "/docs/tutorial-basics/create-a-document",
+              "id": "corbusider-archive/create-a-page",
+              "path": "/tutorial/corbusider-archive/create-a-page",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-page",
-              "path": "/docs/tutorial-basics/create-a-page",
+              "id": "corbusider-archive/deploy-your-site",
+              "path": "/tutorial/corbusider-archive/deploy-your-site",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/deploy-your-site",
-              "path": "/docs/tutorial-basics/deploy-your-site",
+              "id": "corbusider-archive/markdown-features",
+              "path": "/tutorial/corbusider-archive/markdown-features",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/markdown-features",
-              "path": "/docs/tutorial-basics/markdown-features",
+              "id": "create-3d-models-for-reearth/manage-docs-versions",
+              "path": "/tutorial/create-3d-models-for-reearth/manage-docs-versions",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-extras/manage-docs-versions",
-              "path": "/docs/tutorial-extras/manage-docs-versions",
+              "id": "create-3d-models-for-reearth/translate-your-site",
+              "path": "/tutorial/create-3d-models-for-reearth/translate-your-site",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-extras/translate-your-site",
-              "path": "/docs/tutorial-extras/translate-your-site",
+              "id": "index",
+              "path": "/tutorial/index",
               "sidebar": "tutorialSidebar"
             }
           ]

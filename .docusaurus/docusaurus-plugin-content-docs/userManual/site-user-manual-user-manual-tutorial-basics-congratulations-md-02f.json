@@ -1,0 +1,26 @@
+{
+  "unversionedId": "userManual/tutorial-basics/congratulations",
+  "id": "userManual/tutorial-basics/congratulations",
+  "isDocsHomePage": false,
+  "title": "Congratulations!",
+  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "source": "@site/userManual/userManual/tutorial-basics/congratulations.md",
+  "sourceDirName": "userManual/tutorial-basics",
+  "slug": "/userManual/tutorial-basics/congratulations",
+  "permalink": "/userManual/userManual/tutorial-basics/congratulations",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "mySidebar",
+  "previous": {
+    "title": "Deploy your site",
+    "permalink": "/userManual/userManual/tutorial-basics/deploy-your-site"
+  },
+  "next": {
+    "title": "Manage Docs Versions",
+    "permalink": "/userManual/userManual/tutorial-extras/manage-docs-versions"
+  }
+}

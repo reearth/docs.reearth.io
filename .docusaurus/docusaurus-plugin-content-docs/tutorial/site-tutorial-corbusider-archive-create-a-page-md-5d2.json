@@ -1,0 +1,26 @@
+{
+  "unversionedId": "corbusider-archive/create-a-page",
+  "id": "corbusider-archive/create-a-page",
+  "isDocsHomePage": false,
+  "title": "Create a Page",
+  "description": "Add Markdown or React files to src/pages to create a standalone page:",
+  "source": "@site/tutorial/corbusider-archive/create-a-page.md",
+  "sourceDirName": "corbusider-archive",
+  "slug": "/corbusider-archive/create-a-page",
+  "permalink": "/tutorial/corbusider-archive/create-a-page",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Index",
+    "permalink": "/tutorial/index"
+  },
+  "next": {
+    "title": "Create a Document",
+    "permalink": "/tutorial/corbusider-archive/create-a-document"
+  }
+}

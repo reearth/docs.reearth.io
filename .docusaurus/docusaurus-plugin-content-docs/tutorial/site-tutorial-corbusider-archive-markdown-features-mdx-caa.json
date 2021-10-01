@@ -1,0 +1,26 @@
+{
+  "unversionedId": "corbusider-archive/markdown-features",
+  "id": "corbusider-archive/markdown-features",
+  "isDocsHomePage": false,
+  "title": "Markdown Features",
+  "description": "Docusaurus supports Markdown and a few additional features.",
+  "source": "@site/tutorial/corbusider-archive/markdown-features.mdx",
+  "sourceDirName": "corbusider-archive",
+  "slug": "/corbusider-archive/markdown-features",
+  "permalink": "/tutorial/corbusider-archive/markdown-features",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create a Blog Post",
+    "permalink": "/tutorial/corbusider-archive/create-a-blog-post"
+  },
+  "next": {
+    "title": "Deploy your site",
+    "permalink": "/tutorial/corbusider-archive/deploy-your-site"
+  }
+}

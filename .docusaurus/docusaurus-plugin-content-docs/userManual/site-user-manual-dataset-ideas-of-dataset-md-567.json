@@ -1,0 +1,26 @@
+{
+  "unversionedId": "dataset/ideas-of-dataset",
+  "id": "dataset/ideas-of-dataset",
+  "isDocsHomePage": false,
+  "title": "Ideas of Dataset",
+  "description": "",
+  "source": "@site/userManual/dataset/ideas-of-dataset.md",
+  "sourceDirName": "dataset",
+  "slug": "/dataset/ideas-of-dataset",
+  "permalink": "/userManual/dataset/ideas-of-dataset",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "mySidebar",
+  "previous": {
+    "title": "Ideas of Infobox",
+    "permalink": "/userManual/infobox/ideas-of-infobox"
+  },
+  "next": {
+    "title": "Ideas of Widget",
+    "permalink": "/userManual/widget-and-align-system/ideas-of-widget"
+  }
+}

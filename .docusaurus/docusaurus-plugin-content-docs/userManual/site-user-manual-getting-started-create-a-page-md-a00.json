@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Getting Started/create-a-page",
+  "id": "Getting Started/create-a-page",
+  "isDocsHomePage": false,
+  "title": "Create a Page",
+  "description": "Add Markdown or React files to src/pages to create a standalone page:",
+  "source": "@site/userManual/Getting Started/create-a-page.md",
+  "sourceDirName": "Getting Started",
+  "slug": "/Getting Started/create-a-page",
+  "permalink": "/userManual/Getting Started/create-a-page",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "mySidebar",
+  "next": {
+    "title": "Create a Document",
+    "permalink": "/userManual/Getting Started/create-a-document"
+  }
+}

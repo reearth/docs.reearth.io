@@ -1,0 +1,17 @@
+{
+  "unversionedId": "user-manual/intro",
+  "id": "user-manual/intro",
+  "isDocsHomePage": false,
+  "title": "Tutorial Intro",
+  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "source": "@site/userManual/user-manual/intro.md",
+  "sourceDirName": "user-manual",
+  "slug": "/user-manual/intro",
+  "permalink": "/userManual/user-manual/intro",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  }
+}

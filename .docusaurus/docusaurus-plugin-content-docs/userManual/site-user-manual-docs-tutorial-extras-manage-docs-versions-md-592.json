@@ -1,0 +1,26 @@
+{
+  "unversionedId": "docs/tutorial-extras/manage-docs-versions",
+  "id": "docs/tutorial-extras/manage-docs-versions",
+  "isDocsHomePage": false,
+  "title": "Manage Docs Versions",
+  "description": "Docusaurus can manage multiple versions of your docs.",
+  "source": "@site/userManual/docs/tutorial-extras/manage-docs-versions.md",
+  "sourceDirName": "docs/tutorial-extras",
+  "slug": "/docs/tutorial-extras/manage-docs-versions",
+  "permalink": "/userManual/docs/tutorial-extras/manage-docs-versions",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "userManualSidebar",
+  "previous": {
+    "title": "Congratulations!",
+    "permalink": "/userManual/docs/tutorial-basics/congratulations"
+  },
+  "next": {
+    "title": "Translate your site",
+    "permalink": "/userManual/docs/tutorial-extras/translate-your-site"
+  }
+}

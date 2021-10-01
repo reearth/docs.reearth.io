@@ -1,0 +1,26 @@
+{
+  "unversionedId": "getting-started/environment-setting/language-switch",
+  "id": "getting-started/environment-setting/language-switch",
+  "isDocsHomePage": false,
+  "title": "Language switch",
+  "description": "",
+  "source": "@site/userManual/getting-started/environment-setting/language-switch.md",
+  "sourceDirName": "getting-started/environment-setting",
+  "slug": "/getting-started/environment-setting/language-switch",
+  "permalink": "/userManual/getting-started/environment-setting/language-switch",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "mySidebar",
+  "previous": {
+    "title": "Browser setup",
+    "permalink": "/userManual/getting-started/environment-setting/browser-setup"
+  },
+  "next": {
+    "title": "Color theme swich",
+    "permalink": "/userManual/getting-started/environment-setting/language-switch copy"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "corbusider-archive/congratulations",
+  "id": "corbusider-archive/congratulations",
+  "isDocsHomePage": false,
+  "title": "Congratulations!",
+  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "source": "@site/tutorial/corbusider-archive/congratulations.md",
+  "sourceDirName": "corbusider-archive",
+  "slug": "/corbusider-archive/congratulations",
+  "permalink": "/tutorial/corbusider-archive/congratulations",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deploy your site",
+    "permalink": "/tutorial/corbusider-archive/deploy-your-site"
+  },
+  "next": {
+    "title": "Manage Docs Versions",
+    "permalink": "/tutorial/create-3d-models-for-reearth/manage-docs-versions"
+  }
+}

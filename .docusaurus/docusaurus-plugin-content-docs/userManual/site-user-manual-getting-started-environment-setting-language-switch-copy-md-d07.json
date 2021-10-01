@@ -1,0 +1,26 @@
+{
+  "unversionedId": "getting-started/environment-setting/language-switch copy",
+  "id": "getting-started/environment-setting/language-switch copy",
+  "isDocsHomePage": false,
+  "title": "Color theme swich",
+  "description": "",
+  "source": "@site/userManual/getting-started/environment-setting/language-switch copy.md",
+  "sourceDirName": "getting-started/environment-setting",
+  "slug": "/getting-started/environment-setting/language-switch copy",
+  "permalink": "/userManual/getting-started/environment-setting/language-switch copy",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "mySidebar",
+  "previous": {
+    "title": "Language switch",
+    "permalink": "/userManual/getting-started/environment-setting/language-switch"
+  },
+  "next": {
+    "title": "Ideas of project",
+    "permalink": "/userManual/project-and-workspace/ideas-of-project"
+  }
+}

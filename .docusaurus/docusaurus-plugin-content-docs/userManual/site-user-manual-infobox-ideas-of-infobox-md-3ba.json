@@ -1,0 +1,26 @@
+{
+  "unversionedId": "infobox/ideas-of-infobox",
+  "id": "infobox/ideas-of-infobox",
+  "isDocsHomePage": false,
+  "title": "Ideas of Infobox",
+  "description": "",
+  "source": "@site/userManual/infobox/ideas-of-infobox.md",
+  "sourceDirName": "infobox",
+  "slug": "/infobox/ideas-of-infobox",
+  "permalink": "/userManual/infobox/ideas-of-infobox",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "mySidebar",
+  "previous": {
+    "title": "Ideas of Primitive tools",
+    "permalink": "/userManual/primitive-tool-and-layers/ideas-of-primitive-tool"
+  },
+  "next": {
+    "title": "Ideas of Dataset",
+    "permalink": "/userManual/dataset/ideas-of-dataset"
+  }
+}

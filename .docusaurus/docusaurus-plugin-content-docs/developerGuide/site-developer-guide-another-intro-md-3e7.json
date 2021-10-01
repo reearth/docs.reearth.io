@@ -1,0 +1,26 @@
+{
+  "unversionedId": "another/intro",
+  "id": "another/intro",
+  "isDocsHomePage": false,
+  "title": "Tutorial Intro",
+  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "source": "@site/developerGuide/another/intro.md",
+  "sourceDirName": "another",
+  "slug": "/another/intro",
+  "permalink": "/developerGuide/another/intro",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "userManualSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/developerGuide/tutorial-extras/translate-your-site"
+  },
+  "next": {
+    "title": "Create a Page",
+    "permalink": "/developerGuide/another/tutorial-basics/create-a-page"
+  }
+}

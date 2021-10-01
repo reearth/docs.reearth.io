@@ -1,0 +1,26 @@
+{
+  "unversionedId": "corbusider-archive/deploy-your-site",
+  "id": "corbusider-archive/deploy-your-site",
+  "isDocsHomePage": false,
+  "title": "Deploy your site",
+  "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+  "source": "@site/tutorial/corbusider-archive/deploy-your-site.md",
+  "sourceDirName": "corbusider-archive",
+  "slug": "/corbusider-archive/deploy-your-site",
+  "permalink": "/tutorial/corbusider-archive/deploy-your-site",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Markdown Features",
+    "permalink": "/tutorial/corbusider-archive/markdown-features"
+  },
+  "next": {
+    "title": "Congratulations!",
+    "permalink": "/tutorial/corbusider-archive/congratulations"
+  }
+}
