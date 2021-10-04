@@ -1,0 +1,26 @@
+{
+  "unversionedId": "front-end-guide/how-to-add-i18n-translation",
+  "id": "front-end-guide/how-to-add-i18n-translation",
+  "isDocsHomePage": false,
+  "title": "How to add i18n translation",
+  "description": "",
+  "source": "@site/developerGuide/front-end-guide/how-to-add-i18n-translation.md",
+  "sourceDirName": "front-end-guide",
+  "slug": "/front-end-guide/how-to-add-i18n-translation",
+  "permalink": "/developerGuide/front-end-guide/how-to-add-i18n-translation",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "userManualSidebar",
+  "previous": {
+    "title": "How to use the GraphQL API",
+    "permalink": "/developerGuide/front-end-guide/how-to-use-the-graphql-api"
+  },
+  "next": {
+    "title": "What do Github workflows do",
+    "permalink": "/developerGuide/front-end-guide/what-do-github-workflows-do"
+  }
+}

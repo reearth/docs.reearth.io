@@ -145,13 +145,113 @@
     "component": "component---theme-doc-tags-list-page-372-89e",
     "tags": "tags---user-manual-tagsd-2-b-fab"
   },
-  "/developerGuide-4a8": {
+  "/developerGuide-60e": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---developer-guide-072-285"
   },
-  "/developerGuide/intro-583": {
+  "/developerGuide/back-end-guide/back-end-architecture-82e": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---developer-guide-introb-18-426"
+    "content": "content---developer-guide-back-end-guide-back-end-architecture-580-c0f"
+  },
+  "/developerGuide/back-end-guide/environment-variables-341": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developer-guide-back-end-guide-environment-variables-515-a45"
+  },
+  "/developerGuide/back-end-guide/getting-started-9fa": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developer-guide-back-end-guide-getting-started-890-b01"
+  },
+  "/developerGuide/back-end-guide/how-does-it-work/authentication-536": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developer-guide-back-end-guide-how-does-it-work-authentication-7-c-8-72b"
+  },
+  "/developerGuide/back-end-guide/how-does-it-work/dataset-linking-ad2": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developer-guide-back-end-guide-how-does-it-work-dataset-linking-88-b-8a3"
+  },
+  "/developerGuide/back-end-guide/how-does-it-work/property-merging-41a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developer-guide-back-end-guide-how-does-it-work-property-merging-13-f-2ed"
+  },
+  "/developerGuide/back-end-guide/how-does-it-work/property-migration-fc5": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developer-guide-back-end-guide-how-does-it-work-property-migrationc-8-e-49b"
+  },
+  "/developerGuide/back-end-guide/how-does-it-work/scene-building-1dc": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developer-guide-back-end-guide-how-does-it-work-scene-buildingc-97-ee0"
+  },
+  "/developerGuide/back-end-guide/how-to-develop-a-new-feature-d5d": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developer-guide-back-end-guide-how-to-develop-a-new-feature-4-fa-dd3"
+  },
+  "/developerGuide/back-end-guide/what-do-github-workflows-do-38d": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developer-guide-back-end-guide-what-do-github-workflows-do-481-128"
+  },
+  "/developerGuide/common-guide/domain-models-310": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developer-guide-common-guide-domain-models-050-634"
+  },
+  "/developerGuide/common-guide/whole-system-architecture-and-stack-b62": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developer-guide-common-guide-whole-system-architecture-and-stack-0-c-4-c44"
+  },
+  "/developerGuide/contribution-guide-6f7": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developer-guide-contribution-guidecdd-e2e"
+  },
+  "/developerGuide/front-end-guide/getting-started-4bc": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developer-guide-front-end-guide-getting-started-149-73b"
+  },
+  "/developerGuide/front-end-guide/how-to-add-i18n-translation-c6e": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developer-guide-front-end-guide-how-to-add-i-18-n-translation-77-d-b79"
+  },
+  "/developerGuide/front-end-guide/how-to-load-config-file-0a9": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developer-guide-front-end-guide-how-to-load-config-fileb-4-e-b0b"
+  },
+  "/developerGuide/front-end-guide/how-to-run-e2e-testing-4a1": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developer-guide-front-end-guide-how-to-run-e-2-e-testing-453-3d3"
+  },
+  "/developerGuide/front-end-guide/how-to-use-the-graphql-api-871": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developer-guide-front-end-guide-how-to-use-the-graphql-api-5-e-0-c72"
+  },
+  "/developerGuide/front-end-guide/how-to-use-theme-0c8": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developer-guide-front-end-guide-how-to-use-theme-112-8e4"
+  },
+  "/developerGuide/front-end-guide/how-users-are-authenticated-c57": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developer-guide-front-end-guide-how-users-are-authenticatedbad-ae9"
+  },
+  "/developerGuide/front-end-guide/project-and-component-architecture-0d3": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developer-guide-front-end-guide-project-and-component-architecturef-19-8de"
+  },
+  "/developerGuide/front-end-guide/what-do-github-workflows-do-09d": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developer-guide-front-end-guide-what-do-github-workflows-do-079-078"
+  },
+  "/developerGuide/introduction/about-335": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developer-guide-introduction-about-8-c-0-906"
+  },
+  "/developerGuide/introduction/project-goal-fbf": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developer-guide-introduction-project-goal-6-df-de8"
+  },
+  "/developerGuide/introduction/setup/how-to-set-up-auth0-935": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developer-guide-introduction-setup-how-to-set-up-auth-0-af-5-e4e"
+  },
+  "/developerGuide/introduction/setup/set-up-reearth-in-your-environment-306": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developer-guide-introduction-setup-set-up-reearth-in-your-environment-664-8c2"
   },
   "/docs-901": {
     "component": "component---theme-doc-page-1-be-9be",
@@ -237,47 +337,15 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-user-manual-user-manual-intro-5-c-3-703"
   },
-  "/tutorial-a84": {
+  "/tutorial-930": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---tutorialf-89-467"
-  },
-  "/tutorial/corbusider-archive/congratulations-9ee": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---tutorial-corbusider-archive-congratulationsffe-546"
-  },
-  "/tutorial/corbusider-archive/create-a-blog-post-4a0": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---tutorial-corbusider-archive-create-a-blog-postfa-9-345"
-  },
-  "/tutorial/corbusider-archive/create-a-document-283": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---tutorial-corbusider-archive-create-a-document-070-55d"
-  },
-  "/tutorial/corbusider-archive/create-a-page-958": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---tutorial-corbusider-archive-create-a-page-5-d-2-658"
-  },
-  "/tutorial/corbusider-archive/deploy-your-site-43d": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---tutorial-corbusider-archive-deploy-your-sitef-27-9a8"
-  },
-  "/tutorial/corbusider-archive/markdown-features-4b7": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---tutorial-corbusider-archive-markdown-featurescaa-4b9"
-  },
-  "/tutorial/create-3d-models-for-reearth/manage-docs-versions-852": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---tutorial-create-3-d-models-for-reearth-manage-docs-versions-4-aa-ec3"
-  },
-  "/tutorial/create-3d-models-for-reearth/translate-your-site-cca": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---tutorial-create-3-d-models-for-reearth-translate-your-site-82-c-d6c"
   },
   "/tutorial/index-1c2": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---tutorial-indexa-58-de4"
   },
-  "/userManual-e34": {
+  "/userManual-3b8": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---user-manual-7-c-6-429"
   },
@@ -293,13 +361,13 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---user-manual-getting-started-environment-setting-browser-setup-276-548"
   },
+  "/userManual/getting-started/environment-setting/color-theme-switch-973": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---user-manual-getting-started-environment-setting-color-theme-switch-00-d-bea"
+  },
   "/userManual/getting-started/environment-setting/language-switch-1a5": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---user-manual-getting-started-environment-setting-language-switchc-30-449"
-  },
-  "/userManual/getting-started/environment-setting/language-switch copy-6b4": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---user-manual-getting-started-environment-setting-language-switch-copyd-07-594"
   },
   "/userManual/getting-started/why-reearth-877": {
     "component": "component---theme-doc-item-178-a40",

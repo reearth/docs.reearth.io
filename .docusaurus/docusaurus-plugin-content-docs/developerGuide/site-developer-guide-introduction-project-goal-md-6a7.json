@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Introduction/projectGoal",
+  "id": "Introduction/projectGoal",
+  "isDocsHomePage": false,
+  "title": "projectGoal",
+  "description": "",
+  "source": "@site/developerGuide/Introduction/projectGoal.md",
+  "sourceDirName": "Introduction",
+  "slug": "/Introduction/projectGoal",
+  "permalink": "/developerGuide/Introduction/projectGoal",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "userManualSidebar",
+  "previous": {
+    "title": "about",
+    "permalink": "/developerGuide/Introduction/about"
+  }
+}

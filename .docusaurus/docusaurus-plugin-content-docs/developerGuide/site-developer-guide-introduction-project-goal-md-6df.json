@@ -1,0 +1,26 @@
+{
+  "unversionedId": "introduction/project-goal",
+  "id": "introduction/project-goal",
+  "isDocsHomePage": false,
+  "title": "Project goal",
+  "description": "",
+  "source": "@site/developerGuide/introduction/project-goal.md",
+  "sourceDirName": "introduction",
+  "slug": "/introduction/project-goal",
+  "permalink": "/developerGuide/introduction/project-goal",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "userManualSidebar",
+  "previous": {
+    "title": "About",
+    "permalink": "/developerGuide/introduction/about"
+  },
+  "next": {
+    "title": "Set up Re:Earth in your environment",
+    "permalink": "/developerGuide/introduction/setup/set-up-reearth-in-your-environment"
+  }
+}

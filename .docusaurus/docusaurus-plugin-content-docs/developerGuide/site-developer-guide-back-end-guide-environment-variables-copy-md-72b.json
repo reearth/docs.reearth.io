@@ -1,0 +1,26 @@
+{
+  "unversionedId": "back-end-guide/environment-variables copy",
+  "id": "back-end-guide/environment-variables copy",
+  "isDocsHomePage": false,
+  "title": "Environment variables",
+  "description": "",
+  "source": "@site/developerGuide/back-end-guide/environment-variables copy.md",
+  "sourceDirName": "back-end-guide",
+  "slug": "/back-end-guide/environment-variables copy",
+  "permalink": "/developerGuide/back-end-guide/environment-variables copy",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "userManualSidebar",
+  "previous": {
+    "title": "Getting started",
+    "permalink": "/developerGuide/back-end-guide/getting-started"
+  },
+  "next": {
+    "title": "Environment variables",
+    "permalink": "/developerGuide/back-end-guide/environment-variables"
+  }
+}

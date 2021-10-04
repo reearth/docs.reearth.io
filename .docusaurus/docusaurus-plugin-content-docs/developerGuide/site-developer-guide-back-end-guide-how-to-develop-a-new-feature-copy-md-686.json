@@ -1,0 +1,26 @@
+{
+  "unversionedId": "back-end-guide/how-to-develop-a-new-feature copy",
+  "id": "back-end-guide/how-to-develop-a-new-feature copy",
+  "isDocsHomePage": false,
+  "title": "How to develop a new feature",
+  "description": "",
+  "source": "@site/developerGuide/back-end-guide/how-to-develop-a-new-feature copy.md",
+  "sourceDirName": "back-end-guide",
+  "slug": "/back-end-guide/how-to-develop-a-new-feature copy",
+  "permalink": "/developerGuide/back-end-guide/how-to-develop-a-new-feature copy",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "userManualSidebar",
+  "previous": {
+    "title": "Environment variables",
+    "permalink": "/developerGuide/back-end-guide/environment-variables"
+  },
+  "next": {
+    "title": "How to develop a new feature",
+    "permalink": "/developerGuide/back-end-guide/how-to-develop-a-new-feature"
+  }
+}

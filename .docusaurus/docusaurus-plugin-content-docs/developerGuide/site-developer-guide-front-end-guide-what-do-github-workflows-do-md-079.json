@@ -1,0 +1,26 @@
+{
+  "unversionedId": "front-end-guide/what-do-github-workflows-do",
+  "id": "front-end-guide/what-do-github-workflows-do",
+  "isDocsHomePage": false,
+  "title": "What do Github workflows do",
+  "description": "",
+  "source": "@site/developerGuide/front-end-guide/what-do-github-workflows-do.md",
+  "sourceDirName": "front-end-guide",
+  "slug": "/front-end-guide/what-do-github-workflows-do",
+  "permalink": "/developerGuide/front-end-guide/what-do-github-workflows-do",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "userManualSidebar",
+  "previous": {
+    "title": "How to add i18n translation",
+    "permalink": "/developerGuide/front-end-guide/how-to-add-i18n-translation"
+  },
+  "next": {
+    "title": "How to run E2E testing",
+    "permalink": "/developerGuide/front-end-guide/how-to-run-e2e-testing"
+  }
+}

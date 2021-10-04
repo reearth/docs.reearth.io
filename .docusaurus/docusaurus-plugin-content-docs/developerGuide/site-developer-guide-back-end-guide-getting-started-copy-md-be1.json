@@ -1,0 +1,26 @@
+{
+  "unversionedId": "back-end-guide/getting-started copy",
+  "id": "back-end-guide/getting-started copy",
+  "isDocsHomePage": false,
+  "title": "Getting started",
+  "description": "",
+  "source": "@site/developerGuide/back-end-guide/getting-started copy.md",
+  "sourceDirName": "back-end-guide",
+  "slug": "/back-end-guide/getting-started copy",
+  "permalink": "/developerGuide/back-end-guide/getting-started copy",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "userManualSidebar",
+  "previous": {
+    "title": "How to load config file",
+    "permalink": "/developerGuide/front-end-guide/how-to-load-config-file"
+  },
+  "next": {
+    "title": "Getting started",
+    "permalink": "/developerGuide/back-end-guide/getting-started"
+  }
+}

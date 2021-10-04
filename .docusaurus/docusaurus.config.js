@@ -70,7 +70,7 @@ export default {
           "activeBaseRegex": "/userManual/"
         },
         {
-          "to": "/developerGuide/intro",
+          "to": "/developerGuide/introduction/about",
           "label": "Developer guide",
           "position": "left",
           "activeBaseRegex": "/developerGuide/"

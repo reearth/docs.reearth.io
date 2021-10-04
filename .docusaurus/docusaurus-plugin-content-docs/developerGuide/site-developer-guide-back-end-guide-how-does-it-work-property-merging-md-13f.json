@@ -1,0 +1,26 @@
+{
+  "unversionedId": "back-end-guide/how-does-it-work/property-merging",
+  "id": "back-end-guide/how-does-it-work/property-merging",
+  "isDocsHomePage": false,
+  "title": "Property merging",
+  "description": "",
+  "source": "@site/developerGuide/back-end-guide/how-does-it-work/property-merging.md",
+  "sourceDirName": "back-end-guide/how-does-it-work",
+  "slug": "/back-end-guide/how-does-it-work/property-merging",
+  "permalink": "/developerGuide/back-end-guide/how-does-it-work/property-merging",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "userManualSidebar",
+  "previous": {
+    "title": "Dataset linking",
+    "permalink": "/developerGuide/back-end-guide/how-does-it-work/dataset-linking"
+  },
+  "next": {
+    "title": "Scene building",
+    "permalink": "/developerGuide/back-end-guide/how-does-it-work/scene-building"
+  }
+}

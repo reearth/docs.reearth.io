@@ -1,0 +1,26 @@
+{
+  "unversionedId": "front-end-guide/how-to-run-e2e-testing copy",
+  "id": "front-end-guide/how-to-run-e2e-testing copy",
+  "isDocsHomePage": false,
+  "title": "How to run E2E testing",
+  "description": "",
+  "source": "@site/developerGuide/front-end-guide/how-to-run-e2e-testing copy.md",
+  "sourceDirName": "front-end-guide",
+  "slug": "/front-end-guide/how-to-run-e2e-testing copy",
+  "permalink": "/developerGuide/front-end-guide/how-to-run-e2e-testing copy",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "userManualSidebar",
+  "previous": {
+    "title": "What do Github workflows do",
+    "permalink": "/developerGuide/front-end-guide/what-do-github-workflows-do"
+  },
+  "next": {
+    "title": "How to run E2E testing",
+    "permalink": "/developerGuide/front-end-guide/how-to-run-e2e-testing"
+  }
+}

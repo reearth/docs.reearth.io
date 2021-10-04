@@ -1,0 +1,26 @@
+{
+  "unversionedId": "introduction/setup/set-up-reearth-in-your-environment",
+  "id": "introduction/setup/set-up-reearth-in-your-environment",
+  "isDocsHomePage": false,
+  "title": "Set up Re:Earth in your environment",
+  "description": "",
+  "source": "@site/developerGuide/introduction/setup/set-up-reearth-in-your-environment.md",
+  "sourceDirName": "introduction/setup",
+  "slug": "/introduction/setup/set-up-reearth-in-your-environment",
+  "permalink": "/developerGuide/introduction/setup/set-up-reearth-in-your-environment",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "userManualSidebar",
+  "previous": {
+    "title": "Project goal",
+    "permalink": "/developerGuide/introduction/project-goal"
+  },
+  "next": {
+    "title": "How to set up Auth0",
+    "permalink": "/developerGuide/introduction/setup/how-to-set-up-auth0"
+  }
+}

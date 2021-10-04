@@ -739,7 +739,7 @@
                       },
                       {
                         "type": "doc",
-                        "id": "getting-started/environment-setting/language-switch copy"
+                        "id": "getting-started/environment-setting/color-theme-switch"
                       }
                     ],
                     "collapsed": true,
@@ -955,6 +955,32 @@
               }
             },
             {
+              "unversionedId": "getting-started/environment-setting/color-theme-switch",
+              "id": "getting-started/environment-setting/color-theme-switch",
+              "isDocsHomePage": false,
+              "title": "Color theme swich",
+              "description": "",
+              "source": "@site/userManual/getting-started/environment-setting/color-theme-switch.md",
+              "sourceDirName": "getting-started/environment-setting",
+              "slug": "/getting-started/environment-setting/color-theme-switch",
+              "permalink": "/userManual/getting-started/environment-setting/color-theme-switch",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "mySidebar",
+              "previous": {
+                "title": "Language switch",
+                "permalink": "/userManual/getting-started/environment-setting/language-switch"
+              },
+              "next": {
+                "title": "Ideas of project",
+                "permalink": "/userManual/project-and-workspace/ideas-of-project"
+              }
+            },
+            {
               "unversionedId": "getting-started/environment-setting/language-switch",
               "id": "getting-started/environment-setting/language-switch",
               "isDocsHomePage": false,
@@ -977,33 +1003,7 @@
               },
               "next": {
                 "title": "Color theme swich",
-                "permalink": "/userManual/getting-started/environment-setting/language-switch copy"
-              }
-            },
-            {
-              "unversionedId": "getting-started/environment-setting/language-switch copy",
-              "id": "getting-started/environment-setting/language-switch copy",
-              "isDocsHomePage": false,
-              "title": "Color theme swich",
-              "description": "",
-              "source": "@site/userManual/getting-started/environment-setting/language-switch copy.md",
-              "sourceDirName": "getting-started/environment-setting",
-              "slug": "/getting-started/environment-setting/language-switch copy",
-              "permalink": "/userManual/getting-started/environment-setting/language-switch copy",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "mySidebar",
-              "previous": {
-                "title": "Language switch",
-                "permalink": "/userManual/getting-started/environment-setting/language-switch"
-              },
-              "next": {
-                "title": "Ideas of project",
-                "permalink": "/userManual/project-and-workspace/ideas-of-project"
+                "permalink": "/userManual/getting-started/environment-setting/color-theme-switch"
               }
             },
             {
@@ -1125,7 +1125,7 @@
               "sidebar": "mySidebar",
               "previous": {
                 "title": "Color theme swich",
-                "permalink": "/userManual/getting-started/environment-setting/language-switch copy"
+                "permalink": "/userManual/getting-started/environment-setting/color-theme-switch"
               },
               "next": {
                 "title": "Create, delete and archive",
@@ -1355,33 +1355,831 @@
           "sidebarFilePath": "/Users/xucong/Project/reeartn/document/sidebarsDeveloperGuide.js",
           "contentPath": "/Users/xucong/Project/reeartn/document/developerGuide",
           "contentPathLocalized": "/Users/xucong/Project/reeartn/document/i18n/en/docusaurus-plugin-content-docs-developerGuide/current",
-          "mainDocId": "intro",
+          "mainDocId": "introduction/about",
           "sidebars": {
             "userManualSidebar": [
               {
+                "type": "category",
+                "label": "Introduction",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "introduction/about"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "introduction/project-goal"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Setup",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "introduction/setup/set-up-reearth-in-your-environment"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "introduction/setup/how-to-set-up-auth0"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
                 "type": "doc",
-                "id": "intro"
+                "id": "contribution-guide"
+              },
+              {
+                "type": "category",
+                "label": "Common Guide",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "common-guide/whole-system-architecture-and-stack"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "common-guide/domain-models"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Front-end Guide",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "front-end-guide/getting-started"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "front-end-guide/project-and-component-architecture"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "front-end-guide/how-users-are-authenticated"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "front-end-guide/how-to-use-theme"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "front-end-guide/how-to-use-the-graphql-api"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "front-end-guide/how-to-add-i18n-translation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "front-end-guide/what-do-github-workflows-do"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "front-end-guide/how-to-run-e2e-testing"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "front-end-guide/how-to-load-config-file"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Back-end Guide",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "back-end-guide/getting-started"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "back-end-guide/environment-variables"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "back-end-guide/how-to-develop-a-new-feature"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "back-end-guide/back-end-architecture"
+                  },
+                  {
+                    "type": "category",
+                    "label": "How does it work",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "back-end-guide/how-does-it-work/authentication"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "back-end-guide/how-does-it-work/dataset-linking"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "back-end-guide/how-does-it-work/property-merging"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "back-end-guide/how-does-it-work/scene-building"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "back-end-guide/how-does-it-work/property-migration"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "doc",
+                    "id": "back-end-guide/what-do-github-workflows-do"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
               }
             ]
           },
           "docs": [
             {
-              "unversionedId": "intro",
-              "id": "intro",
+              "unversionedId": "back-end-guide/back-end-architecture",
+              "id": "back-end-guide/back-end-architecture",
               "isDocsHomePage": false,
-              "title": "Developer guide",
+              "title": "Back-end architecture",
               "description": "",
-              "source": "@site/developerGuide/intro.md",
-              "sourceDirName": ".",
-              "slug": "/intro",
-              "permalink": "/developerGuide/intro",
+              "source": "@site/developerGuide/back-end-guide/back-end-architecture.md",
+              "sourceDirName": "back-end-guide",
+              "slug": "/back-end-guide/back-end-architecture",
+              "permalink": "/developerGuide/back-end-guide/back-end-architecture",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "userManualSidebar",
+              "previous": {
+                "title": "How to develop a new feature",
+                "permalink": "/developerGuide/back-end-guide/how-to-develop-a-new-feature"
+              },
+              "next": {
+                "title": "Authentication",
+                "permalink": "/developerGuide/back-end-guide/how-does-it-work/authentication"
+              }
+            },
+            {
+              "unversionedId": "back-end-guide/environment-variables",
+              "id": "back-end-guide/environment-variables",
+              "isDocsHomePage": false,
+              "title": "Environment variables",
+              "description": "",
+              "source": "@site/developerGuide/back-end-guide/environment-variables.md",
+              "sourceDirName": "back-end-guide",
+              "slug": "/back-end-guide/environment-variables",
+              "permalink": "/developerGuide/back-end-guide/environment-variables",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "userManualSidebar",
+              "previous": {
+                "title": "Getting started",
+                "permalink": "/developerGuide/back-end-guide/getting-started"
+              },
+              "next": {
+                "title": "How to develop a new feature",
+                "permalink": "/developerGuide/back-end-guide/how-to-develop-a-new-feature"
+              }
+            },
+            {
+              "unversionedId": "back-end-guide/getting-started",
+              "id": "back-end-guide/getting-started",
+              "isDocsHomePage": false,
+              "title": "Getting started",
+              "description": "",
+              "source": "@site/developerGuide/back-end-guide/getting-started.md",
+              "sourceDirName": "back-end-guide",
+              "slug": "/back-end-guide/getting-started",
+              "permalink": "/developerGuide/back-end-guide/getting-started",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
                 "sidebar_position": 1
               },
-              "sidebar": "userManualSidebar"
+              "sidebar": "userManualSidebar",
+              "previous": {
+                "title": "How to load config file",
+                "permalink": "/developerGuide/front-end-guide/how-to-load-config-file"
+              },
+              "next": {
+                "title": "Environment variables",
+                "permalink": "/developerGuide/back-end-guide/environment-variables"
+              }
+            },
+            {
+              "unversionedId": "back-end-guide/how-does-it-work/authentication",
+              "id": "back-end-guide/how-does-it-work/authentication",
+              "isDocsHomePage": false,
+              "title": "Authentication",
+              "description": "",
+              "source": "@site/developerGuide/back-end-guide/how-does-it-work/authentication.md",
+              "sourceDirName": "back-end-guide/how-does-it-work",
+              "slug": "/back-end-guide/how-does-it-work/authentication",
+              "permalink": "/developerGuide/back-end-guide/how-does-it-work/authentication",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "userManualSidebar",
+              "previous": {
+                "title": "Back-end architecture",
+                "permalink": "/developerGuide/back-end-guide/back-end-architecture"
+              },
+              "next": {
+                "title": "Dataset linking",
+                "permalink": "/developerGuide/back-end-guide/how-does-it-work/dataset-linking"
+              }
+            },
+            {
+              "unversionedId": "back-end-guide/how-does-it-work/dataset-linking",
+              "id": "back-end-guide/how-does-it-work/dataset-linking",
+              "isDocsHomePage": false,
+              "title": "Dataset linking",
+              "description": "",
+              "source": "@site/developerGuide/back-end-guide/how-does-it-work/dataset-linking.md",
+              "sourceDirName": "back-end-guide/how-does-it-work",
+              "slug": "/back-end-guide/how-does-it-work/dataset-linking",
+              "permalink": "/developerGuide/back-end-guide/how-does-it-work/dataset-linking",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "userManualSidebar",
+              "previous": {
+                "title": "Authentication",
+                "permalink": "/developerGuide/back-end-guide/how-does-it-work/authentication"
+              },
+              "next": {
+                "title": "Property merging",
+                "permalink": "/developerGuide/back-end-guide/how-does-it-work/property-merging"
+              }
+            },
+            {
+              "unversionedId": "back-end-guide/how-does-it-work/property-merging",
+              "id": "back-end-guide/how-does-it-work/property-merging",
+              "isDocsHomePage": false,
+              "title": "Property merging",
+              "description": "",
+              "source": "@site/developerGuide/back-end-guide/how-does-it-work/property-merging.md",
+              "sourceDirName": "back-end-guide/how-does-it-work",
+              "slug": "/back-end-guide/how-does-it-work/property-merging",
+              "permalink": "/developerGuide/back-end-guide/how-does-it-work/property-merging",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "userManualSidebar",
+              "previous": {
+                "title": "Dataset linking",
+                "permalink": "/developerGuide/back-end-guide/how-does-it-work/dataset-linking"
+              },
+              "next": {
+                "title": "Scene building",
+                "permalink": "/developerGuide/back-end-guide/how-does-it-work/scene-building"
+              }
+            },
+            {
+              "unversionedId": "back-end-guide/how-does-it-work/property-migration",
+              "id": "back-end-guide/how-does-it-work/property-migration",
+              "isDocsHomePage": false,
+              "title": "Property migration",
+              "description": "",
+              "source": "@site/developerGuide/back-end-guide/how-does-it-work/property-migration.md",
+              "sourceDirName": "back-end-guide/how-does-it-work",
+              "slug": "/back-end-guide/how-does-it-work/property-migration",
+              "permalink": "/developerGuide/back-end-guide/how-does-it-work/property-migration",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "userManualSidebar",
+              "previous": {
+                "title": "Scene building",
+                "permalink": "/developerGuide/back-end-guide/how-does-it-work/scene-building"
+              },
+              "next": {
+                "title": "What do Github workflows do",
+                "permalink": "/developerGuide/back-end-guide/what-do-github-workflows-do"
+              }
+            },
+            {
+              "unversionedId": "back-end-guide/how-does-it-work/scene-building",
+              "id": "back-end-guide/how-does-it-work/scene-building",
+              "isDocsHomePage": false,
+              "title": "Scene building",
+              "description": "",
+              "source": "@site/developerGuide/back-end-guide/how-does-it-work/scene-building.md",
+              "sourceDirName": "back-end-guide/how-does-it-work",
+              "slug": "/back-end-guide/how-does-it-work/scene-building",
+              "permalink": "/developerGuide/back-end-guide/how-does-it-work/scene-building",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "userManualSidebar",
+              "previous": {
+                "title": "Property merging",
+                "permalink": "/developerGuide/back-end-guide/how-does-it-work/property-merging"
+              },
+              "next": {
+                "title": "Property migration",
+                "permalink": "/developerGuide/back-end-guide/how-does-it-work/property-migration"
+              }
+            },
+            {
+              "unversionedId": "back-end-guide/how-to-develop-a-new-feature",
+              "id": "back-end-guide/how-to-develop-a-new-feature",
+              "isDocsHomePage": false,
+              "title": "How to develop a new feature",
+              "description": "",
+              "source": "@site/developerGuide/back-end-guide/how-to-develop-a-new-feature.md",
+              "sourceDirName": "back-end-guide",
+              "slug": "/back-end-guide/how-to-develop-a-new-feature",
+              "permalink": "/developerGuide/back-end-guide/how-to-develop-a-new-feature",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "userManualSidebar",
+              "previous": {
+                "title": "Environment variables",
+                "permalink": "/developerGuide/back-end-guide/environment-variables"
+              },
+              "next": {
+                "title": "Back-end architecture",
+                "permalink": "/developerGuide/back-end-guide/back-end-architecture"
+              }
+            },
+            {
+              "unversionedId": "back-end-guide/what-do-github-workflows-do",
+              "id": "back-end-guide/what-do-github-workflows-do",
+              "isDocsHomePage": false,
+              "title": "What do Github workflows do",
+              "description": "",
+              "source": "@site/developerGuide/back-end-guide/what-do-github-workflows-do.md",
+              "sourceDirName": "back-end-guide",
+              "slug": "/back-end-guide/what-do-github-workflows-do",
+              "permalink": "/developerGuide/back-end-guide/what-do-github-workflows-do",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "userManualSidebar",
+              "previous": {
+                "title": "Property migration",
+                "permalink": "/developerGuide/back-end-guide/how-does-it-work/property-migration"
+              }
+            },
+            {
+              "unversionedId": "common-guide/domain-models",
+              "id": "common-guide/domain-models",
+              "isDocsHomePage": false,
+              "title": "Domain models",
+              "description": "",
+              "source": "@site/developerGuide/common-guide/domain-models.md",
+              "sourceDirName": "common-guide",
+              "slug": "/common-guide/domain-models",
+              "permalink": "/developerGuide/common-guide/domain-models",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "userManualSidebar",
+              "previous": {
+                "title": "Whole system architecture and stack",
+                "permalink": "/developerGuide/common-guide/whole-system-architecture-and-stack"
+              },
+              "next": {
+                "title": "Getting started",
+                "permalink": "/developerGuide/front-end-guide/getting-started"
+              }
+            },
+            {
+              "unversionedId": "common-guide/whole-system-architecture-and-stack",
+              "id": "common-guide/whole-system-architecture-and-stack",
+              "isDocsHomePage": false,
+              "title": "Whole system architecture and stack",
+              "description": "",
+              "source": "@site/developerGuide/common-guide/whole-system-architecture-and-stack.md",
+              "sourceDirName": "common-guide",
+              "slug": "/common-guide/whole-system-architecture-and-stack",
+              "permalink": "/developerGuide/common-guide/whole-system-architecture-and-stack",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "userManualSidebar",
+              "previous": {
+                "title": "Contribution guide",
+                "permalink": "/developerGuide/contribution-guide"
+              },
+              "next": {
+                "title": "Domain models",
+                "permalink": "/developerGuide/common-guide/domain-models"
+              }
+            },
+            {
+              "unversionedId": "contribution-guide",
+              "id": "contribution-guide",
+              "isDocsHomePage": false,
+              "title": "Contribution guide",
+              "description": "",
+              "source": "@site/developerGuide/contribution-guide.md",
+              "sourceDirName": ".",
+              "slug": "/contribution-guide",
+              "permalink": "/developerGuide/contribution-guide",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "userManualSidebar",
+              "previous": {
+                "title": "How to set up Auth0",
+                "permalink": "/developerGuide/introduction/setup/how-to-set-up-auth0"
+              },
+              "next": {
+                "title": "Whole system architecture and stack",
+                "permalink": "/developerGuide/common-guide/whole-system-architecture-and-stack"
+              }
+            },
+            {
+              "unversionedId": "front-end-guide/getting-started",
+              "id": "front-end-guide/getting-started",
+              "isDocsHomePage": false,
+              "title": "Getting started",
+              "description": "",
+              "source": "@site/developerGuide/front-end-guide/getting-started.md",
+              "sourceDirName": "front-end-guide",
+              "slug": "/front-end-guide/getting-started",
+              "permalink": "/developerGuide/front-end-guide/getting-started",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "userManualSidebar",
+              "previous": {
+                "title": "Domain models",
+                "permalink": "/developerGuide/common-guide/domain-models"
+              },
+              "next": {
+                "title": "Project and component architecture",
+                "permalink": "/developerGuide/front-end-guide/project-and-component-architecture"
+              }
+            },
+            {
+              "unversionedId": "front-end-guide/how-to-add-i18n-translation",
+              "id": "front-end-guide/how-to-add-i18n-translation",
+              "isDocsHomePage": false,
+              "title": "How to add i18n translation",
+              "description": "",
+              "source": "@site/developerGuide/front-end-guide/how-to-add-i18n-translation.md",
+              "sourceDirName": "front-end-guide",
+              "slug": "/front-end-guide/how-to-add-i18n-translation",
+              "permalink": "/developerGuide/front-end-guide/how-to-add-i18n-translation",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "userManualSidebar",
+              "previous": {
+                "title": "How to use the GraphQL API",
+                "permalink": "/developerGuide/front-end-guide/how-to-use-the-graphql-api"
+              },
+              "next": {
+                "title": "What do Github workflows do",
+                "permalink": "/developerGuide/front-end-guide/what-do-github-workflows-do"
+              }
+            },
+            {
+              "unversionedId": "front-end-guide/how-to-load-config-file",
+              "id": "front-end-guide/how-to-load-config-file",
+              "isDocsHomePage": false,
+              "title": "How to load config file",
+              "description": "",
+              "source": "@site/developerGuide/front-end-guide/how-to-load-config-file.md",
+              "sourceDirName": "front-end-guide",
+              "slug": "/front-end-guide/how-to-load-config-file",
+              "permalink": "/developerGuide/front-end-guide/how-to-load-config-file",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "sidebar_position": 9
+              },
+              "sidebar": "userManualSidebar",
+              "previous": {
+                "title": "How to run E2E testing",
+                "permalink": "/developerGuide/front-end-guide/how-to-run-e2e-testing"
+              },
+              "next": {
+                "title": "Getting started",
+                "permalink": "/developerGuide/back-end-guide/getting-started"
+              }
+            },
+            {
+              "unversionedId": "front-end-guide/how-to-run-e2e-testing",
+              "id": "front-end-guide/how-to-run-e2e-testing",
+              "isDocsHomePage": false,
+              "title": "How to run E2E testing",
+              "description": "",
+              "source": "@site/developerGuide/front-end-guide/how-to-run-e2e-testing.md",
+              "sourceDirName": "front-end-guide",
+              "slug": "/front-end-guide/how-to-run-e2e-testing",
+              "permalink": "/developerGuide/front-end-guide/how-to-run-e2e-testing",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "sidebar_position": 8
+              },
+              "sidebar": "userManualSidebar",
+              "previous": {
+                "title": "What do Github workflows do",
+                "permalink": "/developerGuide/front-end-guide/what-do-github-workflows-do"
+              },
+              "next": {
+                "title": "How to load config file",
+                "permalink": "/developerGuide/front-end-guide/how-to-load-config-file"
+              }
+            },
+            {
+              "unversionedId": "front-end-guide/how-to-use-the-graphql-api",
+              "id": "front-end-guide/how-to-use-the-graphql-api",
+              "isDocsHomePage": false,
+              "title": "How to use the GraphQL API",
+              "description": "",
+              "source": "@site/developerGuide/front-end-guide/how-to-use-the-graphql-api.md",
+              "sourceDirName": "front-end-guide",
+              "slug": "/front-end-guide/how-to-use-the-graphql-api",
+              "permalink": "/developerGuide/front-end-guide/how-to-use-the-graphql-api",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "userManualSidebar",
+              "previous": {
+                "title": "How to use theme",
+                "permalink": "/developerGuide/front-end-guide/how-to-use-theme"
+              },
+              "next": {
+                "title": "How to add i18n translation",
+                "permalink": "/developerGuide/front-end-guide/how-to-add-i18n-translation"
+              }
+            },
+            {
+              "unversionedId": "front-end-guide/how-to-use-theme",
+              "id": "front-end-guide/how-to-use-theme",
+              "isDocsHomePage": false,
+              "title": "How to use theme",
+              "description": "",
+              "source": "@site/developerGuide/front-end-guide/how-to-use-theme.md",
+              "sourceDirName": "front-end-guide",
+              "slug": "/front-end-guide/how-to-use-theme",
+              "permalink": "/developerGuide/front-end-guide/how-to-use-theme",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "userManualSidebar",
+              "previous": {
+                "title": "How users are authenticated",
+                "permalink": "/developerGuide/front-end-guide/how-users-are-authenticated"
+              },
+              "next": {
+                "title": "How to use the GraphQL API",
+                "permalink": "/developerGuide/front-end-guide/how-to-use-the-graphql-api"
+              }
+            },
+            {
+              "unversionedId": "front-end-guide/how-users-are-authenticated",
+              "id": "front-end-guide/how-users-are-authenticated",
+              "isDocsHomePage": false,
+              "title": "How users are authenticated",
+              "description": "",
+              "source": "@site/developerGuide/front-end-guide/how-users-are-authenticated.md",
+              "sourceDirName": "front-end-guide",
+              "slug": "/front-end-guide/how-users-are-authenticated",
+              "permalink": "/developerGuide/front-end-guide/how-users-are-authenticated",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "userManualSidebar",
+              "previous": {
+                "title": "Project and component architecture",
+                "permalink": "/developerGuide/front-end-guide/project-and-component-architecture"
+              },
+              "next": {
+                "title": "How to use theme",
+                "permalink": "/developerGuide/front-end-guide/how-to-use-theme"
+              }
+            },
+            {
+              "unversionedId": "front-end-guide/project-and-component-architecture",
+              "id": "front-end-guide/project-and-component-architecture",
+              "isDocsHomePage": false,
+              "title": "Project and component architecture",
+              "description": "",
+              "source": "@site/developerGuide/front-end-guide/project-and-component-architecture.md",
+              "sourceDirName": "front-end-guide",
+              "slug": "/front-end-guide/project-and-component-architecture",
+              "permalink": "/developerGuide/front-end-guide/project-and-component-architecture",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "userManualSidebar",
+              "previous": {
+                "title": "Getting started",
+                "permalink": "/developerGuide/front-end-guide/getting-started"
+              },
+              "next": {
+                "title": "How users are authenticated",
+                "permalink": "/developerGuide/front-end-guide/how-users-are-authenticated"
+              }
+            },
+            {
+              "unversionedId": "front-end-guide/what-do-github-workflows-do",
+              "id": "front-end-guide/what-do-github-workflows-do",
+              "isDocsHomePage": false,
+              "title": "What do Github workflows do",
+              "description": "",
+              "source": "@site/developerGuide/front-end-guide/what-do-github-workflows-do.md",
+              "sourceDirName": "front-end-guide",
+              "slug": "/front-end-guide/what-do-github-workflows-do",
+              "permalink": "/developerGuide/front-end-guide/what-do-github-workflows-do",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "userManualSidebar",
+              "previous": {
+                "title": "How to add i18n translation",
+                "permalink": "/developerGuide/front-end-guide/how-to-add-i18n-translation"
+              },
+              "next": {
+                "title": "How to run E2E testing",
+                "permalink": "/developerGuide/front-end-guide/how-to-run-e2e-testing"
+              }
+            },
+            {
+              "unversionedId": "introduction/about",
+              "id": "introduction/about",
+              "isDocsHomePage": false,
+              "title": "About",
+              "description": "",
+              "source": "@site/developerGuide/introduction/about.md",
+              "sourceDirName": "introduction",
+              "slug": "/introduction/about",
+              "permalink": "/developerGuide/introduction/about",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "userManualSidebar",
+              "next": {
+                "title": "Project goal",
+                "permalink": "/developerGuide/introduction/project-goal"
+              }
+            },
+            {
+              "unversionedId": "introduction/project-goal",
+              "id": "introduction/project-goal",
+              "isDocsHomePage": false,
+              "title": "Project goal",
+              "description": "",
+              "source": "@site/developerGuide/introduction/project-goal.md",
+              "sourceDirName": "introduction",
+              "slug": "/introduction/project-goal",
+              "permalink": "/developerGuide/introduction/project-goal",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "userManualSidebar",
+              "previous": {
+                "title": "About",
+                "permalink": "/developerGuide/introduction/about"
+              },
+              "next": {
+                "title": "Set up Re:Earth in your environment",
+                "permalink": "/developerGuide/introduction/setup/set-up-reearth-in-your-environment"
+              }
+            },
+            {
+              "unversionedId": "introduction/setup/how-to-set-up-auth0",
+              "id": "introduction/setup/how-to-set-up-auth0",
+              "isDocsHomePage": false,
+              "title": "How to set up Auth0",
+              "description": "",
+              "source": "@site/developerGuide/introduction/setup/how-to-set-up-auth0.md",
+              "sourceDirName": "introduction/setup",
+              "slug": "/introduction/setup/how-to-set-up-auth0",
+              "permalink": "/developerGuide/introduction/setup/how-to-set-up-auth0",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "userManualSidebar",
+              "previous": {
+                "title": "Set up Re:Earth in your environment",
+                "permalink": "/developerGuide/introduction/setup/set-up-reearth-in-your-environment"
+              },
+              "next": {
+                "title": "Contribution guide",
+                "permalink": "/developerGuide/contribution-guide"
+              }
+            },
+            {
+              "unversionedId": "introduction/setup/set-up-reearth-in-your-environment",
+              "id": "introduction/setup/set-up-reearth-in-your-environment",
+              "isDocsHomePage": false,
+              "title": "Set up Re:Earth in your environment",
+              "description": "",
+              "source": "@site/developerGuide/introduction/setup/set-up-reearth-in-your-environment.md",
+              "sourceDirName": "introduction/setup",
+              "slug": "/introduction/setup/set-up-reearth-in-your-environment",
+              "permalink": "/developerGuide/introduction/setup/set-up-reearth-in-your-environment",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "userManualSidebar",
+              "previous": {
+                "title": "Project goal",
+                "permalink": "/developerGuide/introduction/project-goal"
+              },
+              "next": {
+                "title": "How to set up Auth0",
+                "permalink": "/developerGuide/introduction/setup/how-to-set-up-auth0"
+              }
             }
           ]
         }
@@ -1408,262 +2206,10 @@
               {
                 "type": "doc",
                 "id": "index"
-              },
-              {
-                "type": "category",
-                "label": "Making a Le Corbusier's archive with Re:Earh",
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "corbusider-archive/create-a-page"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "corbusider-archive/create-a-document"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "corbusider-archive/create-a-blog-post"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "corbusider-archive/markdown-features"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "corbusider-archive/deploy-your-site"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "corbusider-archive/congratulations"
-                  }
-                ],
-                "collapsed": true,
-                "collapsible": true
-              },
-              {
-                "type": "category",
-                "label": "How to create 3D models for Re:Earth",
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "create-3d-models-for-reearth/manage-docs-versions"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "create-3d-models-for-reearth/translate-your-site"
-                  }
-                ],
-                "collapsed": true,
-                "collapsible": true
               }
             ]
           },
           "docs": [
-            {
-              "unversionedId": "corbusider-archive/congratulations",
-              "id": "corbusider-archive/congratulations",
-              "isDocsHomePage": false,
-              "title": "Congratulations!",
-              "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-              "source": "@site/tutorial/corbusider-archive/congratulations.md",
-              "sourceDirName": "corbusider-archive",
-              "slug": "/corbusider-archive/congratulations",
-              "permalink": "/tutorial/corbusider-archive/congratulations",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 6,
-              "frontMatter": {
-                "sidebar_position": 6
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Deploy your site",
-                "permalink": "/tutorial/corbusider-archive/deploy-your-site"
-              },
-              "next": {
-                "title": "Manage Docs Versions",
-                "permalink": "/tutorial/create-3d-models-for-reearth/manage-docs-versions"
-              }
-            },
-            {
-              "unversionedId": "corbusider-archive/create-a-blog-post",
-              "id": "corbusider-archive/create-a-blog-post",
-              "isDocsHomePage": false,
-              "title": "Create a Blog Post",
-              "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
-              "source": "@site/tutorial/corbusider-archive/create-a-blog-post.md",
-              "sourceDirName": "corbusider-archive",
-              "slug": "/corbusider-archive/create-a-blog-post",
-              "permalink": "/tutorial/corbusider-archive/create-a-blog-post",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Document",
-                "permalink": "/tutorial/corbusider-archive/create-a-document"
-              },
-              "next": {
-                "title": "Markdown Features",
-                "permalink": "/tutorial/corbusider-archive/markdown-features"
-              }
-            },
-            {
-              "unversionedId": "corbusider-archive/create-a-document",
-              "id": "corbusider-archive/create-a-document",
-              "isDocsHomePage": false,
-              "title": "Create a Document",
-              "description": "Documents are groups of pages connected through:",
-              "source": "@site/tutorial/corbusider-archive/create-a-document.md",
-              "sourceDirName": "corbusider-archive",
-              "slug": "/corbusider-archive/create-a-document",
-              "permalink": "/tutorial/corbusider-archive/create-a-document",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Page",
-                "permalink": "/tutorial/corbusider-archive/create-a-page"
-              },
-              "next": {
-                "title": "Create a Blog Post",
-                "permalink": "/tutorial/corbusider-archive/create-a-blog-post"
-              }
-            },
-            {
-              "unversionedId": "corbusider-archive/create-a-page",
-              "id": "corbusider-archive/create-a-page",
-              "isDocsHomePage": false,
-              "title": "Create a Page",
-              "description": "Add Markdown or React files to src/pages to create a standalone page:",
-              "source": "@site/tutorial/corbusider-archive/create-a-page.md",
-              "sourceDirName": "corbusider-archive",
-              "slug": "/corbusider-archive/create-a-page",
-              "permalink": "/tutorial/corbusider-archive/create-a-page",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Index",
-                "permalink": "/tutorial/index"
-              },
-              "next": {
-                "title": "Create a Document",
-                "permalink": "/tutorial/corbusider-archive/create-a-document"
-              }
-            },
-            {
-              "unversionedId": "corbusider-archive/deploy-your-site",
-              "id": "corbusider-archive/deploy-your-site",
-              "isDocsHomePage": false,
-              "title": "Deploy your site",
-              "description": "Docusaurus is a static-site-generator (also called Jamstack).",
-              "source": "@site/tutorial/corbusider-archive/deploy-your-site.md",
-              "sourceDirName": "corbusider-archive",
-              "slug": "/corbusider-archive/deploy-your-site",
-              "permalink": "/tutorial/corbusider-archive/deploy-your-site",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Markdown Features",
-                "permalink": "/tutorial/corbusider-archive/markdown-features"
-              },
-              "next": {
-                "title": "Congratulations!",
-                "permalink": "/tutorial/corbusider-archive/congratulations"
-              }
-            },
-            {
-              "unversionedId": "corbusider-archive/markdown-features",
-              "id": "corbusider-archive/markdown-features",
-              "isDocsHomePage": false,
-              "title": "Markdown Features",
-              "description": "Docusaurus supports Markdown and a few additional features.",
-              "source": "@site/tutorial/corbusider-archive/markdown-features.mdx",
-              "sourceDirName": "corbusider-archive",
-              "slug": "/corbusider-archive/markdown-features",
-              "permalink": "/tutorial/corbusider-archive/markdown-features",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Blog Post",
-                "permalink": "/tutorial/corbusider-archive/create-a-blog-post"
-              },
-              "next": {
-                "title": "Deploy your site",
-                "permalink": "/tutorial/corbusider-archive/deploy-your-site"
-              }
-            },
-            {
-              "unversionedId": "create-3d-models-for-reearth/manage-docs-versions",
-              "id": "create-3d-models-for-reearth/manage-docs-versions",
-              "isDocsHomePage": false,
-              "title": "Manage Docs Versions",
-              "description": "Docusaurus can manage multiple versions of your docs.",
-              "source": "@site/tutorial/create-3d-models-for-reearth/manage-docs-versions.md",
-              "sourceDirName": "create-3d-models-for-reearth",
-              "slug": "/create-3d-models-for-reearth/manage-docs-versions",
-              "permalink": "/tutorial/create-3d-models-for-reearth/manage-docs-versions",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Congratulations!",
-                "permalink": "/tutorial/corbusider-archive/congratulations"
-              },
-              "next": {
-                "title": "Translate your site",
-                "permalink": "/tutorial/create-3d-models-for-reearth/translate-your-site"
-              }
-            },
-            {
-              "unversionedId": "create-3d-models-for-reearth/translate-your-site",
-              "id": "create-3d-models-for-reearth/translate-your-site",
-              "isDocsHomePage": false,
-              "title": "Translate your site",
-              "description": "Let's translate docs/intro.md to French.",
-              "source": "@site/tutorial/create-3d-models-for-reearth/translate-your-site.md",
-              "sourceDirName": "create-3d-models-for-reearth",
-              "slug": "/create-3d-models-for-reearth/translate-your-site",
-              "permalink": "/tutorial/create-3d-models-for-reearth/translate-your-site",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Manage Docs Versions",
-                "permalink": "/tutorial/create-3d-models-for-reearth/manage-docs-versions"
-              }
-            },
             {
               "unversionedId": "index",
               "id": "index",
@@ -1680,11 +2226,7 @@
               "frontMatter": {
                 "sidebar_position": 1
               },
-              "sidebar": "tutorialSidebar",
-              "next": {
-                "title": "Create a Page",
-                "permalink": "/tutorial/corbusider-archive/create-a-page"
-              }
+              "sidebar": "tutorialSidebar"
             }
           ]
         }

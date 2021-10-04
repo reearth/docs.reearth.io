@@ -1,0 +1,26 @@
+{
+  "unversionedId": "back-end-guide/how-does-it-work/dataset-linking",
+  "id": "back-end-guide/how-does-it-work/dataset-linking",
+  "isDocsHomePage": false,
+  "title": "Dataset linking",
+  "description": "",
+  "source": "@site/developerGuide/back-end-guide/how-does-it-work/dataset-linking.md",
+  "sourceDirName": "back-end-guide/how-does-it-work",
+  "slug": "/back-end-guide/how-does-it-work/dataset-linking",
+  "permalink": "/developerGuide/back-end-guide/how-does-it-work/dataset-linking",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "userManualSidebar",
+  "previous": {
+    "title": "Authentication",
+    "permalink": "/developerGuide/back-end-guide/how-does-it-work/authentication"
+  },
+  "next": {
+    "title": "Property merging",
+    "permalink": "/developerGuide/back-end-guide/how-does-it-work/property-merging"
+  }
+}

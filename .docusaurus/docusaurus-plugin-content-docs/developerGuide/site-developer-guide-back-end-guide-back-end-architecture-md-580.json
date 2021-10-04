@@ -1,0 +1,26 @@
+{
+  "unversionedId": "back-end-guide/back-end-architecture",
+  "id": "back-end-guide/back-end-architecture",
+  "isDocsHomePage": false,
+  "title": "Back-end architecture",
+  "description": "",
+  "source": "@site/developerGuide/back-end-guide/back-end-architecture.md",
+  "sourceDirName": "back-end-guide",
+  "slug": "/back-end-guide/back-end-architecture",
+  "permalink": "/developerGuide/back-end-guide/back-end-architecture",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "userManualSidebar",
+  "previous": {
+    "title": "How to develop a new feature",
+    "permalink": "/developerGuide/back-end-guide/how-to-develop-a-new-feature"
+  },
+  "next": {
+    "title": "Authentication",
+    "permalink": "/developerGuide/back-end-guide/how-does-it-work/authentication"
+  }
+}

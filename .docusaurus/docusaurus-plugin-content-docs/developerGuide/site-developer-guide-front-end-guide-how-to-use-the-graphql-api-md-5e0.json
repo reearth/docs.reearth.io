@@ -1,0 +1,26 @@
+{
+  "unversionedId": "front-end-guide/how-to-use-the-graphql-api",
+  "id": "front-end-guide/how-to-use-the-graphql-api",
+  "isDocsHomePage": false,
+  "title": "How to use the GraphQL API",
+  "description": "",
+  "source": "@site/developerGuide/front-end-guide/how-to-use-the-graphql-api.md",
+  "sourceDirName": "front-end-guide",
+  "slug": "/front-end-guide/how-to-use-the-graphql-api",
+  "permalink": "/developerGuide/front-end-guide/how-to-use-the-graphql-api",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "userManualSidebar",
+  "previous": {
+    "title": "How to use theme",
+    "permalink": "/developerGuide/front-end-guide/how-to-use-theme"
+  },
+  "next": {
+    "title": "How to add i18n translation",
+    "permalink": "/developerGuide/front-end-guide/how-to-add-i18n-translation"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "front-end-guide/how-to-load-config-file",
+  "id": "front-end-guide/how-to-load-config-file",
+  "isDocsHomePage": false,
+  "title": "How to load config file",
+  "description": "",
+  "source": "@site/developerGuide/front-end-guide/how-to-load-config-file.md",
+  "sourceDirName": "front-end-guide",
+  "slug": "/front-end-guide/how-to-load-config-file",
+  "permalink": "/developerGuide/front-end-guide/how-to-load-config-file",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "userManualSidebar",
+  "previous": {
+    "title": "How to run E2E testing",
+    "permalink": "/developerGuide/front-end-guide/how-to-run-e2e-testing"
+  },
+  "next": {
+    "title": "Getting started",
+    "permalink": "/developerGuide/back-end-guide/getting-started"
+  }
+}

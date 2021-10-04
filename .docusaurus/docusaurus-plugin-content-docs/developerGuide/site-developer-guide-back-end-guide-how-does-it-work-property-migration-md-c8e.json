@@ -1,0 +1,26 @@
+{
+  "unversionedId": "back-end-guide/how-does-it-work/property-migration",
+  "id": "back-end-guide/how-does-it-work/property-migration",
+  "isDocsHomePage": false,
+  "title": "Property migration",
+  "description": "",
+  "source": "@site/developerGuide/back-end-guide/how-does-it-work/property-migration.md",
+  "sourceDirName": "back-end-guide/how-does-it-work",
+  "slug": "/back-end-guide/how-does-it-work/property-migration",
+  "permalink": "/developerGuide/back-end-guide/how-does-it-work/property-migration",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "userManualSidebar",
+  "previous": {
+    "title": "Scene building",
+    "permalink": "/developerGuide/back-end-guide/how-does-it-work/scene-building"
+  },
+  "next": {
+    "title": "What do Github workflows do",
+    "permalink": "/developerGuide/back-end-guide/what-do-github-workflows-do"
+  }
+}

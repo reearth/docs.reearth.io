@@ -2,7 +2,7 @@
   "unversionedId": "intro",
   "id": "intro",
   "isDocsHomePage": false,
-  "title": "Developer guide",
+  "title": "Contribution guide",
   "description": "",
   "source": "@site/developerGuide/intro.md",
   "sourceDirName": ".",
@@ -10,9 +10,13 @@
   "permalink": "/developerGuide/intro",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 1,
+  "sidebarPosition": 2,
   "frontMatter": {
-    "sidebar_position": 1
+    "sidebar_position": 2
   },
-  "sidebar": "userManualSidebar"
+  "sidebar": "userManualSidebar",
+  "previous": {
+    "title": "Project goal",
+    "permalink": "/developerGuide/Introduction/project-goal"
+  }
 }

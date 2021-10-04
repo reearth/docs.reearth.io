@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Introduction/setup/how-to-set-up-auth0",
+  "id": "Introduction/setup/how-to-set-up-auth0",
+  "isDocsHomePage": false,
+  "title": "How to set up Auth0",
+  "description": "",
+  "source": "@site/developerGuide/Introduction/setup/how-to-set-up-auth0.md",
+  "sourceDirName": "Introduction/setup",
+  "slug": "/Introduction/setup/how-to-set-up-auth0",
+  "permalink": "/developerGuide/Introduction/setup/how-to-set-up-auth0",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "userManualSidebar",
+  "previous": {
+    "title": "Set up Re:Earth in your environment",
+    "permalink": "/developerGuide/Introduction/setup/set-up-reearth-in-your-environment"
+  },
+  "next": {
+    "title": "Project goal",
+    "permalink": "/developerGuide/Introduction/project-goal"
+  }
+}

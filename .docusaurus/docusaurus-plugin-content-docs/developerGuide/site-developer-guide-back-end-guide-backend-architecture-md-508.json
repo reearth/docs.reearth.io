@@ -1,0 +1,22 @@
+{
+  "unversionedId": "back-end-guide/backend-architecture",
+  "id": "back-end-guide/backend-architecture",
+  "isDocsHomePage": false,
+  "title": "Back-end architecture",
+  "description": "",
+  "source": "@site/developerGuide/back-end-guide/backend-architecture.md",
+  "sourceDirName": "back-end-guide",
+  "slug": "/back-end-guide/backend-architecture",
+  "permalink": "/developerGuide/back-end-guide/backend-architecture",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "userManualSidebar",
+  "previous": {
+    "title": "How to develop a new feature",
+    "permalink": "/developerGuide/back-end-guide/how-to-develop-a-new-feature"
+  }
+}

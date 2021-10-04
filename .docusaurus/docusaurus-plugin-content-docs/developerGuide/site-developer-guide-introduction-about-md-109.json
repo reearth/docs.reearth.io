@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Introduction/about",
+  "id": "Introduction/about",
+  "isDocsHomePage": false,
+  "title": "About",
+  "description": "",
+  "source": "@site/developerGuide/Introduction/about.md",
+  "sourceDirName": "Introduction",
+  "slug": "/Introduction/about",
+  "permalink": "/developerGuide/Introduction/about",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "userManualSidebar",
+  "next": {
+    "title": "Set up Re:Earth in your environment",
+    "permalink": "/developerGuide/Introduction/setup/set-up-reearth-in-your-environment"
+  }
+}

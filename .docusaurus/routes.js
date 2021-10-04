@@ -125,11 +125,161 @@ export default [
   },
   {
     path: '/developerGuide',
-    component: ComponentCreator('/developerGuide','4a8'),
+    component: ComponentCreator('/developerGuide','60e'),
     routes: [
       {
-        path: '/developerGuide/intro',
-        component: ComponentCreator('/developerGuide/intro','583'),
+        path: '/developerGuide/back-end-guide/back-end-architecture',
+        component: ComponentCreator('/developerGuide/back-end-guide/back-end-architecture','82e'),
+        exact: true,
+        'sidebar': "userManualSidebar"
+      },
+      {
+        path: '/developerGuide/back-end-guide/environment-variables',
+        component: ComponentCreator('/developerGuide/back-end-guide/environment-variables','341'),
+        exact: true,
+        'sidebar': "userManualSidebar"
+      },
+      {
+        path: '/developerGuide/back-end-guide/getting-started',
+        component: ComponentCreator('/developerGuide/back-end-guide/getting-started','9fa'),
+        exact: true,
+        'sidebar': "userManualSidebar"
+      },
+      {
+        path: '/developerGuide/back-end-guide/how-does-it-work/authentication',
+        component: ComponentCreator('/developerGuide/back-end-guide/how-does-it-work/authentication','536'),
+        exact: true,
+        'sidebar': "userManualSidebar"
+      },
+      {
+        path: '/developerGuide/back-end-guide/how-does-it-work/dataset-linking',
+        component: ComponentCreator('/developerGuide/back-end-guide/how-does-it-work/dataset-linking','ad2'),
+        exact: true,
+        'sidebar': "userManualSidebar"
+      },
+      {
+        path: '/developerGuide/back-end-guide/how-does-it-work/property-merging',
+        component: ComponentCreator('/developerGuide/back-end-guide/how-does-it-work/property-merging','41a'),
+        exact: true,
+        'sidebar': "userManualSidebar"
+      },
+      {
+        path: '/developerGuide/back-end-guide/how-does-it-work/property-migration',
+        component: ComponentCreator('/developerGuide/back-end-guide/how-does-it-work/property-migration','fc5'),
+        exact: true,
+        'sidebar': "userManualSidebar"
+      },
+      {
+        path: '/developerGuide/back-end-guide/how-does-it-work/scene-building',
+        component: ComponentCreator('/developerGuide/back-end-guide/how-does-it-work/scene-building','1dc'),
+        exact: true,
+        'sidebar': "userManualSidebar"
+      },
+      {
+        path: '/developerGuide/back-end-guide/how-to-develop-a-new-feature',
+        component: ComponentCreator('/developerGuide/back-end-guide/how-to-develop-a-new-feature','d5d'),
+        exact: true,
+        'sidebar': "userManualSidebar"
+      },
+      {
+        path: '/developerGuide/back-end-guide/what-do-github-workflows-do',
+        component: ComponentCreator('/developerGuide/back-end-guide/what-do-github-workflows-do','38d'),
+        exact: true,
+        'sidebar': "userManualSidebar"
+      },
+      {
+        path: '/developerGuide/common-guide/domain-models',
+        component: ComponentCreator('/developerGuide/common-guide/domain-models','310'),
+        exact: true,
+        'sidebar': "userManualSidebar"
+      },
+      {
+        path: '/developerGuide/common-guide/whole-system-architecture-and-stack',
+        component: ComponentCreator('/developerGuide/common-guide/whole-system-architecture-and-stack','b62'),
+        exact: true,
+        'sidebar': "userManualSidebar"
+      },
+      {
+        path: '/developerGuide/contribution-guide',
+        component: ComponentCreator('/developerGuide/contribution-guide','6f7'),
+        exact: true,
+        'sidebar': "userManualSidebar"
+      },
+      {
+        path: '/developerGuide/front-end-guide/getting-started',
+        component: ComponentCreator('/developerGuide/front-end-guide/getting-started','4bc'),
+        exact: true,
+        'sidebar': "userManualSidebar"
+      },
+      {
+        path: '/developerGuide/front-end-guide/how-to-add-i18n-translation',
+        component: ComponentCreator('/developerGuide/front-end-guide/how-to-add-i18n-translation','c6e'),
+        exact: true,
+        'sidebar': "userManualSidebar"
+      },
+      {
+        path: '/developerGuide/front-end-guide/how-to-load-config-file',
+        component: ComponentCreator('/developerGuide/front-end-guide/how-to-load-config-file','0a9'),
+        exact: true,
+        'sidebar': "userManualSidebar"
+      },
+      {
+        path: '/developerGuide/front-end-guide/how-to-run-e2e-testing',
+        component: ComponentCreator('/developerGuide/front-end-guide/how-to-run-e2e-testing','4a1'),
+        exact: true,
+        'sidebar': "userManualSidebar"
+      },
+      {
+        path: '/developerGuide/front-end-guide/how-to-use-the-graphql-api',
+        component: ComponentCreator('/developerGuide/front-end-guide/how-to-use-the-graphql-api','871'),
+        exact: true,
+        'sidebar': "userManualSidebar"
+      },
+      {
+        path: '/developerGuide/front-end-guide/how-to-use-theme',
+        component: ComponentCreator('/developerGuide/front-end-guide/how-to-use-theme','0c8'),
+        exact: true,
+        'sidebar': "userManualSidebar"
+      },
+      {
+        path: '/developerGuide/front-end-guide/how-users-are-authenticated',
+        component: ComponentCreator('/developerGuide/front-end-guide/how-users-are-authenticated','c57'),
+        exact: true,
+        'sidebar': "userManualSidebar"
+      },
+      {
+        path: '/developerGuide/front-end-guide/project-and-component-architecture',
+        component: ComponentCreator('/developerGuide/front-end-guide/project-and-component-architecture','0d3'),
+        exact: true,
+        'sidebar': "userManualSidebar"
+      },
+      {
+        path: '/developerGuide/front-end-guide/what-do-github-workflows-do',
+        component: ComponentCreator('/developerGuide/front-end-guide/what-do-github-workflows-do','09d'),
+        exact: true,
+        'sidebar': "userManualSidebar"
+      },
+      {
+        path: '/developerGuide/introduction/about',
+        component: ComponentCreator('/developerGuide/introduction/about','335'),
+        exact: true,
+        'sidebar': "userManualSidebar"
+      },
+      {
+        path: '/developerGuide/introduction/project-goal',
+        component: ComponentCreator('/developerGuide/introduction/project-goal','fbf'),
+        exact: true,
+        'sidebar': "userManualSidebar"
+      },
+      {
+        path: '/developerGuide/introduction/setup/how-to-set-up-auth0',
+        component: ComponentCreator('/developerGuide/introduction/setup/how-to-set-up-auth0','935'),
+        exact: true,
+        'sidebar': "userManualSidebar"
+      },
+      {
+        path: '/developerGuide/introduction/setup/set-up-reearth-in-your-environment',
+        component: ComponentCreator('/developerGuide/introduction/setup/set-up-reearth-in-your-environment','306'),
         exact: true,
         'sidebar': "userManualSidebar"
       }
@@ -263,56 +413,8 @@ export default [
   },
   {
     path: '/tutorial',
-    component: ComponentCreator('/tutorial','a84'),
+    component: ComponentCreator('/tutorial','930'),
     routes: [
-      {
-        path: '/tutorial/corbusider-archive/congratulations',
-        component: ComponentCreator('/tutorial/corbusider-archive/congratulations','9ee'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/tutorial/corbusider-archive/create-a-blog-post',
-        component: ComponentCreator('/tutorial/corbusider-archive/create-a-blog-post','4a0'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/tutorial/corbusider-archive/create-a-document',
-        component: ComponentCreator('/tutorial/corbusider-archive/create-a-document','283'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/tutorial/corbusider-archive/create-a-page',
-        component: ComponentCreator('/tutorial/corbusider-archive/create-a-page','958'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/tutorial/corbusider-archive/deploy-your-site',
-        component: ComponentCreator('/tutorial/corbusider-archive/deploy-your-site','43d'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/tutorial/corbusider-archive/markdown-features',
-        component: ComponentCreator('/tutorial/corbusider-archive/markdown-features','4b7'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/tutorial/create-3d-models-for-reearth/manage-docs-versions',
-        component: ComponentCreator('/tutorial/create-3d-models-for-reearth/manage-docs-versions','852'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/tutorial/create-3d-models-for-reearth/translate-your-site',
-        component: ComponentCreator('/tutorial/create-3d-models-for-reearth/translate-your-site','cca'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
       {
         path: '/tutorial/index',
         component: ComponentCreator('/tutorial/index','1c2'),
@@ -323,7 +425,7 @@ export default [
   },
   {
     path: '/userManual',
-    component: ComponentCreator('/userManual','e34'),
+    component: ComponentCreator('/userManual','3b8'),
     routes: [
       {
         path: '/userManual/dataset/ideas-of-dataset',
@@ -344,14 +446,14 @@ export default [
         'sidebar': "mySidebar"
       },
       {
-        path: '/userManual/getting-started/environment-setting/language-switch',
-        component: ComponentCreator('/userManual/getting-started/environment-setting/language-switch','1a5'),
+        path: '/userManual/getting-started/environment-setting/color-theme-switch',
+        component: ComponentCreator('/userManual/getting-started/environment-setting/color-theme-switch','973'),
         exact: true,
         'sidebar': "mySidebar"
       },
       {
-        path: '/userManual/getting-started/environment-setting/language-switch copy',
-        component: ComponentCreator('/userManual/getting-started/environment-setting/language-switch copy','6b4'),
+        path: '/userManual/getting-started/environment-setting/language-switch',
+        component: ComponentCreator('/userManual/getting-started/environment-setting/language-switch','1a5'),
         exact: true,
         'sidebar': "mySidebar"
       },
