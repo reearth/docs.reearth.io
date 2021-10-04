@@ -3,7 +3,7 @@
   "id": "contribution-guide",
   "isDocsHomePage": false,
   "title": "Contribution guide",
-  "description": "",
+  "description": "------",
   "source": "@site/developerGuide/contribution-guide.md",
   "sourceDirName": ".",
   "slug": "/contribution-guide",
