@@ -1,0 +1,58 @@
+env:
+  es6: true
+  es2017: true
+  es2020: true
+  es2021: true
+  browser: true
+  commonjs: true
+extends:
+  - eslint:recommended
+  - plugin:prettier/recommended
+  - plugin:import/recommended
+  - plugin:import/typescript
+  - plugin:import/warnings
+  - plugin:react/recommended
+  - plugin:@typescript-eslint/recommended
+parser: '@typescript-eslint/parser'
+parserOptions:
+  ecmaVersion: 2021
+  sourceType: module
+plugins:
+  - prettier
+  - react
+  - react-hooks
+  - '@typescript-eslint'
+root: true
+rules:
+  '@typescript-eslint/explicit-module-boundary-types': 'off'
+  import/first: warn
+  import/newline-after-import: warn
+  import/no-named-as-default: 'off'
+  import/no-unresolved: 'off'
+  import/order:
+    - warn
+    - pathGroups:
+      - pattern: '@site/**'
+        group: external
+        position: after
+      pathGroupsExcludedImportTypes: ["builtin"]
+      newlines-between: always
+      alphabetize:
+        order: asc
+        caseInsensitive: true
+  prettier/prettier: warn
+settings:
+  react:
+    version: detect
+overrides:
+  - files:
+      - docusaurus.config.js
+      - sidebars.js
+    env:
+      commonjs: true
+      node: true
+      browser: false
+    parserOptions:
+      sourceType: script
+    rules:
+      '@typescript-eslint/no-var-requires': 'off'
