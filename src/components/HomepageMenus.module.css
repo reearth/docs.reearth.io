@@ -1,4 +1,4 @@
-.features {
+.menus {
   display: flex;
   align-items: center;
   padding: 2rem 0;
@@ -8,4 +8,8 @@
 .featureSvg {
   height: 200px;
   width: 200px;
+}
+
+.carDemo {
+  width: 250px;
 }
