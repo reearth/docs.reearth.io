@@ -7,8 +7,9 @@
 
 .cardImageConatiner {
   display: flex;
+  background-color: #ECECEC;
 }
 
 .cardImage {
-  margin: auto;
+  margin: 60px auto;
 }
