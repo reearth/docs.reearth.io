@@ -13,7 +13,7 @@ Re:Earth user sessions are authenticated with Auth0, a popular IDaaS provider.
 
 When a user visits the Re:Earth page and clicks the login button, the browser is redirected to a login portal hosted by Auth0 where the user can sign in. 
 
-![auth0 login page](./images/auth0.png)
+![auth0 login page](./img/auth0.png)
 
 ### Success and failure
 

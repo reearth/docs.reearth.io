@@ -11,7 +11,7 @@ There are a few options for E2E frameworks today. [Cypress](https://www.cypress
 
 ## Cypress Directory
 
-![cypress.png](./images/cypress.png)
+![cypress.png](./img/cypress.png)
 
 The directories and files contain different configurations that we'll use to build E2E with Cypress. They all correspond to:
 
@@ -55,7 +55,7 @@ describe("First Test", () => {
 
 In this first test, we're just visiting the home page of Re:Earth. Once you've created your `first_test.spec.ts` file, go ahead and run `yarn cypress:open` to see your test and run it.
 
-![test.png](./images/test.png)
+![test.png](./img/test.png)
 
 For now, Re:Earth provides some additional commands for Cypress:
 

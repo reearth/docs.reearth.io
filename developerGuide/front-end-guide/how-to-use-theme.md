@@ -41,7 +41,7 @@ export default MyReactComponent;
 
 To keep the theme consistent across Re:Earth and up to date with [Figma](https://www.figma.com/file/bdnfDaGXGoNfUws4y7JItl/Re%3AEarth-UI-Gamma?node-id=5845%3A195209), all theme definitions are abstracted and grouped into global objects inside the theme directory.
 
-![theme.png](./images/theme.png)
+![theme.png](./img/theme.png)
 
 We will discuss the purpose of each of these files: 
 
@@ -109,7 +109,7 @@ To add a new icon to Re:Earth project, follow the following steps:
 
 - Right click on desired icon from [Figma](https://www.figma.com/file/bdnfDaGXGoNfUws4y7JItl/Re%3AEarth-UI-Gamma?node-id=4152%3A54263), then choose `copy as SVG`
 
-![copy.png](./images/copy.png)
+![copy.png](./img/copy.png)
 
 - create a `.svg` file in `src/components/atoms/Icon/Icons` with an appropriate name and paste copied content there.
 - For most icons (except for logos or icons with complex colors) make sure you change the `fill` of all elements inside the `svg` from the hex color to “`currentColor`”. (This will allow the icon's color to be changed from within the Icon component.)
