@@ -8,7 +8,7 @@ sidebar_position: 1
 ## Overview
 Le Corbusier (1887-1965) was a Swiss architect who was active mainly in France as a master of modernist architecture. His works are registered as a World Heritage Site as “The Architectural Work of Le Corbusier, an Outstanding Contribution to the Modern Movement”. In this tutorial, we will create a digital archive of these works and his career.
 
-![le-corbusier](./image/le-corbusier.jpeg)
+![le-corbusier](./img/le-corbusier.jpeg)
 
 ## Flow
 Map the architectural works and career of Le Corbusier.

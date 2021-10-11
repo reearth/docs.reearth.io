@@ -11,14 +11,14 @@ Access https://auth0.com/signup and sign up for Auth0.
 ### 2. Create your tenant
 For the first time sign in, you'll see this screen:
 
-![image_0](./Untitled.png)
+![image_0](./img/Untitled.png)
 
 Follow "Create Tenants" and complete setting up a new tenant.
 
 ### 3. Add an application
 Jump to the applications page and click "Create Application" button.
 
-![image_1](./Untitled1.png)
+![image_1](./img/Untitled1.png)
 
 Re:Earth needs 2 application: one is a Single Page Web Application for the front-end, another is a Machine to Machine Application for the back-end.
 
@@ -26,17 +26,17 @@ First, create a new Single Page Web Application, then reopen this dialog and cre
 
 After creating a Machine to Machine Application, you may see this modal:
 
-![image_2](./Untitled2.png)
+![image_2](./img/Untitled2.png)
 
 Select "Auth0 Management API" and then select the following permissions: read:users and update:users. And then click "Authorize" to finish the modal.
 
 Note: This is the minimum permissions required at this time. There is no behavioral problem in choosing more permissions than this. From a security point of view, the fewer permissions you allow, the safer the app is.
 
-![image_3](./Untitled3.png)
+![image_3](./img/Untitled3.png)
 
 After creation, 2 apps appears:
 
-![image_4](./Untitled4.png)
+![image_4](./img/Untitled4.png)
 
 At this point open the Single Page Application settings and change these fields:
 
@@ -53,7 +53,7 @@ Note: the Machine to Machine Application doesn't need to any settings modified.
 ### 4. Add an API
 Move to "APIs" and then click the "Create API" button:
 
-![image_5](./Untitled5.png)
+![image_5](./img/Untitled5.png)
 
 Name: any name is ok
 Identifier: any identifier is ok, but generally it is set to the same string as the Application URI. (e.g. https://reearth.your-service.com)
@@ -62,7 +62,7 @@ Step 5 is only necessary if you will host Re:Earth in a production environment. 
 ### 5. Set up the tenant
 Jump to the tenant settings and change these fields:
 
-![image_6](./Untitled6.png)
+![image_6](./img/Untitled6.png)
 
 API Authorization Settings
 Default Audience: should be the same as the API Identifier
@@ -70,15 +70,15 @@ Default Directory: select "Username-Password-Authentication"
 ### 6. Add a custom action to sign up Re:Earth automatically
 Jump to the Flows page and select "Post User Registration":
 
-![image_7](./Untitled7.png)
+![image_7](./img/Untitled7.png)
 
 Then click "Create Action" on the right-hand side and create a new action (any name is ok):
 
-![image_8](./Untitled8.png)
+![image_8](./img/Untitled8.png)
 
 After that, please copy and paste the following code to the text box:
 
-![image_9](./Untitled9.png)
+![image_9](./img/Untitled9.png)
 
 const axios = require("axios");
 
@@ -96,24 +96,24 @@ Set the url variable's value in the code to the same as the Application Login UR
 
 Then, add a module: click Modules in the left bar and click "Add Module" button:
 
-![image_10](./Untitled10.png)
+![image_10](./img/Untitled10.png)
 
 Type axios in Name and click the "Create" button.
 
-![image_11](./Untitled11.png)
+![image_11](./img/Untitled11.png)
 
 Finally, click the "Deploy" button to finish editing the custom action:
 
-![image_12](./Untitled12.png)
+![image_12](./img/Untitled12.png)
 
 Lastly, move back to the Post User Registration flow page, and drag-and-drop the custom action on the right sidebar you created between "Start" and "Complete":
 
-![image_13](./Untitled13.png)
+![image_13](./img/Untitled13.png)
 
 ### 7. Sign up your account
 Move to Users and click the "Create User" button to create your user. Any email and password is OK but connection should be Username-Password-Authentication.
 
-![image_14](./Untitled14.png)
+![image_14](./img/Untitled14.png)
 
 Then, check your email inbox to verify your email address.
 
@@ -141,7 +141,7 @@ Back-end application client ID: find it on the Applications page (used by REEART
 Back-end application client secret: find it on the Applications page (used by REEARTH_AUTH0_CLIENTSECRET)
 Note: In the settings page of an application, you can see Domain, client ID, and Client Secret:
 
-![image_15](./Untitled15.png)
+![image_15](./img/Untitled15.png)
 
 Now you're done with Auth0, so to continue setting up Re:Earth go to the next step!
 

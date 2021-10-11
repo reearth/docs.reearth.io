@@ -6,14 +6,14 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
 (
   module.exports = {
     title: "Re:Earth Docs",
-    tagline: "Dinosaurs are cool",
-    url: "https://your-docusaurus-test-site.com",
+    tagline: "a quick guide let you know more about Re:Earth",
+    url: "https://docs.reearth.io",
     baseUrl: "/",
     onBrokenLinks: "throw",
     onBrokenMarkdownLinks: "warn",
     favicon: "img/favicon.ico",
-    organizationName: "facebook", // Usually your GitHub org/user name.
-    projectName: "docusaurus", // Usually your repo name.
+    organizationName: "Re:Earth", // Usually your GitHub org/user name.
+    projectName: "document website for Re:Earth", // Usually your repo name.
 
     presets: [
       [
@@ -69,6 +69,11 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
       ],
     ],
 
+    i18n: {
+      defaultLocale: "en",
+      locales: ["en", "ja"],
+    },
+
     themeConfig:
       /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
       ({
@@ -103,9 +108,12 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
               position: "left",
               activeBaseRegex: `/tutorial/`,
             },
-            { to: "/blog", label: "Blog", position: "left" },
             {
-              href: "https://github.com/facebook/docusaurus",
+              type: "localeDropdown",
+              position: "right",
+            },
+            {
+              href: "https://github.com/reearth/docs.reearth.io",
               label: "GitHub",
               position: "right",
             },

@@ -1,0 +1,15 @@
+.menuConatiner {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.cardImageConatiner {
+  display: flex;
+  background-color: #ECECEC;
+}
+
+.cardImage {
+  margin: 60px auto;
+}
