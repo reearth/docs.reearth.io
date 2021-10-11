@@ -20,7 +20,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: "User manual",
-    image: "/img/undraw_docusaurus_mountain.svg",
+    image: "/img/manual.svg",
     link: "/userManual/getting-started/why-reearth",
     description: (
       <>
@@ -31,7 +31,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "Developer guide",
-    image: "/img/undraw_docusaurus_tree.svg",
+    image: "/img/code.svg",
     link: "/developerGuide/introduction/about",
     description: (
       <>This is the developer guide which help you how to develop Re:Earth.</>
@@ -39,7 +39,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "Tutorials",
-    image: "/img/undraw_docusaurus_react.svg",
+    image: "/img/clip.svg",
     link: "http://localhost:3000/tutorial/index",
     description: (
       <>This is a Tutorial. You can study a lot based on different theme.</>
@@ -67,10 +67,11 @@ const FeatureList: FeatureItem[] = [
 function Menu({ title, image, link, description }: FeatureItem) {
   return (
     <div className="col col--4">
-      <div className="card">
-        <div className="card__image">
+      <div className="card margin--vert--md">
+        <div className={styles.cardImageConatiner}>
           <img
-            src="https://images.unsplash.com/photo-1506624183912-c602f4a21ca7?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60"
+            className={styles.cardImage}
+            src={image}
             alt="Image alt text"
             title="Logo Title Text 1"
           />
@@ -94,7 +95,7 @@ function Menu({ title, image, link, description }: FeatureItem) {
 
 export default function HomepageMenus(): JSX.Element {
   return (
-    <section className={styles.menus}>
+    <section className={styles.menuConatiner}>
       <div className="container padding-vert--lg">
         <div className="row">
           {FeatureList.map((props, idx) => (

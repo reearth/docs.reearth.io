@@ -69,6 +69,11 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
       ],
     ],
 
+    i18n: {
+      defaultLocale: "en",
+      locales: ["en", "ja"],
+    },
+
     themeConfig:
       /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
       ({
@@ -103,7 +108,10 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
               position: "left",
               activeBaseRegex: `/tutorial/`,
             },
-            { to: "/blog", label: "Blog", position: "left" },
+            {
+              type: "localeDropdown",
+              position: "right",
+            },
             {
               href: "https://github.com/reearth/docs.reearth.io",
               label: "GitHub",
