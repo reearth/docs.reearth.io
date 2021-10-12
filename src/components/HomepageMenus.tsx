@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 import Link from "@docusaurus/Link";
-import clsx from "clsx";
+// import clsx from "clsx";
 import React from "react";
 
 import styles from "./HomepageMenus.module.css";
@@ -40,7 +40,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: "Tutorials",
     image: "/img/clip.svg",
-    link: "http://localhost:3000/tutorial/index",
+    link: "/tutorial/index",
     description: (
       <>This is a Tutorial. You can study a lot based on different theme.</>
     ),
