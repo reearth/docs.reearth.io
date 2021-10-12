@@ -6,6 +6,7 @@
  */
 import Link from "@docusaurus/Link";
 // import clsx from "clsx";
+import Translate, { translate } from "@docusaurus/Translate";
 import React from "react";
 
 import styles from "./HomepageMenus.module.css";
@@ -14,55 +15,8 @@ type FeatureItem = {
   title: string;
   image: string;
   link: string;
-  description: JSX.Element;
+  description: string;
 };
-
-const FeatureList: FeatureItem[] = [
-  {
-    title: "User manual",
-    image: "/img/manual.svg",
-    link: "/userManual/getting-started/why-reearth",
-    description: (
-      <>
-        Here is the user guide which help you to understand how to use Re:Earth
-        quickily.
-      </>
-    ),
-  },
-  {
-    title: "Developer guide",
-    image: "/img/code.svg",
-    link: "/developerGuide/introduction/about",
-    description: (
-      <>This is the developer guide which help you how to develop Re:Earth.</>
-    ),
-  },
-  {
-    title: "Tutorials",
-    image: "/img/clip.svg",
-    link: "/tutorial/index",
-    description: (
-      <>This is a Tutorial. You can study a lot based on different theme.</>
-    ),
-  },
-];
-
-// function Menu({ title, image, link, description }: FeatureItem) {
-//   return (
-//     <div className={clsx("col col--4")}>
-//       <div className="text--center">
-//         <img className={styles.featureSvg} alt={title} src={image} />
-//       </div>
-//       <div className="text--center padding-horiz--md">
-//         <h3>{title}</h3>
-//         <p>{description}</p>
-//         <Link className="button button--secondary button--lg" to={link}>
-//           Read
-//         </Link>
-//       </div>
-//     </div>
-//   );
-// }
 
 function Menu({ title, image, link, description }: FeatureItem) {
   return (
@@ -85,7 +39,7 @@ function Menu({ title, image, link, description }: FeatureItem) {
             className="button button--primary button--outline button--block"
             to={link}
           >
-            Start
+            <Translate>Start</Translate>
           </Link>
         </div>
       </div>
@@ -98,9 +52,45 @@ export default function HomepageMenus(): JSX.Element {
     <section className={styles.menuConatiner}>
       <div className="container padding-vert--lg">
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Menu key={idx} {...props} />
-          ))}
+          <Menu
+            title={translate({
+              message: "User manual",
+              description: "Top page/ Card / Title",
+            })}
+            description={translate({
+              message:
+                "Here is the user guide which help you to understand how to use Re:Earth quickily.",
+              description: "Top page / Card / Description",
+            })}
+            image="/img/manual.svg"
+            link="/userManual/getting-started/why-reearth"
+          ></Menu>
+          <Menu
+            title={translate({
+              message: "Developer guide",
+              description: "Top page / Card / Title",
+            })}
+            description={translate({
+              message:
+                "This is the developer guide which help you how to develop Re:Earth.",
+              description: "Top page / Card / Description",
+            })}
+            image="/img/code.svg"
+            link="/developerGuide/introduction/about"
+          ></Menu>
+          <Menu
+            title={translate({
+              message: "Tutorials",
+              description: "Top page / Card / Title",
+            })}
+            description={translate({
+              message:
+                "This is a Tutorial. You can study a lot based on different theme.",
+              description: "Top page / Card / Description",
+            })}
+            image="/img/clip.svg"
+            link="/tutorial/index"
+          ></Menu>
         </div>
       </div>
     </section>
