@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "Re:Earth Docs",
+    "description": "The title in the navbar"
+  },
+  "item.label.User manual": {
+    "message": "ユーザーマニュアル",
+    "description": "Navbar item with label User manual"
+  },
+  "item.label.Developer guide": {
+    "message": "開発者ガイド",
+    "description": "Navbar item with label Developer guide"
+  },
+  "item.label.Tutorial": {
+    "message": "チュートリアル",
+    "description": "Navbar item with label Tutorial"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}
