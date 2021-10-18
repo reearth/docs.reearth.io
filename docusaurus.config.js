@@ -126,8 +126,16 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
               title: "Docs",
               items: [
                 {
-                  label: "Tutorial",
-                  to: "/docs/intro",
+                  label: "User manual",
+                  to: "/userManual/getting-started/why-reearth",
+                },
+                {
+                  label: "Developer guide",
+                  to: "/developerGuide/introduction/about",
+                },
+                {
+                  label: "Tutorials",
+                  to: "/tutorial/index",
                 },
               ],
             },
@@ -135,34 +143,50 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
               title: "Community",
               items: [
                 {
-                  label: "Stack Overflow",
-                  href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                  label: "Github",
+                  href: "https://github.com/reearth/reearth",
                 },
                 {
                   label: "Discord",
-                  href: "https://discordapp.com/invite/docusaurus",
+                  href: "https://discord.gg/XJhYkQQDAu",
                 },
                 {
-                  label: "Twitter",
-                  href: "https://twitter.com/docusaurus",
+                  label: "Code of conduct",
+                  href: "https://github.com/reearth/reearth/blob/main/CODE_OF_CONDUCT.md",
+                },
+                {
+                  label: "Discussions",
+                  href: "https://github.com/reearth/reearth/discussions",
+                },
+                {
+                  label: "Roadmaps",
+                  href: "https://github.com/reearth/reearth/projects/1",
                 },
               ],
             },
             {
-              title: "More",
+              title: "Company",
               items: [
                 {
-                  label: "Blog",
-                  to: "/blog",
+                  label: "Website",
+                  href: "https://eukarya.io/",
                 },
                 {
-                  label: "GitHub",
-                  href: "https://github.com/facebook/docusaurus",
+                  label: "Facebook",
+                  href: "https://www.facebook.com/EukaryaInc",
+                },
+                {
+                  label: "Twitter",
+                  href: "https://twitter.com/eukaryaofficial",
                 },
               ],
             },
           ],
-          copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+          logo: {
+            alt: "Re:Earth Logo",
+            src: "img/logo_footer.svg",
+          },
+          copyright: `© ${new Date().getFullYear()} Re:Earth contributors. Built with Docusaurus.`,
         },
         prism: {
           theme: lightCodeTheme,
