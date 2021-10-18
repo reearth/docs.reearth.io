@@ -1,0 +1,26 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.mySidebar.category.tutorial": {
+    "message": "tutorial",
+    "description": "The label for category tutorial in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Tutorial - Basics": {
+    "message": "Tutorial - Basics",
+    "description": "The label for category Tutorial - Basics in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Tutorial - Extras": {
+    "message": "Tutorial - Extras",
+    "description": "The label for category Tutorial - Extras in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.userManual": {
+    "message": "userManual",
+    "description": "The label for category userManual in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.user-manual": {
+    "message": "user-manual",
+    "description": "The label for category user-manual in sidebar mySidebar"
+  }
+}
