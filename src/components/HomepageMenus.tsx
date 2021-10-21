@@ -63,7 +63,7 @@ export default function HomepageMenus(): JSX.Element {
               description: "Top page / Card / Description",
             })}
             image="/img/manual.svg"
-            link="/userManual/getting-started/why-reearth"
+            link="/user-manual/getting-started/why-reearth"
           ></Menu>
           <Menu
             title={translate({
@@ -76,7 +76,7 @@ export default function HomepageMenus(): JSX.Element {
               description: "Top page / Card / Description",
             })}
             image="/img/code.svg"
-            link="/developerGuide/introduction/about"
+            link="/developer-guide/intro/about"
           ></Menu>
           <Menu
             title={translate({
