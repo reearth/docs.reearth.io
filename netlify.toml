@@ -1,0 +1,34 @@
+[[redirects]]
+  from = "/developer-guide/intro/getting-started"
+  to = "/developer-guide/intro/setup"
+  status = 301
+
+[[redirects]]
+  from = "/developer-guide/intro"
+  to = "/developer-guide/intro/about"
+  status = 301
+
+[[redirects]]
+  from = "/developer-guide/plugins"
+  to = "/developer-guide/plugins/introduction"
+  status = 301
+
+[[redirects]]
+  from = "/developer-guide/frontend"
+  to = "/developer-guide/frontend/getting-started"
+  status = 301
+
+[[redirects]]
+  from = "/developer-guide/backend"
+  to = "/developer-guide/backend/getting-started"
+  status = 301
+
+[[redirects]]
+  from = "/user-manual/*"
+  to = "https://docs2.reearth.io/reference"
+  status = 302
+
+[[redirects]]
+  from = "/getting-started/*"
+  to = "https://docs2.reearth.io/getting-started/:splat"
+  status = 302

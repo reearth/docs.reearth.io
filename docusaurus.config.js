@@ -43,18 +43,18 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
       [
         "@docusaurus/plugin-content-docs",
         {
-          id: "userManual",
-          path: "userManual",
-          routeBasePath: "userManual",
+          id: "user-manual",
+          path: "user-manual",
+          routeBasePath: "user-manual",
           sidebarPath: require.resolve("./sidebarsUserManual.js"),
         },
       ],
       [
         "@docusaurus/plugin-content-docs",
         {
-          id: "developerGuide",
-          path: "developerGuide",
-          routeBasePath: "developerGuide",
+          id: "developer-guide",
+          path: "developer-guide",
+          routeBasePath: "developer-guide",
           sidebarPath: require.resolve("./sidebarsDeveloperGuide.js"),
         },
       ],
@@ -91,13 +91,13 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
             //   label: 'User manual',
             // },
             {
-              to: "/userManual/getting-started/why-reearth", // ./docs-api/Intro.md
+              to: "/user-manual/getting-started/why-reearth", // ./docs-api/Intro.md
               label: "User manual",
               position: "left",
               activeBaseRegex: `/userManual/`,
             },
             {
-              to: "/developerGuide/introduction/about", // ./docs-api/Intro.md
+              to: "/developer-guide/intro/about", // ./docs-api/Intro.md
               label: "Developer guide",
               position: "left",
               activeBaseRegex: `/developerGuide/`,
@@ -127,11 +127,11 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
               items: [
                 {
                   label: "User manual",
-                  to: "/userManual/getting-started/why-reearth",
+                  to: "/user-manual/getting-started/why-reearth",
                 },
                 {
                   label: "Developer guide",
-                  to: "/developerGuide/introduction/about",
+                  to: "/developer-guide/intro/about",
                 },
                 {
                   label: "Tutorials",
