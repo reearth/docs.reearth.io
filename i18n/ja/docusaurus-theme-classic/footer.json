@@ -36,7 +36,7 @@
     "description": "The label of footer link with label=GitHub linking to https://github.com/facebook/docusaurus"
   },
   "copyright": {
-    "message": "Copyright © 2021 My Project, Inc. Built with Docusaurus.",
+    "message": "© 2021 Re:Earth contributors. Built with Docusaurus.",
     "description": "The footer copyright"
   }
 }
