@@ -26,9 +26,9 @@
 [[redirects]]
   from = "/user-manual/*"
   to = "https://docs2.reearth.io/reference"
-  status = 301
+  status = 302
 
 [[redirects]]
   from = "/getting-started/*"
   to = "https://docs2.reearth.io/getting-started/:splat"
-  status = 301
+  status = 302
