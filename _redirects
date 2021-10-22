@@ -1,0 +1,9 @@
+/developer-guide/intro/getting-started  /developer-guide/intro/setup
+/developer-guide/intro                  /developer-guide/intro/about
+/developer-guide/plugins                /developer-guide/plugins/introduction
+/developer-guide/frontend               /developer-guide/frontend/getting-started
+/developer-guide/backend                /developer-guide/backend/getting-started
+
+# redirect to old site
+/user-manual/*                          https://docs2.reearth.io/reference
+/getting-started/*                      https://docs2.reearth.io/getting-started/:splat
