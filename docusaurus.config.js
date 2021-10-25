@@ -84,15 +84,15 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
             src: "img/logo.svg",
           },
           items: [
-            // {
-            //   type: 'doc',
-            //   docId: 'intro',
-            //   position: 'left',
-            //   label: 'User manual',
-            // },
+            {
+              to: "https://docs2.reearth.io/getting-started", // ./docs-api/Intro.md
+              label: "Getting started",
+              position: "left",
+              activeBaseRegex: `/userManual/`,
+            },
             {
               to: "https://docs2.reearth.io/reference", // ./docs-api/Intro.md
-              label: "User manual",
+              label: "Reference",
               position: "left",
               activeBaseRegex: `/userManual/`,
             },
@@ -126,7 +126,11 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
               title: "Docs",
               items: [
                 {
-                  label: "User manual",
+                  label: "Getting started",
+                  to: "https://docs2.reearth.io/getting-started",
+                },
+                {
+                  label: "Reference",
                   to: "https://docs2.reearth.io/reference",
                 },
                 {

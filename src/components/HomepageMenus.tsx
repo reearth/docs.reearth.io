@@ -20,8 +20,8 @@ type FeatureItem = {
 
 function Menu({ title, image, link, description }: FeatureItem) {
   return (
-    <div className="col col--4">
-      <div className="card margin--vert--md">
+    <div className="col col--3">
+      <div className="card">
         <div className={styles.cardImageConatiner}>
           <img
             className={styles.cardImage}
@@ -31,8 +31,10 @@ function Menu({ title, image, link, description }: FeatureItem) {
           />
         </div>
         <div className="card__body">
-          <h4>{title}</h4>
-          <small>{description}</small>
+          <div className={styles.cardBodyContainer}>
+            <h4>{title}</h4>
+            <small>{description}</small>
+          </div>
         </div>
         <div className="card__footer">
           <Link
@@ -54,12 +56,25 @@ export default function HomepageMenus(): JSX.Element {
         <div className="row">
           <Menu
             title={translate({
-              message: "User manual",
+              message: "Getting started",
               description: "Top page/ Card / Title",
             })}
             description={translate({
               message:
-                "Here is the user guide which help you to understand how to use Re:Earth quickily.",
+                "The getting started will help you quickly start using reearth and complete your first project.",
+              description: "Top page / Card / Description",
+            })}
+            image="/img/getting_started.svg"
+            link="https://docs2.reearth.io/getting-started"
+          ></Menu>
+          <Menu
+            title={translate({
+              message: "Reference",
+              description: "Top page/ Card / Title",
+            })}
+            description={translate({
+              message:
+                "The reference will introduce the basic concepts and operations of Re:Earth to help you get up and running in no time.",
               description: "Top page / Card / Description",
             })}
             image="/img/manual.svg"
@@ -72,7 +87,7 @@ export default function HomepageMenus(): JSX.Element {
             })}
             description={translate({
               message:
-                "This is the developer guide which help you how to develop Re:Earth.",
+                "The developer guide goes into how to contribute in Re:Earth development. Broken up into front-end, back-end, plugin development steps, and so on.",
               description: "Top page / Card / Description",
             })}
             image="/img/code.svg"
@@ -85,7 +100,7 @@ export default function HomepageMenus(): JSX.Element {
             })}
             description={translate({
               message:
-                "This is a Tutorial. You can study a lot based on different theme.",
+                "We will provide tutorials based on different topics to help you learn to use Re:Earth in many different ways.",
               description: "Top page / Card / Description",
             })}
             image="/img/clip.svg"
