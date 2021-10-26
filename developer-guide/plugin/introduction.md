@@ -27,4 +27,4 @@ This plugin is displayed in the infobox that appears when a layer is selected. I
 
 # Where do we start?
 
-Proceed to next step to find out what you need to do to develop a plugin.
+Proceed to [Prerequisites](./prerequisites) to find out what you need to do to develop a plugin.

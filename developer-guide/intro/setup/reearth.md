@@ -14,7 +14,7 @@ There are some available ways to deploy Re:Earth to your server or cloud platfor
 
 ## Commonly needed: set up Auth0
 
-Follow [this article](https://www.notion.so/How-to-set-up-Auth0-fe2f7293fc8644618708278e3cdd6034) to set up Auth0. For now, Re:Earth won't work without Auth0.
+Follow [this article](/developer-guide/intro/setup/auth0) to set up Auth0. For now, Re:Earth won't work without Auth0.
 
 ## Your local machine with Docker
 

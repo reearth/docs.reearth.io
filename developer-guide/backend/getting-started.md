@@ -22,7 +22,7 @@ To get started, follow these instructions:
 
 ## Set up Auth0
 
-Follow [this article](https://www.notion.so/How-to-set-up-Auth0-fe2f7293fc8644618708278e3cdd6034). 
+Follow [this article](/developer-guide/intro/setup/auth0). 
 
 This step is also required for front-end developers.
 
@@ -30,7 +30,7 @@ In the near future, this step will no longer be necessary.
 
 ## Set up environment variables
 
-Follow [this article](https://www.notion.so/Environment-variables-e1726f8de95442568a5b51dce150c19c) to set up environment variables by putting a `.env` file. That file will be loaded by docker-compose in the next step.
+Follow [this article](/developer-guide/backend/environment-vars) to set up environment variables by putting a `.env` file. That file will be loaded by docker-compose in the next step.
 
 This step is also required for front-end developers.
 

@@ -18,7 +18,7 @@ Please install following tools:
 
 ## 2. Start up the back-end app
 
-Follow [this article](https://www.notion.so/Getting-started-e43946e7726c46d4abd6a69eb65d4cf0).
+Follow [this article](/developer-guide/backend/getting-started).
 
 ## 3. Fork and clone the repository
 
