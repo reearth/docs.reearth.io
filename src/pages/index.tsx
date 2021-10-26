@@ -20,11 +20,11 @@ function HomepageHeader() {
 }
 
 export default function Home(): JSX.Element {
-  const { siteConfig } = useDocusaurusContext();
+  // const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      title={`Home`}
+      description="Re:Earth’s documentation website, which helps you to learn how to use and develop Re:arth quickly"
     >
       <HomepageHeader />
       <main>
