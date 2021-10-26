@@ -1,0 +1,38 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.userManualSidebar.category.Introduction": {
+    "message": "Introduction",
+    "description": "The label for category Introduction in sidebar userManualSidebar"
+  },
+  "sidebar.userManualSidebar.category.Setup": {
+    "message": "Setup",
+    "description": "The label for category Setup in sidebar userManualSidebar"
+  },
+  "sidebar.userManualSidebar.category.Common Guide": {
+    "message": "Common Guide",
+    "description": "The label for category Common Guide in sidebar userManualSidebar"
+  },
+  "sidebar.userManualSidebar.category.Front-end Guide": {
+    "message": "Front-end Guide",
+    "description": "The label for category Front-end Guide in sidebar userManualSidebar"
+  },
+  "sidebar.userManualSidebar.category.Back-end Guide": {
+    "message": "Back-end Guide",
+    "description": "The label for category Back-end Guide in sidebar userManualSidebar"
+  },
+  "sidebar.userManualSidebar.category.How does it work": {
+    "message": "How does it work",
+    "description": "The label for category How does it work in sidebar userManualSidebar"
+  },
+  "sidebar.userManualSidebar.category.Plugin Guide": {
+    "message": "Plugin Guide",
+    "description": "The label for category Plugin Guide in sidebar userManualSidebar"
+  },
+  "sidebar.userManualSidebar.category.Recipes": {
+    "message": "Recipes",
+    "description": "The label for category Recipes in sidebar userManualSidebar"
+  }
+}
