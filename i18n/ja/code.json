@@ -199,11 +199,39 @@
     "description": "Top page / Card / Description"
   },
   "Tutorials": {
-    "message": "チュートリアル",
+    "message": "チュートリアル(開発中)",
     "description": "Top page / Card / Title"
   },
   "This is a Tutorial. You can study a lot based on different theme.": {
     "message": "This is a Tutorial. You can study a lot based on different theme.",
+    "description": "Top page / Card / Description"
+  },
+  "Getting started": {
+    "message": "はじめかた",
+    "description": "Top page/ Card / Title"
+  },
+  "The getting started will help you learn the ins and outs of Re:Earth by creating your first project.": {
+    "message": "はじめかたでは、プロジェクトを作りながらRe:Earthの基本的な操作方法を学ぶことができます。",
+    "description": "Top page / Card / Description"
+  },
+  "Reference": {
+    "message": "リファレンス",
+    "description": "Top page/ Card / Title"
+  },
+  "The reference will dive deeper into the core functionality and teach you how to get the most out of Re:Earth.": {
+    "message": "リファレンスでは、Re:Earthの中心となる機能をより詳しく取り上げ、最大限に活用する方法をご紹介します。",
+    "description": "Top page / Card / Description"
+  },
+  "The developer guide explains how to get up and running locally as well as teach you everything you need to know to start contributing to Re:Earth. ": {
+    "message": "開発者ガイドでは、Re:Earthにコントリビュートする方法を、フロントエンド・バックエンド・プラグイン開発などの分類に分けて説明しています。",
+    "description": "Top page / Card / Description"
+  },
+  "Tutorial (in development)": {
+    "message": "チュートリアル(開発中)",
+    "description": "Top page / Card / Title"
+  },
+  "We will provide tutorials that showcase the versatility of Re:Earth and can be used as jumping off points for you and your unique projects.": {
+    "message": "Re:Earthを使いこなせるように、初心者向けから上級者向けまで、さまざまなトピックのチュートリアルを紹介しています。",
     "description": "Top page / Card / Description"
   }
 }

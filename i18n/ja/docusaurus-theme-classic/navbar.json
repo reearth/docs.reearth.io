@@ -18,5 +18,13 @@
   "item.label.GitHub": {
     "message": "GitHub",
     "description": "Navbar item with label GitHub"
+  },
+  "item.label.Getting started": {
+    "message": "はじめかた",
+    "description": "Navbar item with label Getting started"
+  },
+  "item.label.Reference": {
+    "message": "リファレンス",
+    "description": "Navbar item with label Reference"
   }
 }

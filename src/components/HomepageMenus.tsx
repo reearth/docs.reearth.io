@@ -61,7 +61,7 @@ export default function HomepageMenus(): JSX.Element {
             })}
             description={translate({
               message:
-                "The getting started will help you quickly start using reearth and complete your first project.",
+                "The getting started will help you learn the ins and outs of Re:Earth by creating your first project.",
               description: "Top page / Card / Description",
             })}
             image="/img/getting_started.svg"
@@ -74,7 +74,7 @@ export default function HomepageMenus(): JSX.Element {
             })}
             description={translate({
               message:
-                "The reference will introduce the basic concepts and operations of Re:Earth to help you get up and running in no time.",
+                "The reference will dive deeper into the core functionality and teach you how to get the most out of Re:Earth.",
               description: "Top page / Card / Description",
             })}
             image="/img/manual.svg"
@@ -87,7 +87,7 @@ export default function HomepageMenus(): JSX.Element {
             })}
             description={translate({
               message:
-                "The developer guide goes into how to contribute in Re:Earth development. Broken up into front-end, back-end, plugin development steps, and so on.",
+                "The developer guide explains how to get up and running locally as well as teach you everything you need to know to start contributing to Re:Earth. ",
               description: "Top page / Card / Description",
             })}
             image="/img/code.svg"
@@ -95,12 +95,12 @@ export default function HomepageMenus(): JSX.Element {
           ></Menu>
           <Menu
             title={translate({
-              message: "Tutorials",
+              message: "Tutorial (in development)",
               description: "Top page / Card / Title",
             })}
             description={translate({
               message:
-                "We will provide tutorials based on different topics to help you learn to use Re:Earth in many different ways.",
+                "We will provide tutorials that showcase the versatility of Re:Earth and can be used as jumping off points for you and your unique projects.",
               description: "Top page / Card / Description",
             })}
             image="/img/clip.svg"
