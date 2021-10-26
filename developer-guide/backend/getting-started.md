@@ -22,7 +22,7 @@ To get started, follow these instructions:
 
 ## Set up Auth0
 
-Follow [this article](/developer-guide/intro/setup/auth0). 
+Follow [this article](/developer-guide/intro/setup/how-to-set-up-auth0). 
 
 This step is also required for front-end developers.
 
