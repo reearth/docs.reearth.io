@@ -1,6 +1,6 @@
 # docs.reearth.io
 
-Re:Earth documentation website
+[Re:Earth](https://github.com/reearth/reearth) documentation website
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator, and is hosted on [Netlify](https://netlify.com).
 
@@ -32,9 +32,15 @@ $ yarn build
 
 Feel easy to contribute to this project. Also see [code of conduct](CODE_OF_CONDUCT.md).
 
-- **Fixing typo**: Send a pull request directly
-- **Translating articles**: Send a pull request directly
-- **Writing new articles**: Suggest your idea by creating an issue before sending a pull request
+- You can send a pull request directly:
+  - Fixing typo
+  - Fixing bugs and styles
+  - Translating articles
+- Suggest your idea by creating an issue before sending a pull request:
+  - Writing new articles
+  - Change the structure of articles
+  - Modify the appearance
+  - ...etc
 
 ## License
 
