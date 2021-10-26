@@ -34,7 +34,7 @@ Feel easy to contribute to this project. Also see [code of conduct](CODE_OF_COND
 
 - **Fixing typo**: Send a pull request directly
 - **Translating articles**: Send a pull request directly
-- **Writing new articles**: It's better to suggesting by creating an issue before sending a pull request
+- **Writing new articles**: Suggest your idea by creating an issue before sending a pull request
 
 ## License
 
