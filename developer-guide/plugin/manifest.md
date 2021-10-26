@@ -13,4 +13,4 @@ Built-in plugin manifest: [https://github.com/reearth/reearth-backend/blob/main/
 
 JSON schema for plugin manifest: [https://github.com/reearth/reearth-backend/blob/main/plugin_manifest_schema.json](https://github.com/reearth/reearth-backend/blob/main/plugin_manifest_schema.json)
 
-Note: It is not recommended to set this URL in the `$schema` field in the manifest to reference the schema, as the file location may change. We are planning to create a [schema.reearth.io](http://schema.reearth.io/) like URL that can be referenced.
+Note: It is not recommended to set this URL in the `$schema` field in the manifest to reference the schema, as the file location may change. We are planning to create a <u>schema.reearth.io</u> like URL that can be referenced.

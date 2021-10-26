@@ -9,7 +9,7 @@ Details of the Plugin API is described in API reference, but you can try plugin 
 
 Open your Re:Earth and your project, and then open developer tools of your web browser. Next, open "console" and exec following JavaScript: `reearth`.
 
-You'll see reearth object is printed. This object is almost same as actual plugin API, with the exception of a few APIs: `[reearth.ui.show](http://reearth.ui.show)`, `reearth.ui.postMessage` and so on.
+You'll see reearth object is printed. This object is almost same as actual plugin API, with the exception of a few APIs: `reearth.ui.show`, `reearth.ui.postMessage` and so on.
 
 This screenshot is for Google Chrome:
 
