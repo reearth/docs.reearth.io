@@ -1,6 +1,12 @@
-# Website
+# docs.reearth.io
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+Re:Earth documentation website
+
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator, and is hosted on [Netlify](https://netlify.com).
+
+## Getting Started
+
+For details, refer to [Docusaurus](https://docusaurus.io/) website.
 
 ### Installation
 
@@ -22,17 +28,15 @@ This command starts a local development server and opens up a browser window. Mo
 $ yarn build
 ```
 
-### Build for i18n website
-```
-$ yarn run build
-```
+## Contribution
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Feel easy to contribute to this project. Also see [code of conduct](CODE_OF_CONDUCT.md).
 
-### Deployment
+- **Fixing typo**: Send a pull request directly
+- **Translating articles**: Send a pull request directly
+- **Writing new articles**: It's better to suggesting by creating an issue before sending a pull request
 
-```
-$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
+## License
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+- Source codes are [MIT license](LICENSE) licensed.
+- Documentation (files in the `/developer-guide`, `/docs`, `/tutorial` and `/user-manual` folder) are [CC-BY-SA 4.0](LICENSE-docs) licensed.
