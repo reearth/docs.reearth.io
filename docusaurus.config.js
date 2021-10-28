@@ -196,6 +196,23 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
           theme: lightCodeTheme,
           darkTheme: darkCodeTheme,
         },
+        algolia: {
+          // If Algolia did not provide you any appId, use 'BH4D9OD16A'
+          appId: "YOUR_APP_ID",
+
+          // Public API key: it is safe to commit it
+          apiKey: "YOUR_SEARCH_API_KEY",
+
+          indexName: "YOUR_INDEX_NAME",
+
+          // Optional: see doc section below
+          contextualSearch: true,
+
+          // Optional: Algolia search parameters
+          searchParameters: {},
+
+          //... other Algolia params
+        },
       }),
   }
 );
