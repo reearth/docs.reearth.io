@@ -1,8 +1,8 @@
 ---
+title: Set up Re:Earth in your environment
 sidebar_position: 1
 ---
-# Set up Re:Earth in your environment
-------
+
 
 There are some available ways to deploy Re:Earth to your server or cloud platform:
 
