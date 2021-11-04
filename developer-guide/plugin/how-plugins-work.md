@@ -1,9 +1,7 @@
 ---
+title: How plugins work
 sidebar_position: 5
 ---
-
-# How plugins work
-------
 
 It is never easy to make plug-ins work on a web browser, and there are various technical issues that need to be resolved before they can be developed. Therefore, plug-in developers need to accept the unique constraints that are different from the usual HTML and JavaScript implementations before developing plug-ins.
 

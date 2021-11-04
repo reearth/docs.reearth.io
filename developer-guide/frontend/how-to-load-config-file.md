@@ -1,9 +1,7 @@
 ---
+title: How to load config file
 sidebar_position: 9
 ---
-
-# How to load config file
-------
 
 ## Webpack config
 

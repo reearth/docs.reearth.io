@@ -1,9 +1,7 @@
 ---
+title: Project and component architecture
 sidebar_position: 2
 ---
-
-# Project and component architecture
-------
 
 ## Project structure
 

@@ -1,9 +1,7 @@
 ---
+title: Finding layers and updating property of a layer
 sidebar_position: 6
 ---
-
-# Finding layers and updating property of a layer
-------
 
 ```jsx
 function findMarker(layers, title) {

@@ -1,9 +1,7 @@
 ---
+title: Controlling camera
 sidebar_position: 5
 ---
-
-# Controlling camera
-------
 
 ```jsx
 const html = `

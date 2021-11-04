@@ -1,9 +1,7 @@
 ---
+title: How to use theme
 sidebar_position: 4
 ---
-
-# How to use theme
-------
 
 ## Styled components
 

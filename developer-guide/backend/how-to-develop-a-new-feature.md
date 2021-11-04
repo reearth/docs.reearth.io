@@ -1,10 +1,7 @@
 ---
+title: How to develop a new feature
 sidebar_position: 3
 ---
-
-# How to develop a new feature
-------
-
 ## How to add a new query and mutation to GraphQL schema
 
 Implementation can be done in any order.

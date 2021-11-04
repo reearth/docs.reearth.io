@@ -1,9 +1,7 @@
 ---
+title: Whole system architecture and stack
 sidebar_position: 1
 ---
-
-# Whole system architecture and stack
-------
 
 Re:Earth is built for a modern cloud native application, and it allows easily to deploy a Re:Earth application anywhere powered by Docker, even a server-less CaaS platform.
 

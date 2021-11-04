@@ -1,9 +1,7 @@
 ---
+title: Introduction
 sidebar_position: 1
 ---
-
-# Introduction
-------
 
 Welcome to Re:Earth plugin API!
 

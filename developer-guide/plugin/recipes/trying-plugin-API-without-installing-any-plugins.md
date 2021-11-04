@@ -1,9 +1,7 @@
 ---
+title: Trying plugin API without installing any plugins
 sidebar_position: 1
 ---
-
-# Trying plugin API without installing any plugins
-------
 
 Details of the Plugin API is described in API reference, but you can try plugin API in your web browser.
 
