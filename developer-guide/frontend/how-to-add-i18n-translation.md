@@ -1,9 +1,7 @@
 ---
+title: How to add i18n translation
 sidebar_position: 6
 ---
-
-# How to add i18n translation
-------
 
 Adding i18n text and translations is relatively easy. The general work flow is: 
 

@@ -1,9 +1,7 @@
 ---
+title: Future plans
 sidebar_position: 8
 ---
-
-# Future plans
-------
 
 This is an idea for a plugin feature that is still in the conceptual stage at the moment, but could be implemented in the future.
 

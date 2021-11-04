@@ -1,10 +1,7 @@
 ---
+title: Getting started
 sidebar_position: 1
 ---
-
-# Getting started
-------
-
 # How to start the app
 
 To start the front-end, follow these instructions.

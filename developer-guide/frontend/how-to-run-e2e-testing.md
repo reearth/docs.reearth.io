@@ -1,9 +1,7 @@
 ---
+title: How to run E2E testing
 sidebar_position: 8
 ---
-
-# How to run E2E testing
-------
 
 With any Frontend application, End to End (E2E) testing can really improve maintenance and the Software Development Life Cycle (SDLC) of the application. E2E allows you to quickly verify changes, and also works to document features in your application.
 

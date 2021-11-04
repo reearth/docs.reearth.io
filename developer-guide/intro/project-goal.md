@@ -1,8 +1,7 @@
 ---
+title: Project goal
 sidebar_position: 2
 ---
-# Project goal
-------
 
 ## The project's background
 

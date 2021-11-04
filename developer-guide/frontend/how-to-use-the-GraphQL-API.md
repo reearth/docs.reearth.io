@@ -1,9 +1,7 @@
 ---
+title: How to use the GraphQL API
 sidebar_position: 5
 ---
-
-# How to use the GraphQL API
-------
 
 The GraphQL calls to retrieve data from the backend is limited to the organisms components and leverages Apollo Client.
 

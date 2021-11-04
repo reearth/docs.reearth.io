@@ -1,10 +1,7 @@
 ---
+title: Back-end architecture
 sidebar_position: 4
 ---
-
-# Back-end architecture
-------
-
 ## Code Documentation
 
 Refer to the [godoc](https://reearth.github.io/reearth-backend/main/pkg/github.com/reearth/reearth-backend/index.html) to access detailed descriptions of each package, struct, interface, and type as we will not get into that here.
