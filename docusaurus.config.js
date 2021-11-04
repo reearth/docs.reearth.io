@@ -5,7 +5,7 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (
   module.exports = {
-    title: "Re:Earth Docs",
+    title: "Re:Earth documentation",
     tagline: "a quick guide let you know more about Re:Earth",
     url: "https://docs.reearth.io",
     baseUrl: "/",
@@ -77,6 +77,8 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
     themeConfig:
       /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
       ({
+        image: "img/ogp.jpg",
+        metadatas: [{ name: "twitter:card", content: "summary" }],
         navbar: {
           title: "Re:Earth Docs",
           logo: {
