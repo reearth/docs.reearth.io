@@ -24,7 +24,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`Home`}
-      description="Re:Earth’s documentation website, which helps you to learn how to use and develop Re:arth quickly"
+      description="Re:Earth’s documentation website, which helps you to learn how to use and develop Re:Earth quickly"
     >
       <HomepageHeader />
       <main>

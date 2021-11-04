@@ -77,6 +77,8 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
     themeConfig:
       /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
       ({
+        image: "img/ogp.jpg",
+        metadatas: [{ name: "twitter:card", content: "summary" }],
         navbar: {
           title: "Re:Earth Docs",
           logo: {
