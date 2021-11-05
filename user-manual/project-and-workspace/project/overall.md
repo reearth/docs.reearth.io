@@ -5,9 +5,7 @@ sidebar_position: 1
 
 Project is your main editing part in Re:Earth.
 
-<div align="middle">
-<img src="./img/1-1.png" width="80%" />
-</div>
+![1-1](./img/1-1.png)
 
 Open the project you created, enter the edit page, and by default you will see earth floating in the universe. This is because when any project is created, a [Cesium scene](/user-manual/scene/ideas-of-scene) will also be created at the same time. For more information about scenes, please see the chapter on [scenes](/user-manual/scene/ideas-of-scene).
 
