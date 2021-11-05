@@ -1,10 +1,7 @@
 ---
+title: Showing HTML
 sidebar_position: 2
 ---
-
-# Showing HTML
-------
-
 ## Show leaflet map
 
 ```jsx

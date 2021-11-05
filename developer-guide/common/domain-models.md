@@ -1,8 +1,7 @@
----
+--- 
+title: Domain models
 sidebar_position: 2
 ---
-# Domain models
-------
 
 The below are basic descriptions of domain models and their associations with entities.
 

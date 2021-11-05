@@ -1,9 +1,7 @@
 ---
+title: API reference
 sidebar_position: 7
 ---
-
-# API reference
-------
 
 The API documentation is currently under development, but you can refer to the type definitions written in TypeScript.
 

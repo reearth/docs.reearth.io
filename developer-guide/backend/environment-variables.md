@@ -1,9 +1,7 @@
 ---
+title: Environment variables
 sidebar_position: 2
 ---
-
-# Environment variables
-------
 
 The application environment variables should be provided in an `.env` file as follows:
 

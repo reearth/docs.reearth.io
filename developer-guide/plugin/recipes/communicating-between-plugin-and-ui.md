@@ -1,9 +1,7 @@
 ---
+title: Communicating between plugin and UI
 sidebar_position: 3
 ---
-
-# Communicating between plugin and UI
-------
 
 ```jsx
 const html = `

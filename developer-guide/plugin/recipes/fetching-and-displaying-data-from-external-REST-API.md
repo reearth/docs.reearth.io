@@ -1,9 +1,7 @@
 ---
+title: Fetching and displaying data from external REST API
 sidebar_position: 6
 ---
-
-# Fetching and displaying data from external REST API
-------
 
 Fetch current ISS location via "Where the ISS at?" API ([https://wheretheiss.at/w/developer](https://wheretheiss.at/w/developer))
 

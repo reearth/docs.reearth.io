@@ -1,9 +1,7 @@
 ---
+title: How users are authenticated
 sidebar_position: 3
 ---
-
-# How users are authenticated
-------
 
 Re:Earth user sessions are authenticated with Auth0, a popular IDaaS provider. 
 

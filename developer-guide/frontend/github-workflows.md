@@ -1,9 +1,7 @@
 ---
+title: What do Github workflows do
 sidebar_position: 7
 ---
-
-# What do Github workflows do
-------
 
 All GitHub workflows spin up and run on the latest Ubuntu and all workflows end in printing to Slack a summary of the results.
 

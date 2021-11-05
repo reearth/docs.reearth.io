@@ -1,9 +1,7 @@
 ---
+title: Manifest reference
 sidebar_position: 6
 ---
-
-# Manifest reference
-------
 
 The plugin manifest is very configurable, but the documentation is still in progress.
 

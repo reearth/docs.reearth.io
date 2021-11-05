@@ -1,9 +1,7 @@
 ---
+title: How to set up Auth0
 sidebar_position: 2
 ---
-
-# How to set up Auth0
-------
 
 ### 1. Create your Auth0 account
 Access https://auth0.com/signup and sign up for Auth0.

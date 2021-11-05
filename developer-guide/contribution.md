@@ -1,11 +1,9 @@
 ---
+title: Contribution guide
 sidebar_position: 2
 ---
 
-# Contribution guide
-------
-
-# About development
+## About development
 
 ### Open development
 

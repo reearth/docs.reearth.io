@@ -1,9 +1,7 @@
 ---
+title: Accepting properties to make a plugin configurable for users
 sidebar_position: 4
 ---
-
-# Accepting properties to make a plugin configurable for users
-------
 
 `reearth.yml`
 

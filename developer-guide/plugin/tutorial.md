@@ -1,9 +1,7 @@
 ---
+title: Tutorial
 sidebar_position: 3
 ---
-
-# Tutorial
-------
 
 In this section, we will explain the series of steps in developing a plugin by developing a simple plugin together.
 

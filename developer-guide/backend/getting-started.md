@@ -1,10 +1,7 @@
 ---
+title: Getting started
 sidebar_position: 1
 ---
-
-# Getting started
-------
-
 ## How to start the app
 
 ## Installation
@@ -30,7 +27,7 @@ In the near future, this step will no longer be necessary.
 
 ## Set up environment variables
 
-Follow [this article](/developer-guide/backend/environment-vars) to set up environment variables by putting a `.env` file. That file will be loaded by docker-compose in the next step.
+Follow [this article](/developer-guide/backend/environment-variables) to set up environment variables by putting a `.env` file. That file will be loaded by docker-compose in the next step.
 
 This step is also required for front-end developers.
 
