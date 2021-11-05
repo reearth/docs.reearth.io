@@ -142,6 +142,10 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
                   label: "Tutorials",
                   to: "/tutorial/index",
                 },
+                {
+                  label: "User manual",
+                  to: "/user-manual/getting-started/why-reearth",
+                },
               ],
             },
             {
