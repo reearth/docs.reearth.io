@@ -19,7 +19,13 @@ The archive operation will not delete the project data, it will only turn it int
 
 In the danger zone at the bottom of the setting page, you can find the archive operation button.
 
+<<<<<<< HEAD
 ![3-2](./img/3-2.png)
+=======
+<div align="middle">
+<img src="./img/3-2.png" width="80%" />
+</div>
+>>>>>>> main
 
 ## Archive status and release
 
@@ -45,4 +51,10 @@ In the danger zone at the bottom of the setting page, you can find the delete op
 This is an operation that cannot be undone or returned, so please use this operation carefully.
 :::
 
+<<<<<<< HEAD
 ![3-6](./img/3-6.png)
+=======
+<div align="middle">
+<img src="./img/3-6.png" width="80%" />
+</div>
+>>>>>>> main
