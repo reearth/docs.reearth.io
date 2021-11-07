@@ -4,12 +4,18 @@ import styles from "./Image.module.css";
 
 type CardProps = {
   path: string;
+  width: string;
 };
 
-export default function Image({ path }: CardProps): JSX.Element {
+export default function Image({ path, width }: CardProps): JSX.Element {
   return (
     <div className={styles.container}>
-      <img className={styles.img} src={path} alt={path} />
+      <img
+        className={styles.img}
+        src={path}
+        alt={path}
+        width={!width ? "90%" : width}
+      />
     </div>
   );
 }
