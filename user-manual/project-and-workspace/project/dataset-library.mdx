@@ -7,16 +7,16 @@ In Re:earth, any data that is imported will become a dataset, which is the inter
 
 On this Dataset library page, you can see all the Datasets that you imported into the system. So you can manage them here.
 
-![5-1](./img/5-1.png)
+<Image path={require('./img/5-1.png').default} />
 
 You can also enter this way:
 Editor page —> Header menu —> Datasets
 
-![5-2](./img/5-2.png)
+<Image path={require('./img/5-2.png').default} />
 
 ## Add and delete Dataset
 
-![5-3](./img/5-3.png)
+<Image path={require('./img/5-3.png').default} />
 
 For managing Datasets, we now only support adding (importing) and deleting functions. We will improve more functions in future development.
 
@@ -27,3 +27,5 @@ B. **Delete button** hover the mouse over the Dataset card, you will see a red d
 :::caution
 Please delete the dataset carefully to make sure it is not used in the system. Otherwise, all objects connected to this Dataset will also be deleted.
 :::
+
+import Image from "/src/components/Image/Image";

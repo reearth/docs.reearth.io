@@ -1,0 +1,10 @@
+.container{
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.img{
+  border-radius: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
