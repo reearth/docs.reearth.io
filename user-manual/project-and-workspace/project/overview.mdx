@@ -1,0 +1,80 @@
+---
+title: Overview
+sidebar_position: 1
+---
+
+
+
+Projects are where all the magic happens in Re:Earth. Edit, publish, import your data and more.
+
+<Image path={require('./img/1-1.png').default} width="60%"/>
+
+
+Once you create a project you can open the editor page and by default you will see a digital earth floating in the universe. When a project is created, a scene will be created, attached and used by your project. Currently, only Cesium-based scenes are available, but more will come in the future. For more information about scenes, please see the chapter on [scenes](/user-manual/scene/ideas-of-scene).
+
+<Image path={require('./img/1-2.png').default} />
+
+
+As described in the previous chapters, you can add and build various content on the earth. Treat the project like an easle, the earth itself the canvas, and Re:Earth the set of brushes and tools to help you create your vision.
+
+The following operations are available on a project:
+
+- [Create](/user-manual/project-and-workspace/project/create-a-new-project)
+- [Preview]
+- [Publish]
+- [Archive](/user-manual/project-and-workspace/project/setting-archiving-and-deleting)
+- [Delete](/user-manual/project-and-workspace/project/setting-archiving-and-deleting)
+
+## Project settings page
+
+In the settings page, project specific settings can be accessed where you can modify things like its title or add basic auth, manage its datasets or the plugins used by the project.
+
+### Accessing settings
+
+There are two ways to get to a project's settings:
+
+#### From Dashboard
+
+Dashboard -> Project card -> ⚙️ button
+
+<Image path={require('./img/1-3.png').default} />
+
+#### From Editor
+
+Header —> Project menu —> Project settings
+
+<Image path={require('./img/1-4.png').default} />
+
+### Navigation
+
+The navigation bar on the left allows you to access different settings related to the current project or manage all projects.
+
+<Image path={require('./img/1-5.png').default} />
+
+1. **Project List** page will display all the projects under the current workspace. Use this page to select different projects to access their individual settings.
+2. **Current project** page allows you to modify the basic information of the project as well as archive or delete the project. For more details, please check the [Setting, archiving, and deleting](/user-manual/project-and-workspace/project/setting-archiving-and-deleting).
+3. **Public** settings page provides some settings about publishing your project. For more details, please check [Public Settings](/user-manual/project-and-workspace/project/public-settings).
+4. **Dataset** library page is used to manage the datasets that have been imported into the current project. For more details, please check [Dataset library](/user-manual/project-and-workspace/project/dataset-library) and [the Dataset chapter].
+5. **Plugin** library page is used to manage the installed plugins of the current project. For more details, please check [Plugin Library](/user-manual/project-and-workspace/project/plugin-library) and the entire [Plugin chapter].
+
+## Public status
+
+When you finish a project, you can publish it on the Internet. We have provided some signs to keep you informed of the public status of the project at all times.
+
+#### From Dashboard
+
+On each project card found in the Dashboard you can see the status.
+
+<Image path={require('./img/1-6.png').default} />
+
+#### From Editor
+
+In the upper right corner of the Editor page you can also see and change the status at any time while editing.
+
+<Image path={require('./img/1-7.png').default} />
+
+## Cooperate
+
+In order to support collaborative editing between team members, we have developed a workspace system. Members in the same workspace can participate in editing the same project. For specific operations, please refer to the [workspace](/user-manual/project-and-workspace/workspace/ideas-of-workspace) section.
+
+import Image from "/src/components/Image/Image";
