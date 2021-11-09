@@ -3,29 +3,29 @@ title: Dataset library
 sidebar_position: 5
 ---
 
-In Re:earth, any data that is imported will become a dataset, which is the internal data storage form of the system. For a specific explanation, please refer to the dedicated [Dataset chapter].
+In Re:Earth, any external data that is imported will become a dataset. This is the internal data storage form of the system. For a more detailed explanation, please refer to the dedicated [Dataset section].
 
-On this Dataset library page, you can see all the Datasets that you imported into the system. So you can manage them here.
-
-<Image path={require('./img/5-1.png').default} />
-
-You can also enter this way:
+You can find the Dataset library here:
 Editor page —> Header menu —> Datasets
 
 <Image path={require('./img/5-2.png').default} />
 
-## Add and delete Dataset
+On this Dataset library page, found in the settings, you can see and manage all the Datasets that you imported into the current project.
+
+<Image path={require('./img/5-1.png').default} />
+
+## Addind and deleting Datasets
 
 <Image path={require('./img/5-3.png').default} />
 
-For managing Datasets, we now only support adding (importing) and deleting functions. We will improve more functions in future development.
+A. **Add dataset (import) button** allows you to import data from your local machine.
 
-A. **Add (import) button** you can click here to upload and import data from your local
+B. **Delete button** is found by hovering the mouse over the Dataset card.
 
-B. **Delete button** hover the mouse over the Dataset card, you will see a red delete button
+At the moment, managing Datasets consists of only adding (importing) and deleting them. We will expand the functionality in future development.
 
 :::caution
-Please delete the dataset carefully to make sure it is not used in the system. Otherwise, all objects connected to this Dataset will also be deleted.
+Please make sure that the dataset is no longer being used in your project. Otherwise, anything connected to the Dataset could break.
 :::
 
 import Image from "/src/components/Image/Image";
