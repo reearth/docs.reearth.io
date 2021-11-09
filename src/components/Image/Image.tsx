@@ -2,12 +2,12 @@ import React from "react";
 
 import styles from "./Image.module.css";
 
-type CardProps = {
+type ImageProps = {
   path: string;
   width: string;
 };
 
-export default function Image({ path, width }: CardProps): JSX.Element {
+export default function Image({ path, width }: ImageProps): JSX.Element {
   return (
     <div className={styles.container}>
       <img

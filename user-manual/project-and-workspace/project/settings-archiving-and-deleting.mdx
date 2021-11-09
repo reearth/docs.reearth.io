@@ -7,10 +7,14 @@ From the current project's settings page, you can edit some basic information ab
 
 <Image path={require('./img/3-1.png').default} />
 
-
-  A. **Project Info** is the basic information of the project that'll be used within Re:Earth. This information is the same content you filled in when you created the project.
-
-  B. **Danger Zone** contains operations that will affect the accessibility of your project. This includes archiving and deleting your project.
+<Order>
+  <List>
+    <strong>Project Info</strong> is the basic information of the project that'll be used within Re:Earth. This information is the same content you filled in when you created the project.
+  </List>
+  <List>
+    <strong>Danger Zone</strong> contains operations that will affect the accessibility of your project. This includes archiving and deleting your project.
+  </List>
+</Order>
 
 ## Archive your project
 
@@ -28,7 +32,7 @@ As mentioned, once the project is archived you will not be able to find it on th
 
 Click on an archived project to go to its settings page. You'll notice that the project has been locked and cannot be modified.
 
-<Image path={require('./img/3-1.png').default} />
+<Image path={require('./img/3-4.png').default} />
 
 If you want to edit the project again, just simply click the Unarchive button in the Danger Zone and type in the project's name.
 
@@ -47,3 +51,5 @@ This is an operation that cannot be undone or recovered, so please be careful an
 <Image path={require('./img/3-6.png').default} width="70%" />
 
 import Image from "/src/components/Image/Image";
+import List from "/src/components/List/List";
+import Order from "/src/components/List/Order";
