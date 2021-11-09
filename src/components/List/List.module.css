@@ -2,9 +2,11 @@
   margin: 0 0 0.5rem 0;
   counter-increment: my-counter;
   position: relative;
+  /* list-style-type: upper-alpha; */
 }
 .list:before {
   content: counter(my-counter);
+  content: counter(my-counter, upper-alpha);
   color: #ffffff;
   font-weight: bold;
   position: absolute;

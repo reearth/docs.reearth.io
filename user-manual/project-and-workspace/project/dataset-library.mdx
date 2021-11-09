@@ -18,9 +18,14 @@ On this Dataset library page, found in the settings, you can see and manage all 
 
 <Image path={require('./img/5-3.png').default} />
 
-A. **Add dataset (import) button** allows you to import data from your local machine.
-
-B. **Delete button** is found by hovering the mouse over the Dataset card.
+<Order>
+  <List>
+    <strong>Add dataset (import) button</strong> allows you to import data from your local machine.
+  </List>
+  <List>
+    <strong>Delete button</strong> is found by hovering the mouse over the Dataset card.
+  </List>
+</Order>
 
 At the moment, managing Datasets consists of only adding (importing) and deleting them. We will expand the functionality in future development.
 
@@ -29,3 +34,5 @@ Please make sure that the dataset is no longer being used in your project. Other
 :::
 
 import Image from "/src/components/Image/Image";
+import List from "/src/components/List/List";
+import Order from "/src/components/List/Order";
