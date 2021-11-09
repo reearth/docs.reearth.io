@@ -1,0 +1,9 @@
+.order{
+  counter-reset: my-counter;
+  list-style: none;
+  margin-left: 12px;
+  /* width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; */
+}

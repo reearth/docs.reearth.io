@@ -1,0 +1,20 @@
+.list{
+  margin: 0 0 0.5rem 0;
+  counter-increment: my-counter;
+  position: relative;
+}
+.list:before {
+  content: counter(my-counter);
+  color: #ffffff;
+  font-weight: bold;
+  position: absolute;
+  --size: 24px;
+  left: calc(-1 * var(--size) - 10px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  top: 0;
+  background: #e95518;
+  border-radius: 4px;
+  text-align: center;
+}

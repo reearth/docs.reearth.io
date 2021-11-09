@@ -51,6 +51,23 @@ Through the navigation bar on the left, you can enter different pages about proj
 
 <Image path={require('./img/1-5.png').default} />
 
+<Order>
+  <List>
+    <strong>Project list page</strong> will display all the projects under the current workspace, you can continue to return to this page to switch between different projects
+  </List>
+  <List>
+    <strong>Current project page</strong> you can modify the basic information of the project on this page, and archive or delete the project. For details, please check the <Link to="/user-manual/project-and-workspace/project/setting-archiving-and-deleting">Setting, archiving, and deleting</Link></List>
+  <List>
+    <strong>Publish settings page</strong> provide some settings about publishing your project, please check <Link to="/user-manual/project-and-workspace/project/public-setting">Public Setting</Link> for details
+  </List>
+  <List>
+    <strong>Publish settings page</strong> provide some settings about publishing your project, please check <Link to="/user-manual/project-and-workspace/project/public-setting">Public Setting</Link> for details
+  </List>
+  <List>
+    <strong>Plugin Library page</strong> used to manage the plugins of the current project, please see <Link to="/user-manual/project-and-workspace/project/plugin-library">Plugin Library</Link> and [the Plugin chapter] for details
+  </List>
+</Order>
+
 1. **Project list page** will display all the projects under the current workspace, you can continue to return to this page to switch between different projects
 2. **Current project page** you can modify the basic information of the project on this page, and archive or delete the project. For details, please check the [Setting, archiving, and deleting](/user-manual/project-and-workspace/project/setting-archiving-and-deleting)
 3. **Publish settings page** provide some settings about publishing your project, please check [Public Setting](/user-manual/project-and-workspace/project/public-setting) for details
@@ -74,3 +91,7 @@ When you finish a project, you can publish it on the Internet. We have provided 
 In order to support collaborative editing between team members, we have developed a workspace system. Members in the same workspace can participate in editing the same project. For specific operations, please refer to the chapter on the [workspace](/user-manual/project-and-workspace/workspace/ideas-of-workspace).
 
 import Image from "/src/components/Image/Image";
+import List from "/src/components/List/List";
+import Order from "/src/components/List/Order";
+import Link from "@docusaurus/Link";
+
