@@ -1,0 +1,31 @@
+---
+title: Setting, deleting
+sidebar_position: 3
+---
+
+In the current workspace settings page, you can edit some basic information about the workspace, manage members or remove workspace.
+
+<Image path={require('./img/3-1.png').default} />
+
+<Order>
+  <List>
+    <strong>Workspace info</strong> is the basic information of the workspace that'll be used within Re:Earth. At this stage, there is only one workspace name property can be edited, and more properties will be supported about workspace in the future.
+  </List>
+  <List>
+    <strong>Members</strong> allows you to manage the members in the workspace. For details, please refer to the <Link to="/user-manual/project-and-workspace/workspace/managing-members">management members</Link>.
+  </List>
+  <List>
+    <strong>Danger Zone</strong> contains operations that will affect the accessibility of your workspace. Now you can delete this workspace here.
+  </List>
+</Order>
+
+## Delete team workspace
+
+In order to prevent the false operation, in Re:Earth, you can delete the workspace only when there is no project under your workspace. Of course, you must also be the owner of the workspace.
+
+<Image path={require('./img/3-2.png').default} width="70%" />
+
+import Image from "/src/components/Image/Image";
+import List from "/src/components/List/List";
+import Order from "/src/components/List/Order";
+import Link from "@docusaurus/Link";
