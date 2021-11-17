@@ -3,4 +3,143 @@ title: Assets library
 sidebar_position: 6
 ---
 
-null
+When making a project, a lot of pictures, models and other resources are often needed. In Re:Earh, we collectively refer to them as Assets. Assets resources are stored in Workspace, which means that different projects can share the same asset library, which facilitates teamwork.
+
+There is an assets resource management page under Workspace, where you can easily view all the assets, and add or delete them.
+
+<Image path={require('./img/6-1.png').default} />
+
+<Order>
+  <List>
+    Upload (add) and delete assets buttons
+  </List>
+  <List>
+    Assets cards management function panel
+  </List>
+  <List>
+    Assets cards library
+  </List>
+</Order>
+
+## How to add assets
+
+We can add new assets to the Assets page, and we can also add assets while editing the project. In the case of the Assets page, Re:Earth supports multiple selections, and you can upload many files to the library at once.
+
+<Image path={require('./img/6-2.png').default} />
+
+<Image path={require('./img/6-3.png').default} />
+
+<Image path={require('./img/6-4.png').default} />
+
+<Order>
+  <ListByNumber>
+    Click the Upload file button.
+  </ListByNumber>
+  <ListByNumber>
+    Select the picture you want to upload in the opened system window.
+  </ListByNumber>
+  <ListByNumber>
+    Click Open.
+  </ListByNumber>
+  <ListByNumber>
+    You will find that the new assets have been successfully uploaded to the library.
+  </ListByNumber>
+</Order>
+
+## How to delete assets
+
+You can quickly delete multiple assets on the Assets page.
+
+<Image path={require('./img/6-5.png').default} />
+
+<Image path={require('./img/6-6.png').default} />
+
+<Image path={require('./img/6-7.png').default} />
+
+<Order>
+  <ListByNumber>
+    Select the asset you want to delete.
+  </ListByNumber>
+  <ListByNumber>
+    Click the delete button in the upper right corner.
+  </ListByNumber>
+  <ListByNumber>
+    Confirm your actions.
+  </ListByNumber>
+  <ListByNumber>
+    assets are deleted.
+  </ListByNumber>
+</Order>
+
+## Find the asset you want
+
+As the number of items increases, there will be more and more assets in your library. At this time, you need some tools to help you find the corresponding asset. We provide a panel of card management functions to help you.
+
+### Switch sequence tool
+
+Re:Earth provides a drop-down list to switch the arrangement order of assets, as you can see in the following figure:
+
+<Image path={require('./img/6-8.png').default } width="70%" noRoundCorner/>
+
+<Order>
+  <List>
+    Arrange asset cards in order of file upload time
+  </List>
+  <List>
+    Arrange asset cards in order of file size
+  </List>
+  <List>
+    Arrange asset cards in alphabetical order of file names
+  </List>
+  <List>
+    For each arrangement, you can use this button to switch the result of the forward or reverse arrangement
+  </List>
+</Order>
+
+### Switch card style
+
+For the presentation style of asset cards, Re:Earth also provides three ways to switch, which helps you to view asset resources.
+
+<Image path={require('./img/6-9.png').default} width="70%" noRoundCorner/>
+
+<Order start="4">
+  <List>
+    Big cards have larger preview space for picture materials.
+  </List>
+</Order>
+
+<Image path={require('./img/6-10.png').default} width="70%" noRoundCorner/>
+
+<Order start="5">
+  <List>
+    Small card style can see more assets in the page.
+  </List>
+</Order>
+
+<Image path={require('./img/6-11.png').default}  width="70%" noRoundCorner/>
+
+<Order start="6">
+  <List>
+    List style allows you to view the file name and file size.
+  </List>
+</Order>
+
+### Search Asset File Name
+
+Of course, the most direct way to find an asset is to search for the file name.
+
+<Image path={require('./img/6-12.png').default} />
+
+<Order start="7">
+  <List>
+    Enter the file name in the search box, and the matching result will be displayed below.
+  </List>
+</Order>
+
+There are various usage details about Assets in Re:Earth, which will be introduced in other sections.
+
+import Image from "/src/components/Image/Image";
+import List from "/src/components/List/List";
+import ListByNumber from "/src/components/List/ListByNumber";
+import Order from "/src/components/List/Order";
+import Link from "@docusaurus/Link";

@@ -7,13 +7,20 @@ In the members block of the current workspace setting page, we can invite and ma
 
 <Image path={require('./img/4-1.png').default} />
 
-A: **New member button** will be your first step to add new members
-
-B: **Members authority list** allows you to check the role of each member
-
-C: Change member authority  button
-
-D: Remove member button
+<Order>
+  <List>
+    <strong>New member button</strong> will be your first step to add new members.
+  </List>
+  <List>
+    <strong>Members authority list</strong> allows you to check the role of each member.
+  </List>
+  <List>
+    Change member authority button
+  </List>
+  <List>
+    Remove member button
+  </List>
+</Order>
 
 ## Invite new members
 
@@ -21,11 +28,23 @@ Follow the steps below to invite new members:
 
 <Image path={require('./img/4-2.png').default} width="70%" noRoundCorner/>
 
-1. Click the New member button, and the model of Add a team member will appear.
-2. Fill in the user's registered name or email address you want to invite.
-3. Check whether the search result is the correct user.
-4. After confirming that it is correct, click the Add button.
-5. The member will appear in your members list.
+<Order>
+  <ListByNumber>
+    Click the New member button, and the model of Add a team member will appear.
+  </ListByNumber>
+  <ListByNumber>
+    Fill in the user's registered name or email address you want to invite.
+  </ListByNumber>
+  <ListByNumber>
+    Check whether the search result is the correct user.
+  </ListByNumber>
+  <ListByNumber>
+    After confirming that it is correct, click the Add button.
+  </ListByNumber>
+  <ListByNumber>
+    The member will appear in your members list.
+  </ListByNumber>
+</Order>
 
 :::caution
 Only users who already have Re:Earth accounts can add each other to their team workspaces.
@@ -43,9 +62,17 @@ Follow the steps below to change member's authority:
 
 <Image path={require('./img/4-3.png').default} width="70%" noRoundCorner/>
 
-1. Click the ✏️ button in the member list
-2. Select the authority type you want to change in the drop-down list
-3. Click the ☑️ button to confirm
+<Order>
+  <ListByNumber>
+    Click the ✏️ button in the member list.
+  </ListByNumber>
+  <ListByNumber>
+    Select the authority type you want to change in the drop-down list.
+  </ListByNumber>
+  <ListByNumber>
+    Click the ☑️ button to confirm.
+  </ListByNumber>
+</Order>
 
 :::caution
 When you don’t see the button that can change member permissions, it’s probably because your permissions are not enough. Please contact the workspace owner to change your authority before proceeding.
@@ -53,5 +80,6 @@ When you don’t see the button that can change member permissions, it’s proba
 
 import Image from "/src/components/Image/Image";
 import List from "/src/components/List/List";
+import ListByNumber from "/src/components/List/ListByNumber";
 import Order from "/src/components/List/Order";
 import Link from "@docusaurus/Link";
