@@ -82,5 +82,9 @@
   "link.item.label.Facebook": {
     "message": "Facebook",
     "description": "The label of footer link with label=Facebook linking to https://www.facebook.com/EukaryaInc"
+  },
+  "link.item.label.User manual": {
+    "message": "User manual",
+    "description": "The label of footer link with label=User manual linking to /user-manual/getting-started/why-reearth"
   }
 }

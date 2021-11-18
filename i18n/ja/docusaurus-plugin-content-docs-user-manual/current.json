@@ -12,7 +12,7 @@
     "description": "The label for category Environment setting in sidebar mySidebar"
   },
   "sidebar.mySidebar.category.Project & Workspace": {
-    "message": "Project & Workspace",
+    "message": "プロジェクトとワークスペース",
     "description": "The label for category Project & Workspace in sidebar mySidebar"
   },
   "sidebar.mySidebar.category.Managing projects": {
@@ -46,5 +46,13 @@
   "sidebar.mySidebar.category.Publish": {
     "message": "Publish",
     "description": "The label for category Publish in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Projects": {
+    "message": "プロジェクト",
+    "description": "The label for category Projects in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Workspace": {
+    "message": "Workspace",
+    "description": "The label for category Workspace in sidebar mySidebar"
   }
 }
