@@ -1,0 +1,38 @@
+---
+title: Dataset library
+sidebar_position: 5
+---
+
+In Re:Earth, any external data that is imported will become a dataset. This is the internal data storage form of the system. For a more detailed explanation, please refer to the dedicated [Dataset section].
+
+You can find the Dataset library here:
+Editor page —> Header menu —> Datasets
+
+<Image path={require('./img/5-2.png').default} />
+
+On this Dataset library page, found in the settings, you can see and manage all the Datasets that you imported into the current project.
+
+<Image path={require('./img/5-1.png').default} />
+
+## Addind and deleting Datasets
+
+<Image path={require('./img/5-3.png').default} />
+
+<Order>
+  <List>
+    <strong>Add dataset (import) button</strong> allows you to import data from your local machine.
+  </List>
+  <List>
+    <strong>Delete button</strong> is found by hovering the mouse over the Dataset card.
+  </List>
+</Order>
+
+At the moment, managing Datasets consists of only adding (importing) and deleting them. We will expand the functionality in future development.
+
+:::caution
+Please make sure that the dataset is no longer being used in your project. Otherwise, anything connected to the Dataset could break.
+:::
+
+import Image from "/src/components/Image/Image";
+import List from "/src/components/List/List";
+import Order from "/src/components/List/Order";
