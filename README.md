@@ -22,10 +22,30 @@ $ yarn start
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
+### Translation
+
+start to wirte Ja translation for example
+
+```
+$ yarn run start -- --locale ja
+```
+
 ### Build
 
 ```
 $ yarn build
+```
+
+### Build translation for Signle-domain
+
+```
+$ yarn run build
+```
+
+### Test your build locally
+
+```
+$ npm run serve
 ```
 
 ## Contribution
