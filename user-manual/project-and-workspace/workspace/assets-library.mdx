@@ -1,0 +1,145 @@
+---
+title: Assets library
+sidebar_position: 6
+---
+
+When making a project, a lot of pictures, models and other resources are often needed. In Re:Earth, we collectively refer to them as Assets. Asset resources are stored and managed by the workspace, which means that different projects can share the same asset library, which is helpful if a workspace has multiple related projects.
+
+You can find the assets library in the Settings under your current workspace in the navigation bar, where you can easily view and manage all the assets.
+
+<Image path={require('./img/6-1.png').default} />
+
+<Order>
+  <List>
+    <strong>Upload file</strong> and <strong>Delete</strong> asset(s) buttons.
+  </List>
+  <List>
+    <strong>Asset filtering, display and search</strong> functionality panel.
+  </List>
+  <List>
+    <strong>Assets cards</strong> showcasing your library however you have chosen in the functionality panel. Defaults to showing the full library as large cards and is filtered by time.
+  </List>
+</Order>
+
+## How to add assets
+
+We can add new assets to the library through the settings, but and we can conveniently add assets while editing the project as well. In the case of the settings, Re:Earth supports selecting multiple files at once so you can upload many files to the library at a time.
+
+<Image path={require('./img/6-2.png').default} />
+
+<Image path={require('./img/6-3.png').default} />
+
+<Image path={require('./img/6-4.png').default} />
+
+<Order>
+  <ListByNumber>
+    Click the <strong>Upload file</strong> button.
+  </ListByNumber>
+  <ListByNumber>
+    Select the file(s) you want to upload in the opened system window.
+  </ListByNumber>
+  <ListByNumber>
+    Click the <strong>Open</strong> button.
+  </ListByNumber>
+  <ListByNumber>
+    You should find that the new assets have been successfully uploaded and are now displayed in your library.
+  </ListByNumber>
+</Order>
+
+## How to delete assets
+
+Whereas adding an asset is possible from both the settings and while editing your project, deleting assets only happens in the settings. Deleting multiple at once is also possible.
+
+<Image path={require('./img/6-5.png').default} />
+
+<Image path={require('./img/6-6.png').default} />
+
+<Image path={require('./img/6-7.png').default} />
+
+<Order>
+  <ListByNumber>
+    Select the asset(s) you want to delete.
+  </ListByNumber>
+  <ListByNumber>
+    Click the <strong>Delete</strong> button in the upper right corner.
+  </ListByNumber>
+  <ListByNumber>
+    Confirm your actions.
+  </ListByNumber>
+  <ListByNumber>
+    All selected assets should be deleted.
+  </ListByNumber>
+</Order>
+
+## Find the asset you want
+
+As the number of assets increases, there will be more and more items in your library making it harder for you to find the one you want to use. We provide a panel of card management functions to help you.
+
+### Filtering
+
+Re:Earth provides a drop-down list of filters so you can customize the viewing order of assets, as you can see in the following picture:
+
+<Image path={require('./img/6-8.png').default } width="70%" noRoundCorner/>
+
+<Order>
+  <List>
+    Arrange asset cards in order of file upload <strong>time</strong>.
+  </List>
+  <List>
+    Arrange asset cards in order of file <strong>size</strong>.
+  </List>
+  <List>
+    Arrange asset cards by file <strong>name</strong>.
+  </List>
+  <List>
+    For each filter, you can use this button to toggle the reverse order.
+  </List>
+</Order>
+
+### Card style
+
+Re:Earth currently provides three ways to view the asset library:
+
+<Image path={require('./img/6-9.png').default} width="70%" noRoundCorner/>
+
+<Order start="4">
+  <List>
+    <strong>Large cards</strong> have a larger preview space. Ideal for many picture assets.
+  </List>
+</Order>
+
+<Image path={require('./img/6-10.png').default} width="70%" noRoundCorner/>
+
+<Order start="5">
+  <List>
+    <strong>Small card</strong> style can see more assets on the page at once.
+  </List>
+</Order>
+
+<Image path={require('./img/6-11.png').default}  width="70%" noRoundCorner/>
+
+<Order start="6">
+  <List>
+    <strong>List style</strong> prioritizes showing the file information (name, file size and import date) in a simple list. Ideal for many data-oriented assets.
+  </List>
+</Order>
+
+### Search by file name
+
+Of course, if you know its name, the most direct way to find an asset is to search for the file name.
+
+<Image path={require('./img/6-12.png').default} />
+
+<Order start="7">
+  <List>
+    Enter the file name in the search box and only matching results will be displayed below.
+  </List>
+</Order>
+
+There are various places in Re:Earth to use assets. Usage details about assets will be introduced in their respective sections.
+
+import Image from "/src/components/Image/Image";
+import List from "/src/components/List/List";
+import ListByNumber from "/src/components/List/ListByNumber";
+import Order from "/src/components/List/Order";
+import Link from "@docusaurus/Link";

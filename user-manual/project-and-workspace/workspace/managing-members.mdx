@@ -1,0 +1,97 @@
+---
+title: Managing members
+sidebar_position: 4
+---
+
+In the members block of the current workspace's setting page we can invite and manage members.
+
+<Image path={require('./img/4-1.png').default} />
+
+<Order>
+  <List>
+    <strong>New member</strong> button will be your first step to adding new members.
+  </List>
+  <List>
+    <strong>Member's role</strong> column allows you to check the role of each member.
+  </List>
+  <List>
+    <strong>Change member's role</strong> button allows certain members (depending on their role in the workspace) to edit other member's roles.
+  </List>
+  <List>
+    <strong>Remove member</strong> button, like changing roles, allows certain members to remove others from the workspace.
+  </List>
+</Order>
+
+## Invite new members
+
+Follow the steps below to invite new members:
+
+<Image path={require('./img/4-2.png').default} width="70%" noRoundCorner/>
+
+<Order>
+  <ListByNumber>
+    Click the <strong>New member</strong> button, and the <strong>Add a team member</strong> modal will appear.
+  </ListByNumber>
+  <ListByNumber>
+    Fill in the username or email address of the registered user you want to invite.
+  </ListByNumber>
+  <ListByNumber>
+    Check whether the search result is the correct user.
+  </ListByNumber>
+  <ListByNumber>
+    After confirming that it is correct, click the <strong>Add</strong> button.
+  </ListByNumber>
+  <ListByNumber>
+    The member will now appear in your members list.
+  </ListByNumber>
+</Order>
+
+:::info
+Only users who already have Re:Earth accounts will be able to be added to a team workspace.
+:::
+
+:::caution
+Usernames are case sensitive, so please make sure to enter the exact username.
+:::
+
+## Types of roles
+
+There are three types of member roles (or levels of authority) in Re:Earth:
+
+- **Owner**: The owner of the workspace has highest authority and has all management tools unlocked.
+- **Editor**: You can view, edit, and publish all projects in the team workspace, and you can also add new members to the workspace.
+- **Viewer**: The reader of the project, can view all the projects and parameters, but cannot edit and modify the project.
+
+:::info
+An expanded role functionality is under development, so if you need more control over roles please wait for that or feel free to ask us on Discord or through other channels.
+:::
+
+## Change a member's role
+
+Since each member has their own level of authority (through their roles), it might sometimes be necessary to update a user's role to give (or take away) certain priviledges.
+
+Follow the steps below to change a member's role:
+
+<Image path={require('./img/4-3.png').default} width="70%" noRoundCorner/>
+
+<Order>
+  <ListByNumber>
+    Click the ✏️ button in the member list.
+  </ListByNumber>
+  <ListByNumber>
+    Select the role type you want to change in the drop-down list.
+  </ListByNumber>
+  <ListByNumber>
+    Click the ☑️ button to confirm.
+  </ListByNumber>
+</Order>
+
+:::caution
+When you don’t see the button that can change member permissions, it’s probably because it is not permissible with your current role. Please contact a workspace owner to change your authority to proceed.
+:::
+
+import Image from "/src/components/Image/Image";
+import List from "/src/components/List/List";
+import ListByNumber from "/src/components/List/ListByNumber";
+import Order from "/src/components/List/Order";
+import Link from "@docusaurus/Link";
