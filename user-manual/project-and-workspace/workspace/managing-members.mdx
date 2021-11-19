@@ -3,22 +3,22 @@ title: Managing members
 sidebar_position: 4
 ---
 
-In the members block of the current workspace setting page, we can invite and manage members.
+In the members block of the current workspace's setting page we can invite and manage members.
 
 <Image path={require('./img/4-1.png').default} />
 
 <Order>
   <List>
-    <strong>New member button</strong> will be your first step to add new members.
+    <strong>New member</strong> button will be your first step to adding new members.
   </List>
   <List>
-    <strong>Members authority list</strong> allows you to check the role of each member.
+    <strong>Member's role</strong> column allows you to check the role of each member.
   </List>
   <List>
-    Change member authority button
+    <strong>Change member's role</strong> button allows certain members (depending on their role in the workspace) to edit other member's roles.
   </List>
   <List>
-    Remove member button
+    <strong>Remove member</strong> button, like changing roles, allows certain members to remove others from the workspace.
   </List>
 </Order>
 
@@ -30,35 +30,47 @@ Follow the steps below to invite new members:
 
 <Order>
   <ListByNumber>
-    Click the New member button, and the model of Add a team member will appear.
+    Click the <strong>New member</strong> button, and the <strong>Add a team member</strong> modal will appear.
   </ListByNumber>
   <ListByNumber>
-    Fill in the user's registered name or email address you want to invite.
+    Fill in the username or email address of the registered user you want to invite.
   </ListByNumber>
   <ListByNumber>
     Check whether the search result is the correct user.
   </ListByNumber>
   <ListByNumber>
-    After confirming that it is correct, click the Add button.
+    After confirming that it is correct, click the <strong>Add</strong> button.
   </ListByNumber>
   <ListByNumber>
-    The member will appear in your members list.
+    The member will now appear in your members list.
   </ListByNumber>
 </Order>
 
-:::caution
-Only users who already have Re:Earth accounts can add each other to their team workspaces.
+:::info
+Only users who already have Re:Earth accounts will be able to be added to a team workspace.
 :::
 
 :::caution
-The user name is case sensitive, please make sure to enter the correct user name.
+Usernames are case sensitive, so please make sure to enter the exact username.
 :::
 
-## Change members authority 
+## Types of roles
 
-Each member has his own authority, and different authority can complete different tasks. The specific details will be explained in the next section on member authority.
+There are three types of member roles (or levels of authority) in Re:Earth:
 
-Follow the steps below to change member's authority:
+- **Owner**: The owner of the workspace has highest authority and has all management tools unlocked.
+- **Editor**: You can view, edit, and publish all projects in the team workspace, and you can also add new members to the workspace.
+- **Viewer**: The reader of the project, can view all the projects and parameters, but cannot edit and modify the project.
+
+:::info
+An expanded role functionality is under development, so if you need more control over roles please wait for that or feel free to ask us on Discord or through other channels.
+:::
+
+## Change a member's role
+
+Since each member has their own level of authority (through their roles), it might sometimes be necessary to update a user's role to give (or take away) certain priviledges.
+
+Follow the steps below to change a member's role:
 
 <Image path={require('./img/4-3.png').default} width="70%" noRoundCorner/>
 
@@ -67,7 +79,7 @@ Follow the steps below to change member's authority:
     Click the ✏️ button in the member list.
   </ListByNumber>
   <ListByNumber>
-    Select the authority type you want to change in the drop-down list.
+    Select the role type you want to change in the drop-down list.
   </ListByNumber>
   <ListByNumber>
     Click the ☑️ button to confirm.
@@ -75,7 +87,7 @@ Follow the steps below to change member's authority:
 </Order>
 
 :::caution
-When you don’t see the button that can change member permissions, it’s probably because your permissions are not enough. Please contact the workspace owner to change your authority before proceeding.
+When you don’t see the button that can change member permissions, it’s probably because it is not permissible with your current role. Please contact a workspace owner to change your authority to proceed.
 :::
 
 import Image from "/src/components/Image/Image";

@@ -3,46 +3,48 @@ title: Overview
 sidebar_position: 1
 ---
 
-Re:Earch wanted to build a platform for collaborative production from the very beginning, so he created the concept of workspace. Just like the workspace in real life, it has a certain amount of storage space, you can edit Projects, save in Assets, invite partners to cooperate, and so on.
+Re:Earth's workspaces enable users to build projects collaboratively. Just like a workspace in real life, you can invite or remove members as well as choose their roles, you can manage projects or save materials(assets) connected to your workspace, and more.
 
-## Personal workspace & Team workspace
+## Types of workspaces
 
 <Image path={require('./img/1-1.png').default} width="50% "/>
 
-In Re:Earth, there are two types of workspaces in the workspace. The specific differences can be seen in the following table.
+In Re:Earth, there are two types of workspaces available. The main differences can be seen in the following table:
 
 |      |  Personal workspace  |  Team workspace  |
 | ---- | ---- | ---- |
-|  Create  |  Automatically created when the accound is created  |  Need to be created manually  |
-|  Number  |  Only one  |  You can create multiple  |
-|  Delete  |  Automatically delete when the account is deleted  |  The owner can delete the workspace when   |
-|  Add new members  |  Can not add  |  Can add new members  |
+|  Creation  |  Automatically created when the user account is created.  |  Needs to be created manually from the Dashboard or Settings.  |
+|  Quantity  |  Only one per user.  |  You can create multiple.  |
+|  Deletion  |  Will only be deleted when its user's account is deleted.  |  An owner of the workspace can delete it if there are no open projects.   |
+|  Adding new members  |  N/A  |  Multiple members can be added.  |
 
 :::tip
-In SASS services, different plans may limit the number of team workspaces and the number of members. For details, please refer to the  [rearth plan].
+In our SaaS service, different plans may limit the number of team workspaces and the number of members. For details, please refer to the [reearth plan].
 :::
 
-A team workplace can have the following operations:
+A team workplace allows the following operations:
 
 - [Create](/user-manual/project-and-workspace/workspace/create-a-new-team-workspace)
 - [Invite and manage members](/user-manual/project-and-workspace/workspace/managing-members)
-- [Delete](/user-manual/project-and-workspace/workspace/setting-deleting#delete-team-workspace)
+- [Delete](/user-manual/project-and-workspace/workspace/settings-and-deleting#delete-team-workspace)
 
-## Workspace setting page
+## Workspace settings page
 
-### Enter setting page
+You can view and modify various settings on the workspace settings page.
 
-You can view and modify various settings on the Worskspace settings page. There are two ways to enter the settings page:
+### Accessing settings
+
+There are two ways to enter the settings page:
 
 #### From Dashboard
 
-Dashboard —> Workspace block —> `⚙️` button
+Dashboard -> Workspace block -> `⚙️` button
 
 <Image path={require('./img/1-2.png').default} />
 
 #### From Editor
 
-Editor —> Header user menu —> Switch Workspace —> Manage Workspaces —> Workspace list —> choose the workspace you want to edit
+Editor -> Header user menu -> Switch Workspace -> Manage Workspaces —> Workspace list —> select a workspace
  
 <Image path={require('./img/1-3.png').default} />
 
@@ -50,40 +52,42 @@ Editor —> Header user menu —> Switch Workspace —> Manage Workspaces —> W
 
 ### Navigation
 
+The navigation bar on the left allows you to access different settings related to the current workspace or manage all workspaces.
+
 <Image path={require('./img/1-5.png').default} />
 
 <Order>
   <List>
-    The workspace list page will display all the workspaces under your account, which is convenient for you to manage and switch.
+    <strong>Workspace list</strong> page will display all the workspaces under your account, which is convenient for you to manage and switch between them.
   </List>
   <List>
-    On the current workspace settings page, you can <Link to="/user-manual/project-and-workspace/workspace/managing-members">invite, manage members</Link>, and <Link to="/user-manual/project-and-workspace/workspace/setting-deleting#delete-team-workspace">delete workspace</Link>.
+    <strong>Current workspace</strong> page allows you to <Link to="/user-manual/project-and-workspace/workspace/managing-members">invite or manage members</Link> and <Link to="/user-manual/project-and-workspace/workspace/settings-and-deleting#delete-team-workspace">delete the workspace</Link>.
   </List>
   <List>
-    Asset page can manage all assets under the current workspace, please check <Link to="/user-manual/project-and-workspace/workspace/assets-library">Assets management</Link> for details.
+    <string>Assets</string> page can manage all assets under the current workspace. For more details, please check <Link to="/user-manual/project-and-workspace/workspace/assets-library">Assets management</Link>.
   </List>
 </Order>
 
-## Always pay attention to the Workspace you are in
+## Always pay attention to the workspace you are in
 
-Because the project belongs to the workspace, you will see different projects when you switch between different workspaces. So don't panic when you suddenly find that your project disappears. First of all, make sure you are in the correct workspace.
+Because projects belong to a workspace, you will see different projects when you switch between different workspaces. So don't panic if you suddenly find that your project has seemingly disappeared. First of all, make sure you are in the intended workspace.
 
-In the Header of any page, you can confirm the current workspace at any time.
+You can confirm the current workspace at any time by look in the top left of the header (as seen in the pictures below).
 
 <Image path={require('./img/1-6.png').default} />
 
 <Image path={require('./img/1-7.png').default} />
 
-## Switching Workspace
+## Switching workspaces
 
-If you find that you are in the wrong workspace, you can quickly switch in the menu of the Header.
+Whether you find yourself in the wrong workspace, or need to collaborate on a different project with a different team, you can quickly switch workspaces from the workspace menu in the header.
 
-Header user menu —> Switch Workspace —> the workspace you want to switch to
+Header user menu —> Switch Workspace —> select the desired workspace
 
 <Image path={require('./img/1-8.png').default} />
 
 :::tip
-info: The dotted element shows the workspace you are currently in.
+The circle to the right of a workspace's name shows which workspace you are currently in.
 :::
 
 import Image from "/src/components/Image/Image";
