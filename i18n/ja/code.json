@@ -233,5 +233,13 @@
   "We will provide tutorials that showcase the versatility of Re:Earth and can be used as jumping off points for you and your unique projects.": {
     "message": "Re:Earthを使いこなせるように、初心者向けから上級者向けまで、さまざまなトピックのチュートリアルを紹介しています。",
     "description": "Top page / Card / Description"
+  },
+  "https://docs2.reearth.io/getting-started": {
+    "message": "https://docs2.reearth.io/ja/getting-started",
+    "description": "Top page/ Card / Link"
+  },
+  "https://docs2.reearth.io/reference": {
+    "message": "https://docs2.reearth.io/ja/reference",
+    "description": "Top page/ Card / Link"
   }
 }

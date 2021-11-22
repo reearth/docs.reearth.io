@@ -65,7 +65,10 @@ export default function HomepageMenus(): JSX.Element {
               description: "Top page / Card / Description",
             })}
             image="/img/getting_started.svg"
-            link="https://docs2.reearth.io/getting-started"
+            link={translate({
+              message: "https://docs2.reearth.io/getting-started",
+              description: "Top page/ Card / Link",
+            })}
           ></Menu>
           <Menu
             title={translate({
@@ -78,7 +81,10 @@ export default function HomepageMenus(): JSX.Element {
               description: "Top page / Card / Description",
             })}
             image="/img/manual.svg"
-            link="https://docs2.reearth.io/reference"
+            link={translate({
+              message: "https://docs2.reearth.io/reference",
+              description: "Top page/ Card / Link",
+            })}
           ></Menu>
           <Menu
             title={translate({
