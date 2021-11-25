@@ -1,3 +1,24 @@
 .container{
   padding: 0 12px;
 }
+
+.cardImage{
+  height: 168px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.image{
+  width: 100%;
+  display: inline-block;
+}
+
+.cardBody{
+  padding: 24px 0;
+}
+
+.description{
+  line-height: 1.5em;
+  font-size: var(--ifm-description-font-size);
+}

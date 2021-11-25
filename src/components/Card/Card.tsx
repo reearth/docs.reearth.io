@@ -1,37 +1,55 @@
+import Link from "@docusaurus/Link";
 import React from "react";
 
 import styles from "./Card.module.css";
 
-type Props = {
-  title: string;
-  image: string;
-};
+export interface Props {
+  image?: string;
+  title?: string;
+  description?: string;
+  link?: string;
+  url?: string;
+}
 
-export default function HeroHeader({ title, image }: Props): JSX.Element {
+const Card: React.FC<Props> = ({ image, title, description, link, url }) => {
   return (
     <div className={styles.container}>
       <div className={styles.card}>
         <div className={styles.cardImage}>
           <img
-            src="https://images.unsplash.com/photo-1506624183912-c602f4a21ca7?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60"
-            alt="Image alt text"
-            title="Logo Title Text 1"
+            className={styles.image}
+            src={image}
+            alt={`${title} image`}
+            title={`event ${title}`}
           />
         </div>
         <div className={styles.cardBody}>
           <h4>{title}</h4>
-          <small>
-            The Quaco Head Lighthouse is a well maintained lighthouse close to
-            St. Martins. It is a short, beautiful walk to the lighthouse along
-            the seashore.
-          </small>
+          <p className={styles.description}>{description}</p>
         </div>
         <div className={styles.cardFooter}>
-          <button className="button button--primary button--block">
-            Visit
-          </button>
+          {link ? (
+            <Link className="Primary" to={link}>
+              <strong>
+                <small>Start &gt; </small>
+              </strong>
+            </Link>
+          ) : (
+            <a
+              className="Primary"
+              href={url}
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <strong>
+                <small>Go &gt; </small>
+              </strong>
+            </a>
+          )}
         </div>
       </div>
     </div>
   );
-}
+};
+
+export default Card;
