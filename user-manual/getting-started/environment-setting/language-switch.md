@@ -3,4 +3,10 @@ title: Language switch
 sidebar_position: 2
 ---
 
+Re:Earth到现在位置至少支持两种语言，英语和日语。正如我们的开发团队有来自各种不同语言背景的成员，我们也会在未来努力支持更多的语言。
+
+切换语言的功能在account的设定页面。
+Dashboard header -> Account Settings
+
+[此处应该有一张图]
 
