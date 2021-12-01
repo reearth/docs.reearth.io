@@ -3,88 +3,90 @@ title: 概要
 sidebar_position: 1
 ---
 
-これは日本語
-
-Projects are where all the magic happens in Re:Earth. Edit, publish, import your data and more.
+プロジェクトでは、編集・公開・データのインポートなどが出来ます。
 
 <Image path={require('./img/1-1.png').default} width="60%"/>
 
-Once you create a project you can open the editor page and by default you will see a digital earth floating in the universe. When a project is created, a scene will be created, attached and used by your project. Currently, only Cesium-based scenes are available, but more will come in the future. For more information about scenes, please see the chapter on [scenes](/user-manual/scene/ideas-of-scene).
+プロジェクトを作成すると、編集画面を開くことができます。
+編集画面には、宇宙に浮かぶデジタル地球儀が表示されています。Re:Earthではこれをシーンと呼んでいます。
+現在、表示可能なシーンはCesiumのみですが、今後様々なシーンに対応する予定です。
+シーンについての詳しい情報は、以下の章をご覧ください。
 
 <Image path={require('./img/1-2.png').default} />
 
-As described in the previous chapters, you can add and build various content on the earth. Treat the project like an easle, the earth itself the canvas, and Re:Earth the set of brushes and tools to help you create your vision.
+先に述べたように、地球上には様々なコンテンツを追加・作成することができます。プロジェクトは「画架」、地球は「キャンバス」、Re:Earthは「ブラシ」と「ツール」と考えて、あなたのイメージを膨らませていきましょう。
 
-The following operations are available on a project:
+プロジェクトでは以下の操作が可能です：
 
-- [Create](/user-manual/project-and-workspace/project/create-a-new-project)
-- [Preview]
-- [Publish]
-- [Archive](/user-manual/project-and-workspace/project/settings-archiving-and-deleting)
-- [Delete](/user-manual/project-and-workspace/project/settings-archiving-and-deleting)
+- [作成](ja/user-manual/project-and-workspace/project/create-a-new-project)
+- [プレビュー]
+- [公開]
+- [非編集化](ja/user-manual/project-and-workspace/project/settings-archiving-and-deleting)
+- [削除](ja/user-manual/project-and-workspace/project/settings-archiving-and-deleting)
 
-## Project settings page
+## プロジェクトの設定
 
-In the settings page, project specific settings can be accessed where you can modify things like its title or add basic auth, manage its datasets or the plugins used by the project.
+設定では、タイトルの変更やベーシック認証の追加、データセットやプロジェクトで使用するプラグインの管理などを行うことができます。
 
-### Accessing settings
+### 設定へのアクセス
 
-There are two ways to get to a project's settings:
+設定へアクセスする方法は、2つあります：
 
-#### From Dashboard
+#### ダッシュボードから
 
-Dashboard -> Project card -> ⚙️ button
+ダッシュボード —> プロジェクトカード —> ⚙️ ボタン
 
 <Image path={require('./img/1-3.png').default} />
 
-#### From Editor
+#### 編集画面から
 
-Header —> Project menu —> Project settings
+ヘッダー —> プロジェクトメニュー —> プロジェクト設定
 
 <Image path={require('./img/1-4.png').default} />
 
-### Navigation
+### ナビゲーションバー
 
-The navigation bar on the left allows you to access different settings related to the current project or manage all projects.
+左側のナビゲーションバーでは、現在のプロジェクトに関する様々な設定をしたり、すべてのプロジェクトを管理することができます。
 
 <Image path={require('./img/1-5.png').default} />
 
 <Order>
   <List>
-    <strong>Project list</strong> page will display all the projects under the current workspace. Use this page to select different projects to access their individual settings.
+    <strong>プロジェクトリスト</strong> 現在のワークスペースにあるすべてのプロジェクトを表示します。このページでは、さまざまなプロジェクトを選択して、それぞれの設定にアクセスできます。
   </List>
   <List>
-    <strong>Current project</strong> page allows you to modify the basic information of the project as well as archive or delete the project. For more details, please check the <Link to="/user-manual/project-and-workspace/project/settings-archiving-and-deleting">Settings, archiving, and deleting</Link></List>
-  <List>
-    <strong>Public</strong> settings page provides some settings about publishing your project. For more details, please check <Link to="/user-manual/project-and-workspace/project/public-settings">Public Setting</Link>.
+    <strong>現在のプロジェクト</strong> プロジェクトの基本情報の変更や、プロジェクトの非編集化や削除を行うことができます。詳しくは、<Link to="ja/user-manual/project-and-workspace/project/settings-archiving-and-deleting">設定・非編集化・削除</Link>をご覧ください。
   </List>
   <List>
-    <strong>Dataset</strong> library page is used to manage the datasets that have been imported into the current project. For more details, please check <Link to="/user-manual/project-and-workspace/project/dataset-library">Dataset library</Link> and [the Dataset section].
+    <strong>公開設定</strong> プロジェクトの公開に関する設定を行うことができます。詳しくは、<Link to="ja/user-manual/project-and-workspace/project/public-settings">公開設定</Link>をご覧ください。
   </List>
   <List>
-    <strong>Plugin</strong> library page is used to manage the installed plugins of the current project. For more details, please check <Link to="/user-manual/project-and-workspace/project/plugin-library">Plugin Library</Link> and the entire [Plugin section].
+    <strong>データセット</strong> 現在のプロジェクトにインポートされているデータセットを管理することが出来ます。詳しくは、<Link to="ja/user-manual/project-and-workspace/project/dataset-library">データセットライブラリ</Link> および [データセットセクション]をご覧ください。
+  </List>
+  <List>
+    <strong>プラグイン</strong> 現在のプロジェクトにインポートされているプラグインを、管理することが出来ます。詳しくは、<Link to="ja/user-manual/project-and-workspace/project/plugin-library">プラグインライブラリ</Link> および [プラグインセクション]をご覧ください。
   </List>
 </Order>
 
-## Public status
+## 公開状況
 
-When you finish a project, you can publish it on the Internet. We have provided some signs to keep you informed of the public status of the project at all times.
+プロジェクトが完成したらプロジェクトをインターネット上に公開することができます。プロジェクトの公開状況は、2つの方法で確認することができます。
 
-#### From Dashboard
+#### ダッシュボードから
 
-On each project card found in the Dashboard you can see the status.
+ダッシュボードの、各プロジェクトカードで公開状況を確認することができます。
 
 <Image path={require('./img/1-6.png').default} />
 
-#### From Editor
+#### 編集画面から
 
-In the upper right corner of the Editor page you can also see and change the status at any time while editing.
+編集画面の右上に、公開状況が表示されおり、いつでも確認・変更することが可能です。
 
 <Image path={require('./img/1-7.png').default} />
 
-## Cooperate
+## 共同編集
 
-In order to support collaborative editing between team members, we have developed a workspace system. Members in the same workspace can participate in editing the same project. For specific operations, please refer to the [workspace](/user-manual/project-and-workspace/workspace/overview) section.
+ワークスペースシステムにより、チームメンバー間の共同編集が可能になります。同じワークスペースにいるメンバーは同じプロジェクトを編集することが出来ます。具体的な操作方法については、[ワークスペース](ja/user-manual/project-and-workspace/workspace/overview) をご覧ください。
 
 import Image from "/src/components/Image/Image";
 import List from "/src/components/List/List";
