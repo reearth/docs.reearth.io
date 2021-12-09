@@ -1,36 +1,38 @@
 ---
-title: Dataset library
+title: データセット ライブラリー
 sidebar_position: 5
 ---
 
-In Re:Earth, any external data that is imported will become a dataset. This is the internal data storage form of the system. For a more detailed explanation, please refer to the dedicated [Dataset section].
+インポートしたデータはすべてデータセットとして Re:Earth 内に保存されます。詳しくは[データセット]をご覧ください。
 
-You can find the Dataset library here:
-Editor page —> Header menu —> Datasets
+データセットライブラリは、以下の場所で見つけることができます：  
+編集画面 -> ヘッダーメニュー -> データセット
 
-<Image path={require('./img/5-2.png').default} />
+<Image path={require("./img/5-2.png").default} />
 
-On this Dataset library page, found in the settings, you can see and manage all the Datasets that you imported into the current project.
+データセットライブラリーでは、現在のプロジェクトにインポートした全てのデータセットを確認・管理することができます。
 
-<Image path={require('./img/5-1.png').default} />
+<Image path={require("./img/5-1.png").default} />
 
-## Addind and deleting Datasets
+## データセットの追加と削除
 
-<Image path={require('./img/5-3.png').default} />
+<Image path={require("./img/5-3.png").default} />
 
 <Order>
   <List>
-    <strong>Add dataset (import) button</strong> allows you to import data from your local machine.
+    <strong>データセットを追加</strong>{" "}
+    では、お手元のPCにあるデータをインポートすることができます。
   </List>
   <List>
-    <strong>Delete button</strong> is found by hovering the mouse over the Dataset card.
+    <strong>削除</strong>{" "}
+    は、データセットカードの上にマウスを置くと表示され、データセットの削除を行うことができます。
   </List>
 </Order>
 
-At the moment, managing Datasets consists of only adding (importing) and deleting them. We will expand the functionality in future development.
+現時点では、データセットの管理は、データセットの追加と削除のみとなっていますが、今後の開発で機能を拡張していく予定です。
 
 :::caution
-Please make sure that the dataset is no longer being used in your project. Otherwise, anything connected to the Dataset could break.
+  データセットを削除する際は、そのデータセットがプロジェクトで使用されていないことを確認してください。データセットが接続されている場合、接続されているプロジェクトが欠損する可能性があります。
 :::
 
 import Image from "/src/components/Image/Image";
