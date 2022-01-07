@@ -5,6 +5,11 @@
   width: 100%;
 }
 
+.cardWrapper{
+  max-width: 400px;
+  margin: 0 auto;
+}
+
 .cardImageConatiner {
   display: flex;
   background-color: #ECECEC;
