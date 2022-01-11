@@ -5,8 +5,8 @@
  * LICENSE file in the root directory of this source tree.
  */
 import Link from "@docusaurus/Link";
-// import clsx from "clsx";
 import Translate, { translate } from "@docusaurus/Translate";
+import clsx from "clsx";
 import React from "react";
 
 import styles from "./HomepageMenus.module.css";
@@ -21,7 +21,7 @@ type FeatureItem = {
 function Menu({ title, image, link, description }: FeatureItem) {
   return (
     <div className="col col--3">
-      <div className="card">
+      <div className={clsx("card margin-vert--md", styles.cardWrapper)}>
         <div className={styles.cardImageConatiner}>
           <img
             className={styles.cardImage}
