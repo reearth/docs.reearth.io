@@ -1,93 +1,94 @@
 ---
-title: Managing members
+title: メンバーの管理
 sidebar_position: 4
 ---
 
-In the members block of the current workspace's setting page we can invite and manage members.
+
+ワークスペースの設定ページで、ワークスペースのメンバーの管理をすることができます。
 
 <Image path={require('./img/4-1.png').default} />
 
 <Order>
   <List>
-    <strong>New member</strong> button will be your first step to adding new members.
+    <strong>新規メンバー</strong> ボタンで、メンバーの追加を行います。
   </List>
   <List>
-    <strong>Member's role</strong> column allows you to check the role of each member.
+    <strong>メンバーの権限</strong> ボタンでは、共有中のメンバーの権限を確認することができます。
   </List>
   <List>
-    <strong>Change member's role</strong> button allows certain members (depending on their role in the workspace) to edit other member's roles.
+    <strong>権限変更</strong> ボタンでは、ワークスペース内でのメンバーの権限を変更することができます。
   </List>
   <List>
-    <strong>Remove member</strong> button, like changing roles, allows certain members to remove others from the workspace.
+    <strong>メンバーの削除</strong> ボタンをクリックすると、メンバーをワークスペースから削除することができます。
   </List>
 </Order>
 
-## Invite new members
+## メンバーの招待
 
-Follow the steps below to invite new members:
+以下の手順でメンバーをワークスペースに招待することができます。
 
 <Image path={require('./img/4-2.png').default} width="70%" noRoundCorner/>
 
 <Order>
   <ListByNumber>
-    Click the <strong>New member</strong> button, and the <strong>Add a team member</strong> modal will appear.
+    <strong>新規メンバー</strong>をクリックすると、<strong>メンバーを追加</strong> モーダルが表示されます。
   </ListByNumber>
   <ListByNumber>
-    Fill in the username or email address of the registered user you want to invite.
+    招待したいユーザーのユーザー名もしくはメールアドレスを入力します。
   </ListByNumber>
   <ListByNumber>
-    Check whether the search result is the correct user.
+    招待したいユーザーが正しく表示されているか確認します。
   </ListByNumber>
   <ListByNumber>
-    After confirming that it is correct, click the <strong>Add</strong> button.
+    ユーザーが正しことを確認したら<strong>追加</strong> ボタンをクリックします。
   </ListByNumber>
   <ListByNumber>
-    The member will now appear in your members list.
+    メンバーリストにメンバーが追加されます。
   </ListByNumber>
 </Order>
 
 :::info
-Only users who already have Re:Earth accounts will be able to be added to a team workspace.
+チームワークスペースに追加できるのは、Re:Earthのアカウントを持っているユーザーだけです。
 :::
 
 :::caution
-Usernames are case sensitive, so please make sure to enter the exact username.
+ユーザーネームは大文字と小文字を区別しますので、正確に入力してください。
 :::
 
-## Types of roles
+## 権限の種類
 
-There are three types of member roles (or levels of authority) in Re:Earth:
+メンバーの権限は以下の３種類存在します。
 
-- **Owner**: The owner of the workspace has highest authority and has all management tools unlocked.
-- **Editor**: You can view, edit, and publish all projects in the team workspace, and you can also add new members to the workspace.
-- **Viewer**: The reader of the project, can view all the projects and parameters, but cannot edit and modify the project.
+- **オーナー**: ワークスペースの最高権限を持ち、ワークスペースに関する全ての設定を操作することができます。
+- **編集**: ワークスペース内のプロジェクトの閲覧・編集・公開をすることができ、ワークスペース内にメンバーを追加することもできます。
+- **閲覧**: 全てのプロジェクトを閲覧することができますが、編集及び設定を変更することはできません。
 
 :::info
-An expanded role functionality is under development, so if you need more control over roles please wait for that or feel free to ask us on Discord or through other channels.
+権限の範囲は現在検討中です。権限範囲の拡張が必要な場合は、開発をお待ちいただくかDiscordなどでお気軽にお問合せください。
 :::
 
-## Change a member's role
+## メンバーの権限を変更する
 
-Since each member has their own level of authority (through their roles), it might sometimes be necessary to update a user's role to give (or take away) certain priviledges.
+各メンバーに対して、特定の操作を制限するためにそれぞれに権限が与えることができます。
 
-Follow the steps below to change a member's role:
+メンバーの権限を変更するには次の操作を行います:
 
 <Image path={require('./img/4-3.png').default} width="70%" noRoundCorner/>
 
 <Order>
   <ListByNumber>
-    Click the ✏️ button in the member list.
+    メンバーリストの ✏️ ボタンをクリックします.
   </ListByNumber>
   <ListByNumber>
-    Select the role type you want to change in the drop-down list.
+    ドロップダウンリストから、付与する権限を選択します。
   </ListByNumber>
   <ListByNumber>
-    Click the ☑️ button to confirm.
+    ☑️ ボタンをクリックして確定します。
   </ListByNumber>
 </Order>
 
 :::caution
-When you don’t see the button that can change member permissions, it’s probably because it is not permissible with your current role. Please contact a workspace owner to change your authority to proceed.
+権限の変更ボタンが表示されていない場合、自分の現在の権限では編集できないことを示しています。自身の権限を変更してもらうためにワークスペースのオーナーに連絡してください。
 :::
 
 import Image from "/src/components/Image/Image";

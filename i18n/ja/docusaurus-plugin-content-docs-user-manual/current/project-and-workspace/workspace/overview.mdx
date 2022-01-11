@@ -1,93 +1,94 @@
 ---
-title: Overview
+title: 概要
 sidebar_position: 1
 ---
 
-Re:Earth's workspaces enable users to build projects collaboratively. Just like a workspace in real life, you can invite or remove members as well as choose their roles, you can manage projects or save materials(assets) connected to your workspace, and more.
+Re:Earthのワークスペースは複数のユーザーが共同でプロジェクトを管理することができます。ワークスペースの設定では、共有メンバーの招待や削除、役割の選択、プロジェクトの管理、ワークスペースに関連する素材（アセット）の保存などを行うことができます。
 
-## Types of workspaces
+
+## ワークスペースの種類
 
 <Image path={require('./img/1-1.png').default} width="50% "/>
 
-In Re:Earth, there are two types of workspaces available. The main differences can be seen in the following table:
+Re:Earthでは、2種類のワークスペースが用意されています。主な違いは以下の表の通りです。
 
-|      |  Personal workspace  |  Team workspace  |
+|      |  個人のワークスペース  |  共同ワークスペース  |
 | ---- | ---- | ---- |
-|  Creation  |  Automatically created when the user account is created.  |  Needs to be created manually from the Dashboard or Settings.  |
-|  Quantity  |  Only one per user.  |  You can create multiple.  |
-|  Deletion  |  Will only be deleted when its user's account is deleted.  |  An owner of the workspace can delete it if there are no open projects.   |
-|  Adding new members  |  N/A  |  Multiple members can be added.  |
+|  作成  |  Re:Earthのアカウントが作成された際に自動で作成されます。  |  ダッシュボードや設定から手動で作成する必要があります。  |
+|  数  |  １ユーザーにつき１つです。  |  いくつでも作成することができます。  |
+|  削除  |  ユーザーのアカウントが削除された際に自動で削除されます。  |  ワークスペースの所有者は、管理しているプロジェクトがない場合ワークスペースを削除できます。   |
+|  メンバーの追加  |  メンバーの追加はできません。  |  複数人メンバーを追加することができます。  |
 
 :::tip
-In our SaaS service, different plans may limit the number of team workspaces and the number of members. For details, please refer to the [reearth plan].
+SaaSサービスでは、プランによってチームのワークスペース数やメンバー数が制限される場合があります。詳しくは、「プラン」をご参照ください。
 :::
 
-A team workplace allows the following operations:
+共同ワークスペースでは以下の操作を行うことが可能です。
 
-- [Create](/user-manual/project-and-workspace/workspace/create-a-new-team-workspace)
-- [Invite and manage members](/user-manual/project-and-workspace/workspace/managing-members)
-- [Delete](/user-manual/project-and-workspace/workspace/settings-and-deleting#delete-team-workspace)
+- [作成](/user-manual/project-and-workspace/workspace/create-a-new-team-workspace)
+- [メンバーの招待と管理](/user-manual/project-and-workspace/workspace/managing-members)
+- [削除](/user-manual/project-and-workspace/workspace/settings-and-deleting#delete-team-workspace)
 
-## Workspace settings page
+## ワークスペースの設定ページ
 
-You can view and modify various settings on the workspace settings page.
+ワークスペースの設定画面では、さまざまな設定の確認・変更をすることができます。
 
-### Accessing settings
+### 設定画面へのアクセス
 
-There are two ways to enter the settings page:
+設定ページにアクセスする方法は２通りあります。
 
-#### From Dashboard
+#### ダッシュボードから
 
-Dashboard -> Workspace block -> `⚙️` button
+ダッシュボード -> ワークスペースブロック -> `⚙️` ボタン
 
 <Image path={require('./img/1-2.png').default} />
 
-#### From Editor
-
-Editor -> Header user menu -> Switch Workspace -> Manage Workspaces —> Workspace list —> select a workspace
+#### ヘッダーメニューから
+ヘッダーのユーザーメニュー　-> ワークスペース -> ワークスペースの管理 -> ワークスペース一覧 -> ワークスペースを選択
  
 <Image path={require('./img/1-3.png').default} />
 
 <Image path={require('./img/1-4.png').default} />
 
-### Navigation
+### ナビゲーションバー
 
-The navigation bar on the left allows you to access different settings related to the current workspace or manage all workspaces.
+左側のナビゲーションバーでは、現在のワークスペースに関する設定をしたり、全てのワークスペースの管理をすることができます。
 
 <Image path={require('./img/1-5.png').default} />
 
 <Order>
   <List>
-    <strong>Workspace list</strong> page will display all the workspaces under your account, which is convenient for you to manage and switch between them.
+    <strong>ワークスペース一覧</strong> では自分が管理しているすべてのワークスペースの管理や切り替えを行うことが可能です。
   </List>
   <List>
-    <strong>Current workspace</strong> page allows you to <Link to="/user-manual/project-and-workspace/workspace/managing-members">invite or manage members</Link> and <Link to="/user-manual/project-and-workspace/workspace/settings-and-deleting#delete-team-workspace">delete the workspace</Link>.
+    <strong>現在のワークスペース</strong> では <Link to="/user-manual/project-and-workspace/workspace/managing-members">メンバーの招待</Link> や <Link to="/user-manual/project-and-workspace/workspace/settings-and-deleting#delete-team-workspace">ワークスペースの削除</Link>を行うことができます。
   </List>
   <List>
-    <string>Assets</string> page can manage all assets under the current workspace. For more details, please check <Link to="/user-manual/project-and-workspace/workspace/assets-library">Assets management</Link>.
+    <string>アセット</string> では現在のワークスペースに登録されているアセットを管理することができます。詳しくは、<Link to="/user-manual/project-and-workspace/workspace/assets-library">アセットの管理</Link>をご覧ください。
   </List>
 </Order>
 
-## Always pay attention to the workspace you are in
+## 作業中のワークスペース
+プロジェクトはワークスペース毎に管理しているため、異なるワークスペースに切り替えると異なるプロジェクトが表示されます。
 
-Because projects belong to a workspace, you will see different projects when you switch between different workspaces. So don't panic if you suddenly find that your project has seemingly disappeared. First of all, make sure you are in the intended workspace.
+作業したいプロジェクトを見失ったとしても慌てずに、自分が目的のワークスペースにいるかどうかを確認してください。
 
-You can confirm the current workspace at any time by look in the top left of the header (as seen in the pictures below).
+現在のワークスペースは、ヘッダーの左上で確認することができます（下の写真）。
 
 <Image path={require('./img/1-6.png').default} />
 
 <Image path={require('./img/1-7.png').default} />
 
-## Switching workspaces
+## ワークスペースの切り替え
+作業したいワークスペースにいない場合や、他のメンバーと共同作業する場合にヘッダーメニューののワークスペースから別のワークスペースに切り替えることができます。
 
-Whether you find yourself in the wrong workspace, or need to collaborate on a different project with a different team, you can quickly switch workspaces from the workspace menu in the header.
 
-Header user menu —> Switch Workspace —> select the desired workspace
+ヘッダーメニュー —> ワークスペース —> 目的のワークスペースを選択
 
 <Image path={require('./img/1-8.png').default} />
 
 :::tip
-The circle to the right of a workspace's name shows which workspace you are currently in.
+ワークスペース名の右にある円アイコンは、現在作業中のワークスペースを示しています。
 :::
 
 import Image from "/src/components/Image/Image";
