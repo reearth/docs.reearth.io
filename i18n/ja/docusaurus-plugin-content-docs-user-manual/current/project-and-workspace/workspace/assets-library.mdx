@@ -1,29 +1,32 @@
 ---
-title: Assets library
+title: アセットライブラリー
 sidebar_position: 6
 ---
 
-When making a project, a lot of pictures, models and other resources are often needed. In Re:Earth, we collectively refer to them as Assets. Asset resources are stored and managed by the workspace, which means that different projects can share the same asset library, which is helpful if a workspace has multiple related projects.
+プロジェクト内で使用する画像や3DモデルなどはRe:Earth上では「アセット」と呼んでおり、それぞれのアセットはアセット・ライブラリ内で保存しています。
+アセットライブラリはワークスペースごとに管理されており、同一ワークスペース内であれば異なるプロジェクトでも共有することができます。
+これによってワークスペース内で複数の同様プロジェクトを作成する際に効果的です。
 
-You can find the assets library in the Settings under your current workspace in the navigation bar, where you can easily view and manage all the assets.
+アセット・ライブラリは、ナビゲーションバーの現在のワークスペースの下の「アセット」から確認できます。アセット・ライブラリでは登録しているアセットの確認・削除を行うことができます。
 
 <Image path={require('./img/6-1.png').default} />
 
 <Order>
   <List>
-    <strong>Upload file</strong> and <strong>Delete</strong> asset(s) buttons.
+    <strong>ファイルアップロード</strong> と <strong>削除</strong> ボタンです。
   </List>
   <List>
-    <strong>Asset filtering, display and search</strong> functionality panel.
+    <strong>フィルター、検索</strong> パネルです。
   </List>
   <List>
-    <strong>Assets cards</strong> showcasing your library however you have chosen in the functionality panel. Defaults to showing the full library as large cards and is filtered by time.
+    <strong>アセット</strong> が表示されます。フィルターや検索がかかっている場合は、条件に合うアセットが表示されます。デフォルトでは各アセットは大アイコンで表示され、アセットの追加時刻順で並んでいます。
   </List>
 </Order>
 
-## How to add assets
+## アセットの追加
 
-We can add new assets to the library through the settings, but and we can conveniently add assets while editing the project as well. In the case of the settings, Re:Earth supports selecting multiple files at once so you can upload many files to the library at a time.
+アセット・ライブラリに新しいアセットを追加する方法は、設定ページからも行えますが、プロジェクトの編集ページからも追加することも可能です。
+設定ページからアセットを追加する場合は、複数のファイルを一度に追加することが可能となります。
 
 <Image path={require('./img/6-2.png').default} />
 
@@ -33,22 +36,22 @@ We can add new assets to the library through the settings, but and we can conven
 
 <Order>
   <ListByNumber>
-    Click the <strong>Upload file</strong> button.
+    <strong>ファイルアップロード</strong> をクリックします。
   </ListByNumber>
   <ListByNumber>
-    Select the file(s) you want to upload in the opened system window.
+    アップロードしたいファイルを選択します。
   </ListByNumber>
   <ListByNumber>
-    Click the <strong>Open</strong> button.
+    <strong>開く</strong> ボタンをクリックします.
   </ListByNumber>
   <ListByNumber>
-    You should find that the new assets have been successfully uploaded and are now displayed in your library.
+    正常にアップロードされると、ライブラリに新しいアセットが表示されます。
   </ListByNumber>
 </Order>
 
-## How to delete assets
-
-Whereas adding an asset is possible from both the settings and while editing your project, deleting assets only happens in the settings. Deleting multiple at once is also possible.
+## アセットの削除
+アセットの追加は、設定ページと編集ページの両方で行うことができますが、アセットの削除は設定ページからのみ可能となります。
+また、複数のアセットを一度に削除することも可能です。
 
 <Image path={require('./img/6-5.png').default} />
 
@@ -58,71 +61,71 @@ Whereas adding an asset is possible from both the settings and while editing you
 
 <Order>
   <ListByNumber>
-    Select the asset(s) you want to delete.
+    削除したいアセットを選択します。
   </ListByNumber>
   <ListByNumber>
-    Click the <strong>Delete</strong> button in the upper right corner.
+    右上の <strong>削除</strong> ボタンをクリックします。
   </ListByNumber>
   <ListByNumber>
-    Confirm your actions.
+    メッセージを確認して<strong>削除</strong> ボタンをクリックします。
   </ListByNumber>
   <ListByNumber>
-    All selected assets should be deleted.
+    選択したアセットが削除されます。
   </ListByNumber>
 </Order>
 
-## Find the asset you want
+## アセットの検索
 
-As the number of assets increases, there will be more and more items in your library making it harder for you to find the one you want to use. We provide a panel of card management functions to help you.
+アセットが増えると、使用するアセットを探すのが大変になります。そのような時にはアセットの検索機能が役に立ちます。
 
-### Filtering
+### フィルタリング
 
-Re:Earth provides a drop-down list of filters so you can customize the viewing order of assets, as you can see in the following picture:
+アセット・ライブラリにはフィルター機能が用意されており、以下の図のようにアセットの表示順を変更することができます。
 
 <Image path={require('./img/6-8.png').default } width="70%" noRoundCorner/>
 
 <Order>
   <List>
-    Arrange asset cards in order of file upload <strong>time</strong>.
+    アップロードした <strong>日時</strong>順にアセットを並び替えます。
   </List>
   <List>
-    Arrange asset cards in order of file <strong>size</strong>.
+   <strong>ファイルサイズ</strong>順にアセットを並び替えます。
   </List>
   <List>
-    Arrange asset cards by file <strong>name</strong>.
+    <strong>ファイル名</strong>順にアセットを並び替えます。
   </List>
   <List>
-    For each filter, you can use this button to toggle the reverse order.
+    各フィルターに対して逆順、正順の切り替えを行います。
   </List>
 </Order>
 
-### Card style
+### 表示スタイル
 
-Re:Earth currently provides three ways to view the asset library:
+Re:Earthでは3種類のアセット表示方法を用意しています。
 
 <Image path={require('./img/6-9.png').default} noRoundCorner/>
 
 <Order>
   <List>
-    <strong>List style</strong> prioritizes showing the file information (name, file size and import date) in a simple list. Ideal for many data-oriented assets.
+    <strong>リスト</strong> では、ファイル情報（ファイル名、ファイルサイズ、追加日）をシンプルなリスト形式で表示します。大量のデータの情報の表示に適しています。
   </List>
   <List>
-    <strong>Small card</strong> style can see more assets on the page at once.
+    <strong>小カード</strong> では、アセットを小さいアイコンで表示します。多くのアセットを一度に見ることができます。
   </List>
   <List>
-    <strong>Large cards</strong> have a larger preview space. Ideal for many picture assets.
+    <strong>大カード</strong> では、アセットを大きいアイコンで表示します。
   </List>
 </Order>
 
-### Search by file name
+### ファイル名で検索
 
-Of course, if you know its name, the most direct way to find an asset is to search for the file name.
+ファイル名でアセットを絞り込むことが可能です。
 
 <Image path={require('./img/6-10.png').default} />
 
-Enter the file name in the search box and only matching results will be displayed below.
+検索ボックスにファイル名を入力すると、一致するアセットが表示されます。
 
-There are various places in Re:Earth to use assets. Usage details about assets will be introduced in their respective sections.
+Re:Earthでは、様々なページでアセットを使用することができます。アセットに関する詳しい使い方は、それぞれの項目で紹介します。
 
 import Image from "/src/components/Image/Image";
 import List from "/src/components/List/List";
