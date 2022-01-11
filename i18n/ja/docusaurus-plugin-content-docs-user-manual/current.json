@@ -52,7 +52,7 @@
     "description": "The label for category Projects in sidebar mySidebar"
   },
   "sidebar.mySidebar.category.Workspace": {
-    "message": "Workspace",
+    "message": "ワークスペース",
     "description": "The label for category Workspace in sidebar mySidebar"
   }
 }
