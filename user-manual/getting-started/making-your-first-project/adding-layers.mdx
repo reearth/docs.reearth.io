@@ -9,29 +9,39 @@ sidebar_position: 5
 
 ## Adding a marker layer
 
-[此处应该有步骤图]
+<Image path={require('./img/4-1.png').default} />
 
-1. 从[Tool bar]选中marker
-2. 拖动Marker到地图上你想要放置的地方
-3. 在[Outline]的layers list中便新建出一个叫marker的layer。
+<Image path={require('./img/4-2.png').default} />
+
+<Order>
+  <ListByNumber>
+    从[Tool bar]选中marker
+  </ListByNumber>
+  <ListByNumber>
+    拖动Marker到地图上你想要放置的地方
+  </ListByNumber>
+  <ListByNumber>
+    在[Outline]的layers list中便新建出一个叫marker的layer
+  </ListByNumber>
+</Order>
 
 ## Change layer properties
 
-选中layer，我们便可以修改该layer的各种properties，来改变它的状态或者外形。
+选中layer，我们便可以修改该layer的各种properties，来改变它的状态或者外形，比如下面的这些例子：
 
-- 调整位置
+### 调整位置
 
 [此处应该有牛逼的动图]
 
 在layer上长按超过1s之后，我们便可以在地图上移动其位置。
 
-- 调整呈现风格
+### 调整呈现风格
 
 [此处应该有牛逼的动图]
 
 我们可以修改这个marker layer的式样，大小，颜色等等。
 
-- 添加小标签
+### 添加小标签
 
 [此处应该有牛逼的动图]
 
@@ -41,6 +51,9 @@ sidebar_position: 5
 
 请尝试改改其他layer的参数，说不定会有异样的发现。
 
+import Image from "/src/components/Image/Image";
+import ListByNumber from "/src/components/List/ListByNumber";
+import Order from "/src/components/List/Order";
 
 
 
