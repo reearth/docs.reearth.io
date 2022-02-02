@@ -1,0 +1,99 @@
+---
+title: Header
+sidebar_position: 2
+---
+
+Header主要负责导航，同时也可以快速地完成一些功能，比如发布项目等等。
+在RE:Earth的每个页面，都会有Header的存在。但是在不同的页面，Header可使用的功能稍有不同。这其中属Editor页面的Header功能最为齐全，因为我们以它为例介绍。
+
+<Image path={require('./img/2-1.png').default} />
+
+<Order>
+  <List>
+    前往Dashboard的按钮
+  </List>
+  <List>
+    前往Editor的按钮
+  </List>
+  <List>
+    用户头像（功能还在开发中...）
+  </List>
+  <List>
+    用户名
+  </List>
+  <List>
+    当前所处的workspace
+  </List>
+  <List>
+    [账户以及workspace功能下拉列表]
+  </List>
+  <List>
+    当前正在编辑的项目名
+  </List>
+  <List>
+    [关于项目的下拉列表]
+  </List>
+  <List>
+    项目[预览]按钮
+  </List>
+  <List>
+    项目[发布]功能按钮
+  </List>
+</Order>
+
+## 账户以及workspace功能下拉列表
+
+<Image path={require('./img/2-2.png').default} width="50%"/>
+
+<Order>
+  <List>
+    Account setting 带你前往Account setting SettingPage
+  </List>
+  <List>
+    Switch worspace 帮你在不同workspace中切换
+  </List>
+  <List>
+    当前所处的workspace
+  </List>
+  <List>
+    Manage workspace 带你前往workspace一览的页面
+  </List>
+  <List>
+    New workspace 让你可以在任何时候新建一个workspace
+  </List>
+  <List>
+    登出你当前的账户
+  </List>
+</Order>
+
+## 关于项目的功能下拉列表
+
+<Image path={require('./img/2-3.png').default} width="50%"/>
+
+A.Project setting 带你前往关于当前项目的设置页面
+B.Datasets 带你前往当前项目所拥有的所有Dataset的管理页面
+C.Manage projects 将会显示在当前workspace下所有的项目
+D.Documentation 则是链接到文档网站（也就是当前网站）的按钮
+
+<Order>
+  <List>
+    Project setting 带你前往关于当前项目的设置页面
+  </List>
+  <List>
+    Datasets 带你前往当前项目所拥有的所有Dataset的管理页面
+  </List>
+  <List>
+    Manage projects 将会显示在当前workspace下所有的项目
+  </List>
+  <List>
+    Documentation 则是链接到文档网站（也就是当前网站）的按钮
+  </List>
+</Order>
+
+## 预览和发布项目
+
+在Header的最右端，则是关于预览和发布项目的功能按钮。想知道如何快速使用，请查看[这里]，具体更详细的细节请查看[发布]。
+
+import Image from "/src/components/Image/Image";
+import List from "/src/components/List/List";
+import Order from "/src/components/List/Order";

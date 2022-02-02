@@ -1,0 +1,69 @@
+---
+title: Creating a infobox for layer
+sidebar_position: 6
+---
+
+当你在地图上放置了marker之后，你便想呈现更多关于这个marker的信息，[infobox]正好是你所需要的工具。
+
+## 创建infobox
+
+<Image path={require('./img/5-1.png').default} />
+
+<Image path={require('./img/5-2.png').default} />
+
+1.选中layer
+2.选择infobox标签
+3.点击 create infobox 按钮创建infobox
+
+<Order>
+  <ListByNumber>
+    选中layer
+  </ListByNumber>
+  <ListByNumber>
+    选择infobox标签
+  </ListByNumber>
+  <ListByNumber>
+    点击 create infobox 按钮创建infobox
+  </ListByNumber>
+  <ListByNumber>
+    这时候新的infobox就出现在画面中，右侧也提供了关于该infobox的一些可调节的参数。
+  </ListByNumber>
+</Order>
+
+尝试调节一下不同的infobox参数，看看会有什么反应。
+
+## 添加block
+
+现在我们有一个空的infobox，想要在其中添加信息时，我们需要创建[block]。这里我们以创建Text Block为例。  
+
+<Image path={require('./img/5-3.png').default} />
+
+<Image path={require('./img/5-4.png').default} />
+
+<Order>
+  <ListByNumber>
+    移动鼠标到infobox，添加按钮就会显现出来。点击添加按钮，block的菜单就会显现出来
+  </ListByNumber>
+  <ListByNumber>
+    在菜单中选择Text Block
+  </ListByNumber>
+  <ListByNumber>
+    可以看到新建的Text Block，选择它
+  </ListByNumber>
+  <ListByNumber>
+    右侧的参数也相应地变为对当前Block的调节参数，这里我们给这个Block添加文字内容
+  </ListByNumber>
+  <ListByNumber>
+    输入完成之后，点击一下空白处，则可以看到内容便呈现出来了
+  </ListByNumber>
+</Order>
+
+Text Block还有其他各种参数，调节一下看看会有什么变化。
+
+同时也请尝试一下别的类型的Block，看看都有哪些作用，可以为infobox添加哪些信息。
+
+在Re:Earth中，我们就是通过infobox给不同的layers添加信息的。更多具体操作请查看infobox的章节。
+
+import Image from "/src/components/Image/Image";
+import ListByNumber from "/src/components/List/ListByNumber";
+import Order from "/src/components/List/Order";

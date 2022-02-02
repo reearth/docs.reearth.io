@@ -1,0 +1,31 @@
+.container{
+  padding: 0 12px;
+  height: 148px;
+}
+
+.card{
+  border: 1px solid;
+  padding: 16px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cardBody{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.description{
+  flex: 2;
+}
+
+.img{
+  height: 60px;
+  margin: auto;
+  display:block;
+}
+
+
