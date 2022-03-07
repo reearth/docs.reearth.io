@@ -29,7 +29,7 @@ By uploading an image, it will be added as an asset and can be used in any Re:Ea
 
 The asset modal is displayed by clicking the edit button of the image when creating a new project or on the Profile field of the Account settings page.
 
-(See [here](../project-and-workspace/create-new-project) for more information on creating a project)
+(See [here](/user-manual/project-and-workspace/project/create-a-new-project) for more information on creating a project)
 
 ![](./img/2_002.png)
 
@@ -41,7 +41,7 @@ The asset modal is displayed by clicking the edit button of the image when creat
 Clicking on the image icon when available in property settings will bring up the asset modal.
 
 Propety of Infobox
-(For more information about infobox, click [here](../infobox/set-up-infobox-properties))
+(For more information about infobox, click [here](/user-manual/infobox/set-up-infobox-properties))
 
 ![](./img/2_004.png)
 

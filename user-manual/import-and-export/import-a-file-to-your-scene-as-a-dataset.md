@@ -4,7 +4,7 @@ sidebar_position: 2
 ---
 
 By importing data as a dataset, it is possible to use the values of the imported data for setting properties.
-(For details, see [Link a Dataset to Property Field](../property/link-a-dataset-to-property-field))
+<!-- (For details, see [Link a Dataset to Property Field](../property/link-a-dataset-to-property-field)) -->
 
 ### Open the project.
 
