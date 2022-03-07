@@ -1,22 +1,27 @@
 ---
-title: Overview
+title: 概要
 sidebar_position: 1
 ---
 
-## What is an asset?
+## アセットとは
 
-Images and files used in Re:Earth are considered assets.
+Re:Earth内で使用する画像はアセット内で管理されます。
 
-Assets are tied to workspaces so they can be shared and used across projects.
+アセットはワークスペースに紐づくため、プロジェクト間で共有して利用することができます。
 
-You can use image assets as:
+アセットの画像は、
 
-- Project thumbnails
-- Infobox's image block images
-- Photo overlay images
-- Layer icons (where applicable)
-- Profile image
+- プロジェクトのサムネイル
+- infobox/画像ブロックの画像
+- フォトオーバーレイ/オーバーレイ画像
+- マーカーのアイコン
+- フォトオーバーレイ
+- プロフィール画像
+
+に設定することが可能です。
 
 ## アセットへのアクセス方法
-You can access the assets from `Account Settings` -> `Workspace` -> `Assets` as well as through the asset modal where it is used.
+
+アセットへは、`アカウント設定`→`ワークスペース`→ `アセット`でアクセスできます。
+
 ![](./img/1_001.png)

@@ -1,68 +1,66 @@
 ---
-title: Upload a new Asset
+title: アセットの追加
 sidebar_position: 2
 ---
 
-## How to add an asset
+アセットの追加は以下の手法で行うことができます。
 
-The following techniques can be used to add assets.
+- 1枚ずつ追加する
+- まとめて複数の画像を追加する
 
-- Adding one image at a time
-- Adding multiple images at once
+## 1枚ずつ追加する
 
-## Add one piece at a time.
+以下の設定時に適宜アセットを追加することができます。
 
-You can add assets during image selection through the assets modal when customizing the following:
-
-- Project thumbnails
-- Infobox's image block image
-- Photo overlay image
-- Splash screen image
-- Marker icons
-- Profile image
+- プロジェクトのサムネイル
+- infobox/画像ブロックの画像
+- フォトオーバーレイ画像
+- スプラッシュスクリーン画像
+- マーカーのアイコン
+- プロフィール画像
 
 ![](./img/2_001.png)
 
-By uploading an image, it will be added as an asset and can be used in any Re:Earth project that share the same workspace.
+ローカル上の画像をアップロードすることでアセットとして追加され、Re:Earth上で使用することができます。
 
-### Project thumbnail and profile images
+### プロジェクトのサムネイル、プロフィール画像
 
-The asset modal is displayed by clicking the edit button of the image when creating a new project or on the Profile field of the Account settings page.
+プロジェクト作成時及び編集画面、プロフィール編集画面で画像の編集ボタンをクリックすることでアセットモーダルが表示されます。
 
-(See [here](/user-manual/project-and-workspace/project/create-a-new-project) for more information on creating a project)
+(プロジェクトの作成については[こちら](/user-manual/project-and-workspace/project/create-a-new-project)をご覧ください)
 
 ![](./img/2_002.png)
 
 
 ![](./img/2_003.png)
 
-### **Icons, infobox image blocks, photo overlays, splash screens and markers**.
+### **infobox画像ブロックの画像、フォトオーバーレイ画像、スプラッシュスクリーン画像、マーカーのアイコン**
 
-Clicking on the image icon when available in property settings will bring up the asset modal.
+それぞれのプロパティ設定時の画像アイコンをクリックすることでアセットモーダルが表示されます。
 
-Propety of Infobox
-(For more information about infobox, click [here](/user-manual/infobox/set-up-infobox-properties))
+インフォボックスのプロパティ
+(インフォボックスの設定については[こちら](/user-manual/infobox/set-up-infobox-properties)をご覧ください)
 
 ![](./img/2_004.png)
 
-Propety of Photo overlay
-
+フォトオーバーレイのプロパティ
 ![](./img/2_005.png)
 
-Propety of Marker
+マーカーのプロパティ
 ![](./img/2_006.png)
 
-Make sure the `Image` tab is select.
+モーダル内の`画像`ボタンを押します。
 
-Select the image you want to upload from among the images on your device and press the `Open` button.
+デバイスに入っている画像の中から、アップロードしたい画像を選択し、「開く」ボタンを押します。
 
-## Add multiple images at once.
+## まとめて複数の画像を追加する
 
-### Open the account settings screen.
+### アカウント設定画面を開く
 
-Open `Account Settings` -> `Workspace` -> `Assets`.
+`アカウント設定`→`ワークスペース`→ `アセット`を開きます。
 
-Press the `Add Asset` button on the right side of the asset list.
+アセット一覧の右側にある、`追加`ボタンを押します。
 
-Select an image from your device (you can select multiple) and click the `Open` button to upload the asset and use it in your Re:Earth project.
+デバイス上から画像を選択（複数選択可能）し、「開く」ボタンをクリックすることでアセットがアップロードされ、Re:Earthのプロジェクト内で使用することが可能になります。
+
 ![](./img/2_007.png)

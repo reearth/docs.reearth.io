@@ -1,86 +1,86 @@
 ---
-title: Manage Asset
+title: アセットの管理
 sidebar_position: 3
 ---
 
-## Delete  assets
+## アセットの削除
 
-Open `Account Settings` -> `Workspace` -> `Assets`.
+`アカウント設定`→`ワークスペース`→ `アセット`を開きます。
 
-You can delete an image by clicking on the `trash icon` that appears in the upper right corner when you mouse over the image.
+画像をマウスオーバーした際に右上に表示される"ゴミ箱アイコン"をクリックすると、画像を削除することができます。
 
 ![](./img/3_001.png)
 
-## Change the order of assets
+## アセットの並び順の変更
 
-You can change the order of the assets from the sort menu in the modal.
+モーダル内のソートメニューからアセットの並びを変更することができます。
 
-You can choose from the following three orderings.
+並び順は以下の３つから選択することができます。
 
-- `Time`: Sort by date added.
-- `File size`: Sort by file size
-- `Alphabetical`: Sort by file name
+- `Time`：追加した日付順
+- `File size`：ファイルサイズ順
+- `Alphabetical`：ファイル名順
 
 ![](./img/3_002.png)
 
-You can change the ascending/descending order by clicking the clock icon next to the pull-down menu.
+プルダウンメニューの横にある時計アイコンをクリックすると昇順/降順を変更することができます。
 
 - `Time`
 
-`↓`：Sort by newest date.
+`時計↓アイコン`：日付が新しい順
 
 ![](./img/3_003.png)
 
-`↑`：Sort by oldest date.
+`時計↑アイコン`：日付が古い順
 
 ![](./img/3_004.png)
 
 - `File size`
 
-`SL`：Sort by small file size.
+`SLアイコン`：ファイルサイズが小さい順
 
 ![](./img/3_005.png)
 
-`LS`：Sort by large file size.
+`LSアイコン`：ファイルサイズが大きい順
 
 ![](./img/3_006.png)
 
 - `Alphabetical`
 
-`AZ`：ascending order
+`AZアイコン`：アルファベット昇順
 
 ![](./img/3_007.png)
 
-`ZA`：descending order
+`ZAアイコン`：アルファベット降順
 
 ![](./img/3_008.png)
 
-## Change display format
+## 表示形式の変更
 
-The icon in the center of the modal allows you to change the display format of the assets.
+モーダル内中央部のアイコンでは、アセットの表示形式を変更することができます。
 
-You can select one of the following three display formats for assets.
+アセットの表示形式は以下の3つから選択することができます。
 
-- List
+- リスト形式
 
 ![](./img/3_009.png)
 
-- Icon (small)
+- アイコン(小)形式
 
 ![](./img/3_010.png)
 
-- Icon (large)
+- アイコン(大)形式
 
 ![](./img/3_011.png)
 
-## Search
+## 検索
 
-The search bar on the right side of the modal allows you to search for assets by file name.
+モーダル右側の検索バーではアセットをファイル名から検索することができます。
 
 ![](./img/3_012.png)
 
-## Change file name
+## ファイル名の変更
 
-It is not possible to change the file name of an asset on Re:Earth.
+Re:Earth上ではアセットのファイル名を変更することができません。
 
-If you need to change the file name, please edit the file name of the data before uploading, and upload it again as an asset.
+ファイル名の変更が必要な場合は、アップロード前のデータのファイル名を編集し、再度アセットとしてアップロードしてください。

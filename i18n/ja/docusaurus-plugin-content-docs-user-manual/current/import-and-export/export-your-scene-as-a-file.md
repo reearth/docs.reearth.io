@@ -1,22 +1,22 @@
 ---
-title: Export your scene as a file
+title: レイヤのエクスポート
 sidebar_position: 3
 ---
 
-From the `Outline` tab of the left panel select the `layer` or you want to export.
+`アウトライン`タブに切り替え、エクスポートする`レイヤー`を選択します。
 
-(Dataset, file, marker, photo overlay, and sphere tools can all be selected.)
+(データセット・ファイル・マーカー・フォトオーバーレイ・球体ツール全て選択可能です。)
 
-When exporting a layer, all data contained in the selected layer will be exported as one file. For example, if you select a single layer, only that layer will be exported; if you select a layer folder, all child layers in the folder will be exported.
+レイヤーのエクスポートでは、選択されたレイヤーに含まれる全てのデータが1ファイルとしてエクスポートされます。例えば、単一のレイヤーの場合はそのレイヤーのみが、レイヤーフォルダを選択した場合はそのフォルダ内に含まれる子レイヤー全てがエクスポートされます。
 
-Select the `Export` tab of the right panel.
+画面右側にある、`エクスポートアイコン`タブを選択します。
 
 ![](./img/3_001.png)
 
-Select the file format.
+フィル形式を選択します。
 
 ![](./img/3_002.png)
 
-Click `Export` to specify a destination and export the data.
+`エクスポート`をクリックするとデータがエクスポート されますので、保存先を指定してください。
 
 ![](./img/3_003.png)

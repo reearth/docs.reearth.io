@@ -1,29 +1,32 @@
 ---
-title: Import a file to your scene as a dataset
+title: ファイルをデータセットとしてインポート
 sidebar_position: 2
 ---
 
-By importing data as a dataset, it is possible to use the values of the imported data for setting properties.
-<!-- (For details, see [Link a Dataset to Property Field](../property/link-a-dataset-to-property-field)) -->
+## CSV・JSON・GISデータをデータセットとしてインポートする
 
-### Open the project.
+データセットとしてインポートすることで、インポートしたデータの値をプロパティの設定などに利用することが可能になります。
 
-Open the `Datasets` tab and click the `Add Dataset` button.
+<!-- （データセットの値をプロパティに設定する方法は[こちら](../property/link-a-dataset-to-property-field)をご覧ください） -->
+
+### プロジェクトを開きます
+
+`データセット`タブを開き、`データセットを追加`ボタンをクリックします。
 
 ![](./img/2_001.png)
 
-From the modal that appears, click `Upload`.
+表示されたモーダルから、`アップロード`をクリックします。
 
 ![](./img/2_002.png)
 
-Select the desired CSV, JSON, or GIS file stored on your device and click the `Open` button.
+お使いのデバイスに保存されているCSV・JSON・GISファイルの中から、アップロードしたいファイル選択し、「開く」ボタンをクリックします。
 
 ![](./img/2_003.png)
 
-Click `Add Dataset`.
+`データセットを追加`をクリックします。
 
 ![](./img/2_004.png)
 
-The files you have uploaded to the dataset will be displayed in the left panel and you can drag from there and drop the file onto the earth to add them as layers.
+`データセット`にアップロードしたファイルが表示されるので、ファイルを地球にドラッグ&ドロップすると、レイヤとして追加することができます。
 
 ![](./img/2_005.png)

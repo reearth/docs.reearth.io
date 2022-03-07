@@ -1,20 +1,20 @@
 ---
-title: Importing KML, GEOJSON and GIS data
+title: GISデータのインポート
 sidebar_position: 1
 ---
 
-Drag and drop the `file icon` onto the map.
+`ファイルアイコン`を地図上にドラッグ＆ドロップします。
 
 ![](./img/1_001.png)
 
-A new layer named `file` will be added.
+新しく`file`という名前のレイヤが追加されます。
 
-From the file properties in the right panel, click on `File URL` to display the data import screen.
+ファイルのプロパティからFile URLをクリックして、データのインポート画面を表示します。
 
 ![](./img/1_002.png)
 
-Click `Upload file` to import a file stored on your device if necessary.
+`Upload file`をクリックするとお使いのデバイスに保存してあるファイルを読み込むことができます。
 
-Select the file you want to import and click `Select` to import the file.
+インポートするファイルを選択して、`Select`をクリックするとファイルをインポートすることができます。
 
 ![](./img/1_003.png)
