@@ -30,6 +30,12 @@ start to wirte Ja translation for example
 $ yarn run start -- --locale ja
 ```
 
+### Write translations
+
+```
+yarn write-translations -- --locale ja
+```
+
 ### Build
 
 ```
