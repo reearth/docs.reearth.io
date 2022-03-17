@@ -1,5 +1,5 @@
 ---
-title: 3D Tiles
+title: 3Dタイル
 sidebar_position: 2
 ---
 

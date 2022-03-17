@@ -1,5 +1,5 @@
 ---
-title: 3D Model
+title: 3Dモデル
 sidebar_position: 1
 ---
 
