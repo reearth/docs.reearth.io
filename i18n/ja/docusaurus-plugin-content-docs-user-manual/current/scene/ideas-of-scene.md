@@ -1,54 +1,58 @@
 ---
-title: Overview
+title: 概要
 sidebar_position: 1
 ---
 
-In the scene, you can modify settings related to the entire project and the Digital Earth background.
+シーンでは、プロジェクト全体やデジタルアースの背景に関する設定を行うことができます。
 
 ![](./img/1_001.png)
 
-This section describes the items displayed in the right panel when the scene is selected.
+シーン選択時に画面右に表示される項目について説明します。
 
-## Scene Settings
+## シーングループ
+
+シーングループでは、カメラ初期位置や宇宙の表示に関する設定を行います。
 
 ![](./img/1_002.png)
 
-1. Initial Camera Position: Set the position of the camera that will be displayed when the page is loaded.
-2. Terrain: Toggles between a three-dimensional representation of the terrain and a flat surface when the map tile has height information.
-3. Sky: Toggle showing space as the background.
-4. Background color: Sets the background color when Sky is disabled.
+1. カメラ初期位置：ページロード後、最初に表示されるカメラの位置を設定します。
+2. 地形：地図タイルが高さ情報を持っている場合に、立体/平面を切り替えます。
+3. 宇宙の表示：宇宙空間の太陽の表示/非表示を切り替えます。
+4. 背景色：宇宙空間を非表示にした場合の、背景色を設定します。
+5. Cesium ion APIアクセストークン：Cesium ionアカウントで発行したAPIキーを、プロジェクトへ設定します。Cesium ionアセット（地図タイルデータ・3Dデータなど）の使用が可能になります。
 
-## Tile Settings
+## タイルグループ
 
-The Tile settings is comprised of a Tile List that shows all the map tiles to be displayed on the Digital Earth and settings for the currently selected tile. You can choose from several existing map tiles, or you can apply externally distributed map tiles by specifying a URL.
+タイルグループでは、デジタルアースに表示される地図タイルを設定します。いくつかの既存のタイルセットから選択するか、URLを指定することにより、外部配信の地図タイルを適用することもできます。
 
 ![](./img/1_003.png)
+Tilesリストから、任意のタイルをクリックすると詳細が展開されます。
+1. プラスアイコン：タイルを追加します。
+2. ゴミ箱アイコン：タイルを削除します。
+3. 種類：タイルの種類を選択します。
+4. 最小レベル：タイルデータ表示の最小ズームレベルを設定します。
+5. 最大レベル：タイルデータ表示の最大ズームレベルを設定します。
 
-1. Plus button：Adds a tile.
-2. Trash button：Deletes a tile.
-3. Tile Type：Selects the tile type of the selected item.
-4. Minimum zoom level：Sets the minimum zoom level for the tile data to be display.
-5. Maximum zoom level：Sets the maximum zoom level for the tile data to be display.
+## 大気
 
-## Atmospheric Conditions
-
-Here you can customize settings related to the atmosphere, sun, and fog.
+大気グループでは、大気圏や太陽・霧に関する設定を行います。
 
 ![](./img/1_004.png)
 
-1. Sun: Toggles between showing and hiding the sun in space.
-2. Lighting: Toggles between reflecting and not reflecting sunlight on the Digital Earth. This makes it possible to represent day and night by region.
-3. Ground atmosphere: Toggles between showing and hiding the atmosphere on the Digital Earth surface.
-4. Sky atmosphere: Toggles between showing and hiding the atmosphere above the Digital Earth
-5. Fog: Toggles the fog on and off.
-6. Fog density: Sets the fog density.
-7. Fog Brightness: Set the brightness of the fog.
-8. Fog Hue: Sets the color of the fog.
-9. Fog Saturation: Sets the saturation of the fog.
+1. 太陽：宇宙空間にある太陽の表示/非表示を切り替えます。
+2. 太陽光：デジタルアースへの太陽光の反映/非反映を切り替えます。これにより、地域による昼夜の表現が可能です。
+3. 地表の大気：デジタルアース地表の大気圏の表示/非表示を切り替えます。
+4. 上空の大気：デジタルアース上空の大気圏の表示/非表示を切り替えます。
+5. 霧：霧のオンオフを切り替えます。
+6. 濃度：霧の濃度を設定します。0~1の数値が有効です。
+7. 明度：霧の明るさを設定します。-1~1の数値が有効です。
+8. 色相：霧の色を設定します。-1~1の数値が有効です。
+9. 彩度：霧の彩やかさを設定します。-1~1の数値が有効です。
 
 ## Google Analytics
+Google Analyticsグループでは、Google Analyticsとの連携に関する設定を行います。
 
-1. Enable: Check the box to enable Google Analytics. 
-2. Tracking ID: If you want to enable Google Analytics, please enter your Tracking ID.
+1. 有効： Google Analyticsを有効にするには、オン（緑の状態）にします。
+2. Tracking ID： Google AnalyticsのTracking IDを入力してください。
 
 ![](./img/1_005.png)

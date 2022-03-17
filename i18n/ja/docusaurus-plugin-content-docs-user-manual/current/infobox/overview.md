@@ -1,26 +1,26 @@
 ---
-title: Overview
+title: 概要
 sidebar_position: 1
 ---
 
-An infobox is a box that can appear when a viewer clicks on a layer on the map.
+インフォボックスとは、閲覧者が地図上のレイヤーをクリックした際に表示されるボックスのことを指します。
 
 ![](./img/1_001.png)
 
-The infobox can display text, images, videos, etc.
+インフォボックスにはテキストや画像、動画などを表示させることができます。
 
 ![](./img/1_002.png)
 
-The typeface and format specified in the infobox settings will be inherited by each block unless otherwise specified in respective settings.
+インフォボックスで指定した書体や書式は、各ブロック内で別途指定がない場合継承されます。
 
 ![](./img/1_003.png)
 
-By setting up an infobox, you can attach detailed information to the layer.
+インフォボックスを設定することで、マーカーに情報を載せて表示させることができます。
 
-The text and images to be inserted in the infobox will be managed by blocks.
+インフォボックス内に挿入するテキストや画像は、ブロックで管理します。
 
 ![](./img/1_005.png)
 
-Infoboxes with images and text set can be seen in the published scene when a layer is selected.
+画像やテキストを設定したインフォボックスは、公開したシーンで見ることができます。
 
 ![](./img/1_006.png)

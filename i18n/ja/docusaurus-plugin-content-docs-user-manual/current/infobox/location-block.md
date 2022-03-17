@@ -1,15 +1,16 @@
 ---
-title: Location block
+title: ロケーションブロック
 sidebar_position: 9
 ---
 
-The location block allows you to put a map in the infobox.
+ロケーションブロックではインフォボックスに地図を入れることができます。
 
-Click the `+` in the infobox.
-Click the `Location`.
+インフォボックスの`＋ボタン`をクリックします。
+
+`Locationボタン`を選択します。
 
 ![](./img/9_001.png)
 
-Enter the latitude and longitude in the location field in the properties and a map at that location will be displayed in the location box.
+プロパティの`位置情報`に緯度と経度を入力すると、ロケーションボックス内に指定した地点の地図が表示されます。
 
 ![](./img/9_002.png)

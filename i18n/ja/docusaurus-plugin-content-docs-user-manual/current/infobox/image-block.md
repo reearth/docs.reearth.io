@@ -1,30 +1,29 @@
 ---
-title: Image block
+title: イメージブロック
 sidebar_position: 7
 ---
 
-Add an image to an infobox.
+イメージブロックでは画像を追加します。
 
-Click the `+` button in the info box.
+インフォボックスの`+`ボタンをクリックします。
 
-Click on the `Image` button.
+Imageボタンをクリックします。
 
 ![](./img/7_001.png)
 
-Click on the image in the image box properties to display the image selection assets.
+イメージボックスのプロパティの画像をクリックすると画像選択アセットが表示されます。
 
 ![](./img/7_002.png)
 
-Select an image from the assets, or paste the URL of the desired image.
+アセットから画像を選択するか、画像のURLを貼ります。
 
-(Click [here](../asset/upload-a-new-asset) for more information about assets)
+(アセットについては[こちら](/user-manual/Asset/upload-a-new-asset)をご覧ください)
 
 
-
-- Select an image from an asset.
+- アセットから画像を選択する場合
 
 ![](./img/7_003.gif)
 
-- To paste an image URL, please enter the image URL from the URL tab of the modal.
+- 画像のURLを貼る場合は、モーダルのURLタブから画像URLを入力してください。
 
 ![](./img/7_004.gif)

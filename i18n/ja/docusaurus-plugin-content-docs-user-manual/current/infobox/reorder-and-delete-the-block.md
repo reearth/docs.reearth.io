@@ -1,17 +1,16 @@
 ---
-title: Reorder and delete the block
+title: インフォボックスの並び替え・削除
 sidebar_position: 5
 ---
 
-## Move Blocks
+## ブロックの移動
 
-Blocks can be reordered by dragging and dropping them.
+ブロック右上部にある`上下の矢印`ボタンをドラッグ&ドロップすることでブロックを入れ替えることができます。
 
-Drag and drop from the `up and down arrow` button in the top right corner of the block.
 ![](./img/5_001.png)
 
+## ブロックの削除
 
-## Delete block
+ブロックは、プロパティの1番下にある`削除ボタン`から削除することができます。
 
-Blocks can be deleted from the `Delete button` at the bottom of the properties in the right panel.
 ![](./img/5_002.png)

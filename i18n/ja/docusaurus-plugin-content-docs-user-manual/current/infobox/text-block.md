@@ -1,16 +1,17 @@
 ---
-title: Text block
+title: テキストブロック
 sidebar_position: 6
 ---
 
-The text block allows you to insert text into the infobox.
+テキストブロックではインフォボックス内に文字を挿入することができます。
 
 ![](./img/6_001.png)
 
-In the text block properties, you can enter the following:
+テキストブロックのプロパティでは以下を入力します。
 
 ![](./img/6_002.png)
-- Title: Enter the title of the text.
-- Content: Enter the content of the text.
-- Markdown: Check this box if you want to write the text in markdown format.
-- Font: Allows you to change the font size, typeface, and color of the text.
+
+- タイトル：テキストのタイトルを入力します。
+- コンテンツ：テキストの内容を入力します。
+- マークダウン ：マークダウン 形式で記述する場合はチェックします。
+- フォント：テキストの文字サイズ、書体、色などを変更できます。

@@ -1,37 +1,37 @@
 ---
-title: Set up the project for publication
+title: 公開設定
 sidebar_position: 3
 ---
 
-From the editor page, click the `Publish` button in the upper right corner to show a dropdown.
+## プロジェクトを公開する
+
+プロジェクト編集画面の右上の`公開メニュー`をクリックします。
 
 ![](./img/3_001.png)
 
-Click `Publish`.
+`公開`を選択します。
 
-![](./img/3_002_en.png)
+![](./img/3_002.png)
 
-A publishing modal will appear with the URL to be used and some extra options.
+画面中央に確認画面が表示されます。`公開`をクリックします。
 
-![](./img/3_003_en.png)
+![](./img/3_003.png)
 
 ![](./img/3_004.png)
 
 
-Press the `Publish` button to make the project public.
+`公開`ボタンを押すと、プロジェクトが公開されます。
 
-`Public URL`: Everyone on the Internet who knows the link will be able to view it.
+`公開URL`：リンクを知っているインターネット上の全員が閲覧できます。
 
-`Embed code`: If you want to embed your project in other websites, please use the embed code.
+`埋め込み用コード`：その他のwebサイトでプロジェクトを埋め込む場合は、埋め込み用コードをお使いください。
 
-## Options:
+## プロジェクトをGoogleの検索結果に表示させる
 
-### Make your project appear in Google's search results
+公開時の確認画面で、`more option`から、`Search engine indexing`のトグルボタンをオン（緑色の状態）にすることで、Googleの検索結果への表示が可能になります。
 
-In the publishing modal when you are publishing your website, go to the `more options` area and turn on the `Search engine indexing` toggle button (green) to display your website in Google's search results.
+![](./img/3_005.png)
 
-![](./img/3_003_en.png)
+## プロジェクトの基本設定
 
-### Basic project settings
-
-Detailed publication settings can be made from the project settings.
+詳細な公開設定はプロジェクトの設定から行うことができます。

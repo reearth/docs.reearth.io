@@ -1,29 +1,28 @@
 ---
-title: Set up infobox properties
+title: インフォボックスのプロパティ設定
 sidebar_position: 3
 ---
 
-The following is what you can customize for the infobox.
+インフォボックスの設定でできることは、以下の通りです。
 
-- Title : Allows you to decide the title in the infobox.
+- タイトル ：インフォボックス内のタイトルを決めることができます。
 
-![](./img/3_001_en.png)
+![](./img/3_001.png)
 
-- Size Type: Allows you to change the size of the infobox.
+- サイズ：インフォボックスの大きさを変えることができます。
 
-Small
-![](./img/3_002_en.png)
-Large
-![](./img/3_003_en.png)
+サイズ小
+![](./img/3_002.png)
+サイズ大
+![](./img/3_003.png)
 
-- Background Color: Allows you to decide the color of the infobox.
+- 背景色：インフォボックスの色を決めることができます。
 
-![](./img/3_004_en.png)
+![](./img/3_004.gif)
 
-- Font: Allows you to decide the font size, typeface, and color.
+- フォント:フォントサイズ、書体、色を決めることができます。
 
 ![](./img/3_005.png)
 
-As well as text alignment and toggling bold, italic, and underline settings for all text in the infobox.
-
+- フォントのレイアウト：左　中央　右　両端行揃え・太字・斜体・下線の設定ができます。
 ![](./img/3_006.gif)

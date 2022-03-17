@@ -1,76 +1,83 @@
 ---
-title: Storytelling
+title: ストーリーテリング
 sidebar_position: 4
 ---
 
-Storytelling allows you to navigate through specific layers in your project in a chosen order.
+ストーリーテリング機能では、デジタルアース上のレイヤーに表示順を与えることができます。※レイヤーとは、マーカーやフォトオーバーレイなどの総称です。
+これにより、物語のようにユーザーにデータを提示することが可能です。
 
 ![4_001.gif](./img/4_001.gif)
 
-## Enable storytelling
+## ストーリーテリングの有効化
 
-Clicking on `Storytelling` in the widgets section of the left panel will make the storytelling settings toggle appear on the right panel. Click the Enable toggle to start using storytelling.
+- 左パネルのアウトラインタブから`ウィジェット`をクリックし、`ストーリーテリング`をクリックしてください。  
+画面右パネルに、ストーリーテリングに関する設定ウインドウが表示されます。  
+`有効化`をクリックしてください。
 
 ![4_002.png](./img/4_002.png)
 
-In storytelling, you need to set up two items: `storytelling`  and `stories`.
+スーリーテリングでは、デフォルト項目とストーリー項目のふたつを設定する必要があります。
 
-## Storytelling
+## デフォルト項目の設定
 
-![4_003.png](./img/4_003_en.png)
+![4_003.png](./img/4_003.png)
 
-- Range: Specify the distance from the layer to the camera.
-- Camera pose: Specify the viewing angle of the camera.
+- 移動時間：レイヤー間の移動にかかる時間（秒）を指定します。
+- 画角：指定した地点からカメラまでの距離を指定します。
+- カメラ：カメラの位置を指定します。
 
-Clicking on the `Camera pose`'s  input (it should say "Not set") will open a editor popup. Enter the desired values or adjust the angle of view on the map and click `Capture` to set the viewing angle during storytelling.
+　`カメラ`横の`未設定`と書かれている欄をクリックするとカメラ位置の設定画面が表示されます。数値を入力するか、デジタルアース上でカメラ位置を調整し、`編集`をクリックしてカメラ位置を決定してください。
 
-![4_004.png](./img/4_004_en.png)
+![4_004.png](./img/4_004.png)
 
-Auto start: When checked, the first layer in the storytelling list will be selected when the project is launched.
+- 自動再生：オンにすると、プロジェクト閲覧開始時にストーリーテリング機能の最初の項目からスタートします。
 
-## Stories
+## ストーリー項目の設定
 
-This is the setting where you choose which layers will be shown and in what order while using storytelling.
+ストーリーテリング内の項目に関する設定を行います。
 
-![4_005.png](./img/4_005_en.png)
+![4_005.png](./img/4_005.png)
 
-### Add Stories
+### 地点の追加
 
-Click the `+` button in the story list to open the Layer selection window.
+ストーリーリストの`+`アイコンをクリックすると、項目の追加ウインドウが表示されます。
 
-Select the layer(s) you want to add from the selectable layers, and click the `Add` button to add the layer(s) to the story list to be displayed.
+`選択可能なレイヤー`から、追加したい項目を選択し、`追加`ボタンをクリックしてください。選択した項目が`ストーリーリスト`に追加されます。  
+ストーリーテリングは、`ストーリーリスト`の上から順番に再生されます。 `ストーリー`内の項目はドラッグで並び替えることができます。  
+また、`ストーリー`内の項目を削除したい際には、削除したい項目を選択し、`削除`ボタンをクリックしてください。  
 
-Also, storytelling will be played in order from the top of the story list.
+順番が確定したら、`保存`ボタンを押してください。編集が保存されます。
 
-![4_006.png](./img/4_006_en.png)
+![4_006.png](./img/4_006.png)
 
-### Camera settings for story
+### 項目ごとのカメラ設定
 
-While playing back a story, you can set the angle of the camera for each layer (which will bypass the Storytelling's Camera pose setting.
+ストーリーテリング時のカメラ画角やカメラ位置は、項目ごとに設定することができます。
 
-Click on the layer of interest from `stories list`.
+ストーリーリストに追加した項目をクリックしてください。
 
-Duration: Specify the time (in seconds) it takes to move to the layer.
+移動時間：レイヤー間の移動にかかる時間（秒）を指定します。
 
-Range: Specify the distance from the layer to the camera.
+画角：指定した地点からカメラまでの距離を指定します。
 
-Camera position: Specify the angle of the camera.
+カメラ：カメラの位置を指定します。
 
-![4_007.png](./img/4_007_en.png)
+![4_007.png](./img/4_007.png)
 
-### Run Storytelling
+### ストーリーテリングの実行
 
-When Storytelling is enabled, the Storytelling menu will appear in the bottom left corner of the screen.
+ストーリーテリング機能を有効にしているプロジェクトでは、画面左下にストーリーテリングメニューが表示されます。
 
 ![4_008.png](./img/4_008.png)
 
-You can jump to the next layer with `>`, and `<` will allow you to return to the previous layer. You can also attach an infobox to a layer to be viewed at the same time as you display the layer.
+`>`で次のレイヤーへ、`<` で前のレイヤーに移動します。 
+ストーリーテリング機能では、レイヤー移動と同時にインフォボックスも表示されます。
 
-[See here](/user-manual/infobox/set-up-infobox-properties) for infobox settings.
+
+インフォボックスの設定については[こちら](/user-manual/infobox/set-up-infobox-properties)をご覧ください
 
 
-Also, if the selected layer is a photo overlay, the set image will be shown.
 
-You can also go directly to a specific layer by clicking `≡`, which will show the story list, and then selecting the desired layer's name.
+ストーリーテリングメニュー左のアイコンをクリックすると、ストーリーリストが表示されます。ここから直接該当レイヤーを選択し、移動することも可能です。
 
 ![4_009.png](./img/4_009.png)

@@ -1,78 +1,73 @@
 ---
-title: Set up Scene Group Properties
+title: シーンの設定
 sidebar_position: 2
 ---
 
-In a scene you can configure settings related to the entire project, the Digital Earth background, and more. This section explains how to set up a scene.
+シーンでは、プロジェクト全体やデジタルアースの背景に関する設定等を行うことができます。ここではシーンの設定方法を説明します。
 
-## Scene group
+### カメラ初期位置の設定
 
-## Set the initial camera position
-
-In Re:Earth, the default setting is to display all of North America. You can change the camera position to be displayed on page load by setting the initial camera position.
+デフォルトでは、ページロード時に北アメリカ全土が表示される設定になっています。`カメラ初期位置の設定`では、ページロード後、最初に表示されるカメラの位置を設定できます。
 
 ![](./img/3_001.png)
 
-- Move the digital earth to the desired location.
+- デジタルアースを任意の場所・画角に動かしてください。
 
 ![](./img/3_002.png)
 
-- Click Capture
+- `キャプチャ`をクリックすると、その位置と画角がカメラ初期位置に設定されます。
 
 ![](./img/3_003.png)
 
-### Show Terrain
+### 地形の表示
 
-If the currently used map tile has height information you can toggle a three-dimensional representation of terrain on the map.
-
-Click the Terrain toggle.
+`地形`では、地図タイルが高さ情報を持っている場合に、立体的な地形表現と、平面的な地形表現を切り替えることができます。立体的な地形表現にする場合はオン（緑色の状態）にしてください。
 
 ![](./img/3_004.png)
 
-No terrain
+地形表現なし
 
 ![](./img/3_005.png)
 
-With terrain
+地形表示あり
 
 ![](./img/3_006.png)
 
-### Space view
+### 宇宙の表示
 
-The Sky toggle enables using space as the background.
-
- Click the Sky toggle.
+`宇宙の表示`では、宇宙空間の表示/非表示を切り替えます。
 
 ![](./img/3_007.png)
 
-No sky.
+宇宙の表示なし
 
 ![](./img/3_008.png)
 
-With sky.
+宇宙の表示あり
 
 ![](./img/3_009.png)
 
-### Set background color
+### 背景色の設定
 
-With the background color setting you can set the background color seen if the sky is not enabled.
+`背景色の設定`では、宇宙を非表示にした場合の、背景色を設定します。
 
-Disable the `sky` and click `not set` for the background color.
+- `宇宙の表示`を非表示設定にして、背景色の`not set`をクリックしてください。
 
 ![](./img/3_010.png)
 
-Select any color from the displayed color panel and click Save.
+- 表示されたカラーパネルから任意の色を選び、`保存`をクリックしてください。
 
 ![](./img/3_011.png)
 
-Before
+変更前
 
 ![](./img/3_012.png)
 
-After
+変更後
 
 ![](./img/3_013.png)
 
-### Cesium ion API access token
+### Cesium ion APIアクセストークン
 
-The Cesium ion API access token enables the use of Cesium ion assets (map tile data, 3D data, etc.). To do so, register with Cesium ion and set the API key issued by your Cesium ion account to your project.
+
+`Cesium ion APIアクセストークン`から連携を行うと、Cesium ionアセット（地図タイルデータ・3Dデータなど）の使用が可能になります。Ceisum ion側で発行したAPIキーをプロジェクトへ設定してください。

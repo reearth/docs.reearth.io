@@ -1,23 +1,24 @@
 ---
-title: Add a new block
+title: ブロックの追加
 sidebar_position: 4
 ---
 
-To add a new block, click on the `+` button in the infobox.
+新しいブロックを追加するには、インフォボックス内の`＋ボタン`をクリックします。
 
-Click on the type of block you want to add from the dropdown.
+下部に出てくる追加したいボタンをクリックします。
 
 ![](./img/4_001.png)
 
-The selected block will be added.
+選択したブロックが追加されます。
 
 ![](./img/4_002.png)
-・Text:　Add text to the infobox.
 
-・Image: Add an image to the infobox.
+・Text　テキストを入れることができます。
 
-・Video: Add a linked video to the infobox.
+・Image　画像を入れることができます。
 
-・Location: Add a map with a specific location to the infobox.
+・Video　映像を入れることができます。
 
-・Table: Add tabled information to the infobox.
+・Location　地図を入れることができます。
+
+・Table　表を入れることができます。

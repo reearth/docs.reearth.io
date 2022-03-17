@@ -1,10 +1,9 @@
 ---
-title: Overview
+title: 概要
 sidebar_position: 1
 ---
 
-The projects you create with Re:Earth can be set to public or private.
+Re:Earthで作成したプロジェクトは公開/非公開の設定が可能です。
 
-- Public: Anyone who knows the URL of the project can view the project.
-- Private: The project cannot be viewed by anyone.
-
+- 公開：プロジェクトのURLを知っている人は誰でもプロジェクトを閲覧することができます。
+- 非公開：プロジェクトは誰からも閲覧することはできません。

@@ -1,71 +1,69 @@
 ---
-title: Button
+title: ボタン
 sidebar_position: 2
 ---
 
-To set up a button, go to `Widgets` in the Outline tab and click on `Menu`. Menu settings will appear on the right side of the screen. 
-
-Click `Enable` and then click `+` in the Button List to add a button.
+左パネルのアウトラインタブから`ウィジェット`をクリックし、`メニュー`をクリックしてください。  
+画面右パネルに、メニューボタンに関する設定ウインドウが表示されます。  
+`有効化`をクリックし、ボタンリストの`+`アイコンから、ボタンを追加してください。
 
 ![2_001.png](./img/2_001.png)
 
-The following can be configured in the button settings:
+`ボタン`では以下のことが設定できます。
 
-- Hide: Toggles between showing and hiding the button.
-- Title: Enter a display name for the button.
-- Position: Select the display position of the button from top left, top right, bottom left, or bottom right.
-- Style: Choose to display the button as text only, icon, or text and icon.
-- Icon: If you choose to display the button as an icon or text and icon, the button will be displayed as the icon chosen here.
-- Text Color: Allows you to change the text color of the button.
-- Background Color: Allows you to change the background color of the button.
-- Type: You can select the action to be taken when the button is clicked, such as opening/closing the menu, linking, or moving the camera. The actions for each are as follows
-    - Menu Open/Close: Clicking the button will open a menu with more buttons.
-    - Link: Click to access the specified address.
-    - Camera flight: Click to move the camera.
+- 非表示：ボタンの表示/非表示を切り替えます。
+- タイトル：ボタンの表示名を入力します。
+- 表示位置：ボタンの表示位置を左上、右上、左下、右下から選択することができます。
+- 表示方法：ボタンの表示をテキストのみ、アイコン、テキストとアイコンから選択することができます。
+- アイコン：ボタンの表示方法をアイコン、もしくはテキストとアイコンにした場合、画像を指定することができます。
+- テキスト色：ボタンの文字色を変更することができます。
+- 背景色：ボタンの背景色を変更することができます。
+- アクション：ボタンをクリックしたときの動作をメニュー開閉、リンク、カメラ移動から選択することができます。それぞれの動作は以下の通りです。
+    - メニュー開閉：クリックするとさらにメニューボタンを表示させるボタンになります。
+    - リンク：クリックすると指定のアドレスにアクセスするボタンになります。
+    - カメラ移動：クリックするとカメラの移動を実行するボタンになります。
 
+## リンクボタンを設置する
 
-## Set a button to display the link.
+`ボタン`では、指定したwebページへのリンクボタンを設置することができます。
 
-Click the button to display the specified web page.
+- `ボタン`の`アクション`から`リンク`を選んでください。
+- リンク欄をクリックすると、リソース選択ウインドウが表示されます。
+- URLタブを選択し、リソースURLにアドレスを入力して`選択`をクリックすると、リンクボタンの設定が完了します。
 
-- Select the link from the action.
-- Click on the link field, and the resource selection window will appear.
-- Select the URL tab, enter the address in the Resource URL field, and click `Select` to set the URL for the button.
-
-
+![](./img/2_002.png)
 ![](./img/2_003.png)
 
-## Set the menu open/close button.
+## メニューボタンを設置する
 
-You can set a button to display a menu when clicked.
-
-By displaying the menu, many buttons can be prepared in a compact size.
+クリックで展開するメニューボタンを設置します。  
+これにより、複数のアクションをコンパクトにまとめることができます。
 
 ![](./img/2_004.png)
 
-Set the action of the button to `Menu`.
+`ボタン`の`アクション`から`メニュー開閉`を選んでください。
 
-Click `+` in the menu list to add a menu item.
+メニューリストの`+`アイコンで、メニュー内項目を追加してください。
 
 ![](./img/2_005.png)
 
 
-- Title: Enter the display name of the menu button.
-- Icon: To display an icon on the menu button, specify the icon.
-- Type: Select the action to be taken when the menu is clicked. The actions for each are as follows
-    - Link: This button will take you to the specified link when clicked.
-    - Camera: Click on this button to move the camera.
-    - Break: Makes the menu item a delimiter.
+- タイトル：メニュー内項目の表示名を入力してください。
+- アクション：メニュー内項目をクリックした際のアクションや表示形式を選択します。それぞれ内容は以下の通りです。
+    - リンク：クリックすると指定のリンクに移動します。
+    - カメラ移動：クリックするとカメラの移動を実行します。
+    - 区切り線：メニュー内項目ではなく、区切り線を表示する役割を持たせます。
 
 ![](./img/2_006.png)
 
 
-## Camera move
+## カメラ移動ボタンを設置する
 
-You can create a button that moves the camera to a specified location when clicked.
+クリックでカメラを指定位置へ移動させるボタンを設置します。
 
-Select `Camera` in the button action.
+`ボタン`の`アクション`から`カメラ移動`を選択してください。
 
-Click on the camera item to display the view angle setting window. Enter values for latitude and longitude, etc., or move the map with the mouse and click `Capture` to set the angle of view.
+その下にあらわれる`カメラ`の項目をクリックすると、画角の設定ウインドウが表示されます。緯度経度などに値を入力するか、マウス操作でデジタルアースを移動し、`キャプチャ`をクリックしてください。  
+これらの動作により、移動先のカメラ画角を設定することができます。
 
 ![](./img/2_007.png)

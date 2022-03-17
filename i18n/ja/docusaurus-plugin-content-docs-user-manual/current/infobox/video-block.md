@@ -1,27 +1,28 @@
 ---
-title: Video block
+title: ビデオブロック
 sidebar_position: 8
 ---
 
-The video block allows you to add external videos through a URL.
+動画ブロックでは動画を追加を追加することができます。
 
-- Click the `+ button` in the infobox.
-- Select the `Video button`.
+インフォボックスの`＋ボタン`をクリックします。
+
+`Videoボタン`を選択します。
 
 ![](./img/8_001.png)
 
-- Click Video URL from the properties of the video block and enter the video URL.
+動画ブロックのプロパティから動画URLをクリックし、動画のURLを入力します
 
 ![](./img/8_002.png)
 
-For obtaining the URL of the video, please refer to the various video services.
+動画のURLの取得については、各種動画サービスを参照ください。
 
-(How to get the video link on Youtube can be done from the video page sharing.)
+(Youtubeでの動画リンクの取得方法は、動画ページの共有から行うことができます。)
 
 ![](./img/8_003.gif)
 
-Title allows you to set an optional title for the video.
+タイトルには、動画のタイトルを入力することができます。
 
-When Full Size is toggled (green), the video will be maximized to the full width of the infobox.
+フルサイズをオン（緑色の状態）にすると、インフォボックス内で動画を最大化します。
 
 ![](./img/8_004.png)

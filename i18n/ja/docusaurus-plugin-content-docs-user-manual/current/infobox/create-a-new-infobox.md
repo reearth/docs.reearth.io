@@ -1,25 +1,22 @@
 ---
-title: Create a new infobox
+title: インフォボックスの作成
 sidebar_position: 2
 ---
 
-To create an infobox, switch to the infobox tab found on the right panel.
-Click `Create Infobox` to add an infobox to the selected layer.
+インフォボックスを作成するには、右パネルの上部のタブの中央の`インフォボックス`に切り替えます。
+
+`インフォボックス作成`をクリックすると、選択しているマーカーにインフォボックスが追加されます。
 
 ![](./img/2_001.gif)
 
-Click the `+` button on the displayed infobox to add a block to the infobox.
+表示されたインフォボックスの`＋`から、インフォボックスに埋め込むコンテンツを選ぶことができます。　
 
 ![](./img/2_002.png)
 
-Please select the appropriate content format from the following:
+コンテンツ形式は以下の5つから選択することができます。
 
-Text: Text-based block
-
-Image: Image-based block
-
-Video: Video-based block
-
-Location: Map-based block
-
-Table: Table-based block
+- Text：テキスト
+- Image：画像
+- Video：動画
+- Location：地図
+- Table：表
