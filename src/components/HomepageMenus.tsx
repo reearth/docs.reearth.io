@@ -81,10 +81,7 @@ export default function HomepageMenus(): JSX.Element {
               description: "Top page / Card / Description",
             })}
             image="/img/manual.svg"
-            link={translate({
-              message: "https://docs2.reearth.io/reference",
-              description: "Top page/ Card / Link",
-            })}
+            link="/user-manual/index/"
           ></Menu>
           <Menu
             title={translate({
