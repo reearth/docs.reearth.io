@@ -1,5 +1,5 @@
 ---
-title: What do Github workflows do
+title: What do GitHub workflows do
 sidebar_position: 7
 ---
 

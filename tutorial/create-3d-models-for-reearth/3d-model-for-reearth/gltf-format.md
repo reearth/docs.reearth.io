@@ -12,7 +12,7 @@ Today, we have many introductions about the glTF file everywhere, and here I jus
 
 ### Open-source
 
-The GL Transmission Format ( glTF for short ) is an open-source format that was released to the public in October 2015 by members of the COLLADA working group. You can check all the details on the Github page [here](https://github.com/KhronosGroup/glTF). It is also because of open-source that many platforms support this format quite well. Large companies like Google, Microsoft are trying to embed glTF formate into their environment. Other open-source communities like three.js use glTF as the main 3D files. Cesium also supports glTF at the beginning.
+The GL Transmission Format ( glTF for short ) is an open-source format that was released to the public in October 2015 by members of the COLLADA working group. You can check all the details on the GitHub page [here](https://github.com/KhronosGroup/glTF). It is also because of open-source that many platforms support this format quite well. Large companies like Google, Microsoft are trying to embed glTF formate into their environment. Other open-source communities like three.js use glTF as the main 3D files. Cesium also supports glTF at the beginning.
 
 ### Design for web
 
