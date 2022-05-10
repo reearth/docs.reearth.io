@@ -22,15 +22,9 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
         ({
           docs: {
             sidebarPath: require.resolve("./sidebarsUserManual.js"),
-            // Please change this to your repo.
-            editUrl:
-              "https://github.com/facebook/docusaurus/edit/main/website/",
           },
           blog: {
-            showReadingTime: true,
-            // Please change this to your repo.
-            editUrl:
-              "https://github.com/facebook/docusaurus/edit/main/website/blog/",
+            showReadingTime: false,
           },
           theme: {
             customCss: require.resolve("./src/css/custom.css"),
@@ -86,25 +80,25 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
           },
           items: [
             {
-              to: "https://docs2.reearth.io/getting-started", // ./docs-api/Intro.md
+              to: "https://docs2.reearth.io/getting-started",
               label: "Getting started",
               position: "left",
               activeBaseRegex: `/userManual/`,
             },
             {
-              to: "/user-manual/index/", // ./docs-api/Intro.md
+              to: "/user-manual",
               label: "Reference",
               position: "left",
               activeBaseRegex: `/userManual/`,
             },
             {
-              to: "/developer-guide/intro/about", // ./docs-api/Intro.md
+              to: "/developer-guide/intro/about",
               label: "Developer guide",
               position: "left",
               activeBaseRegex: `/developerGuide/`,
             },
             {
-              to: "/tutorial/index", // ./docs-api/Intro.md
+              to: "/tutorial",
               label: "Tutorial",
               position: "left",
               activeBaseRegex: `/tutorial/`,
@@ -132,7 +126,7 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
                 },
                 {
                   label: "Reference",
-                  to: "/user-manual/index/",
+                  to: "/user-manual",
                 },
                 {
                   label: "Developer guide",
@@ -140,7 +134,7 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
                 },
                 {
                   label: "Tutorials",
-                  to: "/tutorial/index",
+                  to: "/tutorial",
                 },
               ],
             },
