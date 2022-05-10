@@ -1,4 +1,4 @@
---- 
+---
 title: Domain models
 sidebar_position: 2
 ---
@@ -7,13 +7,13 @@ The below are basic descriptions of domain models and their associations with en
 
 For more in-depth information related to GraphQL, please refer to [GraphQL schema](https://github.com/reearth/reearth-backend/blob/main/schema.graphql).
 
-For more in-depth information related to Go, like their structs and methods, please refer to the [Godocs](https://reearth.github.io/reearth-backend/main/pkg/github.com/reearth/reearth-backend/index.html).
+For more in-depth information related to Go, like their structs and methods, please refer to the [docs](https://pkg.go.dev/github.com/reearth/reearth-backend).
 
 ## Scene
 
 Represents the project visualization (Cesium).
 
-**Root entity**: 
+**Root entity**:
 
 - Scene
 
@@ -21,7 +21,7 @@ Represents the project visualization (Cesium).
 
 - SceneWidget: Enabled widget extension on the Scene
 
-**Value objects:** 
+**Value objects:**
 
 - ScenePlugin: Installed plugin to the Scene
 
@@ -33,7 +33,7 @@ Represents the visible items on the visualizer.
 
 - Layer
 
-**Value objects:** 
+**Value objects:**
 
 - LayerItem: a kind of Layer
 - LayerGroup: a kind of Layer that can have children
@@ -47,7 +47,7 @@ Represents the visible items on the visualizer.
 
 Represents a generic configuration for scenes, infobox and its fields, and layers.
 
-**Root entities**: 
+**Root entities**:
 
 - PropertySchema: a schema of a configuration
 - Property: the actual instance of PropertySchema
@@ -59,7 +59,7 @@ Represents a generic configuration for scenes, infobox and its fields, and layer
 - PropertyGroup: a group of fields owned by the property as an item
 - PropertyGroupList: a list of groups, can be considered one item
 
-**Value objects:** 
+**Value objects:**
 
 - PropertyValue: the actual value of a property field
 - PropertyValueType: a primitive type of a value
@@ -68,7 +68,7 @@ Represents a generic configuration for scenes, infobox and its fields, and layer
 
 Data that can be imported from external data sources and used in properties.
 
-**Root entities**: 
+**Root entities**:
 
 - DatasetSchema: schema of dataset
 - Dataset: actual data of a DatasetSchema
@@ -78,7 +78,7 @@ Data that can be imported from external data sources and used in properties.
 - DatasetSchemaField: a field of DatasetSchema
 - DatasetField: a field of Dataset that has a name and data type
 
-**Value objects:** 
+**Value objects:**
 
 - DatasetValue: the actual value of a dataset field
 - DatasetValueType: a primitive type of a value
@@ -99,7 +99,7 @@ An extension that can be installed to the whole app and then installed to a visu
 
 - Plugin
 
-**Entities:** 
+**Entities:**
 
 - Extension: an available functionality of a plugin, could be a primitive, widget, or block.
 
@@ -109,7 +109,7 @@ An extension that can be installed to the whole app and then installed to a visu
 
 - Team: a representation to a group of users; should have a name
 
-**Value objects:** 
+**Value objects:**
 
 - Member: a representation of a user in a team; should have a Role
 - Role: team member's privileges; can be a reader, writer, or owner
