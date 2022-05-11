@@ -4,7 +4,7 @@ sidebar_position: 2
 ---
 ## Show leaflet map
 
-```jsx
+```js
 const html = `
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
   <script id="l" src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>

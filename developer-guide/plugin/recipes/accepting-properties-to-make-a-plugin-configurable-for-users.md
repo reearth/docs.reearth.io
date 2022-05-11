@@ -3,9 +3,7 @@ title: Accepting properties to make a plugin configurable for users
 sidebar_position: 4
 ---
 
-`reearth.yml`
-
-```yaml
+```yaml title="reearth.yml"
 id: test
 name: test
 version: 1.0.0
@@ -22,9 +20,7 @@ extensions:
               title: Location
 ```
 
-`map.js`
-
-```jsx
+```js title="map.js"
 const html = `
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
   <script id="l" src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
@@ -52,7 +48,7 @@ const html = `
 	    };
 
 	    addEventListener("message", e => {
-	      if (e.source !== parent) return;
+	      if (e.source !== parent || !e.data.block) return;
 	      cb(e.data);
 	    });
 
@@ -64,7 +60,9 @@ const html = `
 reearth.ui.show(html);
 
 reearth.on("update", () => {
-  reearth.ui.postMessage(reearth.block);
+  reearth.ui.postMessage({
+		block: reearth.block
+	});
 });
 ```
 

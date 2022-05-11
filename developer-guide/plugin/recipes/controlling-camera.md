@@ -3,7 +3,7 @@ title: Controlling camera
 sidebar_position: 5
 ---
 
-```jsx
+```js
 const html = `
   <p>lng: <input type="number" id="lng" value="0" /></p>
   <p>lat: <input type="number" id="lat" value="0" /></p>

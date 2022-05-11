@@ -5,7 +5,7 @@ sidebar_position: 6
 
 Fetch current ISS location via "Where the ISS at?" API ([https://wheretheiss.at/w/developer](https://wheretheiss.at/w/developer))
 
-```jsx
+```js
 const html = `
 	<style>
 	  body {

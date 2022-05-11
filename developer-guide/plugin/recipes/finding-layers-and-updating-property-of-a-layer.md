@@ -3,30 +3,17 @@ title: Finding layers and updating property of a layer
 sidebar_position: 6
 ---
 
-```jsx
-function findMarker(layers, title) {
-  for (const child of layer) {
-    if (
-			layer.pluginId === "reearth" &&
-			layer.extensionId === "marker" &&
-			layer.title === title
-		) return layer;
-
-    if (layer.children?.length) {
-	    const found = find(layer.children, title);
-	    if (found) return found;
-    }
-  }
-}
-
-const markerThatTitleIsReearth = findMarker(reearth.layers.layers, "Re:Earth");
+```js
+const markerThatTitleIsReearth = reearth.layers.find(
+	layer => layer.type === "marker" && layer.title === "Re:Earth"
+);
 
 if (markerThatTitleIsReearth) {
 	// temporally update marker location
 	reearth.layers.overrideProperty(markerThatTitleIsReearth.id, {
 		default: {
 			location: { lat: 100, lng: 0, height: 0 }
-    }	
+    }
 	});
 }
 ```
