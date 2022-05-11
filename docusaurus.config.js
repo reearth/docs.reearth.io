@@ -142,7 +142,7 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
               title: "Community",
               items: [
                 {
-                  label: "Github",
+                  label: "GitHub",
                   href: "https://github.com/reearth/reearth",
                 },
                 {
