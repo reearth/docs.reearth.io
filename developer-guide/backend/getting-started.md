@@ -15,19 +15,21 @@ To get started, follow these instructions:
     - Make sure that you have Go v1.16 or later. See instructions [here](https://golang.org/doc/install).
         - For MacOS users, Installing go with Homebrew is a good option.
     - Make sure that you have GolangCI-Lint installed. See instructions [here](https://golangci-lint.run/usage/install/#local-installation).
-    - (Windows users) Make sure that you have the ability to run makefiles.
+    - (Windows users, optional) Make sure that you have the ability to run makefiles.
 
-## Set up Auth0
+## Set up Auth0 (Optional)
 
-Follow [this article](/developer-guide/intro/setup/how-to-set-up-auth0). 
+Re:Earth has an authentication server built into, so this step can be skipped.
 
-This step is also required for front-end developers.
+If you want to use Auth0 instead of the authentication server, follow [this article](../intro/setup/auth0).
 
-In the near future, this step will no longer be necessary.
+:::info
+The authentication server built into Re:Earth is enough for most developers, but it does not have an UI to manage users, so you may have to manually manage them on MongoDB.
+:::
 
 ## Set up environment variables
 
-Follow [this article](/developer-guide/backend/environment-variables) to set up environment variables by putting a `.env` file. That file will be loaded by docker-compose in the next step.
+Follow [this article](environment-variables) to set up environment variables by putting a `.env` file. That file will be loaded by docker-compose in the next step.
 
 This step is also required for front-end developers.
 
@@ -73,7 +75,7 @@ This will generate an executable `reearth` that you can run by `./reearth`. Note
 
 ## Golangci-lint
 
-A fast Go linters runner that will run linters in parallel. It can use caching, has support for yaml config, has integrations with all major IDE and has dozens of linters included. 
+A fast Go linters runner that will run linters in parallel. It can use caching, has support for yaml config, has integrations with all major IDE and has dozens of linters included.
 
 ### Installation
 
@@ -81,7 +83,7 @@ For local installation please refer to [this website](https://golangci-lint.run/
 
 ### Running
 
-To run golangci-lint locally use the following command 
+To run golangci-lint locally use the following command
 
 ```bash
 make lint
@@ -101,7 +103,7 @@ make lint
 - **Semicolons:** if the newline comes after a token that could end a statement, insert a semicolon.
 
 ```bash
-**if assignment-statement; condition {  
+**if assignment-statement; condition {
 }**
 ```
 

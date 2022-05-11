@@ -64,7 +64,7 @@ No configuration is required.
 
 ### Auth0
 
-Refer to [this article](/developer-guide/intro/setup/how-to-set-up-auth0) to set up Auth0. Then, collect your Auth0 tenant settings such as domain, audience, client ID, etc.
+Refer to [this article](auth0) to set up Auth0. Then, collect your Auth0 tenant settings such as domain, audience, client ID, etc.
 
 ```
 REEARTH_AUTH0_DOMAIN=hoge.auth0.com

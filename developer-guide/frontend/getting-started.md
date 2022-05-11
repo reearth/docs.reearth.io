@@ -15,7 +15,7 @@ Please install following tools:
 
 ## 2. Start up the back-end app
 
-Follow [this article](/developer-guide/backend/getting-started).
+Follow [this article](../backend/getting-started).
 
 ## 3. Fork and clone the repository
 
@@ -49,15 +49,15 @@ yarn start
 
 # Code styles, best practice, and IDE settings
 
-Re:Earth is set up as best as possible to warn you of any divergences from the project's expected code styles and best practices while using an appropriate IDE (the core team has a preference for VS Code). 
+Re:Earth is set up as best as possible to warn you of any divergences from the project's expected code styles and best practices while using an appropriate IDE (the core team has a preference for VS Code).
 
-We are setup to use ESLint and TypeScript to maintain a consistent code base. Please refer to [.eslintrc](https://github.com/reearth/reearth-web/blob/main/.eslintrc.yml), [.prettierrc](https://github.com/reearth/reearth-web/blob/main/.prettierrc) or [tsconfig.json](https://github.com/reearth/reearth-web/blob/main/tsconfig.json) for their respective settings if you are curious. 
+We are setup to use ESLint and TypeScript to maintain a consistent code base. Please refer to [.eslintrc](https://github.com/reearth/reearth-web/blob/main/.eslintrc.yml), [.prettierrc](https://github.com/reearth/reearth-web/blob/main/.prettierrc) or [tsconfig.json](https://github.com/reearth/reearth-web/blob/main/tsconfig.json) for their respective settings if you are curious.
 
-**Please make sure you only have the ESLint extension enabled as we leverage prettier through ESLint. Enabling both can lead to issues.** 
+**Please make sure you only have the ESLint extension enabled as we leverage prettier through ESLint. Enabling both can lead to issues.**
 
 # Unit testing
 
-We use two libraries for unit testing: react-testing-library and react-hooks-testing-library. 
+We use two libraries for unit testing: react-testing-library and react-hooks-testing-library.
 
 A nice example is the testing code for the PluginAccordion, where it has two simple tests:
 

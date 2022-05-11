@@ -3,16 +3,20 @@ title: Environment variables
 sidebar_position: 2
 ---
 
+:::info
+There are some environment variables that were added with Re:Earth version upgrade, but I'm still writing them down.
+:::
+
 The application environment variables should be provided in an `.env` file as follows:
 
-```
+```plain title=".env"
 REEARTH_AUTH0_DOMAIN=hogehoge.auth0.com
 REEARTH_AUTH0_AUDIENCE=reearth
 REEARTH_AUTH0_CLIENTID=xxxxx
 REEARTH_AUTH0_CLIENTSECRET=xxxxxxx
 ```
 
-Those environment variables are loaded through the [GoDotEnv](https://github.com/joho/godotenv) library. Then the app configs are loaded through the [envconfig](https://github.com/kelseyhightower/envconfig) library as follows:
+These environment variables are loaded through the [GoDotEnv](https://github.com/joho/godotenv) library. Then the app configs are loaded through the [envconfig](https://github.com/kelseyhightower/envconfig) library as follows:
 
 |||||
 |---|---|---|---|
