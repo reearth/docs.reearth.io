@@ -14,7 +14,7 @@ In the component's directory alongside the `index.tsx` file create a `queries.ts
 Then you need to regenerate the GraphQL files with:
 
 ```bash
-yarn gen:gql
+yarn gql
 ```
 
 Please refer to the Apollo Client documentation for more in depth information, but the general syntax you will find in queries.ts files is:
@@ -42,7 +42,7 @@ export const CHANGE_SOMETHING = gql`
 
 ## Import and use
 
-In a separate `hooks.ts` file, you will import the query/mutation and call it. One common pattern you will see is a callback function using the query/mutation that is passed along as a prop to another organism component or used in a molecule component. 
+In a separate `hooks.ts` file, you will import the query/mutation and call it. One common pattern you will see is a callback function using the query/mutation that is passed along as a prop to another organism component or used in a molecule component.
 
 From the custom hooks file using a query/string should look something like this:
 

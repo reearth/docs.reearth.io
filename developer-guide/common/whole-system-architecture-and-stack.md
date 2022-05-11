@@ -16,7 +16,7 @@ Re:Earth is built for a modern cloud native application, and it allows easily to
 - [Apollo Client](https://github.com/apollographql/apollo-client): Used to manage API calls to the backend with [GraphQL](https://graphql.org/) queries and mutations
 - [QuickJS on WebAssembly](https://github.com/justjake/quickjs-emscripten): Safety executes plugin codes
 
-For further detail please refer to the Front-end guide, in particular [Project and component architecture](../frontend/project-and-component-architectur).
+For further detail please refer to the Front-end guide, in particular [Project and component architecture](../frontend/project-and-component-architecture).
 
 ## Back-end stack
 
