@@ -83,7 +83,7 @@ If you see a success message after a short wait, the plugin has been successfull
 
 If you get an error here, it could be due to one of the following reasons:
 
-- There is an error in the format of `reearth.yml` . Review `reearrh.yml` again.
+- There is an error in the format of `reearth.yml` . Review `reearth.yml` again.
 - A plugin with the same ID has already been installed. Uninstall it and run it again.
 - The zip file does not contain `reearth.yml`, or there are multiple directories in the root. Compress a single folder containing `reearth.yml`, or a group of multiple files containing `reearth.yml`.
 - Depending on the application used to generate the zip file, it may output a malformed zip file. Try compressing the file by other means.
