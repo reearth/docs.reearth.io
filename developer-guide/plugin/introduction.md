@@ -23,12 +23,6 @@ This plugin is displayed in the infobox that appears when a layer is selected. I
 
 ![block](./img/block.png)
 
-# Where do we start?
+# Where do I start?
 
-Proceed to [Prerequisites](./prerequisites) to find out what you need to do to develop a plugin.
-
-# Plugin Editor
-
-You can also try our new [Plugin Editor](https://app.reearth.io/plugin-editor) to help you to develop your own plugin:
-
-<iframe width="100%" height="640" src="https://app.reearth.io/plugin-editor" title="Re:Earth Plugin Editor">></iframe>
+Proceed to [Prerequisites](./prerequisites) to find out what you need to do to get started developing a plugin.
