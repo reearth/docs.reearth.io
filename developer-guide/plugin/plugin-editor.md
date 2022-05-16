@@ -9,16 +9,15 @@ You can also try our new [Plugin Editor](https://app.reearth.io/plugin-editor) t
 
 ## Introduction 
 
-How to make the process of developing plugins simple has always been a problem that our team wants to solve. The main problem is that there is no real-time feedback during the development process, so developers have to repeatedly install and update the plugin. This tool can help us a lot.
+Up until now, the process of developing plugins has had a couple speed bumps that our team has wanted to solve. The main one being that there was no real-time feedback during the development process, so developers have to repeatedly update and re-install the plugin. Depending on the scope of your plugin, this tool can help a lot.
 
-Modify your plugin in the code box on the right, and you can see the effect in real time in the left window. This is very helpful for debugging interface and style.
+Modify your plugin in the code box on the right, and you can see the changes happen in real time in the left window. This is very helpful for updates to the interface and smaller style tweaking.
 
 ## Still missing
 
 - Calls to the Re:Earth api are not yet supported
-- Still does not support modifying the yml file to customize the interface with the system (right panel property)
-- Code highlighting is still not supported
+- Still does not support modifying the yml file (that is used to display customizable plugin fields in the right panel while editing the project in Re:Earth)
 
-## In the feature
+## In the future
 
-We will find ways to improve the Plugin Editor and improve the convenience of the development process. We also need your suggestions and ideas to help us.
+We will continue to find ways to improve and add to the Plugin Editor to make the plugin development process more streamlined. We also welcome your suggestions and ideas to help us, so please go to Discord or GitHub and start a discussion!
