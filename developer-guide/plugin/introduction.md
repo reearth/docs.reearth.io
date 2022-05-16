@@ -23,6 +23,8 @@ This plugin is displayed in the infobox that appears when a layer is selected. I
 
 ![block](./img/block.png)
 
-# Where do we start?
+# Where do I start?
 
-Proceed to [Prerequisites](./prerequisites) to find out what you need to do to develop a plugin.
+Proceed to [Prerequisites](./prerequisites) to find out what you need to do to get started developing a plugin.
+
+And also to check our new [Plugin Editor](./plugin-editor.md).
