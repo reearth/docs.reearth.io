@@ -13,6 +13,10 @@ Adding i18n text and translations is relatively easy. The general work flow is:
 
 In Re:Earth we use the Text component for all our text, so inside that component we will add the English first like so:
 
+:::warning
+The variable name must be `t`. Otherwise, the translation will not be detected by i18next-parser introduced below.
+:::
+
 ```tsx
 import { useT } from "@react/i18n"
 
@@ -27,14 +31,15 @@ return (
 );
 ```
 
-## Regenerate i18n files
+## Regenerate translation files
 
-After you are finished adding your text in English within your component, you will need to regenerate the i18n translation files. Do so with the command:
+After you are finished adding your text in English within your component, you will need to regenerate the i18n translation files. Do so with the command (`i18next-parser` will be executed):
 
 ```bash
 yarn i18n
 ```
 
+Don't worry, the translations you have already written will be retained even if you regenerate the translation files!
 
 ## Add translations
 
