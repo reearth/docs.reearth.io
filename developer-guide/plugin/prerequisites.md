@@ -2,7 +2,7 @@
 title: Prerequisites
 sidebar_position: 2
 ---
-## Knowleadge
+## Knowledge
 
 Basic knowledge of web development such as HTML, CSS, and JavaScript is required to develop a scene plugin. In the scene plugin, its UI is rendered in HTML and CSS, and its logic is implemented in JavaScript.
 
