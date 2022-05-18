@@ -5,12 +5,6 @@ sidebar_position: 8
 
 This is an idea for a plugin feature that is still in the conceptual stage at the moment, but could be implemented in the future.
 
-## Upgrading already installed plugin
-
-Currently, it is not possible to overwrite a plugin with the same ID, and it must be removed once. Therefore, once you have added blocks and widgets, they will disappear and you will need to install the plugin again and add them again.
-
-Since this makes development less efficient, we are planning to implement a feature that will allow you to overwrite an already installed plugin with a newer version of the plugin. The added widgets, etc. will remain intact and the properties will be automatically migrated to the new property schema.
-
 ## Embed HTML files and other static files to JS
 
 Currently, it needs to be written as a string in JavaScript, but in actual development, it is often more convenient to be able to write it as a separate file. We are considering a function to automatically embed the HTML file as a JavaScript string when installing the plug-in.
