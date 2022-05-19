@@ -11,7 +11,7 @@ Both of them can safely execute third-party JavaScript code, but they have their
 
 WebAssembly can run code synchronously and fast, and can access Re:Earth's data, but it cannot use the APIs and UIs supported by web browsers. iframe can use all the APIs supported by web browsers, and can display UIs in HTML. But it cannot access Re:Earth data directly and runs asynchronously.
 
-The WebAssembly part and the iframe can exchange messages through [postMessage](https://developer.mozilla.org/ja/docs/Web/API/Window/postMessage), so you can send only the necessary data from Re:Earth to the iframe, rewrite the HTML in the iframe, and get information from the server. This allows you to send only the necessary data from Re:Earth to the iframe, rewrite HTML in the iframe, and retrieve server information. You can also pass the retrieved information to the WebAssembly part.
+The WebAssembly part and the iframe can exchange messages through [postMessage](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage). This allows you to send only the necessary data from Re:Earth to the iframe, rewrite HTML in the iframe, and retrieve server information. You can also pass the retrieved information to the WebAssembly part.
 
 ## WebAssembly side
 
@@ -22,12 +22,12 @@ You can do the following:
 - Get Re:Earth scene data
 - Call Re:Earth plugin API
 - Modify Re:Earth scene partially (currently modifying a property of layers is supported)
-- Subscribe events from the scene
+- Subscribe to events from the scene
 - Send data to the IFrame side via `reearth.ui.postMessage` and receive data from the IFrame side via `reearth.on("message", () => {})`
 
-You cannot do this following:
+You cannot do the following:
 
-- Render HTML and any UI directly (use the IFrame side)
+- Render HTML and any UI directly (must use the IFrame side)
 - Use most APIs provided by web browsers (only some APIs, such as `console.log`, are available)
 - Communicate via HTTP with any external servers
 
