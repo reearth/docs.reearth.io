@@ -86,7 +86,7 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
               activeBaseRegex: `/userManual/`,
             },
             {
-              to: "/user-manual",
+              to: "/user-manual/reference",
               label: "Reference",
               position: "left",
               activeBaseRegex: `/userManual/`,
@@ -98,7 +98,7 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
               activeBaseRegex: `/developerGuide/`,
             },
             {
-              to: "/tutorial",
+              to: "/tutorial/home",
               label: "Tutorial",
               position: "left",
               activeBaseRegex: `/tutorial/`,
@@ -126,7 +126,7 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
                 },
                 {
                   label: "Reference",
-                  to: "/user-manual",
+                  to: "/user-manual/reference",
                 },
                 {
                   label: "Developer guide",
@@ -134,7 +134,7 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
                 },
                 {
                   label: "Tutorials",
-                  to: "/tutorial",
+                  to: "/tutorial/home",
                 },
               ],
             },
