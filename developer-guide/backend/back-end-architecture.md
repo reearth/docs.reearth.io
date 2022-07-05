@@ -18,16 +18,15 @@ e.g.: pkg → usecase or infrastructure → adapter is prohibited
 - **cmd**: Entrypoint
 - **internal**
     - **app**: Web application using [echo](https://echo.labstack.com/)
-    - **graphql**: GraphQL resolvers (Plans to unify it into `adapter/graphql`)
     - **adapter**: Presenter, controller
-        - **graphql**: GraphQL controllers
+        - **gql**: GraphQL controllers
         - **http**: HTTP REST API controllers
     - **usecase**: Usecase layer
+        - **interfaces**: Usecase interfaces
+        - **interactor**: Implementation of usecase interfaces
         - **repo**: External database interfaces
-        - **gateway**: External service interfaces (except databases)
-        - **interfaces**: Use case interfaces (Plans to unify it together with interactor as **usecase**)
-        - **interactor**: Implementation of interfaces (Plans to unify it together with interfaces as **usecase**)
-    - **infrastructure**: Implementation of `usecase/repositories` and `usecase/gateways`
+        - **gateway**: External service interfaces except databases
+    - **infrastructure**: Implementation of `usecase/repo` and `usecase/gateway`
 - **pkg**: Common packages, domain models, domain services
 - **tools**: Utility tools for development
 
@@ -63,7 +62,7 @@ Domain-Driven Design is an approach that centers the development process on a do
 
 - Handles the application activity. No business logic goes here.
 
-**Domain layer** 
+**Domain layer**
 
 - Contains the domain entities, aggregations, and services.
 
@@ -121,7 +120,7 @@ type Plugin interface {
 func LoaderFrom(r Plugin) plugin.Loader {
   return func(ctx context.Context, pid id.PluginID) (*plugin.Plugin, error) {
 		return r.FindByID(ctx, pid)
-	} 
+	}
 }
 ```
 
