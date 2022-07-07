@@ -9,8 +9,7 @@ sidebar_position: 1
 To get started, follow these instructions:
 
 - Clone the repository to your local machine with `git clone git@github.com:reearth/reearth-backend.git`.
-- Make sure that you have Docker and docker-compose installed. See instructions [here](https://docs.docker.com/get-docker/) and [here](https://docs.docker.com/compose/install/).
-    - For MacOS users, you don't need to install docker-compose manually because it will be also installed together Docker for Mac.
+- Make sure that you have Docker installed. See instructions [here](https://docs.docker.com/get-docker/) and [here](https://docs.docker.com/compose/install/).
 - For backend developers
     - Make sure that you have Go v1.16 or later. See instructions [here](https://golang.org/doc/install).
         - For MacOS users, Installing go with Homebrew is a good option.
@@ -40,7 +39,7 @@ In the near future, this step will no longer be necessary.
 Run this command to start the back-end application:
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 ## Building and running the app (for back-end developers)

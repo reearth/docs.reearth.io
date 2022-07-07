@@ -80,7 +80,7 @@ sudo systemctl daemon-reload
 
 ### 1-2. Run Re:Earth with docker-compose
 
-First, install Docker and docker-compose.
+First, install Docker.
 
 Next, download Re:Earth's `docker-compose.yml` at anywhere you like.
 
@@ -98,9 +98,9 @@ Requires=docker.service
 
 [Service]
 Type=simple
-ExecStartPre=-/usr/local/bin/docker-compose -f ${COMPOSE_FILE} down
-ExecStart=/usr/local/bin/docker-compose -f ${COMPOSE_FILE} up
-ExecStop=/usr/local/bin/docker-compose -f ${COMPOSE_FILE} down
+ExecStartPre=-/usr/local/bin/docker compose -f ${COMPOSE_FILE} down
+ExecStart=/usr/local/bin/docker compose -f ${COMPOSE_FILE} up
+ExecStop=/usr/local/bin/docker compose -f ${COMPOSE_FILE} down
 Environment=COMPOSE_FILE=/usr/local/reearth/docker-compose.yml
 
 [Install]
