@@ -103,7 +103,7 @@ export default function HomepageMenus(): JSX.Element {
             })}
             description={translate({
               message:
-                "The plugin development guide explains how plugin works, and how to develop a plugin for Re:Earth. ",
+                "The plugin development guide explains how plugins work, and how to develop a plugin for Re:Earth.",
               description: "Top page / Card / Description",
             })}
             image="/img/plugin.svg"
