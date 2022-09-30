@@ -98,6 +98,19 @@ export default function HomepageMenus(): JSX.Element {
           ></Menu>
           <Menu
             title={translate({
+              message: "Plugin development guide",
+              description: "Top page / Card / Title",
+            })}
+            description={translate({
+              message:
+                "The plugin development guide explains how plugins work, and how to develop a plugin for Re:Earth.",
+              description: "Top page / Card / Description",
+            })}
+            image="/img/plugin.svg"
+            link="/plugin-guide/introduction"
+          ></Menu>
+          <Menu
+            title={translate({
               message: "Tutorial (in development)",
               description: "Top page / Card / Title",
             })}

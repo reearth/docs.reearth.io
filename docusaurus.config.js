@@ -55,6 +55,15 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
       [
         "@docusaurus/plugin-content-docs",
         {
+          id: "plugin-guide",
+          path: "plugin-guide",
+          routeBasePath: "plugin-guide",
+          sidebarPath: require.resolve("./sidebarsPluginGuide.js"),
+        },
+      ],
+      [
+        "@docusaurus/plugin-content-docs",
+        {
           id: "tutorial",
           path: "tutorial",
           routeBasePath: "tutorial",
@@ -98,6 +107,12 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
               activeBaseRegex: `/developerGuide/`,
             },
             {
+              to: "/plugin-guide/introduction",
+              label: "Plugin Development guide",
+              position: "left",
+              activeBaseRegex: `/developerGuide/`,
+            },
+            {
               to: "/tutorial/home",
               label: "Tutorial",
               position: "left",
@@ -131,6 +146,10 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
                 {
                   label: "Developer guide",
                   to: "/developer-guide/intro/about",
+                },
+                {
+                  label: "Plugin development guide",
+                  to: "/plugin-guide/introduction",
                 },
                 {
                   label: "Tutorials",
