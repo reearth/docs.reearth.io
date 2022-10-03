@@ -5,7 +5,7 @@ sidebar_position: 7
 
 # CaptureScreen API
 
-Plugins can get the image of the cesium canvas with this API.
+Plugins can get the image of the canvas with this API.
 
 :::note
 
