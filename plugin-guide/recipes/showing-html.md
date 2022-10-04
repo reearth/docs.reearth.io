@@ -32,6 +32,7 @@ const html = `
     align-items: center;
   }
 </style>
+
 <div id="wrapper">
   <div class="titleWrapper">
     <h1>Welcome to Re:Earth</h1>
@@ -65,9 +66,11 @@ const html = `
     width: 100%;
   }
 </style>
-  <div id="wrapper">
-    <div id="map"></div>
-  </div>
+
+<div id="wrapper">
+  <div id="map"></div>
+</div>
+
 <script>
   const map = L.map("map").setView([35.68, 139.78], 10);
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
