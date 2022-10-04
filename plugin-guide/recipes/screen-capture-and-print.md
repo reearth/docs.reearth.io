@@ -31,10 +31,12 @@ reearth.ui.show(`
       background: white;
     }
   </style>
+
   <div id="wrapper">
     <button id="button">Capture</button>
     <p>Click this button will capture the map</p>
   </div>
+
   <script>
     document.getElementById("button").addEventListener("click", (e) => {
       parent.postMessage({ type: "captureScreen" }, "*");
@@ -85,14 +87,17 @@ reearth.ui.show(`
       background: white;
     }
   </style>
+
   <div id="wrapper">
     <button id="button">Print this map</button>
     <p>Click this button we can print!</p>
   </div>
+
   <script>
     document.getElementById("button").addEventListener("click", (e) => {
       parent.postMessage({ type: "captureScreen" }, "*");
     });
+    
     addEventListener("message", e => {
       if (e.source !== parent) return;
       if (e.data.type && e.data.type === 'getCaptureScreen') {

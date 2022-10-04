@@ -18,11 +18,13 @@ const html = `
       box-sizing: border-box;
     }
   </style>
+
   <div id="wrapper">
     <button id="send">Send message</button>
     <p>click and open your console to check please.</p>
     <h3>Message from Plugin: <span id="msg"></span></h3>
   </div>
+
   <script>
     document.getElementById("send").addEventListener("click", function() {
 		  parent.postMessage("Button is clicked", "*");
@@ -68,10 +70,12 @@ const html = `
       color: #E95518;
     }
   </style>
+
   <div id="wrapper">
     <p>First layer ID is <span id="layerid"></span></p>
     <p>First layer title is <span id="layertitle"></span></p>
   </div>
+  
   <script>
     window.addEventListener("message", function (e) {
       if (e.source !== parent) return;

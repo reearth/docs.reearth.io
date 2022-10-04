@@ -26,5 +26,9 @@
   "item.label.Reference": {
     "message": "リファレンス",
     "description": "Navbar item with label Reference"
+  },
+  "item.label.Plugin Development guide": {
+    "message": "プラグイン開発者ガイド",
+    "description": "Navbar item with label Plugin Development guide"
   }
 }

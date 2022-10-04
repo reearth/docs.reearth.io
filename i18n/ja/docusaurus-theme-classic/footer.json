@@ -33,7 +33,7 @@
   },
   "link.item.label.GitHub": {
     "message": "GitHub",
-    "description": "The label of footer link with label=GitHub linking to https://github.com/facebook/docusaurus"
+    "description": "The label of footer link with label=GitHub linking to https://github.com/reearth/reearth"
   },
   "copyright": {
     "message": "© 2021 Re:Earth contributors. Built with Docusaurus.",
@@ -49,7 +49,7 @@
   },
   "link.item.label.Reference": {
     "message": "Reference",
-    "description": "The label of footer link with label=Reference linking to https://docs2.reearth.io/reference"
+    "description": "The label of footer link with label=Reference linking to /user-manual/reference"
   },
   "link.item.label.Developer guide": {
     "message": "Developer guide",
@@ -57,11 +57,7 @@
   },
   "link.item.label.Tutorials": {
     "message": "Tutorials",
-    "description": "The label of footer link with label=Tutorials linking to /tutorial/index"
-  },
-  "link.item.label.GitHub": {
-    "message": "GitHub",
-    "description": "The label of footer link with label=GitHub linking to https://github.com/reearth/reearth"
+    "description": "The label of footer link with label=Tutorials linking to /tutorial/home"
   },
   "link.item.label.Code of conduct": {
     "message": "Code of conduct",
@@ -86,5 +82,9 @@
   "link.item.label.User manual": {
     "message": "User manual",
     "description": "The label of footer link with label=User manual linking to /user-manual/getting-started/why-reearth"
+  },
+  "link.item.label.Plugin development guide": {
+    "message": "プラグイン開発者ガイド",
+    "description": "The label of footer link with label=Plugin development guide linking to /plugin-guide/introduction"
   }
 }
