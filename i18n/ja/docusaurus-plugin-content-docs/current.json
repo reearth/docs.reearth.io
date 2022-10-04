@@ -22,5 +22,9 @@
   "sidebar.mySidebar.category.user-manual": {
     "message": "user-manual",
     "description": "The label for category user-manual in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Tutorial Intro": {
+    "message": "Tutorial Intro",
+    "description": "The label for category Tutorial Intro in sidebar mySidebar"
   }
 }
