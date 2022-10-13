@@ -19,7 +19,7 @@ reearth.ui.show(`
   </style>
 
   <div id="wrapper">
-		<p>Please left Click On the Earth</p>
+    <p>Please left Click On the Earth</p>
     <div>ScreenX: <span id="x"></span></div>
     <div>ScreenY: <span id="y"></span></div>
     <div>Longitude: <span id="lng"></span></div>
