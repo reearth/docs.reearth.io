@@ -1,6 +1,6 @@
 ---
 title: Finding layers and updating property of a layer
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 ```js
