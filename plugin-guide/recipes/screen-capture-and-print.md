@@ -1,6 +1,6 @@
 ---
 title: Screen capture and print
-sidebar_position: 8
+sidebar_position: 10
 ---
 
 # CaptureScreen API

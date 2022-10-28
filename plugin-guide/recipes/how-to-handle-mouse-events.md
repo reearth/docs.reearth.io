@@ -1,6 +1,6 @@
 ---
 title: How to handle mouse events
-sidebar_position: 6
+sidebar_position: 8
 ---
 
 Re:Earth supports listening to mouse events, the following is a simple example.

@@ -1,6 +1,6 @@
 ---
 title: Accepting properties to make a plugin configurable for users
-sidebar_position: 4
+sidebar_position: 6
 ---
 
 ```yaml title="reearth.yml"
