@@ -410,3 +410,5 @@ reearth.on("message", (msg) => {
 });
 
 ```
+
+![modal_popup](./img/modal_popup.jpg)
