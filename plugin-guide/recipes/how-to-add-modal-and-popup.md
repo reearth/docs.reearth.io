@@ -10,7 +10,7 @@ Re:Earth plugin system supports modal and popup with ``reearth.modal``, ``reear
 - There will be only one active modal and one active popup at the same time.
 - Modal will always locate in the center of the visualizer.
 - Popup will locate base on the plugin UI widget with the ``position`` option.
-- Popup will have a higher z-index then modals.
+- Popup will have a higher z-index than modals.
 - Support both plugin extension type widget & block.
 
 :::
