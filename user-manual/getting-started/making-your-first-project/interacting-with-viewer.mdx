@@ -1,0 +1,33 @@
+---
+title: Interacting with viewer
+sidebar_position: 4
+---
+
+当你打开这个新项目的时候，你将会看到看到这样的画面。
+
+<Image path={require('./img/3-1.png').default} />
+
+这便是项目的[Editor]页面，大部分的编辑与操作都会在此进行。
+
+当然最醒目一定是画面中央的[viewer]，那里有一颗蔚蓝色的你们都最熟悉的🌍 。
+
+## View Control
+
+用你的鼠标在地球上拖动，你会发现你可以操作视角来观察地球了。因为Re:Earth使用[Cesium]作为默认的引擎，视角的操作也就沿袭自Cesium。
+
+[此处应该有一张眼花缭乱的gif图]
+
+- 鼠标操作的情况：
+  - **Pan view** : Left click + drag
+  - **Zoom view** : Right click + drag, or Mouse wheel scroll
+  - **Rotate view** : Middle click + drag, or CTRL + Left/Right click + drag
+
+- Touch 的情况下
+  - **Pan view** : One finger drag
+  - **Zoom view** : Two finger pinch
+  - **Tilt view** : Two finger drag, same direction
+  - **Rotate view** : Two finger drag, opposite direction
+
+请自由探索一下眼前的这个地球，并尝试找找看你现在你身处哪个位置。
+
+import Image from "/src/components/Image/Image";
