@@ -1,5 +1,6 @@
 ---
-title: Adding modal and popup
+title: Modals and popups
+
 sidebar_position: 5
 ---
 
