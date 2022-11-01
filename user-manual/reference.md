@@ -1,5 +1,5 @@
 ---
-title: Reference
+title: リファレンス
 sidebar_position: 1
 ---
 
