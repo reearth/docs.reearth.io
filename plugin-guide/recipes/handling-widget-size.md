@@ -1,5 +1,6 @@
 ---
-title: Handling widget size
+title: Working with widget size
+
 sidebar_position: 4
 ---
 
