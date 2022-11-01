@@ -1,5 +1,5 @@
 ---
-title: How to handle mouse events
+title: Handling mouse events
 sidebar_position: 8
 ---
 
