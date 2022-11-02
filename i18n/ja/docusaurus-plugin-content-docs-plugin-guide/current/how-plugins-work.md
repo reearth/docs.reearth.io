@@ -1,5 +1,5 @@
 ---
-title: How plugins work
+title: プラグインの仕組み
 sidebar_position: 5
 ---
 
