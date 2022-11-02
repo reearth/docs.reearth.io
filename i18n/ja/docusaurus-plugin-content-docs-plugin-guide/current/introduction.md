@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: はじめに
 sidebar_position: 1
 ---
 

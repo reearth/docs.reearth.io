@@ -1,5 +1,5 @@
 ---
-title: Tutorial
+title: チュートリアル
 sidebar_position: 3
 ---
 

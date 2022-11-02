@@ -1,5 +1,5 @@
 ---
-title: Plugin Editor
+title: プラグインエディター
 sidebar_position: 2
 ---
 
