@@ -1,5 +1,5 @@
 ---
-title: Prerequisites
+title: 前もって必要なこと
 sidebar_position: 2
 ---
 ## Knowledge
