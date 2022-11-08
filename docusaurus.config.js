@@ -119,6 +119,10 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
               activeBaseRegex: `/tutorial/`,
             },
             {
+              type: "search",
+              position: "right",
+            },
+            {
               type: "localeDropdown",
               position: "right",
             },
@@ -209,6 +213,11 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
         prism: {
           theme: lightCodeTheme,
           darkTheme: darkCodeTheme,
+        },
+        algolia: {
+          appId: "1OR9OYVVSX",
+          apiKey: "d8885304ff5fbb6f29b942def563bde8",
+          indexName: "reearth",
         },
       }),
   }
