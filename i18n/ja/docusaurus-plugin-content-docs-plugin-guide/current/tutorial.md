@@ -3,17 +3,22 @@ title: チュートリアル
 sidebar_position: 3
 ---
 
-In this section, we will explain the series of steps in developing a plugin by developing a simple plugin together.
+ここでは、簡単なプラグインを一緒に開発することで、プラグイン開発の一連の手順を説明します。
 
-## 1. Create a project directory
 
-Create a directory in the location of your choice. This is where you will put the plugin code. The name of the directory can be anything you like. In this page, we will name it `test-plugin`.
+## 1. プロジェクトディレクトリを作成する
 
-## 2. Describe a manifest for the plugin
+任意の場所に、ディレクトリを作成してください。ここにプラグインコードを配置します。  
 
-Manifest is the metadata of the plugin you are going to create, i.e., ID and name of the plugin, what functions it extends, and what configuration items will be provided to users.
+ディレクトリの名前は、何でも大丈夫です。ここでは、`test-plugin`と名付けます。
 
-Create a file named `reearth.yml` and edit it as following:
+## 2. プラグインのマニフェストを記述する
+
+マニフェストは、作成しようとしているプラグインのメタデータです。  
+つまり、プラグインのIDと名前、プラグインが拡張する機能、およびユーザーに提供される構成アイテムです。
+
+`reearth.yml` という名前でファイルを作成し、以下のように記述します：
+
 
 ```yaml title="reearth.yml"
 id: test-plugin
@@ -25,23 +30,25 @@ extensions:
     name: Test
 ```
 :::caution
-- The ``id`` here can not be upper-case.
-- Be careful not to make mistakes such as line breaks and spaces.
+- ``id`` は大文字では設定できません
+- 改行やスペースなどを間違えのないように注意してください
 :::
 
-## 3. Implement the first extension
+## 3. 最初の拡張機能を実装する
 
-Actually, a plugin is a collection of units called extensions. A plugin is allowed to have only one extension, or multiple extensions.
+実はプラグインは、拡張機能と呼ばれる単位のコレクションの集まりです。  
+プラグインは、一つの拡張機能だけでなく、複数の拡張機能を持つことができます。  
 
-Let's go ahead and implement the first extension. As described in the manifest in the previous step, ID of the extension we will implement is `test-widget`. Create a file named `test-widget.js` with the extension `.js` appended to this ID.
 
-
+それでは、最初に拡張機能を実装してみましょう。
+先ほどのステップのマニュフェストに説明したように、これから実装する拡張機能のIDは`test-widget`です。
+このIDに拡張子`.js` を付け足して`test-widget.js`という名前のファイルを作成します。
 
 :::caution
-Note that if you make a mistake with this file name, the plugin will not work. Other than the extension, the rest of the file must match the ID completely.
+このファイル名を間違えると、プラグインは動作しませんのでご注意ください。拡張子以外のファイル名は、IDと完全に一致必要があります。
 :::
 
-Then edit the JS file:
+次にJSファイルを編集します：
 
 ```js title="test-widget.js"
 console.log("Hello world");
@@ -49,7 +56,8 @@ console.log("Hello world");
 reearth.ui.show(`<h1 style="color:red;background:black">Hello world</h1>`);
 ```
 
-That's it, the simplest of plug-ins is complete. File structure is as following:
+これで、簡単なプラグインが完成しました！
+ファイル構造は次のとおりです：
 
 ```console title="file structure"
 test-plugin
@@ -57,7 +65,7 @@ test-plugin
 │   test-widget.js    
 ```
 
-## 4. Pack your plugin
+## 4. プラグインを圧縮する
 
 Now let's install your plugin into Re:Earth. Before we do that, let's pack the plugins so that we can install them. In this article, I will explain how to compress them into a zip file and upload it.
 
