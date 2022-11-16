@@ -67,64 +67,78 @@ test-plugin
 
 ## 4. プラグインを圧縮する
 
-Now let's install your plugin into Re:Earth. Before we do that, let's pack the plugins so that we can install them. In this article, I will explain how to compress them into a zip file and upload it.
+それでは、プラグインをRe:Earthにインストールしてみましょう！  
+その前に、インストールするするためにプラグインを圧縮しましょう。  
+この記事の中では、zipファイルに圧縮しアップロード方法を説明します。  
 
-Select the folder you created in the very first step and compress it into a zip file. The way to do this depends on your operating system; for MacOS, right-click on the folder in finder and select "Compress ~" to generate the zip file; for Windows, right-click on the folder in explorer and select "Send to" and then select "Compress Compressed (zipped) folder".
+1番最初の手順で作成したフォルダを選択し、それをzipファイルへと圧縮します。  
+zipファイルへの圧縮方法は、OSによって異なります。  
+MacOSの場合：Finderでフォルダを右クリック→「~を圧縮」を選択  
+Windowの場合：エクスプローラー内でフォルダを右クリック→「送る」を選択し、「圧縮 (zip形式) フォルダー」を選択
 
-By the way, don't worry about the name of the zip file as it won't affect the subsequent steps.
+ここでのzipファイルのフォルダ名は、これからの手順に何にも影響はないので、気にしないで大丈夫です。
 
-## 5. Upload your plugin
+## 5. プラグインをアップロードする
 
-Upload the plugin. Log in to your Re:Earth and open the project settings page. (If you haven't created a project yet, go ahead and do so.)
-
-You can open the project settings page from this button in dashboard page:
+Re:Earthにログインし、プロジェクトの設定ページを開きます。(まだプロジェクトを作成していない場合は、作成してください)  
+ダッシュボードのこのボタンから、プロジェクトの設定ページを開くことができます：  
 
 ![tutorial_1](./img/tutorial_1.png)
 
-Or, "Project settings" item in the top menu in the editor screen:
+または、編集画面の一番上のメニューにある「プロジェクト設定」からも開くことができます：  
 
 ![tutorial_2](./img/tutorial_2.png)
 
-Then, select "Plugins" in the left menu:
 
-Then you'll see this screen:
+そして、左側のメニューにある「プラグイン」を選択：  
+そうすると、次の画面が表示されます  
 
 ![tutorial_3](./img/tutorial_3.png)
 
-Next, select "Zip file from PC" and select your zip file you generated in the previous step.
+次は、「PCからZipファイルをアップロード」を選択し、前の手順で生成したzipファイルを選択します。  
 
-If you see a success message after a short wait, the plugin has been successfully installed.
+少し待ってから「プラグインがインストールされました。」というメッセージが表示されれば、プラグインは正常にインストールされています！
 
 ![tutorial_4](./img/tutorial_4.png)
 
-If you get an error here, it could be due to one of the following reasons:
 
-- There is an error in the format of `reearth.yml` . Review `reearth.yml` again.
-- A plugin with the same ID has already been installed. Uninstall it and run it again.
+もしここでエラーメッセージが表示された場合は、次のいずれかの理由が考えられます：
+
+- `reearth.yml`のフォーマットに誤りがあります。もう一度`reearth.yml`を確認してください。
+- 同じIDを持ったプラグインが既にインストールされている。アンインストールして、もう一度インストールしてみてください。
+- zipファイルの中に`reearth.yml`が存在していない、もしくはルートに複数のディレクトリがある。`reearth.yml` を含む 1 つのフォルダー、もしくは`reearth.yml`を含む複数のファイルのグループを圧縮してください。？？？？？
 - The zip file does not contain `reearth.yml`, or there are multiple directories in the root. Compress a single folder containing `reearth.yml`, or a group of multiple files containing `reearth.yml`.
-- Depending on the application used to generate the zip file, it may output a malformed zip file. Try compressing the file by other means.
+- zipファイルを生成するアプリケーションによっては、不正な形式のzipファイルが出力される場合があります。他の方法でファイルを圧縮してみてください。
 
-## 6. Using widgets extended by your plugin
+## 6. プラグインによって拡張されたウィジェットの使用
 
-Go back the editor screen and open widgets on the left panel. Then you'll see a new widget that you implemented. Select it, and then enable it by clicking "Enable" switch on the right panel.
+編集画面に戻り、左パネル内のウィジェットを開いてください。
+そうすると、実装した新たなウィジェットが表示されます。それを選択してください。
 
 ![tutorial_7](./img/tutorial_7.png)
 
-Then you can see your first widget!
+画面上に、ウィジェットが表示されます！
 
 ![tutorial_5](./img/tutorial_5.png)
 
-If it does not show up, the JavaScript file may be misnamed, or the JavaScript may not be implemented correctly, causing an error. If an error occurs, you can check it in the console of your web browser's developer tools.
+ウィジェットが表示されない場合は、JavaScriptのファイル名が間違っている、もしくはJavaScriptが正確に実装されていない可能性があります。
+エラーが起こったら場合、webブラウザーの開発者ツール内コンソールで確認することができます。
 
-## Tip 1: Uninstall your plugin
+## ヒント1: プラグインをアンインストールする
 
-Although you have created this plugin, you should also check how to uninstall it.
+ここでは、プラグインのアンインストール方法について説明します。
 
+プラグイン設定ページ（手順5と同様のページ）で、プラグインのボタンをクリックします。
 In the plugin settings page (same as step 5), you can click a button in the plugin item.
 
 ![tutorial_6](./img/tutorial_6.png)
 
-You can uninstall the plugin by clicking the button to the right of the column where the name of the plugin appears. Note that any widgets or blocks that have been added by this plugin will be removed from the scene, and if you have already published a scene using this plugin, the widgets and blocks will no longer work in the published scene.
+プラグインの名前が表示されているカラムの右側にあるボタンをクリックすると、プラグインをアンインストールすることができます。
+
+削除するプラグインによって追加されていた、ウィジェットやブロックはシーンから削除されます。  
+また、このプラグインを使用したプロジェクトを公開していた場合は、公開プロジェクトでプラグインは機能しなくなります。  
+
+
 
 In the development of plug-ins, you will probably install the plug-in to check its operation after you proceed with the implementation, and then install it again after the next implementation. At that time, you will need to uninstall the plug-in each time.
 
