@@ -95,7 +95,7 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
               activeBaseRegex: `/userManual/`,
             },
             {
-              to: "/user-manual/reference",
+              to: "/user-manual/overview",
               label: "Reference",
               position: "left",
               activeBaseRegex: `/userManual/`,

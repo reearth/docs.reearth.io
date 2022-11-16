@@ -81,7 +81,7 @@ export default function HomepageMenus(): JSX.Element {
               description: "Top page / Card / Description",
             })}
             image="/img/manual.svg"
-            link="/user-manual/reference"
+            link="/user-manual/overview"
           ></Menu>
           <Menu
             title={translate({
