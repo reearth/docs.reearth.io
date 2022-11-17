@@ -1,15 +1,16 @@
 ---
-title: Screen capture and print
+title: スクリーンキャプチャと印刷
 sidebar_position: 10
 ---
 
 # CaptureScreen API
 
-Plugins can get the image of the canvas with this API.
+プラグインは、このAPIを使用してキャンバスの画像を取得することができます。
 
 :::note
 
-The output image comes from the canvas so anything implemented out of canvas (eg. infobox) can not be included. If you want to take a screenshot of all HTML elements you may try implement with some third-party libraries in plugin code.
+画像はキャンバスから吐き出されるため、キャンバス外で実装されたもの(例：インフォボックス)は含まれません。
+すべてのHTML要素のスクリーンショットを取りたい場合は、プラグインコードでいくつかのサードパーティライブラリを実装してみてください。
 
 :::
 
@@ -65,9 +66,9 @@ reearth.on("message", msg => {
 });
 ```
 
-# How to support print with captureScreen API
+# captureScreen APIで印刷をサポートする方法
 
-By using captureScreen API, we can also support print feature.
+captureScreen APIを使用することで、印刷機能にも対応することができます。
 
 ```js
 reearth.ui.show(`
