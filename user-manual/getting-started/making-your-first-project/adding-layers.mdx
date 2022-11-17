@@ -3,9 +3,9 @@ title: Adding layers
 sidebar_position: 5
 ---
 
-在Re:Earth中，我们可以给地图添加[layers]。所有可以在地图表面上呈现出来物体(包括[marker]，[3D modal]，[PhotoOverlay]...)都以layer的方式存在并管理。
+In Re:Earth, we can add layers to the map. All objects that can be rendered on the digital earth (including [marker](/user-manual/property/overview#marker-properties-1), [3D modal](/user-manual/three-d-data/3d-model), [PhotoOverlay](/user-manual/property/overview#photo-overlay-properties)...) are all managed as layers.
 
-这里我们以给地图添加marker作为layer为例子来说明。
+Here we will add a marker as layer to the map as an example.
 
 ## Adding a marker layer
 
@@ -15,41 +15,41 @@ sidebar_position: 5
 
 <Order>
   <ListByNumber>
-    从[Tool bar]选中marker
+    Find the Marker tool from the <a target="_self" href="/user-manual/getting-started/understanding-reearth-ui/editor#tool-bar">Tool bar</a>.
   </ListByNumber>
   <ListByNumber>
-    拖动Marker到地图上你想要放置的地方
+    Drag the Marker icon to the place on the map where you want to place it
   </ListByNumber>
   <ListByNumber>
-    在[Outline]的layers list中便新建出一个叫marker的layer
+    In the <a target="_self" herf="/user-manual/getting-started/understanding-reearth-ui/editor#outline">Outline</a> layers list, a new layer called marker is created.
   </ListByNumber>
 </Order>
 
-## Change layer properties
+## Changing layer properties
 
-选中layer，我们便可以修改该layer的各种properties，来改变它的状态或者外形，比如下面的这些例子：
+By selecting a layer, we can modify various properties of that layer to change its state or shape, such as the following examples.
 
-### 调整位置
+### Changing position
 
-[此处应该有牛逼的动图]
+<Image path={require('./img/4-3.gif').default} />
 
-在layer上长按超过1s之后，我们便可以在地图上移动其位置。
+After pressing and holding on the layer for more than 1s, we can move its position on the map.
 
-### 调整呈现风格
+### changing apperance
 
-[此处应该有牛逼的动图]
+<Image path={require('./img/4-4.gif').default} />
 
-我们可以修改这个marker layer的式样，大小，颜色等等。
+We can modify the style, size, color, etc. of this marker layer.
 
-### 添加小标签
+### Adding label
 
-[此处应该有牛逼的动图]
+<Image path={require('./img/4-5.gif').default} />
 
-我们还可以给marker layer添加小标签，以及调整字体的式样等等。
+We can also add a label to the marker layer, and adjust the font style, etc.
 
-对于marker layer我们还有很多可以自定义的部分，详细介绍请查看[这里]。而不同类型的layer又有其各自不同的参数功能，[这里]你可以找到更多的介绍。
+For marker layer we have many customizable parts, please check [here](/user-manual/property/overview#marker-properties) for more details. The different types of layers have their own different parameters and functions, you can find more information about them [here](/user-manual/property/overview).
 
-请尝试改改其他layer的参数，说不定会有异样的发现。
+Please try to change the parameters of other layers, you may find something different.
 
 import Image from "/src/components/Image/Image";
 import ListByNumber from "/src/components/List/ListByNumber";

@@ -3,30 +3,44 @@ title: Publishing project
 sidebar_position: 7
 ---
 
-当你对你的项目做了一些编辑之后，你想来查看一下项目发布之后的看起来是什么样子的，你可以选择[Preview]功能来查看。当你觉得项目编辑的差不多了，可以发布出来让大家体验的时候，你就可以使用[Publish]功能。
+When you have made some edits to your project and you want to see what it looks like after you publish it, you can select the [Preview](/user-manual/publication/preview-your-project) function to view it. When you think the project is almost edited and ready to be published for everyone to experience, you can use the [Publish](/user-manual/publication/set-up-the-project-for-publication) function.
 
 ## Preview your project
 
-在Editor的header右侧，有两个跟发布功能相关的按钮。点击第一`Preview`按钮，浏览器便会自动帮你打开一个新的便签页。
+On the right side of the header of the Editor, there are two buttons related to the publishing function. Click the first Preview button, and the browser will automatically open a new note page for you.
 
-[厉害动画子]
+<Image path={require('./img/7-1.png').default} />
 
-在这个新的标签页，你可以看到项目发布之后的样子。跟真正的项目发布唯一不同的是，这个页面只有你（或者说团队成员）可以看到，所以你可以毫无顾忌地随时来预览你的项目。
+In this new tab, you can see what your project will look like after it is released. The only difference from a real project release is that this page is only visible to you (or team members), so you can come and preview your project anytime without any worries.
 
 ## Publish your project
 
-发布项目的也非常简单。
+It's also very easy to publish your project.
 
-[厉害动画子]
+<Image path={require('./img/7-2.png').default} />
+<Image path={require('./img/7-3.png').default} />
+<Image path={require('./img/7-4.png').default} />
 
-- 点击Editor右上角的`unpublished`按钮，在下拉菜单中点击`Publish`。
-- 在弹出来的model中确认好信息之后，点击`Publish`。
-- 成功发布之后，点击url便可以直接打开你的项目。
+<Order>
+  <ListByNumber>
+    Click the unpublished button in the upper right corner of the Editor, and click Publish in the drop-down menu.
+  </ListByNumber>
+  <ListByNumber>
+    After confirming the information in the pop-up model, click Publish.
+  </ListByNumber>
+  <ListByNumber>
+    After successfully publishing, you can open your project directly by clicking the url.
+  </ListByNumber>
+</Order>
 
-这个时候，你可以复制你的项目url给你的好友们，让他们来查看你的项目。
+At this time, you can copy your project url to your friends and let them check out your project.
 
-关于发布项目还有很多细节的设定，你可以在[Publish]章节来查看。
+There are many more details about publishing projects, you can check them in [Publish](http://localhost:3000/user-manual/publication/overview) section.
 
-## 总结
+## Summary
 
-到此，我们已经简单地完成了一个从创建项目，编辑项目，再到最后发布项目流程。是不是觉得还有点意思？Re:Earth还有更多丰富的功能和使用细节，请继续阅读我们的文档。
+At this point, we have simply completed A process from creating a project, editing it, and finally publishing it. For more details on Re:Earth's rich features and usage, please read our documentation.
+
+import Image from "/src/components/Image/Image";
+import ListByNumber from "/src/components/List/ListByNumber";
+import Order from "/src/components/List/Order";
