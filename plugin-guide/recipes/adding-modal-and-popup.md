@@ -1,22 +1,22 @@
 ---
-title: Modals and popups
-
+title: モーダルとポップアップ
 sidebar_position: 5
 ---
 
-Re:Earth plugin system supports modal and popup with ``reearth.modal``, ``reearth.popup``(similar to ``reearth.ui``).
+Re:Earthプラグインシステムは、 ``reearth.modal``, ``reearth.popup``(similar to ``reearth.ui``)によってモーダルとポップアップをサポートしています。
+
 
 :::note
 
-- There will be only one active modal and one active popup at the same time.
-- Modal will always locate in the center of the visualizer.
-- Popup will locate base on the plugin UI widget with the ``position`` option.
-- Popup will have a higher z-index than modals.
-- Support both plugin extension type widget & block.
+- アクティブなモーダルとアクティブなポップアップが同時に1つだけ存在します
+- モーダルは常にビジュアライザーの中央に配置されます
+- ポップアップはプラグインUIウィジェットで``position`` オプションを使用して配置する場所を決めることができます
+- ポップアップはモーダルより高いz-indexを持ちます
+- ウィジェットとブロックの両方をサポートしています
 
 :::
 
-Here is an example:
+例:
 
 ```js title="modal_and_popup.js"
 reearth.ui.show(`
