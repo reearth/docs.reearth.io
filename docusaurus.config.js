@@ -139,7 +139,7 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
                 },
                 {
                   label: "Reference",
-                  to: "/user-manual/reference",
+                  to: "/user-manual/overview",
                 },
                 {
                   label: "Developer guide",
