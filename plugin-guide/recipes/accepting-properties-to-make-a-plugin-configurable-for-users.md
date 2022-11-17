@@ -1,5 +1,5 @@
 ---
-title: Accepting properties to make a plugin configurable for users
+title: 編集画面で設定可能なプロパティを設定する
 sidebar_position: 6
 ---
 
@@ -66,10 +66,11 @@ reearth.on("update", () => {
 });
 ```
 
-Then install this plugin, add a map widget, and select it. You'll see the properties of the map block on the left panel.
+そしてプラグインをインストールして、マップウィジェットを追加して選択します。
+右パネルに、マップブロックのプロパティが表示されます。
 
 ![map-plugin](./img/map-plugin.png)
 
-Type location, and then a marker will be put on the leaflet map.
+場所を入力すると、リーフレットマップにマーカーが配置されます。
 
-For details of plugin manifest, refer to Manifest reference.
+プラグインマニフェストの詳細については、Re:Earthプロパティを参照してください。
