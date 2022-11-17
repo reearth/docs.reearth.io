@@ -6,11 +6,11 @@ sidebar_position: 3
 ここでは、簡単なプラグインを一緒に開発することで、プラグイン開発の一連の手順を説明します。
 
 
-## 1. プロジェクトディレクトリを作成する
+## 1. プロジェクトフォルダを作成する
 
-任意の場所に、ディレクトリを作成してください。ここにプラグインコードを配置します。  
+任意の場所に、フォルダを作成してください。ここにプラグインコードを配置します。  
 
-ディレクトリの名前は、何でも大丈夫です。ここでは、`test-plugin`と名付けます。
+フォルダの名前は、何でも大丈夫です。ここでは、`test-plugin`と名付けます。
 
 ## 2. プラグインのマニフェストを記述する
 
@@ -30,22 +30,22 @@ extensions:
     name: Test
 ```
 :::caution
-- ``id`` は大文字では設定できません
-- 改行やスペースなどを間違えのないように注意してください
+- ``id`` は大文字では設定できません  
+- 改行やスペースなどを間違えのないように注意してください  
 :::
 
 ## 3. 最初の拡張機能を実装する
 
-実はプラグインは、拡張機能と呼ばれる単位のコレクションの集まりです。  
-プラグインは、一つの拡張機能だけでなく、複数の拡張機能を持つことができます。  
+実はプラグインは、拡張機能と呼ばれる単位のコレクションです。  
+プラグインは、一つの拡張機能だけでなく複数の拡張機能を持つことができます。  
 
 
-それでは、最初に拡張機能を実装してみましょう。
-先ほどのステップのマニュフェストに説明したように、これから実装する拡張機能のIDは`test-widget`です。
-このIDに拡張子`.js` を付け足して`test-widget.js`という名前のファイルを作成します。
+それでは、最初に簡単な拡張機能を実装してみましょう。  
+先ほどのステップのマニュフェストに説明したように、これから実装する拡張機能のIDは`test-widget`です。  
+このIDに拡張子`.js` を付け足して`test-widget.js`という名前のファイルを作成します。  
 
 :::caution
-このファイル名を間違えると、プラグインは動作しませんのでご注意ください。拡張子以外のファイル名は、IDと完全に一致必要があります。
+このファイル名を間違えると、プラグインは動作しませんのでご注意ください。拡張子以外のファイル名は、IDと完全に一致する必要があります。
 :::
 
 次にJSファイルを編集します：
@@ -69,14 +69,14 @@ test-plugin
 
 それでは、プラグインをRe:Earthにインストールしてみましょう！  
 その前に、インストールするするためにプラグインを圧縮しましょう。  
-この記事の中では、zipファイルに圧縮しアップロード方法を説明します。  
+この記事の中では、zipファイルに圧縮しアップロードする方法を説明します。  
 
 1番最初の手順で作成したフォルダを選択し、それをzipファイルへと圧縮します。  
 zipファイルへの圧縮方法は、OSによって異なります。  
 MacOSの場合：Finderでフォルダを右クリック→「~を圧縮」を選択  
-Windowの場合：エクスプローラー内でフォルダを右クリック→「送る」を選択し、「圧縮 (zip形式) フォルダー」を選択
+Windowの場合：エクスプローラーでフォルダを右クリック→「送る」を選択し、「圧縮 (zip形式) フォルダー」を選択
 
-ここでのzipファイルのフォルダ名は、これからの手順に何にも影響はないので、気にしないで大丈夫です。
+ここでのzipファイルのファイル名は、これからの手順に何にも影響はないので、気にしないで大丈夫です。
 
 ## 5. プラグインをアップロードする
 
@@ -106,8 +106,7 @@ Re:Earthにログインし、プロジェクトの設定ページを開きます
 
 - `reearth.yml`のフォーマットに誤りがあります。もう一度`reearth.yml`を確認してください。
 - 同じIDを持ったプラグインが既にインストールされている。アンインストールして、もう一度インストールしてみてください。
-- zipファイルの中に`reearth.yml`が存在していない、もしくはルートに複数のディレクトリがある。`reearth.yml` を含む 1 つのフォルダー、もしくは`reearth.yml`を含む複数のファイルのグループを圧縮してください。？？？？？
-- The zip file does not contain `reearth.yml`, or there are multiple directories in the root. Compress a single folder containing `reearth.yml`, or a group of multiple files containing `reearth.yml`.
+- zipファイルの中に`reearth.yml`が存在していない、もしくはルートに複数のフォルダがある。`reearth.yml` を含む 1 つのフォルダ、もしくは`reearth.yml`を含む複数のファイルのグループを圧縮してください。
 - zipファイルを生成するアプリケーションによっては、不正な形式のzipファイルが出力される場合があります。他の方法でファイルを圧縮してみてください。
 
 ## 6. プラグインによって拡張されたウィジェットの使用
@@ -129,42 +128,43 @@ Re:Earthにログインし、プロジェクトの設定ページを開きます
 ここでは、プラグインのアンインストール方法について説明します。
 
 プラグイン設定ページ（手順5と同様のページ）で、プラグインのボタンをクリックします。
-In the plugin settings page (same as step 5), you can click a button in the plugin item.
 
 ![tutorial_6](./img/tutorial_6.png)
 
 プラグインの名前が表示されているカラムの右側にあるボタンをクリックすると、プラグインをアンインストールすることができます。
 
-削除するプラグインによって追加されていた、ウィジェットやブロックはシーンから削除されます。  
+削除するプラグインによって追加されていたウィジェットやブロックは、シーンから削除されます。  
 また、このプラグインを使用したプロジェクトを公開していた場合は、公開プロジェクトでプラグインは機能しなくなります。  
 
+プラグイン開発では、実装を進めたあとにプラグインをインストールして動作を確認し、次回の実装後に再度インストールすることが多いと思います。  
+その際、毎回プラグインをアンインストールする必要があります。  
+
+## Tip 2: GitHub からプラグインをインストールする
+
+GitHubレポジトリーからもプラグインをインストールすることができます。現在は、公開レポジトリのみサポートされています。  
+プラグイン設定ページ（手順5と同様のページ）で、「GitHubパブリックレポジトリ」を選択しGitHubレポジトリのURLを入力します。  
 
 
-In the development of plug-ins, you will probably install the plug-in to check its operation after you proceed with the implementation, and then install it again after the next implementation. At that time, you will need to uninstall the plug-in each time.
+大丈夫な例：
 
-## Tip 2: Install your plugin from GitHub
+- `https://github.com/USER/REPO` (`main` ブランチが使用されます)
+- `https://github.com/USER/REPO.git` (`main` ブランチが使用されます)
+- `https://github.com/USER/REPO/tree/BRANCH_NAME` (ブランチを指定)
+- `https://github.com/USER/REPO/archive/XXX.zip` (ブランチ名でアーカイブを指定する)
+- `https://github.com/USER/REPO/archive/refs/head/XXX.zip` (refでアーカイブを指定する)
+- `https://github.com/USER/REPO/archive/refs/tags/XXX.zip` (タグでアーカイブを指定する)
 
-You can also install the plugin from the GitHub repository. Currently, only public repositories are supported. In the plugin settings page (same as step 5), you can click "Public GitHub repository" and then enter the GitHub repository URL.
+ダメな例：
 
-This is acceptable:
+- `ssh://git@github.com:USER/REPO.git` (代わりに `https://~` を使用してください)
 
-- `https://github.com/USER/REPO` (`main` branch will be used)
-- `https://github.com/USER/REPO.git` (`main` branch will be used)
-- `https://github.com/USER/REPO/tree/BRANCH_NAME` (specify a branch)
-- `https://github.com/USER/REPO/archive/XXX.zip` (specify an archive by branch name)
-- `https://github.com/USER/REPO/archive/refs/head/XXX.zip` (specify an archive by ref)
-- `https://github.com/USER/REPO/archive/refs/tags/XXX.zip` (specify an archive by tag)
+## 次のステップ
 
-This is not acceptable:
+これまで、どのようにプラグインを開発するかを学んできました。  
+独自のプラグインを開発するには、より高度なトピックを参照してください。
 
-- `ssh://git@github.com:USER/REPO.git` (use `https://~` instead)
-
-## Next step
-
-So far, you have learned how to develop plug-ins. Refer to the more advanced topics to develop your own plug-ins.
-
-- Recipes: Describes how to implement plug-ins for various common use cases
-- How plugins work: Gain a better understanding of how plugins work internally
-- Manifest reference: Describes all the fields in plugin manifest
-- API reference: Learn about all available features in plugins
-- Future plans: Plugin API is still in its infancy. Check back in the future to see what additional features are being considered.
+- やり方:さまざまな一般的なユースケースのプラグインを実装する方法について説明します  
+- プラグインの仕組み:プラグインが内部でどのように機能するかをよりよく理解する  
+- マニフェスト参照:プラグインマニフェストの全てのフィールドについて説明します  
+- Re:Earth API:プラグインで利用可能なすべての機能について学ぶ  
+- 今後のプラグイン:プラグインAPIはまだ初期段階です。今後、どのような追加機能が検討されているかを確認してください。  
