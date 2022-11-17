@@ -1,9 +1,9 @@
 ---
-title: Showing HTML
+title: HTML
 sidebar_position: 2
 ---
 
-## Show normal HTML
+## 通常のHTML
 
 ```js
 const html = `
@@ -45,7 +45,7 @@ const html = `
 reearth.ui.show(html, { width: 400, height: 200 });
 ```
 
-## Show leaflet map
+## リーフレットマップを表示
 
 ```js
 const html = `
@@ -81,9 +81,9 @@ const html = `
 reearth.ui.show(html);
 ```
 
-## Use HTML without showing
+## 表示せずに HTML を使用する
 
-When the UI does not need to be displayed, such as just communicating with the server
+サーバーとの通信など、UI を表示する必要がない場合
 
 ```jsx
 reearth.ui.show(html, { visible: false });
