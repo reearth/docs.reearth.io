@@ -67,7 +67,66 @@ reearth.on('wheel',(mousedata) => {
 
 ## Following mouse
 
-```js
+Here is an example to show how layers follow the cursor, which gives more possibilities for developing a plugin.
 
+![following](img/following.jpg)
+
+```js
+const tooltipLayerId = reearth.layers.add({
+  extensionId: "marker",
+  isVisible: true,
+  title: `Tooltip`,
+  property: {
+    default: {
+      location: {
+        lat: 0,
+        lng: 0,
+      },
+      style: "point",
+      pointSize: 10,
+      pointColor: "#ffffff00",
+      pointOutlineWidth: 2,
+      pointOutlineColor: "#ffffff",
+      label: true,
+      labelBackground: true,
+      labelPosition: "righttop",
+      labelText: "0,0",
+      labelTypography: {
+        fontSize: 16,
+      },
+    },
+  },
+  tags: [],
+});
+
+let tooltipVisible = false;
+reearth.layers.hide(tooltipLayerId);
+
+reearth.on("mousemove", (mousedata) => {
+  if (mousedata.lat === undefined || mousedata.lng === undefined) {
+    if (tooltipVisible) {
+      reearth.layers.hide(tooltipLayerId);
+      tooltipVisible = false;
+    }
+    return;
+  }
+
+  reearth.layers.overrideProperty(tooltipLayerId, {
+    default: {
+      location: {
+        lat: mousedata.lat,
+        lng: mousedata.lng,
+      },
+      labelText: `Your location is ${parseInt(mousedata.lng * 1000) / 1000},${
+        parseInt(mousedata.lat * 1000) / 1000
+      }`,
+    },
+  });
+
+  if (!tooltipVisible) {
+    reearth.layers.show(tooltipLayerId);
+    tooltipVisible = true;
+  }
+});
 
 ```
