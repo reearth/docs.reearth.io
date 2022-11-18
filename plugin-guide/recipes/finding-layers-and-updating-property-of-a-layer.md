@@ -1,5 +1,5 @@
 ---
-title: レイヤーの検索とプロパティの更新
+title: Finding layers and updating property of a layer
 sidebar_position: 9
 ---
 
@@ -18,10 +18,8 @@ if (markerThatTitleIsReearth) {
 }
 ```
 
-`reearth.layers.overrideProperty`の結果は保持しないとこに注意してください。  
-ページを閉じるか再読み込みすると、変更が取り消されます。
+Note that the result of `reearth.layers.overrideProperty` will not be persisted. If you close or reload the page, the changes will be undone.
 
-プロパティオブジェクトの詳細はまだドキュメント化されていませんが、開発者ツールのコンソールで`reearth.layers.layers` を実行すると現在のレイヤーのオブジェクトを取得することができます。  
-このオブジェクトのプロパティをみると、上書きができるプロパティが分かります。
+The details of property object are not documented yet, but you can get the object of the current layer by running `reearth.layers.layers` in the console of the developer tools. By looking at the properties in this object, you can find out what properties can be overridden.
 
 ![properties](./img/properties.png)

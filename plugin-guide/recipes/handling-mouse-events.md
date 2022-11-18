@@ -1,9 +1,9 @@
 ---
-title: マウスイベント
+title: Handling mouse events
 sidebar_position: 8
 ---
 
-Re:Earthはマウスイベントをサポートしています。以下は簡単な例です。 
+Re:Earth supports listening to mouse events, the following is a simple example.
 
 ```js
 reearth.ui.show(`

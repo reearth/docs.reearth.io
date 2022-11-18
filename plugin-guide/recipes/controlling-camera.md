@@ -1,5 +1,5 @@
 ---
-title: カメラコントロール
+title: Controlling camera
 sidebar_position: 7
 ---
 

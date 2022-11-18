@@ -1,14 +1,14 @@
 ---
-title: ウィジェットサイズの変更
+title: Working with widget size
 
 sidebar_position: 4
 ---
 
 ## Widget size
 
-ウィジェットのサイズを指定する方法は2つあります。
+There are two ways to specify the size of the widget.
 
-- CSSを使用する
+- Using CSS
 
 ```js
 reearth.ui.show(`
@@ -34,7 +34,7 @@ reearth.ui.show(`
 `);
 ```
 
-- iframeのサイズを制御する
+- Control Iframe’s size
 
 ```js
 reearth.ui.show(`
@@ -63,9 +63,9 @@ reearth.ui.show(`
 ```
 
 
-# ウィジェットのサイズ変更
+# Resize widget size
 
-- 基本的なサイズ変更:HTML
+- Basic resize: HTML
 
 ```js
 reearth.ui.show(`
@@ -103,7 +103,7 @@ reearth.ui.show(`
 `);
 ```
 
-- 基本的なサイズ変更:iframe
+- Basic resize: IFrame
 
 ```js
 reearth.ui.show(`
