@@ -1,11 +1,11 @@
 ---
-title: Handling mouse events
+title: マウスイベント
 sidebar_position: 8
 ---
 
-Re:Earth supports listening to mouse events, the following are some simple examples.
+Re:Earthはマウスイベントをサポートしています。以下は簡単な例です。 
 
-## Basic mouse events
+## 基本的なマウスイベント
 
 ```js
 reearth.ui.show(`
@@ -65,9 +65,9 @@ reearth.on('wheel',(mousedata) => {
 });
 ```
 
-## Following mouse
+## マウス追従
 
-Here is an example to show how layers follow the cursor, which gives more possibilities for developing a plugin.
+レイヤーがカーソルに追従する方法を示す例を次に示します。これにより、プラグインを開発する可能性が広がります。
 
 ![following](img/following.jpg)
 
