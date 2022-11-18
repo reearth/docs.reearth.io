@@ -75,7 +75,7 @@ Here is an example to show how layers follow the cursor, which gives more possib
 const tooltipLayerId = reearth.layers.add({
   extensionId: "marker",
   isVisible: true,
-  title: `Tooltip`,
+  title: "Tooltip",
   property: {
     default: {
       location: {
@@ -90,7 +90,7 @@ const tooltipLayerId = reearth.layers.add({
       label: true,
       labelBackground: true,
       labelPosition: "righttop",
-      labelText: "0,0",
+      labelText: "",
       labelTypography: {
         fontSize: 16,
       },
@@ -128,5 +128,4 @@ reearth.on("mousemove", (mousedata) => {
     tooltipVisible = true;
   }
 });
-
 ```
