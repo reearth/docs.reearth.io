@@ -3,7 +3,9 @@ title: Handling mouse events
 sidebar_position: 8
 ---
 
-Re:Earth supports listening to mouse events, the following is a simple example.
+Re:Earth supports listening to mouse events, the following are some simple examples.
+
+## Basic mouse events
 
 ```js
 reearth.ui.show(`
@@ -61,4 +63,11 @@ reearth.on('wheel',(mousedata) => {
     payload: mousedata
   }, "*");
 });
+```
+
+## Following mouse
+
+```js
+
+
 ```
