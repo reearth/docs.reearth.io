@@ -46,8 +46,8 @@ Re:Earthから必要なデータのみをifram送信し、iframe内のHTMLを書
 
 - 通常のHTMLページと同じように、HTMLをレンダリングする
 - 通常のHTMLページと同じように、webブラウザーによって提供されているAPIを使用する(window, DOM API,  ...)
-- CORSが適切に構成されている外部サーバーと HTTP (fetch または XHRRequest) 経由で通信する (外部サーバーからの応答ヘッダーには`Access-Control-Allow-Origin: *`が必要です)
--`parent.postMessage` と `window.addEventListener("message", () => {})`を通してWebAssemblyと通信する
+- CORSが適切に構成されている外部サーバーと HTTP (fetch または XHRRequest) 経由で通信する (外部サーバーからの応答ヘッダーには`Access-Control-Allow-Origin: *`が必要です)  
+- `parent.postMessage` と `window.addEventListener("message", () => {})`を通してWebAssemblyと通信する
 
 次のことはできません:
 
