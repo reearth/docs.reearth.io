@@ -118,8 +118,6 @@ In the plugin settings page (same as step 5), you can click a button in the plug
 
 You can uninstall the plugin by clicking the button to the right of the column where the name of the plugin appears. Note that any widgets or blocks that have been added by this plugin will be removed from the scene, and if you have already published a scene using this plugin, the widgets and blocks will no longer work in the published scene.
 
-In the development of plug-ins, you will probably install the plug-in to check its operation after you proceed with the implementation, and then install it again after the next implementation. At that time, you will need to uninstall the plug-in each time.
-
 ## Tip 2: Install your plugin from GitHub
 
 You can also install the plugin from the GitHub repository. Currently, only public repositories are supported. In the plugin settings page (same as step 5), you can click "Public GitHub repository" and then enter the GitHub repository URL.
