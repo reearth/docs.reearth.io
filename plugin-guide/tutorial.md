@@ -139,8 +139,8 @@ This is not acceptable:
 
 So far, you have learned how to develop plug-ins. Refer to the more advanced topics to develop your own plug-ins.
 
-- [Recipes](./recipes/): Describes how to implement plug-ins for various common use cases
-- [How plugins work](./how-plugins-work/): Gain a better understanding of how plugins work internally
-- [Manifest reference](./manifest-reference/): Describes all the fields in plugin manifest
-- [API reference](./api-reference/): Learn about all available features in plugins
-- [Future plans](./future-plans/): Plugin API is still in its infancy. Check back in the future to see what additional features are being considered.
+- Recipes: Describes how to implement plug-ins for various common use cases
+- [How plugins work](./how-plugins-work): Gain a better understanding of how plugins work internally
+- [Manifest reference](./manifest-reference): Describes all the fields in plugin manifest
+- [API reference](./api-reference): Learn about all available features in plugins
+- [Future plans](./future-plans): Plugin API is still in its infancy. Check back in the future to see what additional features are being considered.
