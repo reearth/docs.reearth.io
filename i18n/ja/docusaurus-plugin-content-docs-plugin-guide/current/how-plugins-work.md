@@ -9,14 +9,14 @@ sidebar_position: 5
 プラグインはJavaScriptで実装できますが、WebAssemblyで動作する部分とiframeで動作する部分の2つの部分に分かれています。
 
 
-どちらともサードパーティのJavaScriptコードを安全に実行することができますが、それぞれにメリットとデメリットが存在します。  
+どちらともサードパーティのJavaScriptコードを安全に実行することができますが、それぞれにメリットとデメリットが存在します。
 なので、Re:Earthはハイブリッド方式を採用しています。
 
 WebAssemblyはコードを同期的かつ高速に実行でき、Re:Earthのデータにアクセスできますが、WebブラウザーがサポートするAPIとUIを使用することはできません。
 iframeはwebブラウザーでサポートされているAPIを使用することができ、UIをHTMLで表示できますが、Re:Earthのデータに直接アクセスすることができず、非同期で実行されます。
 
-WebAssembly部分とiframeは [postMessage](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage)を介して通信を行うことができます。  
-Re:Earthから必要なデータのみをifram送信し、iframe内のHTMLを書き換え、サーバー情報を取得することができます。  
+WebAssembly部分とiframeは [postMessage](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage)を介して通信を行うことができます。
+Re:Earthから必要なデータのみをifram送信し、iframe内のHTMLを書き換え、サーバー情報を取得することができます。
 また、取得した情報をWebAssembly部分に渡すこともできます。
 
 ## WebAssembly
@@ -45,8 +45,8 @@ Re:Earthから必要なデータのみをifram送信し、iframe内のHTMLを書
 次のことが可能です:
 
 - 通常のHTMLページと同じように、HTMLをレンダリングする
-- 通常のHTMLページと同じように、webブラウザーによって提供されているAPIを使用する(window, DOM API,  ...)
-- CORSが適切に構成されている外部サーバーと HTTP (fetch または XHRRequest) 経由で通信する (外部サーバーからの応答ヘッダーには`Access-Control-Allow-Origin: *`が必要です)  
+- 通常のHTMLページと同じように、webブラウザーによって提供されているAPIを使用する(window, DOM API...)
+- CORSが適切に構成されている外部サーバーと HTTP (fetch または XHRRequest) 経由で通信する (外部サーバーからの応答ヘッダーには`Access-Control-Allow-Origin: *`が必要です)
 - `parent.postMessage` と `window.addEventListener("message", () => {})`を通してWebAssemblyと通信する
 
 次のことはできません:
@@ -60,13 +60,13 @@ Re:Earthから必要なデータのみをifram送信し、iframe内のHTMLを書
 
 |||||
 |---|---|---|
-|Name|WebAssembly side|IFrame side|
-|Sandboxed| ✅ | ✅ |
-|Entrypoint (first executed)| ✅ | ❌ |
-|Access to Re:Earth plugin API| ✅ | ❌ |
-|Render HTML| ❌ | ✅ |
-|Use web API (DOM API, Canvas API, AJAX... without local storage)| ❌ | ✅ |
-|Communicate with the other side via "postMessage"| ✅ | ✅ |
+|名前|WebAssembly|iframe|
+|サンドボックス化| ✅ | ✅ |
+|エントリーポイント (初回実行)| ✅ | ❌ |
+|Re:EarthプラグインAPIへのアクセス| ✅ | ❌ |
+|HTMLのレンダリング| ❌ | ✅ |
+|Web APIの使用(ローカルストレージなしでDOM API、Canvas API、AJAX... ) | ❌ | ✅ |
+|"postMessage"での通信| ✅ | ✅ |
 
 
 ## 制約
