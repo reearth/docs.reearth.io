@@ -12,7 +12,7 @@ UIはHTMLとCSSでレンダリングされ、ロジックはJavaScriptで実装�
 
 おすすめの学習資料:
 
-- [MDN Web Docs: Learn web development](https://developer.mozilla.org/en-US/docs/Learn)  
+- [MDN ウェブ開発を学ぶ](https://developer.mozilla.org/ja/docs/Learn)  
 
 もし大規模なプラグイン開発を行いたい場合は、Reactやwebpackなどのモダンなwebテクノロジーを使用することも可能です。  
 
