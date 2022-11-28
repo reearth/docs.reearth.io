@@ -61,8 +61,8 @@ reearth.ui.show(`<h1 style="color:red;background:black">Hello world</h1>`);
 
 ```console title="file structure"
 test-plugin
-│   reearth.yml
-│   test-widget.js    
+├ reearth.yml
+└ test-widget.js    
 ```
 
 ## 4. プラグインを圧縮する
