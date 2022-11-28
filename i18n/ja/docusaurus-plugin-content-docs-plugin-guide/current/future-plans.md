@@ -4,7 +4,6 @@ sidebar_position: 8
 ---
 
 これは、現時点では概念的な段階にあるプラグイン機能のアイデアですが、将来的に実装される可能性があります。
-This is an idea for a plugin feature that is still in the conceptual stage at the moment, but could be implemented in the future.
 
 ## HTMLファイルやその他の静的ファイルをJSに埋め込む
 
