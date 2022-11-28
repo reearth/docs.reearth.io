@@ -45,7 +45,7 @@ const html = `
 reearth.ui.show(html, { width: 400, height: 200 });
 ```
 
-## リーフレットマップを表示
+## Leaflet マップを表示
 
 ```js
 const html = `
