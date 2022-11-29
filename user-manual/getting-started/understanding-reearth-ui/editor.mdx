@@ -3,64 +3,70 @@ title: Editor
 sidebar_position: 4
 ---
 
-Editor是实际上编辑项目的页面，大部分的时间你将在这个页面工作。
+The Editor Page is the main interface for editing projects. Most of the user's time will be here. We try our best to make this interface as simple and easy to understand as possible.
 
-## 功能区域
+<Image path={require('./img/4-1.png').default} />
 
-[帅气照片，显示出各个功能区域]
+As you can see, the Editor Page is made by five EDITOR AREAS:
 
-Editor主要分为五大功能区域：
-- Header 起到导航和发布项目的作用，详情请查看[Header]
-- [Left Panel] 是管理项目资源和数据的地方
-- [Tool Bar] 给地图添加元素的工具区域
-- [Right Panel] 则是调整参数的区域
-- [Viewer] 则是项目显示的区域
+- **Header**
+- **Tool Bar**
+- **Left Panel**
+- **Viewer**
+- **Right Panel**
 
-基本上的设计想法是，你可以在使用Tool Bar中的工具来创建Layer，然后在Left Panel中管理他们，并且在Right Panel中调节参数，在Viewer中查看效果。当然不同的功能模块还有各自具体的操作方式。
+The most basic design idea is that the Left Panel is a content list, used to select the object to be operated. And the Right Panel is the property panel of the currently selected layer, which can be used to modify the properties. The Viewer is the presentation window of the project, and it also has the ability to select and edit.
+
+## Header
+
+The Header is responsible for navigation, creating workspaces or projects, and publishing the project.
+
+<Image path={require('./img/4-2.png').default} />
+
+A down arrow will open a menu. Through these menus you can complete various operations as well as navigate to certain settings pages. The two buttons on the right are used to quickly preview or publish the project, respectively. For more information about the publishing function, please check [here](/user-manual/publication/overview).
 
 ## Left Panel
 
-在Re:Earth中有各种不同类型的资源需要管理。比如在地图上呈现的Layer，在界面中呈现的Widget等等，他们都可以在Left Panel中查看。Left Panel有两个主要的标签 Outline 和 Dataset。
+The Left Panel is used to present and manage all the content contained in the project. It has two labels, **Outline** and **Dataset**.
 
-### Outline
+<Image path={require('./img/4-3.png').default} />
 
-Outline 用来呈现和管理项目的资源。
 
-[帅气的图]
+- **Outline**
 
-A.Scene对象，用来调节一些场景和项目的参数，具体请查看[Scene]
-B.Widget列表，用来管理项目Widget，具体请查看[Wigets & Align system]
-C.Layer列表，用来管理项目的Layer，具体请查看[Layers]
-D.Cluster列表，具体请查看[Cluster]
+    The Outline panel currently manages [Scenes](/user-manual/scene/ideas-of-scene), [Widgets](/user-manual/widget/overview)and Layers
 
-### Dataset
+    - Select Scene to change different aspects of the Scene in the Right Panel. Please refer to [this page](/user-manual/scene/set-up-scene-group-properties) for details.
+    - Expand Widgets to view and manage the Widgets plugins installed in the project.
+    - Layers allows you to check and manage all Layers in the project. 
 
-[帅气且自卑的Dataset照片]
+- **Dataset**
 
-切换至Dataset标签，你可以查看和管理当前项目所引用的dataset。
+    The Dataset label is used to manage the Dataset in the project. You can add or delete a Dataset. Please see here for more details.
 
 ## Tool Bar
 
-[瘦弱的Tool Bar照片]
+<Image path={require('./img/4-4.png').default} />
 
-就像很多别的软件一样，我们把常用的用来创建Layer的工具放在这个Tool Bar中。
+Like other editor software, we put the most commonly used tools here. You can see the Marker, the Photo overlay, the Sphere, and the File tool for now. Using these Tools we can create new Layers in the scene. 
 
 ## Right Panel
 
-[Right Panel照片]
+The Right Panel is where all attributes are adjusted. When you select a layer or widget in the Left Panel, the Right Panel will present the corresponding properties.
 
-对于每个Re:Earth的对象（layer，widget等等），都有很多参数可以调节。Right Panel就是你需要最常关注的地方。选择不同的对象，Right Panel呈现呈现出不同的参数面板组合。
-
-[选择某个layer的Right Panel照片]
-
-以选中layer为例，你可以看到在Right Panel中，提供了四个标签的组合：
-- Layer栏可以修改当前layer的呈现方式
-- Infobox栏可以为当前的layer添加infobox
-- Tag栏可以为当前的layer添加各种标签
-- Export栏目可以将当前的layer输出成不同的格式
+<Image path={require('./img/4-5.png').default} />
 
 ## Viewer
 
-Re:Earth是一个所见即所得的系统，Viewer就是用来编辑同时呈现效果的地方。在Viewer你可以完成大部分的工作，添加layer，编辑infobox，管理widget等等。
-如何与数字地球交互你可以查看[这里]。
+Viewer is an area that allows you to interact with the 3D digital earth to complete many operations. You can place a Marker, edit an Infobox, set the Camera, preview the effect of the entire project, and so on.
+
+<Image path={require('./img/4-6.png').default} />
+
+At present, we use the [Cesium engine](https://cesium.com/platform/cesiumjs/) by default so we also use the Cesium method by default in the perspective operation:
+
+- Pan view: Left click + drag
+- Zoom view: Right click + drag , or Mouse wheel scroll
+- Rotate view: Middle click + drag , or CTRL + Left click + drag
+
+import Image from "/src/components/Image/Image";
 
