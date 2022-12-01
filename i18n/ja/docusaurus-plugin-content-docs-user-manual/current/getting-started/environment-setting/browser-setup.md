@@ -1,5 +1,5 @@
 ---
-title: Browser setup
+title: ブラウザの設定
 sidebar_position: 1
 ---
 
