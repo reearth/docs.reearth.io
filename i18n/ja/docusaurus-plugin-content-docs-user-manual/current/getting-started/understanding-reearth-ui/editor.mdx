@@ -1,72 +1,80 @@
 ---
-title: Editor
+title: 編集ページ
 sidebar_position: 4
 ---
 
-The Editor Page is the main interface for editing projects. Most of the user's time will be here. We try our best to make this interface as simple and easy to understand as possible.
-
+編集ページは、プロジェクトを編集するためのメイン画面です。可能な限りシンプルでわかりやすいものを目指しています。
 <Image path={require('./img/4-1.png').default} />
 
-As you can see, the Editor Page is made by five EDITOR AREAS:
+編集ページは5つのエリアに分けられます。
 
-- **Header**
-- **Tool Bar**
-- **Left Panel**
-- **Viewer**
-- **Right Panel**
+- **ヘッダー**
+- **ツールバー**
+- **左パネル**
+- **ビューワー**
+- **右パネル**
 
-The most basic design idea is that the Left Panel is a content list, used to select the object to be operated. And the Right Panel is the property panel of the currently selected layer, which can be used to modify the properties. The Viewer is the presentation window of the project, and it also has the ability to select and edit.
+基本的な構成として、左パネルはコンテンツリストです。操作するオブジェクトを選択するために使用します。
 
-## Header
+右パネルは、選択されているレイヤーのプロパティパネルです。プロパティを変更する際に使用します。
 
-The Header is responsible for navigation, creating workspaces or projects, and publishing the project.
+中央に位置するビューワーは、プロジェクトの表示ウィンドウです。レイヤの選択や編集を行うこともできます。
+
+## ヘッダー
+
+ヘッダーでは、ナビゲーション・ワークスペースやプロジェクトの作成・プロジェクトの公開設定を行うことができます。
 
 <Image path={require('./img/4-2.png').default} />
 
-A down arrow will open a menu. Through these menus you can complete various operations as well as navigate to certain settings pages. The two buttons on the right are used to quickly preview or publish the project, respectively. For more information about the publishing function, please check [here](/user-manual/publication/overview).
+アカウント名やプロジェクト名横の∨をクリックするとメニューが表示されます。
 
-## Left Panel
+右上にあるプレビューや公開状態のボタンは、プロジェクトを素早くプレビューする・または公開設定を行うために使用します。公開機能については、[こちら](/user-manual/publication/overview)もご覧ください。
 
-The Left Panel is used to present and manage all the content contained in the project. It has two labels, **Outline** and **Dataset**.
+## 左パネル
+
+左パネルは、プロジェクトに含まれるすべてのコンテンツを表示し、管理するためのものです。
+このパネルには、**アウトライン**と**データセット**という、2つのタブがあります。
 
 <Image path={require('./img/4-3.png').default} />
 
 
-- **Outline**
+- **アウトライン**
 
-    The Outline panel currently manages [Scenes](/user-manual/scene/ideas-of-scene), [Widgets](/user-manual/widget/overview)and Layers
+    アウトラインでは主に、[シーン](/user-manual/scene/ideas-of-scene)・[ウィジェット](/user-manual/widget/overview)・レイヤーを管理します。
 
-    - Select Scene to change different aspects of the Scene in the Right Panel. Please refer to [this page](/user-manual/scene/set-up-scene-group-properties) for details.
-    - Expand Widgets to view and manage the Widgets plugins installed in the project.
-    - Layers allows you to check and manage all Layers in the project. 
+    - 'シーン'を選択すると、シーンに関する設定を変更することができます。詳しくは[シーンの設定方法](/user-manual/scene/set-up-scene-group-properties)をご参照ください。
+    - 'ウィジェット'を選択すると、スプラッシュスクリーン・ストーリーテリング・メニューボタンに関する設定や、 プロジェクトのプラグインに関する表示・管理ができます。
+    - 'レイヤー'では、プロジェクト内の全てのレイヤーを確認し、管理することができます。
 
-- **Dataset**
+- **データセット**
 
-    The Dataset label is used to manage the Dataset in the project. You can add or delete a Dataset. Please see here for more details.
+    'データセット'は、プロジェクト内のデータセットを管理するために使用します
 
-## Tool Bar
+## ツールバー
 
 <Image path={require('./img/4-4.png').default} />
 
-Like other editor software, we put the most commonly used tools here. You can see the Marker, the Photo overlay, the Sphere, and the File tool for now. Using these Tools we can create new Layers in the scene. 
+ツールバーには基本的な操作セットが用意されています。マーカー・「フォトオーバーレイ」・「球体」・「ファイル」を、新しいレイヤーとしてプロジェクトに追加することができます。
 
-## Right Panel
+## 右パネル
 
-The Right Panel is where all attributes are adjusted. When you select a layer or widget in the Left Panel, the Right Panel will present the corresponding properties.
+右パネルでは、左パネルで選択した項目に対応するプロパティが表示されます。
 
 <Image path={require('./img/4-5.png').default} />
 
-## Viewer
+## ビューワー
 
-Viewer is an area that allows you to interact with the 3D digital earth to complete many operations. You can place a Marker, edit an Infobox, set the Camera, preview the effect of the entire project, and so on.
+画面中央に位置するビューワーは、デジタルアースの表示・操作を行うエリアです。インフォボックスの編集・カメラ設定・プロジェクトのプレビューなど、様々な操作に使用します。
 
 <Image path={require('./img/4-6.png').default} />
 
-At present, we use the [Cesium engine](https://cesium.com/platform/cesiumjs/) by default so we also use the Cesium method by default in the perspective operation:
+現在、Re:Earthではセ[シウムエンジン](https://cesium.com/platform/cesiumjs/)をデフォルト使用しています。
 
-- Pan view: Left click + drag
-- Zoom view: Right click + drag , or Mouse wheel scroll
-- Rotate view: Middle click + drag , or CTRL + Left click + drag
+### ビューワーの基本操作
+
+- パンビュー：左クリック＋ドラッグ
+- ズーム表示：右クリック＋ドラッグ、またはマウスホイールによるスクロール
+- デジタルアースの自由回転：マウスホイールをクリック＋ドラッグ、またはCTRL＋左クリック＋ドラッグ
 
 import Image from "/src/components/Image/Image";
 
