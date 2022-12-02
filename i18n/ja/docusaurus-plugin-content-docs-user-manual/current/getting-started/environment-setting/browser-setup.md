@@ -1,54 +1,56 @@
 ---
-title: Browser setup
+title: Re:Earthの動作環境について
 sidebar_position: 1
 ---
 
-Re:Earth is an application that runs in a web browser.
+Re:EarthはWebブラウザ上で動作するアプリケーションです。
 
-It is compatible with all popular desktop OS's (Windows, macOS, Linux, Chrome OS) as well as mobile OS's (iOS, Andoroid) that can run modern web browsers.
-## Internet connection
+Webブラウザが動作する全てのデスクトップOS（Windows, macOS, Linux, Chrome OS）やモバイルOS（iOS、Andorid）に対応しています。
+## インターネット接続について
 
-Re:Earth requires an Internet connection to operate. This means that offline work is not supported at this time.
+Re:Earthの動作には、インターネット接続を必要とします。また、現在はオフライン作業に対応していません。
 
-If the Internet connection is lost while using Re:Earth, your changes may not be saved properly.
+利用中にインターネット接続が切断された場合、変更内容が正常に保存されないことがあります。
 
-## Supported Web Browsers
+## 対応Webブラウザについて
 
 - Chrome 58+
 - Firefox 57+
-- Safari 11+ (macOS only)
-- Microsoft Edge XX or later
+- Safari 11+ (macOSのみ)
+- Microsoft Edge XX 以降
 - iOS(11+) Safari
 - Android(10+) Chrome
 
-To maintain comfortable operation and security, please update your web browser periodically to use the latest version.
+快適な動作とセキュリティを維持するため、Webブラウザのアップデートは定期的に行い、最新バージョンをご利用ください。
 
-Internet Explorer is not officially supported. It does not work with all versions.
+Internet Explorer には対応していません。全てのバージョンで動作しません。
 
-## Supported OS
+## 対応OSについて
 
 - Windows 10
 - Apple macOS 10.12 (macOS Sierra)+
-- Linux running the above desktop web browsers
+- 上記デスクトップWebブラウザが動作するLinux
 - ChromeOS
 - iOS 11+
 - Android 10+
-## Supported Display Monitors
 
-For efficient editing with Re:Earth, a monitor with a resolution of 1000x700 pixels or higher is required.
+Re:Earthは、主にWindows及びmacOSで動作確認を行なっています。
 
-As long as the screen of your device supports this resolution, you can use Re:Earth on desktop PCs, laptops, and tablets such as iPad without any problems.
+快適な動作とセキュリティを維持するため、OSのアップデートは定期的に行い、最新バージョンをご利用ください。
+## 対応ディスプレイモニタについて
 
-Projects created and published with Re:Earth are able to be viewd on iPhone and other smart phone displays.
+Re:Earthでの効率的な編集作業には、解像度が1000x700ピクセル以上のモニタが必要です。
 
-However, the editing screen of Re:Earth does not support smartphone display.
+この解像度をサポートするモニタであれば、デスクトップPC、ラップトップPC、及びiPadなどのタブレット端末でも、問題なく利用することができます。
 
-## Graphics cards
+Re:Earthで作成・公開されたプロジェクトは、iPhoneなどのスマートフォン表示に対応しています。ただし、Re:Earthの編集画面は、スマートフォン表示に対応していません。
 
-Re:Earth uses WebGL to display the globe.
+## グラフィックカードについて
 
-Therefore, Re:Earth requires a graphics card or graphics chip that supports WebGL. Many of the CPUs used in recent PCs and tablets, as well as many mobile devices, have built-in graphics chips, and Re:Earth will run without any problems in most cases.
+Re:Earthでは、地球儀の表示等にWebGLを利用しています。
 
-If you want to work more comfortably on a desktop PC, we recommend installing a graphics card such as the recently released Nvidia GeForce series or AMD Radeon series.
+そのため、Re:Earthの動作には、WebGLをサポートするグラフィックカード及びグラフィックチップが必要です。近年のPCやタブレット端末で利用されているCPUやモバイル端末の多くはグラフィックチップを内蔵しており、多くの場合、問題なくRe:Earthが動作します。
 
-For the best performance, please update your graphics card or graphics chip driver regularly to use the latest version.
+デスクトップPCでより快適に作業を行いたい場合には、近年発売されたNvidia GeForceシリーズや、AMD Radeonシリーズなどのグラフィックカードを導入していただくことをお勧めします。
+
+快適な動作のため、グラフィックカードやグラフィックチップのドライバアップデートは定期的に行い、最新バージョンをご利用ください。
