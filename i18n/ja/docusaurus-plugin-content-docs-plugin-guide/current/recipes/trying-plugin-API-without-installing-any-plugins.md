@@ -1,20 +1,22 @@
 ---
-title: Trying plugin API without installing any plugins
+title: プラグインをインストールせずにプラグイン API を試す
 sidebar_position: 1
 ---
 
-Details of the Plugin API is described in API reference, but you can try plugin API in your web browser.
+プラグインAPIの詳細はRe:Earth APIで説明しますが、ここではwebブラウザでプラグインAPIを試す方法を説明します。
 
-Open your Re:Earth and your project, and then open developer tools of your web browser. Next, open "console" and exec following JavaScript: `reearth`.
+Re:Earthを開きプロジェクトへ移動します。
+そしてブラウザで開発者ツールを開いてください。
+次に、コンソールを開いて次のJavaScriptを実行します： `reearth`
 
-You'll see reearth object is printed. This object is almost same as actual plugin API, with the exception of a few APIs: `reearth.ui.show`, `reearth.ui.postMessage` and so on.
+Re:Earthオブジェクトが表示されます。これらのオブジェクトは、`reearth.ui.show`、`reearth.ui.postMessage` などのいくつかのAPIを除いて、実際のプラグインAPIとほぼ同じです。
 
-This screenshot is for Google Chrome:
+このスクリーンショットはGoogle Chrome用です：
 
 ![screenshot](./img/google-chrome-screenshot.png)
 
-So you can try plugin API handly in console.
+コンソールでプラグインAPIを手軽に試してみることができます。
 
-For example, searching layers with `reearth.layers.layers` ...
+例えば `reearth.layers.layers`でレイヤーを検索すると...
 
 ![searching-layers](./img/searching-layers.png)

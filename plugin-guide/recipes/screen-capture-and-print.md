@@ -9,8 +9,7 @@ Plugins can get the image of the canvas with this API.
 
 :::note
 
-The output image comes from the canvas so anything implemented out of canvas (eg. infobox) can not be included. If you want to take a screenshot of all HTML elements you may try implement with some third-party libraries in plugin code.
-
+The output image comes from the canvas so anything implemented out of canvas (eg. infobox) can not be included.
 :::
 
 ```js

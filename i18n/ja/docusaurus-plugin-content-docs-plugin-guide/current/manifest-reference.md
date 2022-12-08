@@ -1,14 +1,16 @@
 ---
-title: Manifest reference
+title: プラグインマニフェスト
 sidebar_position: 6
 ---
 
-The plugin manifest is very configurable, but the documentation is still in progress.
+プラグインマニフェストは非常に自由に設定できますが、ドキュメントはまだ作成中です。
 
-However, the layers, blocks, etc. that are standard in Re:Earth are actually implemented as built-in plug-ins, so there are manifests for them. Until the documentation is finished, please refer to the following manifest files for built-in plug-ins.
+ただし、Re:Earthで標準搭載されているレイヤーやブロックなどは、実は組み込みプラグインとして実装されており、それらのマニフェストがあります。
+ドキュメントが完成するまで、次の組み込みプラグインのマニフェストファイルを参照してください。
 
-Built-in plugin manifest: [https://github.com/reearth/reearth-backend/blob/main/pkg/builtin/manifest.yml](https://github.com/reearth/reearth-backend/blob/main/pkg/builtin/manifest.yml)
+組み込みプラグインマニフェスト: [https://github.com/reearth/reearth-backend/blob/main/pkg/builtin/manifest.yml](https://github.com/reearth/reearth-backend/blob/main/pkg/builtin/manifest.yml)
 
-JSON schema for plugin manifest: [https://github.com/reearth/reearth-backend/blob/main/schemas/plugin_manifest.json](https://github.com/reearth/reearth-backend/blob/main/schemas/plugin_manifest.json)
+プラグイン マニフェストのJSONスキーマ: [https://github.com/reearth/reearth-backend/blob/main/schemas/plugin_manifest.json](https://github.com/reearth/reearth-backend/blob/main/schemas/plugin_manifest.json)
 
-Note: It is not recommended to set this URL in the `$schema` field in the manifest to reference the schema, as the file location may change. We are planning to create a <u>schema.reearth.io</u> like URL that can be referenced.
+ファイルの場所が変更される可能性があるため、この URL をマニフェストの `$schema` フィールドに設定してスキーマを参照することはお勧めしません。
+参照できる <u>schema.reearth.io</u> のようなURLを作成する予定です。

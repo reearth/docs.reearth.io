@@ -1,21 +1,22 @@
 ---
-title: Future plans
+title: 今後のプラグイン
 sidebar_position: 8
 ---
 
-This is an idea for a plugin feature that is still in the conceptual stage at the moment, but could be implemented in the future.
+これは、現時点では概念的な段階にあるプラグイン機能のアイデアですが、将来的に実装される可能性があります。
 
-## Embed HTML files and other static files to JS
+## HTMLファイルやその他の静的ファイルをJSに埋め込む
 
-Currently, it needs to be written as a string in JavaScript, but in actual development, it is often more convenient to be able to write it as a separate file. We are considering a function to automatically embed the HTML file as a JavaScript string when installing the plug-in.
+現在は JavaScript で文字列として記述する必要がありますが、実際の開発では別ファイルとして記述できる方が便利な場合が多いです。
+プラグインインストール時に、HTMLをJavaScriptの文字列として自動で埋め込む機能を検討中です。
 
-We are also considering the ability to embed other static files with string or base64 encoding.
+また、文字列またはbase64エンコーディングを使用して、他の静的ファイルを埋め込む機能も検討しています。
 
-## More plugin types
+## その他プラグインの種類
 
-- **Layer**: Adds your own layers through plug-ins.
-- **Scene**: Changes the behavior of an entire scene.
-- **Editor**: Extends the editing screen and improves editing efficiency. For example, it can display a modal that allows you to efficiently set property fields.
-- **Function**: Performs calculations using input data, and save and display the results. It will be able to perform a variety of analyses on Re:Earth.
+- **シーン**: シーン全体の動作を変更
+- **エディター**: 編集画面を拡張し、編集効率を向上させます。たとえば、プロパティ フィールドを効率的に設定できるモーダルを表示できます。
+- **ファンクション**: 入力データを使用して計算を実行し、結果を保存して表示します。 Re:Earth上で様々な分析ができるようになります。
 
-Function plugins are envisioned to adopt WebAssembly and will be able to be developed using programming languages that can be compiled to WebAssembly. By adopting WebAssembly, we have the potential to perform operations in various places depending on the characteristics of the operation, such as the web browser, the edge, and the backend.
+ファンクションプラグインは WebAssembly を採用することを想定しており、WebAssembly にコンパイルできるプログラミング言語を使用して開発できるようになります。
+WebAssemblyを採用することで、Webブラウザ、エッジ、バックエンドなど、運用の特性に応じてさまざまな場所で運用できる可能性を秘めています。

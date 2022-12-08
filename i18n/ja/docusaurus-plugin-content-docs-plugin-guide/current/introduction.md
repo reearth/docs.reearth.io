@@ -1,30 +1,35 @@
 ---
-title: Introduction
+title: はじめに
 sidebar_position: 1
 ---
 
-Welcome to Re:Earth plugin API!
+Re:Earth プラグイン API へようこそ！
 
-By developing and using plug-ins, you can extend the functionality of Re:Earth. Using the plug-in, you can display new items in the infobox that appears when you select a marker, or place unusual widgets on the screen that you have never seen before, and publish your own original scenes. In the future, you will also be able to use plug-ins to improve the efficiency of editing scenes and to perform calculations for data processing.
+プラグインを開発・使用することで、Re:Earthの機能を拡張することが可能になります。
+プラグインを利用することで、マーカー選択時に表示されるインフォボックスに新しい項目を表示したり、オリジナルのウィジェットを画面上に表示し公開したりすることができます。
+また、将来的にはシーン編集の効率化やデータ処理のための計算をプラグインで行えるようになる予定です。
 
-## Plugin types
 
-At present, the following types of functions can be extended with plugins.
+## プラグインの種類
 
-### Widget
+今のところ、以下に記載されている「ウィジェット」と「ブロック」（インフォボックス内）がプラグインで拡張可能です。
 
-Displays a widget that floats on the screen. Widgets can be placed freely on the edges and corners of the screen. For example, displays various data or call any action when a button is clicked.
+### ウィジェット
+
+画面上に浮かぶウィジェットを表示することができます。ウィジェットは、画面の端や隅にボタンなどを自由に配置することができ、それをクリックすることで、さまざまなデータを表示したり、アクションを呼び出したりすることができます。
+
 
 ![widget](./img/widget.png)
 
-### Block
+### ブロック
 
-This plugin is displayed in the infobox that appears when a layer is selected. It allows you to display various data according to the contents of the selected layer.
+このプラグインは、マーカー選択時に表示されるインフォボックスの中に新たなブロックを表示することができます。
+ブロックでは、選択されたマーカーの内容に応じて、さまざまなデータを表示することが可能です。
+
 
 ![block](./img/block.png)
 
-## Where do I start?
+## はじめ方
 
-Proceed to [Prerequisites](./prerequisites) to find out what you need to do to get started developing a plugin.
-
-And also to check our new [Plugin Editor](./plugin-editor.md).
+[「前もって必要なこと」](./prerequisites/)ページにすすみ、プラグイン開発を開発するのに必要な項目を確認する。
+合わせて、[プラグインエディター](./plugin-editor/)についても確認しください。

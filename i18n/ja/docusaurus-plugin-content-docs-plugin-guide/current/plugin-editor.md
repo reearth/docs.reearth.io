@@ -1,23 +1,27 @@
 ---
-title: Plugin Editor
+title: プラグインエディター
 sidebar_position: 2
 ---
 
-You can also try our new [Plugin Editor](https://app.reearth.io/plugin-editor) to aid you in developing your own plugin:
+プラグイン開発をもっと簡単にするために、[プラグインエディター](https://app.reearth.io/plugin-editor) を使うことができます。
 
 <iframe width="100%" height="640" src="https://app.reearth.io/plugin-editor" title="Re:Earth Plugin Editor"></iframe>
 
-## Introduction 
+## 最初に 
 
-Up until now, the process of developing plugins has had a couple speed bumps that our team has wanted to solve. The main one being that there was no real-time feedback during the development process, so developers have to repeatedly update and re-install the plugin. Depending on the scope of your plugin, this tool can help a lot.
+これまでは、プラグインの開発プロセスには解決すべきいくつかの問題がありました。
+一番の問題だったのは、開発中にリアルタイムのフィードバックがなかったことです。なので、開発者は何度も繰り返しプラグインをアップデートし再インストールしなければなりませんでした。
+開発するプラグインの範囲にもよりますが、プラグインエディターは非常に役に立ちます。
 
-Modify your plugin in the code box on the right, and you can see the changes happen in real time in the left window. This is very helpful for updates to the interface and smaller style tweaking.
+右のコードボックスでプラグインのコードを変更すると、変更をリアルタイムに左側のウィンドウで確認することができます。
+これは、UIの更新や小さなスタイルの微調整にとても役立ちます。
 
-## Still missing
+## まだサポートされていないこと
 
-- Calls to the Re:Earth api are not yet supported
-- Still does not support modifying the yml file (that is used to display customizable plugin fields in the right panel while editing the project in Re:Earth)
+- マニフェストファイルの変更はまだサポートされていません（Re:Earthでプロジェクトを編集しているときに、右側のパネルに表示されるカスタマイズ可能なプラグインフィールドを記述するための `reearth.yml` という名前のファイル）
+- 編集内容は保存されないことに注意してください。
 
-## In the future
+## 今後の予定
 
-We will continue to find ways to improve and add to the Plugin Editor to make the plugin development process more streamlined. We also welcome your suggestions and ideas to help us, so please go to Discord or GitHub and start a discussion!
+私たちは、プラグイン開発プロセスをより良いものにするために、プラグインエディターを改善し続けます。
+皆様からの、ご提案やアイディアをお待ちしております！是非Discord、もしくはGitHubで議論しましょう！

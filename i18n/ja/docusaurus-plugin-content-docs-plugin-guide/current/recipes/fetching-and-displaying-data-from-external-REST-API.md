@@ -1,10 +1,9 @@
 ---
-title: Fetching and displaying data from external REST API
+title: 外部REST API からのデータの取得と表示
 sidebar_position: 6
 ---
 
-Fetch current ISS location via "Where the ISS at?" API ([https://wheretheiss.at/w/developer](https://wheretheiss.at/w/developer))
-
+"Where the ISS at?" API([https://wheretheiss.at/w/developer](https://wheretheiss.at/w/developer))で現在のISSの位置を取得します。 
 ```js
 const html = `
 	<style>
@@ -40,5 +39,4 @@ const html = `
 
 reearth.ui.show(html);
 ```
-
-Note that "Where the ISS at?" API is available for Re:Earth plugin, because the API responds with `Access-Control-Allow-Origin: *` header.
+"Where the ISS at?" APIは、 `Access-Control-Allow-Origin: *` ヘッダーで応答するため、Re:Earthのプラグインで使用可能であることに注意してください。

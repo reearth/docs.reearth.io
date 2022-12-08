@@ -13,7 +13,6 @@ We are also considering the ability to embed other static files with string or b
 
 ## More plugin types
 
-- **Layer**: Adds your own layers through plug-ins.
 - **Scene**: Changes the behavior of an entire scene.
 - **Editor**: Extends the editing screen and improves editing efficiency. For example, it can display a modal that allows you to efficiently set property fields.
 - **Function**: Performs calculations using input data, and save and display the results. It will be able to perform a variety of analyses on Re:Earth.

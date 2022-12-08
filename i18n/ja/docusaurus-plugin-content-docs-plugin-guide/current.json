@@ -4,7 +4,7 @@
     "description": "The label for version current"
   },
   "sidebar.userManualSidebar.category.Recipes": {
-    "message": "Recipes",
+    "message": "レシピ集",
     "description": "The label for category Recipes in sidebar userManualSidebar"
   }
 }

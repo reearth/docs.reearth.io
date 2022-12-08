@@ -1,5 +1,5 @@
 ---
-title: Communicating between plugin and UI
+title: プラグインとRe:Earth UI間の通信
 sidebar_position: 3
 ---
 
@@ -46,10 +46,13 @@ reearth.on("message", msg => {
 reearth.ui.postMessage("Hello world");
 ```
 
-With postMessage, you can send objects that can be serialized to JSON. For example, it is possible to send a layer object obtained from the plugin API.
+postMessage を使用すると、JSON にシリアル化できるオブジェクトを送信できます。
+たとえば、プラグインAPIから得られたレイヤーオブジェクトを送信することもできます。
 
 :::info
-In Google Chrome for iOS, for some reason, the web browser itself may send some messages indiscriminately directly to iframes of plugins. Therefore, when receiving messages in your iframe, you should make sure that they are not sent by plug-ins, and implement ignoring unknown messages. Otherwise, the plugin will not work well on iOS.
+Google Chrome for iOS では、何らかの理由で、Web ブラウザー自体が無差別にプラグインの iframe に直接メッセージを送信する場合があります。
+したがって、iframe でメッセージを受信するときは、それらがプラグインによって送信されていないことを確認し、不明なメッセージを無視するように実装する必要があります。
+そうしないと、プラグインはiOSでうまく動作しません。
 :::
 
 ```js
