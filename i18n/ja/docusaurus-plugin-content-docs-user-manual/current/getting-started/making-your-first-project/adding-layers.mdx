@@ -1,13 +1,13 @@
 ---
-title: Adding layers
-sidebar_position: 5
+title: レイヤーを追加する
+サイドバー位置: 5
 ---
 
-In Re:Earth, we can add layers to the map. All objects that can be rendered on the digital earth (including [marker](/user-manual/property/overview#marker-properties-1), [3D modal](/user-manual/three-d-data/3d-model), [PhotoOverlay](/user-manual/property/overview#photo-overlay-properties)...) are all managed as layers.
+Re:Earthでは、地図に素材を追加することができます。デジタルアース上に表示できる全てのアイテム ( [マーカー](/user-manual/property/overview#marker-properties-1), [3Dモデル](/user-manual/three-d-data/3d-model), [画像編集](/user-manual/property/overview#photo-overlay-properties)など) はすべてレイヤーとして管理されています。
 
-Here we will add a marker as layer to the map as an example.
+ここでは例として、地図にレイヤーとして目印を追加してみます。
 
-## Adding a marker layer
+## マーカーレイヤーの追加
 
 <Image path={require('./img/4-1.png').default} />
 
@@ -15,41 +15,41 @@ Here we will add a marker as layer to the map as an example.
 
 <Order>
   <ListByNumber>
-    Find the Marker tool from the <a target="_self" href="/user-manual/getting-started/understanding-reearth-ui/editor#tool-bar">Tool bar</a>.
+    からマーカーツールを探します。 <a target="_self" href="/user-manual/getting-started/understanding-reearth-ui/editor#tool-bar">ツールバー</a>.
   </ListByNumber>
   <ListByNumber>
-    Drag the Marker icon to the place on the map where you want to place it
+    マーカーアイコンを地図上の配置したい場所にドラッグする
   </ListByNumber>
   <ListByNumber>
-    In the <a target="_self" herf="/user-manual/getting-started/understanding-reearth-ui/editor#outline">Outline</a> layers list, a new layer called marker is created.
+    <a target="_self" herf="/user-manual/getting-started/understanding-reearth-ui/editor#outline">概要</a>レイヤーリストに、マーカーという新しいレイヤーが作成されます。
   </ListByNumber>
 </Order>
 
-## Changing layer properties
+## レイヤーのプロパティを変更する
 
-By selecting a layer, we can modify various properties of that layer to change its state or shape, such as the following examples.
+レイヤーを選択することで、そのレイヤーの様々なプロパティを変更し、以下の例のように状態や形状を変化させることができます。
 
-### Changing position
+### ポジション変更
 
 <Image path={require('./img/4-3.gif').default} />
 
-After pressing and holding on the layer for more than 1s, we can move its position on the map.
+レイヤーを1秒以上長押しすると、地図上の位置を移動させることができます。
 
-### changing apperance
+### さしかえ
 
 <Image path={require('./img/4-4.gif').default} />
 
-We can modify the style, size, color, etc. of this marker layer.
+このマーカーレイヤのスタイル、サイズ、色などを変更することができます。
 
-### Adding label
+### ラベルの追加
 
 <Image path={require('./img/4-5.gif').default} />
 
-We can also add a label to the marker layer, and adjust the font style, etc.
+また、マーカーレイヤにラベルを追加し、フォントの種類を調整することなども可能です。
 
-For marker layer we have many customizable parts, please check [here](/user-manual/property/overview#marker-properties) for more details. The different types of layers have their own different parameters and functions, you can find more information about them [here](/user-manual/property/overview).
+マーカレイヤーについては、カスタマイズ可能なパーツが多数ありますので、ご確認ください。[こちら](/user-manual/property/overview#marker-properties) をご覧ください。レイヤーの種類によって、それぞれ異なるパラメータや機能があります。 [こちら](/user-manual/property/overview).
 
-Please try to change the parameters of other layers, you may find something different.
+他のレイヤーの設定を変更することで、異なる効果が得られます。
 
 import Image from "/src/components/Image/Image";
 import ListByNumber from "/src/components/List/ListByNumber";
