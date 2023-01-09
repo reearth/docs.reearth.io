@@ -3,17 +3,22 @@ title: チュートリアル
 sidebar_position: 3
 ---
 
-In this section, we will explain the series of steps in developing a plugin by developing a simple plugin together.
+ここでは、簡単なプラグインを一緒に開発することで、プラグイン開発の一連の手順を説明します。
 
-## 1. Create a project directory
 
-Create a directory in the location of your choice. This is where you will put the plugin code. The name of the directory can be anything you like. In this page, we will name it `test-plugin`.
+## 1. プロジェクトフォルダを作成する
 
-## 2. Describe a manifest for the plugin
+任意の場所に、フォルダを作成してください。ここにプラグインコードを配置します。
 
-Manifest is the metadata of the plugin you are going to create, i.e., ID and name of the plugin, what functions it extends, and what configuration items will be provided to users.
+フォルダの名前は、何でも大丈夫です。ここでは、`test-plugin`と名付けます。
 
-Create a file named `reearth.yml` and edit it as following:
+## 2. プラグインのマニフェストを記述する
+
+マニフェストは、作成しようとしているプラグインのメタデータです。
+つまり、プラグインのIDと名前、プラグインが拡張する機能、およびユーザーに提供される構成アイテムです。
+
+`reearth.yml` という名前でファイルを作成し、以下のように記述します：
+
 
 ```yaml title="reearth.yml"
 id: test-plugin
@@ -25,23 +30,25 @@ extensions:
     name: Test
 ```
 :::caution
-- The ``id`` here can not be upper-case.
-- Be careful not to make mistakes such as line breaks and spaces.
+- ``id`` は大文字では設定できません
+- 改行やスペースなどを間違えのないように注意してください
 :::
 
-## 3. Implement the first extension
+## 3. 最初の拡張機能を実装する
 
-Actually, a plugin is a collection of units called extensions. A plugin is allowed to have only one extension, or multiple extensions.
+実はプラグインは、拡張機能と呼ばれる単位のコレクションです。
+プラグインは、一つの拡張機能だけでなく複数の拡張機能を持つことができます。
 
-Let's go ahead and implement the first extension. As described in the manifest in the previous step, ID of the extension we will implement is `test-widget`. Create a file named `test-widget.js` with the extension `.js` appended to this ID.
 
-
+それでは、最初に簡単な拡張機能を実装してみましょう。
+先ほどのステップのマニュフェストに説明したように、これから実装する拡張機能のIDは`test-widget`です。
+このIDに拡張子`.js` を付け足して`test-widget.js`という名前のファイルを作成します。
 
 :::caution
-Note that if you make a mistake with this file name, the plugin will not work. Other than the extension, the rest of the file must match the ID completely.
+このファイル名を間違えると、プラグインは動作しませんのでご注意ください。拡張子以外のファイル名は、IDと完全に一致する必要があります。
 :::
 
-Then edit the JS file:
+次にJSファイルを編集します：
 
 ```js title="test-widget.js"
 console.log("Hello world");
@@ -49,100 +56,112 @@ console.log("Hello world");
 reearth.ui.show(`<h1 style="color:red;background:black">Hello world</h1>`);
 ```
 
-That's it, the simplest of plug-ins is complete. File structure is as following:
+これで、簡単なプラグインが完成しました！
+ファイル構造は次のとおりです：
 
 ```console title="file structure"
 test-plugin
-│   reearth.yml
-│   test-widget.js    
+├ reearth.yml
+└ test-widget.js    
 ```
 
-## 4. Pack your plugin
+## 4. プラグインを圧縮する
 
-Now let's install your plugin into Re:Earth. Before we do that, let's pack the plugins so that we can install them. In this article, I will explain how to compress them into a zip file and upload it.
+それでは、プラグインをRe:Earthにインストールしてみましょう！  
+その前に、インストールするするためにプラグインを圧縮しましょう。  
+この記事の中では、zipファイルに圧縮しアップロードする方法を説明します。  
 
-Select the folder you created in the very first step and compress it into a zip file. The way to do this depends on your operating system; for MacOS, right-click on the folder in finder and select "Compress ~" to generate the zip file; for Windows, right-click on the folder in explorer and select "Send to" and then select "Compress Compressed (zipped) folder".
+1番最初の手順で作成したフォルダを選択し、それをzipファイルへと圧縮します。  
+zipファイルへの圧縮方法は、OSによって異なります。  
+MacOSの場合：Finderでフォルダを右クリック→「~を圧縮」を選択  
+Windowの場合：エクスプローラーでフォルダを右クリック→「送る」を選択し、「圧縮 (zip形式) フォルダー」を選択
 
-By the way, don't worry about the name of the zip file as it won't affect the subsequent steps.
+ここでのzipファイルのファイル名は、これからの手順に何にも影響はないので、気にしないで大丈夫です。
 
-## 5. Upload your plugin
+## 5. プラグインをアップロードする
 
-Upload the plugin. Log in to your Re:Earth and open the project settings page. (If you haven't created a project yet, go ahead and do so.)
-
-You can open the project settings page from this button in dashboard page:
+Re:Earthにログインし、プロジェクトの設定ページを開きます（まだプロジェクトを作成していない場合は、作成してください）。
+ダッシュボードのこのボタンから、プロジェクトの設定ページを開くことができます：  
 
 ![tutorial_1](./img/tutorial_1.png)
 
-Or, "Project settings" item in the top menu in the editor screen:
+または、編集画面の一番上のメニューにある「プラグイン」からも開くことができます：  
 
 ![tutorial_2](./img/tutorial_2.png)
 
-Then, select "Plugins" in the left menu:
 
-Then you'll see this screen:
+そして、左側のメニューにある「プラグイン」を選択：  
+そうすると、次の画面が表示されます  
 
 ![tutorial_3](./img/tutorial_3.png)
 
-Next, select "Zip file from PC" and select your zip file you generated in the previous step.
+次は、「個人インストール済み」タブに移動し「PCからZipファイルをアップロード」を選択し、前の手順で生成したzipファイルを選択します。  
 
-If you see a success message after a short wait, the plugin has been successfully installed.
+少し待ってから「プラグインがインストールされました」というメッセージが表示されれば、プラグインは正常にインストールされています！
 
 ![tutorial_4](./img/tutorial_4.png)
 
-If you get an error here, it could be due to one of the following reasons:
 
-- There is an error in the format of `reearth.yml` . Review `reearth.yml` again.
-- A plugin with the same ID has already been installed. Uninstall it and run it again.
-- The zip file does not contain `reearth.yml`, or there are multiple directories in the root. Compress a single folder containing `reearth.yml`, or a group of multiple files containing `reearth.yml`.
-- Depending on the application used to generate the zip file, it may output a malformed zip file. Try compressing the file by other means.
+もしここでエラーメッセージが表示された場合は、次のいずれかの理由が考えられます：
 
-## 6. Using widgets extended by your plugin
+- `reearth.yml`のフォーマットに誤りがあります。もう一度`reearth.yml`を確認してください。
+- 同じIDを持ったプラグインが既にインストールされている。アンインストールして、もう一度インストールしてみてください。
+- zipファイルの中に`reearth.yml`が存在していない、もしくはルートに複数のフォルダがある。`reearth.yml` を含む 1 つのフォルダ、もしくは`reearth.yml`を含む複数のファイルのグループを圧縮してください。
+- zipファイルを生成するアプリケーションによっては、不正な形式のzipファイルが出力される場合があります。他の方法でファイルを圧縮してみてください。
 
-Go back the editor screen and open widgets on the left panel. Then you'll see a new widget that you implemented. Select it, and then enable it by clicking "Enable" switch on the right panel.
+## 6. プラグインによって拡張されたウィジェットの使用
+
+編集画面に戻り、左パネル内のウィジェットを開いてください。
+そうすると、実装した新たなウィジェットが表示されます。それを選択してください。
 
 ![tutorial_7](./img/tutorial_7.png)
 
-Then you can see your first widget!
+画面上に、ウィジェットが表示されます！
 
 ![tutorial_5](./img/tutorial_5.png)
 
-If it does not show up, the JavaScript file may be misnamed, or the JavaScript may not be implemented correctly, causing an error. If an error occurs, you can check it in the console of your web browser's developer tools.
+ウィジェットが表示されない場合は、JavaScriptのファイル名が間違っている、もしくはJavaScriptが正確に実装されていない可能性があります。
+エラーが起こったら場合、webブラウザーの開発者ツール内コンソールで確認することができます。
 
-## Tip 1: Uninstall your plugin
+## ヒント1: プラグインをアンインストールする
 
-Although you have created this plugin, you should also check how to uninstall it.
+ここでは、プラグインのアンインストール方法について説明します。
 
-In the plugin settings page (same as step 5), you can click a button in the plugin item.
+プラグイン設定ページ（手順5と同様のページ）で、プラグインのボタンをクリックします。
 
 ![tutorial_6](./img/tutorial_6.png)
 
-You can uninstall the plugin by clicking the button to the right of the column where the name of the plugin appears. Note that any widgets or blocks that have been added by this plugin will be removed from the scene, and if you have already published a scene using this plugin, the widgets and blocks will no longer work in the published scene.
+プラグインの名前が表示されているカラムの右側にあるボタンをクリックすると、プラグインをアンインストールすることができます。
 
-In the development of plug-ins, you will probably install the plug-in to check its operation after you proceed with the implementation, and then install it again after the next implementation. At that time, you will need to uninstall the plug-in each time.
+削除するプラグインによって追加されていたウィジェットやブロックは、シーンから削除されます。  
+また、このプラグインを使用したプロジェクトを公開していた場合は、公開プロジェクトでプラグインは機能しなくなります。  
 
-## Tip 2: Install your plugin from GitHub
+## ヒント2: GitHub からプラグインをインストールする
 
-You can also install the plugin from the GitHub repository. Currently, only public repositories are supported. In the plugin settings page (same as step 5), you can click "Public GitHub repository" and then enter the GitHub repository URL.
+GitHub リポジトリからもプラグインをインストールすることができます。現在は、公開リポジトリのみサポートされています。  
+プラグイン設定ページ（手順5と同様のページ）で、「GitHubパブリックレポジトリ」を選択しGitHubレポジトリのURLを入力します。  
 
-This is acceptable:
 
-- `https://github.com/USER/REPO` (`main` branch will be used)
-- `https://github.com/USER/REPO.git` (`main` branch will be used)
-- `https://github.com/USER/REPO/tree/BRANCH_NAME` (specify a branch)
-- `https://github.com/USER/REPO/archive/XXX.zip` (specify an archive by branch name)
-- `https://github.com/USER/REPO/archive/refs/head/XXX.zip` (specify an archive by ref)
-- `https://github.com/USER/REPO/archive/refs/tags/XXX.zip` (specify an archive by tag)
+大丈夫な例：
 
-This is not acceptable:
+- `https://github.com/USER/REPO` (`main` ブランチが使用されます)
+- `https://github.com/USER/REPO.git` (`main` ブランチが使用されます)
+- `https://github.com/USER/REPO/tree/BRANCH_NAME` (ブランチを指定)
+- `https://github.com/USER/REPO/archive/XXX.zip` (ブランチ名でアーカイブを指定する)
+- `https://github.com/USER/REPO/archive/refs/head/XXX.zip` (refでアーカイブを指定する)
+- `https://github.com/USER/REPO/archive/refs/tags/XXX.zip` (タグでアーカイブを指定する)
 
-- `ssh://git@github.com:USER/REPO.git` (use `https://~` instead)
+ダメな例：
 
-## Next step
+- `ssh://git@github.com:USER/REPO.git` (代わりに `https://~` を使用してください)
 
-So far, you have learned how to develop plug-ins. Refer to the more advanced topics to develop your own plug-ins.
+## 次のステップ
 
-- Recipes: Describes how to implement plug-ins for various common use cases
-- How plugins work: Gain a better understanding of how plugins work internally
-- Manifest reference: Describes all the fields in plugin manifest
-- API reference: Learn about all available features in plugins
-- Future plans: Plugin API is still in its infancy. Check back in the future to see what additional features are being considered.
+これまで、どのようにプラグインを開発するかを学んできました。  
+独自のプラグインを開発するには、より高度なトピックを参照してください。
+
+- レシピ集:さまざまな一般的なユースケースのプラグインを実装する方法について説明します
+- [プラグインの仕組み](./how-plugins-work/):プラグインが内部でどのように機能するかをよりよく理解する
+- [プラグインマニフェスト](./manifest-reference/) :プラグインマニフェストの全てのフィールドについて説明します
+- [APIリファレンス](./api-reference/):プラグインで利用可能なすべての機能について学ぶ
+- [今後のプラグイン](./future-plans/):プラグインAPIはまだ初期段階です。今後、どのような追加機能が検討されているかを確認してください

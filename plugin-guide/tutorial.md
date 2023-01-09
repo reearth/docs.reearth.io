@@ -73,7 +73,7 @@ You can open the project settings page from this button in dashboard page:
 
 ![tutorial_1](./img/tutorial_1.png)
 
-Or, "Project settings" item in the top menu in the editor screen:
+Or, "Plugin" item in the top menu in the editor screen:
 
 ![tutorial_2](./img/tutorial_2.png)
 
@@ -83,7 +83,7 @@ Then you'll see this screen:
 
 ![tutorial_3](./img/tutorial_3.png)
 
-Next, select "Zip file from PC" and select your zip file you generated in the previous step.
+Next, move to "Personal installed" ,select "Zip file from PC" and select your zip file you generated in the previous step.
 
 If you see a success message after a short wait, the plugin has been successfully installed.
 
@@ -98,7 +98,7 @@ If you get an error here, it could be due to one of the following reasons:
 
 ## 6. Using widgets extended by your plugin
 
-Go back the editor screen and open widgets on the left panel. Then you'll see a new widget that you implemented. Select it, and then enable it by clicking "Enable" switch on the right panel.
+Go back the editor screen and open widgets on the left panel. Then you'll see a new widget that you implemented. 
 
 ![tutorial_7](./img/tutorial_7.png)
 
@@ -117,8 +117,6 @@ In the plugin settings page (same as step 5), you can click a button in the plug
 ![tutorial_6](./img/tutorial_6.png)
 
 You can uninstall the plugin by clicking the button to the right of the column where the name of the plugin appears. Note that any widgets or blocks that have been added by this plugin will be removed from the scene, and if you have already published a scene using this plugin, the widgets and blocks will no longer work in the published scene.
-
-In the development of plug-ins, you will probably install the plug-in to check its operation after you proceed with the implementation, and then install it again after the next implementation. At that time, you will need to uninstall the plug-in each time.
 
 ## Tip 2: Install your plugin from GitHub
 
@@ -142,7 +140,7 @@ This is not acceptable:
 So far, you have learned how to develop plug-ins. Refer to the more advanced topics to develop your own plug-ins.
 
 - Recipes: Describes how to implement plug-ins for various common use cases
-- How plugins work: Gain a better understanding of how plugins work internally
-- Manifest reference: Describes all the fields in plugin manifest
-- API reference: Learn about all available features in plugins
-- Future plans: Plugin API is still in its infancy. Check back in the future to see what additional features are being considered.
+- [How plugins work](./how-plugins-work/): Gain a better understanding of how plugins work internally
+- [Manifest reference](./manifest-reference/): Describes all the fields in plugin manifest
+- [API reference](./api-reference/): Learn about all available features in plugins
+- [Future plans](./future-plans/): Plugin API is still in its infancy. Check back in the future to see what additional features are being considered.

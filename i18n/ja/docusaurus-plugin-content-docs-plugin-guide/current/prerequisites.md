@@ -1,29 +1,38 @@
 ---
-title: Prerequisites
+title: 前もって必要なこと
 sidebar_position: 2
 ---
-## Knowledge
+## 知識
 
-Basic knowledge of web development such as HTML, CSS, and JavaScript is required to develop a scene plugin. In the scene plugin, its UI is rendered in HTML and CSS, and its logic is implemented in JavaScript.
+シーンプラグインの開発には、HTML, CSS, JavaScriptのweb開発における基本的な知識が必要になります。
+UIはHTMLとCSSでレンダリングされ、ロジックはJavaScriptで実装されます。
 
-We will not discuss the details of HTML, CSS, and JavaScript here, so if you do not have knowledge about them, you will need to learn them by yourself first.
+ここでは、HTML, CSS, JavaScriptの詳細についてはここでは触れません。
+なので、もしこれらの言語に関する知識がない場合は、ご自身で学んでいただく必要があります。
 
-Recommended contents:
+おすすめの学習資料:
 
-- [MDN Web Docs: Learn web development](https://developer.mozilla.org/en-US/docs/Learn)
+- [MDN ウェブ開発を学ぶ](https://developer.mozilla.org/ja/docs/Learn)
 
-If you want to develop plugins on a larger scale, you can use modern web technologies such as React and webpack for plugin development.
+もし大規模なプラグイン開発を行いたい場合は、Reactやwebpackなどのモダンなwebテクノロジーを使用することも可能です。
 
-From next pages, we will assume that you have basic knowledge of HTML, CSS, and JavaScript.
+次のページからは、HTML, CSS, JavaScriptの基本的な知識があることを前提として話を進めていきます。
 
-## Environment
 
-You can develop using any code editor you like. Plug-in development usually involves editing HTML files, CSS files, JavaScript files, and YAML files.
+## 環境
 
-After developing a plugin, in order to install it in Re:Earth, you need to either zip their files beforehand or push their code to your GitHub repository for publication. The former can be zipped by standard function on recent OS. For the latter, you will need to install the git command and create an account on GitHub. We won't go into how to use git and GitHub here, but you can google it and read some useful material right away.
+お好きなコードエディターを使用して開発することができます。
+プラグイン開発では通常、HTMLファイル、CSSファイル、JavaScriptファイル、YAMLファイルを編集します。
 
-If you want to develop using modern technologies such as React and webpack, you will also need to install Node.js and npm.
+プラグイン開発後、プラグインをRe:Earthにインストールするためには、プラグインフォルダを圧縮しzipファイル化する、もしくはGithub公開レポジトリにプッシュする必要があります。
+zipファイル化は、最近のOSの標準機能で圧縮可能です。 
+Github公開レポジトリにプッシュする場合は、gitコマンドをインストールし、Githubアカウントを作成する必要があります。
+ここでは、gitやGithubの使い方については説明しません。もっと詳しく知りたい方は、検索してみてください。
 
-## Next step
+Reactやwebpackなどのモダンなテクノロジーを使用して開発する場合、Node.jsとnpmをインストールする必要があります。
 
-Let's go through Tutorial and actually develop a small plugin.
+
+## 次のステップ
+
+それでは、チュートリアルを見ながら実際にプラグインを開発してみましょう！
+

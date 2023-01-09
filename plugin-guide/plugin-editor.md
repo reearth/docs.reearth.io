@@ -15,7 +15,6 @@ Modify your plugin in the code box on the right, and you can see the changes hap
 
 ## Still missing
 
-- Calls to the Re:Earth api are not yet supported
 - Still does not support modifying the yml file (that is used to display customizable plugin fields in the right panel while editing the project in Re:Earth)
 
 ## In the future
