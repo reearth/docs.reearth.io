@@ -46,5 +46,21 @@
   "sidebar.mySidebar.category.3D data": {
     "message": "3D データ",
     "description": "The label for category 3D data in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Getting Started": {
+    "message": "はじめかた",
+    "description": "The label for category Getting Started in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Environment setting": {
+    "message": "環境設定",
+    "description": "The label for category Environment setting in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Making your first project": {
+    "message": "最初のプロジェクトの作成",
+    "description": "The label for category Making your first project in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Understanding Re:Earth UI": {
+    "message": "Re:EarthのUIを理解する",
+    "description": "The label for category Understanding Re:Earth UI in sidebar mySidebar"
   }
 }
