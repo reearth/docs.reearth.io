@@ -56,32 +56,16 @@ export default function HomepageMenus(): JSX.Element {
         <div className="row">
           <Menu
             title={translate({
-              message: "Getting started",
+              message: "User Manual",
               description: "Top page/ Card / Title",
             })}
             description={translate({
               message:
-                "The getting started will help you learn the ins and outs of Re:Earth by creating your first project.",
-              description: "Top page / Card / Description",
-            })}
-            image="/img/getting_started.svg"
-            link={translate({
-              message: "https://docs2.reearth.io/getting-started",
-              description: "Top page/ Card / Link",
-            })}
-          ></Menu>
-          <Menu
-            title={translate({
-              message: "Reference",
-              description: "Top page/ Card / Title",
-            })}
-            description={translate({
-              message:
-                "The reference will dive deeper into the core functionality and teach you how to get the most out of Re:Earth.",
+                "The user manual will dive deeper into the core functionality and teach you how to get the most out of Re:Earth.",
               description: "Top page / Card / Description",
             })}
             image="/img/manual.svg"
-            link="/user-manual/reference"
+            link="/user-manual/overview"
           ></Menu>
           <Menu
             title={translate({

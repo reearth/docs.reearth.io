@@ -80,11 +80,15 @@
     "description": "The label of footer link with label=Facebook linking to https://www.facebook.com/EukaryaInc"
   },
   "link.item.label.User manual": {
-    "message": "User manual",
+    "message": "ユーザーマニュアル",
     "description": "The label of footer link with label=User manual linking to /user-manual/getting-started/why-reearth"
   },
   "link.item.label.Plugin development guide": {
     "message": "プラグイン開発者ガイド",
     "description": "The label of footer link with label=Plugin development guide linking to /plugin-guide/introduction"
+  },
+  "link.item.label.User Manual": {
+    "message": "ユーザーマニュアル",
+    "description": "The label of footer link with label=User Manual linking to /user-manual/overview"
   }
 }

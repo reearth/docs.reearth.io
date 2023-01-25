@@ -1,0 +1,31 @@
+---
+title: ビューアーの使い方
+sidebar_position: 4
+---
+
+この新しいプロジェクトを開くと、このような画面が表示されます。
+
+<Image path={require('./img/3-1.png').default} />
+
+このページはプロジェクトの[編集ページ](/user-manual/getting-started/understanding-reearth-ui/editor)で、編集や操作のほとんどがここで行われることになります。
+
+やはり最も目を引くのは画面中央にある紺色の :earth_africa: の[ビューアー](/user-manual/getting-started/understanding-reearth-ui/editor#viewer)でしょう。
+
+## 表示制御
+
+マウスを地球上にドラッグすると、視点を操作して今の地球を見ることができます。Re:Earthはデフォルトエンジンに[Cesium](https://cesium.com/)を使用しているため、視点の操作はCesiumを踏襲しています。
+
+- マウス操作の場合。
+  - **パンビュー** : 左クリック＋ドラッグ
+  - **ズーム表示** : 右クリック＋ドラッグ、またはマウスホイールスクロール
+  - **回転表示** : 中クリック＋ドラッグ、または CTRL＋左右クリック＋ドラッグ
+
+- タッチパネルの場合。
+  - **パンビュー**: 一本指でドラッグ
+  - **ズーム表示** : 二本指でつまむ
+  - **チルト表示** : 二本指でドラッグ、同方向
+  - **回転表示** : 二本指で反対方向にドラッグ
+
+ぜひ、目の前の地球を自由に探索して、自分が今いる場所を探してみてください。
+
+import Image from "/src/components/Image/Image";

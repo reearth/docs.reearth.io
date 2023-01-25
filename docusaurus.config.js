@@ -89,14 +89,8 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
           },
           items: [
             {
-              to: "https://docs2.reearth.io/getting-started",
-              label: "Getting started",
-              position: "left",
-              activeBaseRegex: `/userManual/`,
-            },
-            {
-              to: "/user-manual/reference",
-              label: "Reference",
+              to: "/user-manual/overview",
+              label: "User Manual",
               position: "left",
               activeBaseRegex: `/userManual/`,
             },
@@ -140,12 +134,8 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
               title: "Docs",
               items: [
                 {
-                  label: "Getting started",
-                  to: "https://docs2.reearth.io/getting-started",
-                },
-                {
-                  label: "Reference",
-                  to: "/user-manual/reference",
+                  label: "User Manual",
+                  to: "/user-manual/overview",
                 },
                 {
                   label: "Developer guide",

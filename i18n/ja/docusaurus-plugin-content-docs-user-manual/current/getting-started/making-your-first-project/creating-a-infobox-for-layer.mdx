@@ -1,0 +1,65 @@
+---
+title: レイヤーのインフォボックスの作成
+sidebar_position: 6
+---
+
+地図上にマーカーを配置した後、そのマーカーに関する詳細情報を表示したい場合に、[インフォボックス](/user-manual/infobox/overview)は最適なツールです。
+
+## インフォボックスの作成
+
+<Image path={require('./img/5-1.png').default} />
+
+<Image path={require('./img/5-2.png').default} />
+
+<Order>
+  <ListByNumber>
+   レイヤーを選択します。
+  </ListByNumber>
+  <ListByNumber>
+   インフォボックスのタグを選択します。
+  </ListByNumber>
+  <ListByNumber>
+    インフォボックスの作成ボタンをクリックして、インフォボックスを作成します。
+  </ListByNumber>
+  <ListByNumber>
+    新しいインフォボックスが画面に表示され、インフォボックスに関するいくつかの変更可能なパラメータが右側に表示されます。
+  </ListByNumber>
+</Order>
+
+さまざまなインフォボックスのパラメータを調整し、動作を確認してみてください。
+
+## ブロックの追加
+
+これで空のインフォボックスができましたが、これに情報を追加する場合は、[ブロック](/user-manual/infobox/add-a-new-block)を作成しなければなりません。ここでは、例としてテキストブロックを作成します。
+
+<Image path={require('./img/5-3.png').default} />
+
+<Image path={require('./img/5-4.png').default} />
+
+<Order>
+  <ListByNumber>
+   マウスをインフォボックスに合わせると、追加ボタンが表示されます。追加ボタンをクリックすると、ブロックのメニューが表示されます。
+  </ListByNumber>
+  <ListByNumber>
+   メニューから「テキストブロック」を選択します。
+  </ListByNumber>
+  <ListByNumber>
+    新しいテキストブロックが表示されるので、それを選択します。
+  </ListByNumber>
+  <ListByNumber>
+    右側のパラメータは、現在のブロックの調整パラメータに応じて変更されます。ここでは、このブロックにテキストコンテンツを追加しています。
+  </ListByNumber>
+  <ListByNumber>
+    入力が完了したら、空欄をクリックすると、内容が表示されることを確認してください。
+  </ListByNumber>
+</Order>
+
+テキストブロックには他にも様々なパラメータがありますので、それらを調整することでどのような変化が起こるかを実際に確認してみましょう。
+
+また、他のタイプのブロックも試してみて、どのようなことができるのか、どのような情報をインフォボックスに追加できるのかを見てみましょう。
+
+Re:Earthでは、インフォボックスを通じてさまざまなレイヤーに情報を追加しています。この方法の詳細については、[インフォボックスのセクション](/user-manual/infobox/overview)を参照してください。
+
+import Image from "/src/components/Image/Image";
+import ListByNumber from "/src/components/List/ListByNumber";
+import Order from "/src/components/List/Order";
