@@ -1,0 +1,30 @@
+{
+  "title": {
+    "message": "Re:Earth Docs",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "My Site Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.User Manual": {
+    "message": "User Manual",
+    "description": "Navbar item with label User Manual"
+  },
+  "item.label.Developer guide": {
+    "message": "Developer guide",
+    "description": "Navbar item with label Developer guide"
+  },
+  "item.label.Plugin Development guide": {
+    "message": "Plugin Development guide",
+    "description": "Navbar item with label Plugin Development guide"
+  },
+  "item.label.Tutorial": {
+    "message": "Tutorial",
+    "description": "Navbar item with label Tutorial"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

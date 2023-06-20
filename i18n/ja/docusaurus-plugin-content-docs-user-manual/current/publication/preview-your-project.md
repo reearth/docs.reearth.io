@@ -1,18 +1,18 @@
 ---
-title: プレビュー
+title: Preview your project
 sidebar_position: 2
 ---
 
-プレビューでは、現在編集中のデジタルアースが公開後どのように表示されるかを確認することができます。
+The preview allows you to see how the project you are currently editing will look like after it is published.
 
-プレビューを確認するには画面右上の`プレビュー`をクリックします。
+To see the preview, click on the `Preview` button in the upper right corner of the screen.
 
-プレビューではそれまで編集した内容が反映されます。
+The preview will reflect the current content you have edited so far.
 
-（既に公開しているプロジェクトについては再度公開を実行しない限り編集内容は反映されません。）
+**Note: If the project has already been published, your edits will not be reflected (like they are with Preview) on the published project until you publish it again.**
 
 ![](./img/2_001.png)
 
-プレビューはブラウザの新規タブで表示されます。
+The preview will open in a new tab in your browser.
 
 ![](./img/2_002.png)

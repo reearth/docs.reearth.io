@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Making a Le Corbusier's archive with Re:Earh": {
+    "message": "Making a Le Corbusier's archive with Re:Earh",
+    "description": "The label for category Making a Le Corbusier's archive with Re:Earh in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.How to create 3D models for Re:Earth": {
+    "message": "How to create 3D models for Re:Earth",
+    "description": "The label for category How to create 3D models for Re:Earth in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.3D model for Re:Earth": {
+    "message": "3D model for Re:Earth",
+    "description": "The label for category 3D model for Re:Earth in sidebar tutorialSidebar"
+  }
+}

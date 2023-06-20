@@ -41,6 +41,7 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
           path: "user-manual",
           routeBasePath: "user-manual",
           sidebarPath: require.resolve("./sidebarsUserManual.js"),
+          includeCurrentVersion: true,
         },
       ],
       [
@@ -88,6 +89,11 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
             src: "img/logo.svg",
           },
           items: [
+            {
+              type: "docsVersionDropdown",
+              position: "right",
+              docsPluginId: "user-manual",
+            },
             {
               to: "/user-manual/overview",
               label: "User Manual",
