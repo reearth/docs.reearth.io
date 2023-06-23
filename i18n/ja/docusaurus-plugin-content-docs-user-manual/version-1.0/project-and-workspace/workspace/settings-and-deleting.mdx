@@ -1,0 +1,31 @@
+---
+title: ワークスペースの設定と削除
+sidebar_position: 3
+---
+
+ワークスペースの設定ページでは、ワークスペースの情報の編集、メンバーの管理、ワークペースの削除を行うことができます。
+
+<Image path={require('./img/3-1.png').default} />
+
+<Order>
+  <List>
+    <strong>ワークスペース基本情報</strong> はRe:Earth内で表示されるワークスペースの基本情報です。現在はワークスペース名だけですが、将来的に多くの編集可能プロパティをサポートする予定です。
+  </List>
+  <List>
+    <strong>メンバー</strong> ではワークスペースに招待するメンバーの管理を行います。詳細は<Link to="/user-manual/project-and-workspace/workspace/managing-members">メンバーの管理</Link>を参照ください。
+  </List>
+  <List>
+    <strong>危険項目</strong> では、ワークスペースへのアクセスに関する項目が含まれます。ワークスペースを削除するにはここから操作します。
+  </List>
+</Order>
+
+## ワークスペースの削除
+
+意図せずにプロジェクトを削除しないように、ワークスペースの削除はワークスペース内にプロジェクトがない場合のみ可能です。また、ワークスペースの管理者のみが削除権限を持っております。
+
+<Image path={require('./img/3-2.png').default} width="70%" noRoundCorner/>
+
+import Image from "/src/components/Image/Image";
+import List from "/src/components/List/List";
+import Order from "/src/components/List/Order";
+import Link from "@docusaurus/Link";

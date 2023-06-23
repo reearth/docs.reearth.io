@@ -89,6 +89,11 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
           },
           items: [
             {
+              type: "docsVersionDropdown",
+              position: "right",
+              docsPluginId: "user-manual",
+            },
+            {
               to: "/user-manual/overview",
               label: "User Manual",
               position: "left",

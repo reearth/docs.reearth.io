@@ -62,5 +62,21 @@
   "sidebar.mySidebar.category.Understanding Re:Earth UI": {
     "message": "Re:EarthのUIを理解する",
     "description": "The label for category Understanding Re:Earth UI in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.はじめかた": {
+    "message": "はじめかた",
+    "description": "The label for category はじめかた in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Re:EarthのUIを理解する": {
+    "message": "Re:EarthのUIを理解する",
+    "description": "The label for category Re:EarthのUIを理解する in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.preview-page": {
+    "message": "プレビューページ",
+    "description": "The label for category preview-page in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.プレビューページ": {
+    "message": "プレビューページ",
+    "description": "The label for category プレビューページ in sidebar mySidebar"
   }
 }

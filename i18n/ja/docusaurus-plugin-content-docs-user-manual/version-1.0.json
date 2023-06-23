@@ -1,0 +1,66 @@
+{
+  "version.label": {
+    "message": "1.0",
+    "description": "The label for version 1.0"
+  },
+  "sidebar.mySidebar.category.Getting Started": {
+    "message": "Getting Started",
+    "description": "The label for category Getting Started in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Environment setting": {
+    "message": "Environment setting",
+    "description": "The label for category Environment setting in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Making your first project": {
+    "message": "Making your first project",
+    "description": "The label for category Making your first project in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Understanding Re:Earth UI": {
+    "message": "Understanding Re:Earth UI",
+    "description": "The label for category Understanding Re:Earth UI in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Project & Workspace": {
+    "message": "Project & Workspace",
+    "description": "The label for category Project & Workspace in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Projects": {
+    "message": "Projects",
+    "description": "The label for category Projects in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Workspace": {
+    "message": "Workspace",
+    "description": "The label for category Workspace in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Scene": {
+    "message": "Scene",
+    "description": "The label for category Scene in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Widget": {
+    "message": "Widget",
+    "description": "The label for category Widget in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Property": {
+    "message": "Property",
+    "description": "The label for category Property in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Infobox": {
+    "message": "Infobox",
+    "description": "The label for category Infobox in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Asset": {
+    "message": "Asset",
+    "description": "The label for category Asset in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Import and Export": {
+    "message": "Import and Export",
+    "description": "The label for category Import and Export in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Publication": {
+    "message": "Publication",
+    "description": "The label for category Publication in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.3D data": {
+    "message": "3D data",
+    "description": "The label for category 3D data in sidebar mySidebar"
+  }
+}

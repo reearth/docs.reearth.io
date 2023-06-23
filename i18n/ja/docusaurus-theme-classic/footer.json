@@ -90,5 +90,9 @@
   "link.item.label.User Manual": {
     "message": "ユーザーマニュアル",
     "description": "The label of footer link with label=User Manual linking to /user-manual/overview"
+  },
+  "logo.alt": {
+    "message": "Re:Earth Logo",
+    "description": "The alt text of footer logo"
   }
 }

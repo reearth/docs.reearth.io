@@ -1,0 +1,37 @@
+---
+title: Plugin library
+sidebar_position: 6
+---
+
+One of the biggest features of Re:Earth is the plugin system. Users can expand the functionality of Re:Earth by using plugins developed by other users in the community or even developing their own plugins. For a detailed explanation, please see the dedicated [Plugin section].
+
+The Plugin library page is used to install, remove and manage plugins.
+
+<Image path={require('./img/6-1.png').default} />
+
+<Order>
+  <List>
+    Contains ways to install a Plugin.
+  </List>
+  <List>
+    <strong>Zip file from PC</strong> button allows you to install the plugin from your computer.
+  </List>
+  <List>
+    <strong>Public GitHub Repository</strong> button allows you to install the plugin directly from GitHub.
+  </List>
+  Please see [Installing a plugin] for the detailed process.
+  <List>
+    <strong>Installed plugins</strong> list shows all the plugins that have been installed to the current project.
+  </List>
+  <List>
+    Hover your mouse where it says `Installed` to show the `Uninstall` option to remove the plugin.
+  </List>
+</Order>
+
+:::caution
+Now the plugin system is being tested and developed further so the user interface and general useage might be changed.
+:::
+
+import Image from "/src/components/Image/Image";
+import List from "/src/components/List/List";
+import Order from "/src/components/List/Order";
