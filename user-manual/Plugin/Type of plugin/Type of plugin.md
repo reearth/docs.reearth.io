@@ -27,7 +27,7 @@ These plugins allow you to display various data based on the selected layer's co
 
 ![image](./img/1.png)
 
-## ****Plugin Structure****
+## ** Plugin Structure **
 
 When creating plugins for Re-Earth, it is important to understand the underlying execution environments: "**WebAssembly**" for the map display and "IFrame" as the execution environment for plugins such as widgets and InfoBoxes.
 

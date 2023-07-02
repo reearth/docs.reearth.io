@@ -8,7 +8,7 @@ sidebar_position: 2
 ### **Overview**
 
 In this section, we will quickly Demonstrate the most basic Re: Earth processes to help you complete and publish your first Re: Earth project.
-****
+
 
 Let's start!
 

@@ -3,7 +3,7 @@ title: Create a New Project
 sidebar_position: 2
 ---
 
-# ****Create a New Project****
+# **Create a New Project**
 
 Creating a project is easy and you'll be ready to go in no time.
 
