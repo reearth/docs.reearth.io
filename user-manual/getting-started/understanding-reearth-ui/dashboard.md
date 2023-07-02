@@ -1,25 +1,23 @@
 ---
-title: ダッシュボード
+title: Dashboard
 sidebar_position: 2
 ---
+# **Dashboard**
 
-# ダッシュボード
+After successfully logging into the application, you will be taken to the home screen (dashboard). This is the home page of the application and offers some useful features.
 
-アプリケーションへのログインに成功すると、ホーム画面（ダッシュボード）に移動します。これはアプリケーションのホームページで、便利な機能がいくつか用意されています。
+![s 1.png](./img/1_001.png)
 
-![image](./img/1_001.png)
+- **Workspace Section :**  displays the current Workspace you are in, including members' avatars. The ⚙️ button in the lower right corner can direct you to the current Workspace's settings page.
+- **Project Section** : displays all projects under the current Workspace, except for archived projects.
+- **Quick Start** : is a collection of quick operation buttons. We will add more buttons in the future.
+- **Plugins** : allows you to configure plugin settings.
+- **Project Card**
 
-- **ワークスペース**には、メンバーのアバターを含む現在のワークスペースが表示されます。右下の⚙️ボタンを押すと、現在のワークスペースの設定ページに移動できます。（ワークスペースの詳細はこちら）。
-- **プロジェクト**には、アーカイブされたプロジェクトを除く、現在のワークスペースにあるすべてのプロジェクトが表示されます。
-- **クイックスタート**は、クイック操作ボタンの集まりです。今後もボタンを追加していく予定です。
-- **プラグイン**では、プラグインの設定ができます。
+![e4t.png](./img/1_002.png)
 
-- **プロジェクトカード**
+When moving your cursor over one Project Card, you can see more information(project name, description and public status). The three buttons will lead you to the Editor Page, Preview Page and Project Setting Page.
 
-![image](./img/1_002.png)
+**in the future**
 
-プロジェクトカードにカーソルを合わせると、プロジェクトの詳細（プロジェクト名、説明、公開状況）が表示されます。3つのボタンを使用すると、編集ページ、プレビューページ、プロジェクト設定ページに移動できます。
-
-## **今後において**
-
-今後のバージョンアップでは、開発変更履歴、新機能の紹介、コミュニティからのニュースなど、他の機能モジュールを追加していく予定です。
+In future version updates, we plan to add other feature modules such as development changelogs, new feature introductions, and news from the community.

@@ -3,24 +3,23 @@ title: Overview
 sidebar_position: 1
 ---
 
+# Overview
+
 An infobox is a box that can appear when a viewer clicks on a layer on the map.
 
-![](./img/1_001.png)
+infobox in the Re-Earth app is a powerful tool that enables users to provide more detailed and engaging information about specific locations or objects within their digital twin projects. By using Infobox, users can create more immersive and informative digital twin experiences for their audiences.
 
-The infobox can display text, images, videos, etc.
+![image](./img/0.png)
 
-![](./img/1_002.png)
+Infoboxes can be added to digital twin scenes and customized to include various types of information and media. Infoboxes in the Re-Earth app are typically associated with markers, which are used to identify and highlight specific, such as text, images, videos, links, and HTML.
+
+![image](./img/01.png)
 
 The typeface and format specified in the infobox settings will be inherited by each block unless otherwise specified in respective settings.
 
-![](./img/1_003.png)
+![image](./img/02.png)
 
 By setting up an infobox, you can attach detailed information to the layer.
 
 The text and images to be inserted in the infobox will be managed by blocks.
 
-![](./img/1_005.png)
-
-Infoboxes with images and text set can be seen in the published scene when a layer is selected.
-
-![](./img/1_006.png)

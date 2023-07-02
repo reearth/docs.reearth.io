@@ -1,18 +1,22 @@
 ---
-title: プレビュー
+title: Preview Pag
 sidebar_position: 5
 ---
 
-# プレビュー
+# Preview Pag
 
-プレビュー機能を使えば、現在編集中のプロジェクトが公開された際にどのように表示されるかを確認することができます。
+## preview page
 
-A：画面右上のプレビューをクリックします。
+In the preview, you can see how the Digital Earth you are currently editing will look after it is published.
 
-![image](./img/1_010.png)
+To check the preview, click `Preview` on the upper right of the screen.
 
-このように、プレビュー機能を使うことで、現在編集中のプロジェクトが公開された際にどのように表示されるかを確認することができます。
+The preview reflects what you have edited so far.
 
-![image](./img/1_011.png)
+(For projects that have already been published, the edited contents will not be reflected unless the project is published again.)
 
-※ただし、プロジェクトが既に発行（公開）されている場合、再度発行するまで、編集内容は発行済みプロジェクトに反映されません。そのため、プレビュー機能を使って可能な限り確認し、問題がないことを確認してから発行（公開）するようにしてください。
+![6 85.png](./img/1_010.png)
+
+The preview will open in a new browser tab.
+
+![6 85.png](./img/1_011.png)

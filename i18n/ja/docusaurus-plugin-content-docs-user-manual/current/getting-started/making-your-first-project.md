@@ -32,7 +32,7 @@ https://app.reearth.io/を開き、画面右上の「Start now」をクリック
 
 ![image](./img/004.png)
 
-[プレビューページ/公開ページ](./preview-page/public-page.md) <!-- work in prgress  -->
+[プレビューページ/公開ページ](./preview-page/public-page.md) <!-- v2.0: work in prgress  -->
 
 ## ログイン
 

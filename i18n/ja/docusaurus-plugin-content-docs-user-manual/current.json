@@ -78,5 +78,45 @@
   "sidebar.mySidebar.category.プレビューページ": {
     "message": "プレビューページ",
     "description": "The label for category プレビューページ in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.scene-properties": {
+    "message": "scene-properties",
+    "description": "The label for category scene-properties in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Layers": {
+    "message": "Layers",
+    "description": "The label for category Layers in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Re:earth layers": {
+    "message": "Re:earth layers",
+    "description": "The label for category Re:earth layers in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Blocks": {
+    "message": "Blocks",
+    "description": "The label for category Blocks in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Widget & Align system": {
+    "message": "Widget & Align system",
+    "description": "The label for category Widget & Align system in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.How to use align system": {
+    "message": "How to use align system",
+    "description": "The label for category How to use align system in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Official Widgets": {
+    "message": "Official Widgets",
+    "description": "The label for category Official Widgets in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Plugin": {
+    "message": "Plugin",
+    "description": "The label for category Plugin in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.What can users do with the plugin": {
+    "message": "What can users do with the plugin",
+    "description": "The label for category What can users do with the plugin in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.plugin-library": {
+    "message": "plugin-library",
+    "description": "The label for category plugin-library in sidebar mySidebar"
   }
 }

@@ -1,54 +1,73 @@
 ---
-title: 最初のプロジェクトを作成
+title: Making your first project
 sidebar_position: 2
 ---
-
-# 最初のプロジェクトを作成
-
-1. アカウント発行
-
- https://app.reearth.io/を開き、画面右上の「Start now」をクリック
  
-![image](./img/001.png)
+# **Making your first project**
 
-ユーザー登録画面に遷移してください
+### **Overview**
 
-![image](./img/002.png)
+In this section, we will quickly Demonstrate the most basic Re: Earth processes to help you complete and publish your first Re: Earth project.
+****
 
-1. ユーザー登録をクリック
-2. メールアドレスを入力
-3. ユーザー名を設定
-4. パスワードを設定
-5. チェックボックスを選択
-6. ユーザー登録をクリック
+Let's start!
 
-設定したメールアドレスに、認証メールが届きます。
+### **Starting a new account**
 
-![image](./img/003.png)
+Because Re: Earth is still in the stage of internal development, as we do not yet support a public registration account. So please contact us through [here](https://docs.google.com/forms/d/e/1FAIpQLSftlA7HKfSsCHND14jERCLh3YzDETj0tU2rPVHM8McQfPHt-g/viewform) and we will open a new account for you.
 
-1. 「VERYFY YOUR ACCOUNT」をクリック
+After obtaining an account and completing verification, please open https://app.reearth.io/ and enter your account information to login.
 
-認証が完了したら、アカウントの発行手続きは完了です。
+![first_project_images](./img/001.png)
 
-![image](./img/004.png)
+**convert to the user registration screen**
 
-[プレビューページ/公開ページ](./preview-page/public-page.md) <!-- work in prgress  -->
+![first_project_images](./img/002.png)
 
-## ログイン
+② Click Sign Up
 
-再度 https://reearth.io/ja/ を開きます。
+③ Enter your email address
 
-![image](./img/005.png)
+④ Set the user name
 
-1. 「Start now」を押します。
+⑤ Set password
 
-![image](./img/006.png)
+⑥ Select the check box
 
-1. 上部のログインを押します。
-2. 登録したユーザー名またはメールアドレスを入力します。
-3. パスワードを入力します。
-4. 下部のログインを押します。
+⑦ Click Click Sign Up
 
-![image](./img/007.png)
+**A verification Email will be sent to the email address you set**
 
-ログインに成功しました。
+![first_project_images](./img/003.png)
+
+⑧ Click "VERIFY YOUR ACCOUNT”
+
+**Once the authentication is complete, the account issuance procedure is complete.**
+
+![first_project_images](./img/004.png)
+
+## Login
+
+open this URL
+
+https://app.reearth.io/ 
+
+![first_project_images](./img/005.png)
+
+① Click "Start now" at the top right of the screen
+
+**convert to the user registration screen**
+
+![first_project_images](./img/006.png)
+
+②  Click Login
+
+③ Enter your username/email address
+
+④ Enter password
+
+⑤ Click Login
+
+**You have successfully logged in**
+
+![first_project_images](./img/007.png)

@@ -1,14 +1,13 @@
 ---
-title: 設定ページ
+title: Setting page
 sidebar_position: 4
 ---
 
-# 設定ページ 
+# **Setting page**
 
-設定ページでは、アカウント、ワークスペース、プロジェクトの設定の管理を行うことができます。
+The Settings page is where the users can manage all account, workspace and project settings.
 
-![image](./img/1_009.png)
+![et.png](./img/1_009.png)
 
-• **ナビゲーション**：設定項目を選択します。
-
-• **設定**：選択した項目に対する設定内容を確認、変更することができます。
+- **Navigation**: Select a setting item.
+- **Settings Sections** : You can check and change the settings for the selected item.
