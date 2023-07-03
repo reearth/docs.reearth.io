@@ -26,13 +26,12 @@ https://app.reearth.io/を開き、画面右上の「Start now」をクリック
 
 ![image](./img/003.png)
 
-1. 「VERYFY YOUR ACCOUNT」をクリック
+1. 「VERIFY YOUR ACCOUNT」をクリック
 
 認証が完了したら、アカウントの発行手続きは完了です。
 
 ![image](./img/004.png)
 
-[プレビューページ/公開ページ](./preview-page/public-page.md) <!-- v2.0: work in prgress  -->
 
 ## ログイン
 

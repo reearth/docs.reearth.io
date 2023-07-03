@@ -9,7 +9,7 @@ The Project workspace is where all the magic happens in Re-Earth. Edit, publish,
 
 ![wert.png](./img/1.png)
 
-Once you create a project you can open the editor page and by default, you will see a digital earth floating in the universe. When a project is created, a scene will be created, attached, and used by your project. Currently, only Cesium-based scenes are available, but more will come in the future. For more information about scenes, please see the chapter on [scenes](/user-manual/project-and-workspace/scene/ideas-of-scene.md)
+Once you create a project you can open the editor page and by default, you will see a digital earth floating in the universe. When a project is created, a scene will be created, attached, and used by your project. Currently, only Cesium-based scenes are available, but more will come in the future. For more information about scenes, please see the chapter on [scenes](/user-manual/project-and-workspace/scene/overview.md)
 
 ![94.png](./img/2.png)
 
