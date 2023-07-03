@@ -9,7 +9,7 @@ The Project workspace is where all the magic happens in Re-Earth. Edit, publish,
 
 ![wert.png](./img/1.png)
 
-Once you create a project you can open the editor page and by default, you will see a digital earth floating in the universe. When a project is created, a scene will be created, attached, and used by your project. Currently, only Cesium-based scenes are available, but more will come in the future. For more information about scenes, please see the chapter on [scenes](./scene/ideas-of-scene)
+Once you create a project you can open the editor page and by default, you will see a digital earth floating in the universe. When a project is created, a scene will be created, attached, and used by your project. Currently, only Cesium-based scenes are available, but more will come in the future. For more information about scenes, please see the chapter on [scenes](/user-manual/project-and-workspace/scene/ideas-of-scene.md)
 
 ![94.png](./img/2.png)
 
@@ -17,9 +17,9 @@ As described in the previous chapters, you can add and build various content on 
 
 The following operations are available on a project:
 
-- [Create](./create-a-new-project.md )
-- [Archive](./settings-archiving-and-deleting.md)
-- [Delete](./settings-archiving-and-deleting.md)
+- [Create](/user-manual/project-and-workspace/project/create-a-new-project.md )
+- [Archive](/user-manual/project-and-workspace/project/settings-archiving-and-deleting.md)
+- [Delete](/user-manual/project-and-workspace/project//settings-archiving-and-deleting.md)
 
 ## **Project settings page**
 
@@ -49,13 +49,13 @@ The navigation bar on the left allows you to access different settings related t
 
 **A.** **Project list** page will display all the projects under the current workspace. Use this page to select different projects to access their individual settings.
 
-**B.** **Current Project** page allows you to modify the basic information of the project as well as archive or delete the project. For more details, please check the [Settings, archiving, and deleting](./settings-archiving-and-deleting.md)
+**B.** **Current Project** page allows you to modify the basic information of the project as well as archive or delete the project. For more details, please check the [Settings, archiving, and deleting](/user-manual/project-and-workspace/project/settings-archiving-and-deleting.md)
 
-**C.** **Public** settings page provides some settings about publishing your project. For more details, please check [Public Setting](./public-settings.md).
+**C.** **Public** settings page provides some settings about publishing your project. For more details, please check [Public Setting](/user-manual/project-and-workspace/project/public-settings.md).
 
-**D. Dataset** library page is used to manage the datasets that have been imported into the current project. For more details, please check the [Dataset library](./dataset-library.md) and [the Dataset section].
+**D. Dataset** library page is used to manage the datasets that have been imported into the current project. For more details, please check the [Dataset library](/user-manual/project-and-workspace/project/dataset-library.md) and [the Dataset section].
 
-**E.** **Plugin** library page is used to manage the installed plugins of the current project. For more details, please check [Plugin Library](./plugin-library.md) and the entire [Plugin section].
+**E.** **Plugin** library page is used to manage the installed plugins of the current project. For more details, please check [Plugin Library](/user-manual/project-and-workspace/project/plugin-library.md) and the entire [Plugin section].
 
 ### **Public status**
 
@@ -75,4 +75,4 @@ In the upper right corner of the Editor page, you can also see and change the st
 
 ### Collaborative Editing
 
-With the workspace system, it becomes possible for team members to collaborate and edit together. Members who are in the same workspace can edit the same project. For specific instructions on how to do this, please refer to the **[Workspace](../workspace/overview.mdx)** documentation.
+With the workspace system, it becomes possible for team members to collaborate and edit together. Members who are in the same workspace can edit the same project. For specific instructions on how to do this, please refer to the **[Workspace](/user-manual/project-and-workspace/workspace/overview.md)** documentation.
