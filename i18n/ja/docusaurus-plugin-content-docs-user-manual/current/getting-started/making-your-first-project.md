@@ -7,8 +7,8 @@ sidebar_position: 2
 
 1. アカウント発行
 
-https://app.reearth.io/を開き、画面右上の「Start now」をクリック
-
+ https://app.reearth.io/を開き、画面右上の「Start now」をクリック
+ 
 ![image](./img/001.png)
 
 ユーザー登録画面に遷移してください
@@ -26,7 +26,7 @@ https://app.reearth.io/を開き、画面右上の「Start now」をクリック
 
 ![image](./img/003.png)
 
-1. 「VERIFY YOUR ACCOUNT」をクリック
+1. 「VERYFY YOUR ACCOUNT」をクリック
 
 認証が完了したら、アカウントの発行手続きは完了です。
 

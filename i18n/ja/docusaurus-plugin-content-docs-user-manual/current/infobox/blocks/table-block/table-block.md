@@ -1,46 +1,46 @@
 ---
-title: Table Block
+title: テーブルブロック
 sidebar_position: 5
 ---
 
-# Table Block
+# テーブルブロック
 
-The Table Block allows you to add a table within an Info Box.
+テーブルブロックは、インフォボックス内に表テーブルを追加することができます。
 
-**Step1.** Choose the desired layer from the left panel to set the text.
+①左側パネルからテキストを設定したいレイヤーを選択します。
 
-**Step 2.** Select the Info Box tab from the right panel.
+②右側パネルのインフォボックスタブを選択します。
 
-![image](./img/0.png)
+![Group_98.png](./img/Group_98.png)
 
-**Step 3.** When you place the cursor inside the Infobox, a plus sign (+) will appear. Click on the plus sign and select "Table".
+③インフォボックス内にカーソルをおくと、＋が表示されます。併せて、＋をクリックし、Tableを選択します。
 
-![image](./img/1.png)
+![Untitled.png](./img/Untitled.png)
 
-![image](./img/2.png)
+④タイトルにテキストを入力すると、テーブルブロックにタイトルが表示されます。
 
-**Step 4.** When you enter text in the title, the title will be displayed in the table block.
+![Untitled 1.png](./img/Untitled_1.png)
 
-![image](./img/3.png)
+⑤フォントにて、リスト内のテキスト書体、サイズ、色、配置、太さを設定することができます。
 
-**Step 5.** You can set the text font, size, color, alignment, and bold within the font in the list.
+![Untitled 2.png](./img/Untitled_2.png)
 
-![image](./img/4.png)
+⑥アイテム内にあるアイテムリスト右側、＋をクリックします。
 
-**Step 6.** To add a list to the item list, simply click the "+" button located on the right side of the item.
+追加したい、リストの数だけ＋を押下することで、追加することができます。
 
-You can add multiple lists by clicking the "+" button for each list you want to add.
+![Untitled 3.png](./img/Untitled_3.png)
 
-![image](./img/5.png)
+⑦アイテム内にリスト表を作成するには、まず、該当のリストを選択し、下記設定を行います。
 
-7.To create a list table inside an item, first select the relevant list, and then perform the following settings:
+A：タイトルにテキストを入力します。（例：1月）
 
-A: Enter text in the title. (e.g. January)
+B：種類は文字/数字のどちらかを選択します　（例：文字）
 
-B: Select either "String" or "Number" for the type. (e.g. String)
+C：データ（文字）を入力します。　（例：睦月）
 
-C: Enter data (text). (e.g. Spring)
+![Group_178.png](./img/Group_178.png)
 
-![image 41.png](./img/image_41.png)
+すると、このように表示されます。
 
-Then it will be displayed like this.
+![Group_180.png](./img/Group_180.png)
