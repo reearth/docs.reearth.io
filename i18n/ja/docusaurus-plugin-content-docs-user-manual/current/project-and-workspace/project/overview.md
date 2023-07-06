@@ -17,9 +17,9 @@ Re:Earth ではすべての機能がここからスタートします。編集�
 
 プロジェクトに対して以下の操作が可能です。
 
-- [作成](../create-a-new-project/create-a-new-project.md)
-- [プレビュー](../public-settings/public-settings.md)
-- [公開](../settings-archiving-and-deleting/settings-archiving-and-deleting.md)
+- [作成](./create-a-new-project.md)  
+- [プレビュー](./public-settings.md)
+- [公開](./settings-archiving-and-deleting.md)
 
 ## プロジェクト設定ページ
 
