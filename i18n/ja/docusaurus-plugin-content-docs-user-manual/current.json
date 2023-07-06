@@ -52,7 +52,7 @@
     "description": "The label for category Getting Started in sidebar mySidebar"
   },
   "sidebar.mySidebar.category.Environment setting": {
-    "message": "環境設定",
+    "message": "動作環境について",
     "description": "The label for category Environment setting in sidebar mySidebar"
   },
   "sidebar.mySidebar.category.Making your first project": {
@@ -80,47 +80,47 @@
     "description": "The label for category プレビューページ in sidebar mySidebar"
   },
   "sidebar.mySidebar.category.scene-properties": {
-    "message": "scene-properties",
+    "message": "シーンの設定",
     "description": "The label for category scene-properties in sidebar mySidebar"
   },
   "sidebar.mySidebar.category.Layers": {
-    "message": "Layers",
+    "message": "データの追加",
     "description": "The label for category Layers in sidebar mySidebar"
   },
   "sidebar.mySidebar.category.Re:earth layers": {
-    "message": "Re:earth layers",
+    "message": "Re:Earthのレイヤー",
     "description": "The label for category Re:earth layers in sidebar mySidebar"
   },
   "sidebar.mySidebar.category.Blocks": {
-    "message": "Blocks",
+    "message": "ブロック",
     "description": "The label for category Blocks in sidebar mySidebar"
   },
   "sidebar.mySidebar.category.Widget & Align system": {
-    "message": "Widget & Align system",
+    "message": "ウィジェットの追加",
     "description": "The label for category Widget & Align system in sidebar mySidebar"
   },
   "sidebar.mySidebar.category.How to use align system": {
-    "message": "How to use align system",
+    "message": "ウィジェットの配置",
     "description": "The label for category How to use align system in sidebar mySidebar"
   },
   "sidebar.mySidebar.category.Official Widgets": {
-    "message": "Official Widgets",
+    "message": "公式のウィジェット",
     "description": "The label for category Official Widgets in sidebar mySidebar"
   },
   "sidebar.mySidebar.category.Plugin": {
-    "message": "Plugin",
+    "message": "プラグインの追加",
     "description": "The label for category Plugin in sidebar mySidebar"
   },
   "sidebar.mySidebar.category.What can users do with the plugin": {
-    "message": "What can users do with the plugin",
+    "message": "Re:Earthプラグインでできること",
     "description": "The label for category What can users do with the plugin in sidebar mySidebar"
   },
   "sidebar.mySidebar.category.plugin-library": {
-    "message": "plugin-library",
+    "message": "プラグインライブラリ",
     "description": "The label for category plugin-library in sidebar mySidebar"
   },
   "sidebar.mySidebar.category.Scene Properties": {
-    "message": "Scene Properties",
+    "message": "シーンの設定",
     "description": "The label for category Scene Properties in sidebar mySidebar"
   }
 }
