@@ -118,5 +118,9 @@
   "sidebar.mySidebar.category.plugin-library": {
     "message": "plugin-library",
     "description": "The label for category plugin-library in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Scene Properties": {
+    "message": "Scene Properties",
+    "description": "The label for category Scene Properties in sidebar mySidebar"
   }
 }
