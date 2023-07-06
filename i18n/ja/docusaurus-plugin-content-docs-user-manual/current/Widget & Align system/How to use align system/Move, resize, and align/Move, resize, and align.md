@@ -1,5 +1,5 @@
 ---
-title: Move, resize, and align
+title: 垂直と水平方向に整列
 sidebar_position: 2
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Public settings
+title: Idea of widget
 sidebar_position: 5
 ---
 

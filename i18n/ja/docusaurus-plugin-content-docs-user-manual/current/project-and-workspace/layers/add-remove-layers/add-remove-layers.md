@@ -12,7 +12,7 @@ Re:Earthでは、地図に素材を追加することができます。デジタ
 ![Group 17.png](./img/Group_17.png)
 
 ![Group 18.png](./img/Group_18.png)
-<!-- this link below for toolbar is not implemented  -->
+<!--V2.0: this link below for toolbar is not implemented  -->
 1. [ツールバー](https://www.notion.so/983b11cca7b5455d88adf964296d52e3?pvs=21)から「マーカー」ボタンをクリックします。
 2. マーカーアイコンを地図上の配置したい場所にドラッグする
 3. 左側のパネル内のレイヤーリストに、マーカーという新しいレイヤーが作成されます。
