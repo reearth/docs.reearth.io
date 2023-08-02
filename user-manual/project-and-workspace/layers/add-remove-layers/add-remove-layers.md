@@ -49,7 +49,7 @@ You can change the style, size, color, and other attributes of this marker layer
 
 You can also add labels to the marker layer and adjust the font type for customization.
 
-For marker layers, there are various customizable items available. You can find more information **[here](./reearth-layers/marker/marker.md)**. Each layer type has different parameters and functionalities, allowing for detailed settings in the layer properties.
+For marker layers, there are various customizable items available. You can find more information **[here](../reearth-layers/marker/marker.md)**. Each layer type has different parameters and functionalities, allowing for detailed settings in the layer properties.
 
 By adjusting the settings of other layers, you can achieve different effects and outcomes.
 
