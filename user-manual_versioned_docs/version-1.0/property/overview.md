@@ -84,7 +84,7 @@ Click the `unset` button next to the property name.
 
 In the popup that appears, enter the position and angle you want and click `Capture`.
 
-(Click [here](/user-manual/scene/set-up-scene-group-properties) for more information about the camera in the scene)
+(Click [here]( /user-manual/1.0/scene/set-up-scene-group-properties) for more information about the camera in the scene)
 
 
 ![](./img/2_007.png)

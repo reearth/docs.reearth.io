@@ -66,7 +66,7 @@ When Storytelling is enabled, the Storytelling menu will appear in the bottom le
 
 You can jump to the next layer with `>`, and `<` will allow you to return to the previous layer. You can also attach an infobox to a layer to be viewed at the same time as you display the layer.
 
-[See here](/user-manual/infobox/set-up-infobox-properties) for infobox settings.
+[See here]( /user-manual/1.0/infobox/set-up-infobox-properties) for infobox settings.
 
 
 Also, if the selected layer is a photo overlay, the set image will be shown.

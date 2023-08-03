@@ -5,7 +5,7 @@ sidebar_position: 4
 
 You can embed the project on your own website by using the `embed code` that is displayed when the project is published.
 
-(See [here](/user-manual/publication/set-up-the-project-for-publication) for more information on publishing a project.)
+(See [here]( /user-manual/1.0/publication/set-up-the-project-for-publication) for more information on publishing a project.)
 
 
 ![](./img/4_001_en.png)

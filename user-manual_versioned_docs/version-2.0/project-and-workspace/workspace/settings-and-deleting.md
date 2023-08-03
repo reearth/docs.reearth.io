@@ -29,7 +29,7 @@ This is a section where you can the name of the workspace a user has created. In
 
 **(B) New member:**
 
-This section allows users to manage the members in the workspace. For details, please refer to **[Managing Members](/user-manual/project-and-workspace/workspace/managing-members.md)**
+This section allows users to manage the members in the workspace. For details, please refer to **[Managing Members](/user-manual/project-and-workspace/workspace/managing-members)**
 
 **(C) Delete Workspace:**
 
@@ -54,4 +54,4 @@ It is the process of Deleting a workspace from the Re-Earth App. Once the action
 
 ![img](./img/13.gif)
 
-[Managing Members](/user-manual/project-and-workspace/workspace/managing-members.md)
+[Managing Members](/user-manual/project-and-workspace/workspace/managing-members)

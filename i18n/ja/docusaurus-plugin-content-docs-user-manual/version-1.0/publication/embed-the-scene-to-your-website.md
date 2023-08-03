@@ -6,7 +6,7 @@ sidebar_position: 4
 プロジェクト公開時に表示される`埋め込み用コード`を使用することで、自身のwebサイトにプロジェクトを埋め込むことができます。
 
 
-(プロジェクトの公開は[こちら](/user-manual/publication/set-up-the-project-for-publication)をご覧ください)
+(プロジェクトの公開は[こちら]( /user-manual/1.0/publication/set-up-the-project-for-publication)をご覧ください)
 
 ![](./img/4_001.png)
 

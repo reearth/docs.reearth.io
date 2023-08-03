@@ -74,7 +74,7 @@ sidebar_position: 4
 ストーリーテリング機能では、レイヤー移動と同時にインフォボックスも表示されます。
 
 
-インフォボックスの設定については[こちら](/user-manual/infobox/set-up-infobox-properties)をご覧ください
+インフォボックスの設定については[こちら]( /user-manual/1.0/infobox/set-up-infobox-properties)をご覧ください
 
 
 

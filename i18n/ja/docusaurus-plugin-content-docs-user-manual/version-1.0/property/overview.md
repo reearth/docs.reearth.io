@@ -81,7 +81,7 @@ sidebar_position: 1
 
 出てきたポップアップの中に、お好みの角度を入力して`キャプチャ`をクリックします。
 
-(シーンついては[こちら](/user-manual/scene/set-up-scene-group-properties)をご覧ください)
+(シーンついては[こちら]( /user-manual/1.0/scene/set-up-scene-group-properties)をご覧ください)
 
 ![](./img/2_007.png)
 
@@ -97,7 +97,7 @@ sidebar_position: 1
 
 ![](./img/2_009.png)
 
-(アセットについては[こちら](/user-manual/Asset/upload-a-new-asset)をご覧ください)
+(アセットについては[こちら]( /user-manual/1.0/Asset/upload-a-new-asset)をご覧ください)
 
 
 ## 色の設定

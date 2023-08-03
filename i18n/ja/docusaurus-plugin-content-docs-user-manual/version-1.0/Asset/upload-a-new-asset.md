@@ -27,7 +27,7 @@ sidebar_position: 2
 
 プロジェクト作成時及び編集画面、プロフィール編集画面で画像の編集ボタンをクリックすることでアセットモーダルが表示されます。
 
-(プロジェクトの作成については[こちら](/user-manual/project-and-workspace/project/create-a-new-project)をご覧ください)
+(プロジェクトの作成については[こちら]( /user-manual/1.0/project-and-workspace/project/create-a-new-project)をご覧ください)
 
 ![](./img/2_002.png)
 
@@ -39,7 +39,7 @@ sidebar_position: 2
 それぞれのプロパティ設定時の画像アイコンをクリックすることでアセットモーダルが表示されます。
 
 インフォボックスのプロパティ
-(インフォボックスの設定については[こちら](/user-manual/infobox/set-up-infobox-properties)をご覧ください)
+(インフォボックスの設定については[こちら]( /user-manual/1.0/infobox/set-up-infobox-properties)をご覧ください)
 
 ![](./img/2_004.png)
 

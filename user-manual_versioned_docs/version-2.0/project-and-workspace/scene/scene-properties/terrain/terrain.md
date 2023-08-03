@@ -12,7 +12,7 @@ sidebar_position: 2
 
 The terrain is used to add the lay of Land in Re-Earth, both in 2D and 3D.
 
-** It has five [  features ](/user-manual/next/project-and-workspace/scene/scene-properties/terrain/#-features-of-terrain-):  On/Off-Terrain; Terrain type comprises Cesium World Terrain, ArcGIS Terrain, and Cesium Ion. Terrain also has Terrain exaggeration, Terrain exaggeration relative, height, and Hide objects under Terrain as some of its [ features ](/user-manual/next/project-and-workspace/scene/scene-properties/terrain/#-features-of-terrain-) ** 
+** It has five [  features ]( /user-manual/project-and-workspace/scene/scene-properties/terrain/#-features-of-terrain-):  On/Off-Terrain; Terrain type comprises Cesium World Terrain, ArcGIS Terrain, and Cesium Ion. Terrain also has Terrain exaggeration, Terrain exaggeration relative, height, and Hide objects under Terrain as some of its [ features ]( /user-manual/project-and-workspace/scene/scene-properties/terrain/#-features-of-terrain-) ** 
 
 # **Terrain Overview Diagram**
 

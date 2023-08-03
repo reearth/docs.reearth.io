@@ -17,7 +17,7 @@ Imageボタンをクリックします。
 
 アセットから画像を選択するか、画像のURLを貼ります。
 
-(アセットについては[こちら](/user-manual/Asset/upload-a-new-asset)をご覧ください)
+(アセットについては[こちら]( /user-manual/1.0/Asset/upload-a-new-asset)をご覧ください)
 
 
 - アセットから画像を選択する場合
