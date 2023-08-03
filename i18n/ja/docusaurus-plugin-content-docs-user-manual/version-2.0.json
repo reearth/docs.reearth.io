@@ -1,0 +1,126 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.mySidebar.category.Project & Workspace": {
+    "message": "プロジェクトとワークスペース",
+    "description": "The label for category Project & Workspace in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Scene": {
+    "message": "シーン",
+    "description": "The label for category Scene in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Infobox": {
+    "message": "インフォボックス",
+    "description": "The label for category Infobox in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Projects": {
+    "message": "プロジェクト",
+    "description": "The label for category Projects in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Workspace": {
+    "message": "ワークスペース",
+    "description": "The label for category Workspace in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Widget": {
+    "message": "ウィジェット",
+    "description": "The label for category Widget in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Property": {
+    "message": "プロパティ",
+    "description": "The label for category Property in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Asset": {
+    "message": "アセット",
+    "description": "The label for category Asset in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Import and Export": {
+    "message": "インポート・エクスポート",
+    "description": "The label for category Import and Export in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Publication": {
+    "message": "プロジェクトの公開",
+    "description": "The label for category Publication in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.3D data": {
+    "message": "3D データ",
+    "description": "The label for category 3D data in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Getting Started": {
+    "message": "はじめかた",
+    "description": "The label for category Getting Started in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Environment setting": {
+    "message": "動作環境について",
+    "description": "The label for category Environment setting in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Making your first project": {
+    "message": "最初のプロジェクトの作成",
+    "description": "The label for category Making your first project in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Understanding Re:Earth UI": {
+    "message": "Re:EarthのUIを理解する",
+    "description": "The label for category Understanding Re:Earth UI in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.はじめかた": {
+    "message": "はじめかた",
+    "description": "The label for category はじめかた in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Re:EarthのUIを理解する": {
+    "message": "Re:EarthのUIを理解する",
+    "description": "The label for category Re:EarthのUIを理解する in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.preview-page": {
+    "message": "プレビューページ",
+    "description": "The label for category preview-page in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.プレビューページ": {
+    "message": "プレビューページ",
+    "description": "The label for category プレビューページ in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.scene-properties": {
+    "message": "シーンの設定",
+    "description": "The label for category scene-properties in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Layers": {
+    "message": "データの追加",
+    "description": "The label for category Layers in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Re:earth layers": {
+    "message": "Re:Earthのレイヤー",
+    "description": "The label for category Re:earth layers in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Blocks": {
+    "message": "ブロック",
+    "description": "The label for category Blocks in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Widget & Align system": {
+    "message": "ウィジェットの追加",
+    "description": "The label for category Widget & Align system in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.How to use align system": {
+    "message": "ウィジェットの配置",
+    "description": "The label for category How to use align system in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Official Widgets": {
+    "message": "公式のウィジェット",
+    "description": "The label for category Official Widgets in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Plugin": {
+    "message": "プラグインの追加",
+    "description": "The label for category Plugin in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.What can users do with the plugin": {
+    "message": "Re:Earthプラグインでできること",
+    "description": "The label for category What can users do with the plugin in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.plugin-library": {
+    "message": "プラグインライブラリ",
+    "description": "The label for category plugin-library in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Scene Properties": {
+    "message": "シーンの設定",
+    "description": "The label for category Scene Properties in sidebar mySidebar"
+  }
+}
