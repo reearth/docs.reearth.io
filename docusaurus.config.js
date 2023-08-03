@@ -41,6 +41,7 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
           path: "user-manual",
           routeBasePath: "user-manual",
           sidebarPath: require.resolve("./sidebarsUserManual.js"),
+          includeCurrentVersion: false,
         },
       ],
       [
