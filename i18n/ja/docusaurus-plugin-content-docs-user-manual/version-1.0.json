@@ -1,0 +1,66 @@
+{
+  "version.label": {
+    "message": "1.0",
+    "description": "The label for version 1.0"
+  },
+  "sidebar.mySidebar.category.Project & Workspace": {
+    "message": "プロジェクトとワークスペース",
+    "description": "The label for category Project & Workspace in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Scene": {
+    "message": "シーン",
+    "description": "The label for category Scene in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Infobox": {
+    "message": "インフォボックス",
+    "description": "The label for category Infobox in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Projects": {
+    "message": "プロジェクト",
+    "description": "The label for category Projects in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Workspace": {
+    "message": "ワークスペース",
+    "description": "The label for category Workspace in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Widget": {
+    "message": "ウィジェット",
+    "description": "The label for category Widget in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Property": {
+    "message": "プロパティ",
+    "description": "The label for category Property in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Asset": {
+    "message": "アセット",
+    "description": "The label for category Asset in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Import and Export": {
+    "message": "インポート・エクスポート",
+    "description": "The label for category Import and Export in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Publication": {
+    "message": "プロジェクトの公開",
+    "description": "The label for category Publication in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.3D data": {
+    "message": "3D データ",
+    "description": "The label for category 3D data in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Getting Started": {
+    "message": "はじめかた",
+    "description": "The label for category Getting Started in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Environment setting": {
+    "message": "環境設定",
+    "description": "The label for category Environment setting in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Making your first project": {
+    "message": "最初のプロジェクトの作成",
+    "description": "The label for category Making your first project in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Understanding Re:Earth UI": {
+    "message": "Re:EarthのUIを理解する",
+    "description": "The label for category Understanding Re:Earth UI in sidebar mySidebar"
+  }
+}

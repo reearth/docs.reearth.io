@@ -34,5 +34,9 @@
   "item.label.User Manual": {
     "message": "ユーザーマニュアル",
     "description": "Navbar item with label User Manual"
+  },
+  "logo.alt": {
+    "message": "My Site Logo",
+    "description": "The alt text of navbar logo"
   }
 }
