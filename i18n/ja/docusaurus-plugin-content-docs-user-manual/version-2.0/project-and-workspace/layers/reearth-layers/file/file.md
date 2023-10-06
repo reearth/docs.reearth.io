@@ -60,6 +60,6 @@ A. ファイルURL：ファイルURLを指定することでファイルデー�
 
 ![Group 70.png](./img/Group_70.png)
 
-B. File format：ファイル形式を（Auto・KML・GeoJSON/TopoJSON・CZML）から選択できます。
+B. File format：ファイル形式を（KML・GeoJSON/TopoJSON・CZML）から選択できます。
 
 C. 地表に固定：ONにすることで地表の凸凹に沿うようにポリゴンなどのデータを表示することができます。
