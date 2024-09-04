@@ -42,7 +42,7 @@ Internet Explorer is not officially supported. Because it does not work with all
 
 For efficient editing with Re: Earth, a monitor with a resolution of 1000x700 pixels or higher is required.
 
-As long as the screen of your device supports this resolution, you can use Re: Earth on desktop PCs, laptops, and tablets such as iPad without any problems.
+As long as the screen of your device supports this resolution, you can use Re: Earth on desktop PCs, laptops without any problems.
 
 Projects created and published with Re: Earth are able to be viewed on iPhone and other smart phone.
 
